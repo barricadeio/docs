@@ -48,7 +48,7 @@ $(document).ready(function() {
 // scrollspy, as per https://jsfiddle.net/mekwall/up4nu/
   // Cache selectors
 var lastId,
-    topMenu = $(".sidebar-nav .sidebar ul li li"),
+    topMenu = $(".sidebar ul ul"),
     topMenuHeight = topMenu.outerHeight()+15,
     // All list items
     menuItems = topMenu.find("a"),

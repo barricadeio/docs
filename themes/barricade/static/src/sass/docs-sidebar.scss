@@ -110,15 +110,17 @@
             padding: 0.2em 0 0.2em 17.5%;
             line-height: 1.2;
             font-size: $scalex3;
+            border-right: 4px solid transparent;
+            @include transition;
 
             &:hover {
               color: $blue4;
             }
+          }
 
-            &.active {
-              color: $blue4;
-              border-right: 4px solid $green1;
-            }
+          &.active a {
+            color: $blue4;
+            border-right: 4px solid $green1;
           }
         }
       }
@@ -139,7 +141,9 @@
       display: block;
 
       i {
-        margin: -0.1em 0.2em 0 -0.2em;
+        margin: -0.05em 0.5em 0 -0.667em;
+        color: $blue3;
+        font-size: $scalex3;
       }
     }
   }

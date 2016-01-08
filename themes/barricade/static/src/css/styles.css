@@ -11721,11 +11721,13 @@ body {
   padding: 0.2em 0 0.2em 17.5%;
   line-height: 1.2;
   font-size: 15.9992px;
+  border-right: 4px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 .sidebar ul li ul li a:hover {
   color: #34495e;
 }
-.sidebar ul li ul li a.active {
+.sidebar ul li ul li.active a {
   color: #34495e;
   border-right: 4px solid #66b6ab;
 }
@@ -11742,7 +11744,9 @@ body {
   display: block;
 }
 .sidebar .sidebar-buttons .button i {
-  margin: -0.1em 0.2em 0 -0.2em;
+  margin: -0.05em 0.5em 0 -0.667em;
+  color: #a3beca;
+  font-size: 15.9992px;
 }
 
 .top-bar {
