@@ -8,6 +8,7 @@
   z-index: 700;
   position: fixed;
   overflow-y: scroll;
+  padding-bottom: 170px;
 
   a {
     @include transition;
@@ -69,7 +70,7 @@
         padding: 0.5em 15% 0.75em;
         color: $dark1;
         letter-spacing: 0.025em;
-        line-height: 2;
+        line-height: 1.4;
         text-transform: capitalize;
         @include transition(all, 0.3s, cubic-bezier(0.25,0.1,0.25,1));
 

@@ -2,7 +2,8 @@
 date = "2015-07-01"
 title = "New Barricade.io Site Launched"
 description = "Changelog - New Barricade.io Site Launched"
-slug = "new-barricade-site-lauched/"
+url = "new-barricade-site-lauched/"
+category = "website"
 weight = "01"
 
 +++

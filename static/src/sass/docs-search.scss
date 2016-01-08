@@ -44,6 +44,12 @@
   z-index: 1050;
   @include transition;
 
+  .fa-times,
+  .prompt,
+  .search-overlay-bg {
+    display: none;
+  }
+
   &.active {
     display: block;
     height: auto;
@@ -54,6 +60,8 @@
       margin-top: 0px;
     }
 
+    .fa-times,
+    .prompt,
     .search-overlay-bg {
       display: block;
     }
@@ -71,7 +79,6 @@
     left: 0;
     width: 100%;
     z-index: 1020;
-    display: none;
   }
 
   .prompt {

@@ -19,10 +19,10 @@
     
     <item>
       <title>New Barricade.io Site Launched</title>
-      <link>http://localhost:1313/changelog/new-barricade-site-lauched/</link>
+      <link>http://localhost:1313/new-barricade-site-lauched/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/changelog/new-barricade-site-lauched/</guid>
+      <guid>http://localhost:1313/new-barricade-site-lauched/</guid>
       <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/changelog/new-site-01.png&#34; alt=&#34;../src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
@@ -177,10 +177,10 @@ The best way to safeguard against these types of attacks in the longer term is t
     
     <item>
       <title>Added Agent Admin Page</title>
-      <link>http://localhost:1313/changelog/agent-admin-page/</link>
+      <link>http://localhost:1313/agent-admin-page</link>
       <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/changelog/agent-admin-page/</guid>
+      <guid>http://localhost:1313/agent-admin-page</guid>
       <description>
 
 &lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
@@ -216,10 +216,10 @@ service barricade status
     
     <item>
       <title>Updated AI Engine</title>
-      <link>http://localhost:1313/changelog/updated-ai-engine/</link>
+      <link>http://localhost:1313/updated-ai-engine</link>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/changelog/updated-ai-engine/</guid>
+      <guid>http://localhost:1313/updated-ai-engine</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re working constantly on the engine to ensure the best results for our customers. If you&amp;rsquo;re seeing any data you&amp;rsquo;re not sure about - do let us know.&lt;/p&gt;
@@ -244,10 +244,10 @@ service barricade status
     
     <item>
       <title>Added Teams - Invite &amp; Manage Users</title>
-      <link>http://localhost:1313/changelog/added-teams/</link>
+      <link>http://localhost:1313/added-teams</link>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/changelog/added-teams/</guid>
+      <guid>http://localhost:1313/added-teams</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve added the ability to invite and manage users to a team account, so you can grant &lt;strong&gt;read-only access&lt;/strong&gt; to your colleagues.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/changelog/04-team-invites.gif.png&#34; alt=&#34;../src/img/changelog/04-team-invites.gif&#34; /&gt;&lt;/p&gt;
@@ -272,10 +272,10 @@ service barricade status
     
     <item>
       <title>Added Slack Integration</title>
-      <link>http://localhost:1313/changelog/slack-integration/</link>
+      <link>http://localhost:1313/slack-integration</link>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/changelog/slack-integration/</guid>
+      <guid>http://localhost:1313/slack-integration</guid>
       <description>&lt;p&gt;&lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-logo.png&#34; alt=&#34;../../src/img/changelog/05-slack-logo.png&#34; /&gt;&lt;/p&gt;

@@ -2,7 +2,8 @@
 date = "2015-07-02"
 title = "Added Agent Admin Page"
 description = "Changelog - Added Agent Admin Page"
-slug = "agent-admin-page"
+url = "agent-admin-page"
+category = "app"
 weight = "02"
 
 +++

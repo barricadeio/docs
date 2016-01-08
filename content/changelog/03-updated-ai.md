@@ -2,7 +2,8 @@
 date = "2015-07-10"
 title = "Updated AI Engine"
 description = "Changelog - Updated AI Engine"
-slug = "updated-ai-engine"
+url = "updated-ai-engine"
+category = "engine"
 weight = "03"
 
 +++

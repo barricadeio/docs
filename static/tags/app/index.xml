@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App on </title>
+    <link>http://localhost:1313/tags/app/</link>
+    <description>Recent content in App on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Added Agent Admin Page</title>
+      <link>http://localhost:1313/agent-admin-page</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/agent-admin-page</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This section allows you to see what Agents are running, how busy they are and how to control them (stop, start, etc).&lt;/p&gt;
+
+&lt;p&gt;[IMG]&lt;/p&gt;
+
+&lt;h3 id=&#34;agent-controls:0296e37855114436a18e6976efcf3577&#34;&gt;Agent Controls&lt;/h3&gt;
+
+&lt;p&gt;You can stop and start the agent by running commands on your server - this new Agent section provides instructions on how to do this - see our &lt;a href=&#34;LINK NEEDED&#34;&gt;Agent documentation&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;service barricade start  
+service barricade stop  
+service barricade status  
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Added Slack Integration</title>
+      <link>http://localhost:1313/slack-integration</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/slack-integration</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-logo.png&#34; alt=&#34;../../src/img/changelog/05-slack-logo.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can integrate Slack with Barricade to share security notifications with you team:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-message.png&#34; alt=&#34;../../src/img/changelog/05-slack-message.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Integrating with Slack&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Added Teams - Invite &amp; Manage Users</title>
+      <link>http://localhost:1313/added-teams</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/added-teams</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve added the ability to invite and manage users to a team account, so you can grant &lt;strong&gt;read-only access&lt;/strong&gt; to your colleagues.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/changelog/04-team-invites.gif.png&#34; alt=&#34;../src/img/changelog/04-team-invites.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/&#34;&gt;Adding Team Members&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

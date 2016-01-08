@@ -9,11 +9,18 @@
 
       <div class="row">
         <div class="small-1 columns">&nbsp;</div>
-        <div class="small-10 columns content-wrap">
-          <h1>{{ .Title }}</h1>
+        <div class="small-10 columns content-wrap changelog">
+          <h2>{{ .Title }}</h2>
+
+          <p>Our release notes for new features and updates to the Barricade service.</p>
           <ul id="list">
             {{ range .Data.Pages.ByWeight.Reverse }}
-              {{ .Render "li"}}
+            <li>
+              <a href="{{ .URL }}" class="link-{{ .Params.category }}">
+                <span class="ripple">{{ .Title }} <span></span></span>
+                <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+              </a>
+            </li>
             {{ end }}
           </ul>
         </div>

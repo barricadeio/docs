@@ -82,7 +82,11 @@
 // affix the sidebar buttons, if the screen is tall enough
 @media screen and ( min-height: 670px ){
   .sidebar {
-    padding-bottom: 170px;
+    padding-bottom: 0px;
+
+    .sidebar-nav {
+      padding-bottom: 180px;
+    }
 
     .sidebar-buttons {
       position: fixed;

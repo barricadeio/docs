@@ -13,7 +13,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/changelog/new-barricade-site-lauched/</loc>
+    <loc>http://localhost:1313/new-barricade-site-lauched/</loc>
     <lastmod>2015-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -30,7 +30,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/changelog/agent-admin-page/</loc>
+    <loc>http://localhost:1313/agent-admin-page</loc>
     <lastmod>2015-07-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -39,7 +39,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/changelog/updated-ai-engine/</loc>
+    <loc>http://localhost:1313/updated-ai-engine</loc>
     <lastmod>2015-07-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,7 +48,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/changelog/added-teams/</loc>
+    <loc>http://localhost:1313/added-teams</loc>
     <lastmod>2015-07-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -57,7 +57,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/changelog/slack-integration/</loc>
+    <loc>http://localhost:1313/slack-integration</loc>
     <lastmod>2015-07-10T00:00:00+00:00</lastmod>
   </url>
   

@@ -16,9 +16,14 @@
 
     a {
       padding: 0.333em 0;
-      margin: 1.25em 1em;
+      margin: 1.25em 0 1.25em 1.5em;
       color: $green4;
       float: left;
+      text-transform: capitalize;
+
+      &:before:not(:first-child) {
+        content: '/';
+      }
     }
   }
 }
@@ -45,7 +50,7 @@
 
   &.headroom--pinned {
     transform: translateY(0%);
-    border-bottom: 2px solid $light2;
+    border-bottom: 2px solid $light3;
   }
 
   &.headroom--unpinned {

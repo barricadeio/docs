@@ -22,13 +22,13 @@ plainIdAnchors = "true"
     identifier = "using-barricade"
     weight = -80
 [[menu.main]]
-    name = "Design Style Guide"
-    url = "https://styleguide.barricade.io/"
-    weight = -70
-[[menu.main]]
     name = "Security Guides"
     url = "/security-guide/"
     identifier = "security-guide"
+    weight = -70
+[[menu.main]]
+    name = "Design Style Guide"
+    url = "https://styleguide.barricade.io/"
     weight = -60
 [[menu.main]]
     name = "Changelog"

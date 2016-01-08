@@ -2,7 +2,8 @@
 date = "2015-07-10"
 title = "Added Teams - Invite & Manage Users"
 description = "Changelog - Added Teams - Invite & Manage Users"
-slug = "added-teams"
+url = "added-teams"
+category = "app"
 weight = "04"
 
 +++

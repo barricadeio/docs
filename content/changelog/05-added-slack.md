@@ -2,7 +2,8 @@
 date = "2015-07-10"
 title = "Added Slack Integration"
 description = "Changelog - Added Slack Integration"
-slug = "slack-integration"
+url = "slack-integration"
+category = "app"
 weight = "05"
 
 +++

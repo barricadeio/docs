@@ -11636,6 +11636,7 @@ body {
   z-index: 700;
   position: fixed;
   overflow-y: scroll;
+  padding-bottom: 170px;
 }
 .sidebar a {
   transition: all 0.3s ease-in-out;
@@ -11687,7 +11688,7 @@ body {
   padding: 0.5em 15% 0.75em;
   color: #566c70;
   letter-spacing: 0.025em;
-  line-height: 2;
+  line-height: 1.4;
   text-transform: capitalize;
   transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
@@ -11764,9 +11765,13 @@ body {
 }
 .top-bar .breadcrumb a {
   padding: 0.333em 0;
-  margin: 1.25em 1em;
+  margin: 1.25em 0 1.25em 1.5em;
   color: #06807f;
   float: left;
+  text-transform: capitalize;
+}
+.top-bar .breadcrumb a:before:not(:first-child) {
+  content: '/';
 }
 
 .left-off-canvas-toggle {
@@ -11793,7 +11798,7 @@ body {
 .headroom.headroom--pinned {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
-  border-bottom: 2px solid #ecedf3;
+  border-bottom: 2px solid #dfdfdf;
 }
 .headroom.headroom--unpinned {
   -webkit-transform: translateY(-100%);
@@ -11843,6 +11848,11 @@ body {
   z-index: 1050;
   transition: all 0.3s ease-in-out;
 }
+#searchOverlay .fa-times,
+#searchOverlay .prompt,
+#searchOverlay .search-overlay-bg {
+  display: none;
+}
 #searchOverlay.active {
   display: block;
   height: auto;
@@ -11852,6 +11862,8 @@ body {
   padding: 2.5em 5%;
   margin-top: 0px;
 }
+#searchOverlay.active .fa-times,
+#searchOverlay.active .prompt,
 #searchOverlay.active .search-overlay-bg {
   display: block;
 }
@@ -11866,7 +11878,6 @@ body {
   left: 0;
   width: 100%;
   z-index: 1020;
-  display: none;
 }
 #searchOverlay .prompt {
   z-index: 1075;
@@ -12340,6 +12351,100 @@ body {
   max-width: 100%;
 }
 
+.changelog.content-wrap h2 {
+  margin: 0.25em 0 0.425em;
+  color: #566c70;
+}
+.changelog.content-wrap p {
+  font-size: 17.142px;
+  border-bottom: 2px solid #f4f5f8;
+  margin: 0 0 2em;
+  padding: 0 0 1em;
+  color: #95a5a6;
+}
+.changelog.content-wrap ul#list {
+  transition: all 0.3s ease-in-out;
+  list-style: none;
+  margin: 1.5em 0 0 3em;
+}
+.changelog.content-wrap ul#list li {
+  background: transparent;
+  padding: 0.15em 0;
+}
+.changelog.content-wrap ul#list li a,
+.changelog.content-wrap ul#list li a:hover
+a:visited {
+  cursor: text;
+  color: #2d4a50;
+  border-bottom: none;
+  cursor: pointer;
+  background: transparent;
+}
+.changelog.content-wrap ul#list li a:hover,
+.changelog.content-wrap ul#list li a:hover
+a:visited:hover {
+  color: #008cba !important;
+  background-color: #f7f7fa;
+}
+.changelog.content-wrap ul#list li a {
+  padding: 0.5em 1em 0.5em 1em;
+  display: block;
+  position: relative;
+}
+.changelog.content-wrap ul#list li a:before {
+  background-color: #dfdfdf;
+  display: block;
+  content: "\f00c";
+  width: 2em;
+  height: 2.125em;
+  position: absolute;
+  left: -2.667em;
+  top: 0.275em;
+  font-family: "FontAwesome";
+  color: white;
+  text-align: center;
+  line-height: 2;
+  border-radius: 50%;
+  border-bottom: 3px solid white;
+}
+.changelog.content-wrap ul#list li a span.date {
+  position: absolute;
+  right: 0;
+  font-size: 14.8564px;
+  color: #bbbcc7;
+  width: 22.5%;
+  text-align: right;
+  padding-right: 2.5%;
+}
+.changelog.content-wrap ul#list li a.link-site:before, .changelog.content-wrap ul#list li a.link-website:before {
+  background-color: #ded84e;
+  content: "\f0ac";
+}
+.changelog.content-wrap ul#list li a.link-app:before {
+  background-color: #7ab3aa;
+  content: "\f109";
+}
+.changelog.content-wrap ul#list li a.link-agent:before {
+  background-color: #65ccee;
+  content: "\f1d8";
+}
+.changelog.content-wrap ul#list li a.link-engine:before {
+  background-color: #fd4772;
+  content: "\f085";
+}
+.changelog.content-wrap ul#list li a.link-billing:before {
+  background-color: #079493;
+  content: "\f155";
+}
+.changelog.content-wrap ul#list li a.link-mobile:before {
+  background-color: #bada55;
+  content: "\f10b";
+}
+.changelog.content-wrap ul#list li a.link-cloud:before, .changelog.content-wrap ul#list li a.link-infra:before {
+  background-color: #91c5dc;
+  content: "\f0c2";
+}
+
 @media only screen and (max-width: 40em) {
   .container-full {
     padding-left: 0;
@@ -12407,7 +12512,10 @@ body {
 }
 @media screen and (min-height: 670px) {
   .sidebar {
-    padding-bottom: 170px;
+    padding-bottom: 0px;
+  }
+  .sidebar .sidebar-nav {
+    padding-bottom: 180px;
   }
   .sidebar .sidebar-buttons {
     position: fixed;
