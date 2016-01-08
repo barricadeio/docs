@@ -1,0 +1,18 @@
+<aside class="left-off-canvas-menu" id="off-canvas-navigation" data-topbar>
+  <div class="drawer-wrap">
+
+  <ul class="off-canvas-list">
+      {{ range .Site.Menus.main }}
+      <li><a href="{{.URL}}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+
+    <div class="drawer-line"></div>
+
+    <div class="button-wrap">
+      <a href="mailto:support@barricade.io" class="button small primary expand email-support"><i class="fa fa-envelope-o"></i> Email Support</a>
+      <a href="" id="contact-text" class="button small expand primary live-chat"><i class="fa fa-comment-o"></i>  Live Chat</a>
+    </div>
+
+  </div>
+</aside>

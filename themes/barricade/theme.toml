@@ -1,0 +1,6 @@
+name = "barricade"
+license = "MIT"
+licenselink = "//github.com/barricadeio"
+description = "Theme for the Barricade.io Docs"
+homepage = "//github.com/barricadeio/docs"
+tags = ["company", "security, documentation"]

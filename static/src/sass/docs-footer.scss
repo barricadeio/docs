@@ -1,0 +1,168 @@
+.main {
+  margin-bottom: -5em;
+
+  &.footer-expanded {
+    margin-bottom:  -11em;
+  }
+}
+
+.styleguide-footer {
+  margin-top: -5rem;
+  min-height: 5rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 500;
+  padding-top: 1.25em;
+  background-color: $dark3;
+  border-bottom: 6px solid $dark4;
+  min-width: 100%;
+  @include transition;
+
+  ul {
+    list-style: none;
+    float: left;
+    margin-bottom: 0;
+
+    li {
+      display: block;
+      margin: 0;
+
+      a {
+        font-weight: 400;
+      }
+    }
+  }
+
+  p,
+  li {
+    color: $mid1;
+    line-height: 1.7;
+    font-size: 0.667rem;
+    @include futuraRegular;
+  }
+
+  li a {
+    font-size: 0.75rem;
+  }
+
+  strong {
+    @include upperCase;
+    margin:  0.75rem 0 0.25rem;
+    display: block;
+    font-weight: normal;
+
+    a {
+      color: $mid1;
+      cursor: pointer;
+    }
+  }
+
+  a {
+    color: $green1;
+
+    &:hover {
+      border: none;
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .fa.footer-reveal {
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.4rem 0.55rem;
+    position: absolute;
+    left: -2em;
+    top: 0.35rem;
+    @include border-radius(50%, 50%);
+    @include transition;
+
+    &:hover {
+      background: darken($dark3, 5%);
+      color: $light2;
+    }
+  }
+
+  p {
+    margin-top: 0.75rem;
+    color: $mid3;
+
+    &:nth-child(2) {
+      margin-top: 2.67rem;
+      font-size: 0.75rem;
+      line-height: 1.5;
+
+      a {
+        color: $light3;
+      }
+    }
+  }
+
+  img {
+    margin: 0;
+    float: right;
+    opacity: 0.7;
+    @include transition;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .sub-nav-social {
+    position: absolute;
+    right: 1em;
+    bottom: 2em;
+    text-align: right;
+
+    li {
+      display: inline-block;
+      margin: 1rem 0.25em;
+      text-align: right;
+
+      a {
+        font-size: 1.5em;
+        color: $mid1;
+        min-width: 2em;
+        text-align: center;
+        padding: 0.5em 0.6em;
+        background: darken($dark3, 5%);
+        @include border-radius(50%, 50%);
+        @include transition;
+
+        &:hover {
+          background: $green4;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .footer-extra {
+    div {
+      display: none;
+      opacity: 0;
+      height: 0;
+      min-height: 0;
+      overflow: hidden;
+      @include transition(all, 0.3s, ease-in-out);
+    }
+  }
+
+  &.footer-expanded {
+    margin-top: -11rem;
+    min-height: 11rem;
+
+    .footer-extra div {
+      display: block;
+      opacity: 1;
+      min-height: 8em;
+    }
+
+    a.fa.footer-reveal {
+      -ms-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+}

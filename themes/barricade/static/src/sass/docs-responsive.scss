@@ -1,0 +1,92 @@
+
+// mobile style
+@media only screen and (max-width: 40em) {
+  .container-full {
+    padding-left: 0;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .headroom {
+    left: 0;
+  }
+
+  .top-bar .breadcrumb a:first-child {
+    display: none;
+  }
+
+  #searchOverlay {
+    .prompt {
+      left: 2.925em;
+      top: 1.12em;
+    }
+
+    &.active {
+      form input[type=text] {
+        padding: 3em 5% 2em 5%;
+      }
+
+      .overlay-footer {
+        display: none !important;
+      }
+    }
+
+    #searchResults ul {
+      margin: 1em 5%;
+
+      li a {
+        padding: 0.25em 1em;
+      }
+    }
+  }
+
+  .main .content-wrap h1 {
+    font-size: $scalex8;
+  }
+
+  .main .content-wrap article {
+    padding: 0 0 0.5em;
+
+    h1 {
+      font-size: $scalex6;
+    }
+
+    p:first-child {
+      padding-right: 0;
+      font-size: $scalex5;
+    }
+  }
+
+  .styleguide-footer p {
+    text-align: center !important;
+    display: block;
+    margin: -1.2em auto 0;
+
+    img {
+      float: none;
+    }
+  }
+
+  aside.left-off-canvas-menu .button-wrap {
+    padding: 0.75em 5%;
+
+    .button {
+      margin: 0.4em 0;
+    }
+  }
+}
+
+
+// affix the sidebar buttons, if the screen is tall enough
+@media screen and ( min-height: 670px ){
+  .sidebar {
+    padding-bottom: 170px;
+
+    .sidebar-buttons {
+      position: fixed;
+      bottom: 0;
+    }
+  }
+}

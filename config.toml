@@ -1,0 +1,40 @@
+baseurl = "https://docs.barricade.io/"
+theme = "barricade"
+publishdir = "static"
+destination = "static"
+canonifyURLs = "true"
+relativeURLs = "true"
+pluralizeListTitles = "false"
+plainIdAnchors = "true"
+
+[params]
+    title = "Barricade Docs"
+    author = "Team Barricade"
+
+[[menu.main]]
+    name = "Getting Started"
+    url = "/getting-started/"
+    identifier = "getting-started"
+    weight = -100
+[[menu.main]]
+    name = "Using Barricade"
+    url = "/using-barricade/"
+    identifier = "using-barricade"
+    weight = -80
+[[menu.main]]
+    name = "Design Style Guide"
+    url = "https://styleguide.barricade.io/"
+    weight = -70
+[[menu.main]]
+    name = "Security Guides"
+    url = "/recommendations/"
+    identifier = "recommendation"
+    weight = -60
+[[menu.main]]
+    name = "Changelog"
+    url = "/changes/"
+    identifier = "changelog"
+    weight = -50
+
+
+

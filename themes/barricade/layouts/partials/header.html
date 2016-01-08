@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{ .Title }}</title>
+
+  <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+  <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+  <meta property="og:title" content="Barricade - The security product modern companies have been waiting for. Full Stack Security" />
+  <meta property="og:url" content="{{ .Site.BaseURL }}" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}src/img/security_simplified.png" />
+
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+  <link rel="icon" href="{{ .Site.BaseURL }}src/img/favicon-152.png" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" href="{{ .Site.BaseURL }}src/img/apple-touch-icon-precomposed.png">
+  <link href="{{ .Site.BaseURL }}src/css/styles.min.css" rel="stylesheet">
+
+  <!-- typekit async -->
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'lnv6nit',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+</head>
+
+<body id="landing">
+
+  <div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+
+      <a class="left-off-canvas-toggle show-for-small" href="#off-canvas-navigation">
+        <i class="fa fa-bars"></i>
+      </a>
+      {{ partial "offcanvas.html" . }}

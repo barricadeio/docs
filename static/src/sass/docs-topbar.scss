@@ -1,0 +1,54 @@
+.top-bar {
+  position: relative;
+  perspective: 800px;
+  z-index: 800;
+  min-height: 4em;
+  transform-style: preserve-3d;
+
+  .breadcrumb {
+    position: absolute;
+    top: 0;
+    left: 1em;
+    z-index: 1030;
+    line-height: 1.5;
+    font-size: $scalex2;
+    letter-spacing: 0.05em;
+
+    a {
+      padding: 0.333em 0;
+      margin: 1.25em 1em;
+      color: $green4;
+      float: left;
+    }
+  }
+}
+
+.left-off-canvas-toggle {
+  z-index: 1100;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .fa {
+    padding: 1.425em 0.925em;
+    color: $mid6;
+  }
+}
+
+.headroom {
+  transition: transform 200ms linear;
+  position: fixed;
+  left: 300px;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+
+  &.headroom--pinned {
+    transform: translateY(0%);
+    border-bottom: 2px solid $light2;
+  }
+
+  &.headroom--unpinned {
+    transform: translateY(-100%);
+  }
+}

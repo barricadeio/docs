@@ -1,0 +1,48 @@
+.home {
+  position: relative;
+  min-height: 1536px;
+
+  box-sizing: border-box;
+  height: 100%;
+
+  .top-bar.headroom {
+    top: -400px !important;
+    transform: translateY(-100%) !important;
+  }
+
+  .home-intro-wrap {
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  #particles-js {
+    position: absolute;
+    width: 100%;
+  }
+
+  h1 {
+    text-transform: none;
+    font-size: $scalex8;
+    letter-spacing: 0.05em;
+    margin: 5em 7.5% 3em;
+    padding: 0.75em 0.825em;
+    cursor: pointer;
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    // @include box-shadow(0,2px,3px,$light1);
+    // @include border-radius(3em,3em);
+    border-bottom: 0.075em solid $blue3;
+
+    &:hover {
+      border-color: $blue1;
+    }
+
+    i.fa {
+      position: absolute;
+      top: 2.667em;
+      right: 2em;
+      color: $light3;
+      font-size: $scalex4;
+    }
+  }
+}

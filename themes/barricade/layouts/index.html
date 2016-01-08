@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+
+  <div class="container container-full">
+    {{ partial "sidebar.html" . }}
+
+    <div class="main home">
+
+      {{ partial "topbar.html" . }}
+      {{ partial "search.html" . }}
+
+      <div id="particles-js" class="home-intro-wrap"></div>
+
+      <div class="row home-intro-wrap">
+        <div class="small-12 columns">
+          <h1 class="search-trigger">
+            What can we help you with?
+            <i class="fa fa-chevron-right"></i>
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns">
+ <!--          HOMEPAGE CONTENTS
+
+          {{ range $.Data.Pages }}
+            {{ .Render "summary"}}
+          {{ end }} -->
+        </div>
+      </div>
+    </div>
+
+    {{ partial "footer-home.html" . }}

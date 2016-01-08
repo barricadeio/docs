@@ -1,0 +1,11 @@
+html,
+body {
+   
+}
+
+.wf-loading {
+  // hide typekit FOUT
+  h1, h2, h3, h4, .main p, .main li, .breadcrumb, .sidebar li, .home h1 {
+    visibility: hidden;
+  }
+}

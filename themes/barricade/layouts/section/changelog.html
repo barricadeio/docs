@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+  <div class="container container-full">
+    {{ partial "sidebar.html" . }}
+
+    <div class="main page">
+      {{ partial "topbar.html" . }}
+      {{ partial "search.html" . }}
+
+      <div class="row">
+        <div class="small-1 columns">&nbsp;</div>
+        <div class="small-10 columns content-wrap">
+          <h1>{{ .Title }}</h1>
+          <ul id="list">
+            {{ range .Data.Pages }}
+              {{ .Render "li"}}
+            {{ end }}
+          </ul>
+        </div>
+        <div class="small-1 columns">&nbsp;</div>
+      </div>
+    </div>
+
+    {{ partial "footer.html" . }}

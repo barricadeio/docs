@@ -1,0 +1,10 @@
+/* TEAM */
+
+Site: www.barricade.io
+Twitter: @barricadeio
+Location: Cork, Ireland
+
+/* SITE */
+
+Components used: Modernizr, jQuery, Foundation 5 and the Barricade Styleguide.
+Built with Hugo, Gulp, Npm, Bower, Sass and Foundation 5.
