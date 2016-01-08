@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Using-Barricade on </title>
+    <link>http://localhost:1313/using-barricade/</link>
+    <description>Recent content in Using-Barricade on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://localhost:1313/using-barricade/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Our Security Rating System</title>
+      <link>http://localhost:1313/using-barricade/security-rating-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/using-barricade/security-rating-system/</guid>
+      <description>
+
+&lt;p&gt;Our Security Rating System is made to be simple by design so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.&lt;/p&gt;
+
+&lt;h2 id=&#34;ratings:b6b124facba7b461ae5f282c07f9f69f&#34;&gt;Ratings&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/ratings.png&#34; alt=&#34;../src/img/using-barricade/ratings.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We have split security threats into Events, Attacks and Incidents. We track events, flag attacks, monitor their progress and alert you when they become incidents.&lt;/p&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Someone tried and failed to attack your app &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Someone makes multiple failed attack attempts &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An attacker succeeds in their attack - your system is breached&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

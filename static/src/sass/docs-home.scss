@@ -29,8 +29,6 @@
     cursor: pointer;
     position: relative;
     background: rgba(255, 255, 255, 0.8);
-    // @include box-shadow(0,2px,3px,$light1);
-    // @include border-radius(3em,3em);
     border-bottom: 0.075em solid $blue3;
 
     &:hover {

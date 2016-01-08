@@ -1,5 +1,5 @@
 +++
-title = "Need Help?"
+title = "Troubleshooting"
 weight = "30"
 
 tags = ["install", "agent", "account", "quickstart"]

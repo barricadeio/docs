@@ -6,7 +6,7 @@ New version of [docs.barricade.io](https://docs.barricade.io), built as a static
 
 --  
 
-New content is added by adding Markdown files to the `/content` subdirectories.
+New content is added by adding Markdown files to the `/content` subdirectories.  
 New images and other media should be located in `themes/barricade/static/src`.
 
 --  
@@ -14,7 +14,7 @@ New images and other media should be located in `themes/barricade/static/src`.
 For local development, clone this repo and run
 
 ```
-hugo serve
+hugo server
 ```
 
 In a second window, run `gulp watch` to compile any new scss/js changes.

@@ -19,9 +19,9 @@ Barricades' agent is a simple, lightweight package that checks activity on your
 
 Data is gathered, encrypted and sent from the agent to our platforms’ engine; where it’s immediately analyzed for any suspicious activity - detecting web app attacks, data breaches or intrusion attempts on your server.
 
-[IMG]
+![../src/img/getting-started/agent-chart-sm.png](../src/img/getting-started/agent-chart-sm.png)
 
-_Barricade's Collection Workflow - gathering, processing and alerting._
+_Barricade's Collection Workflow - gathering, processing and alerting [open in full-size](../src/img/getting-started/agent-chart-lg.png))._
 
 ### How it Works
 

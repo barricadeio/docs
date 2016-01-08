@@ -1,8 +1,9 @@
 +++
-date = "2015-07-10T20:56:29+01:00"
+date = "2015-07-01"
 title = "New Barricade.io Site Launched"
-description = "Changlog - New Barricade.io Site Launched"
-url = "new-barricade-site-lauched/"
+description = "Changelog - New Barricade.io Site Launched"
+slug = "new-barricade-site-lauched/"
+weight = "01"
 
 +++
 

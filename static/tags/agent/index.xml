@@ -72,17 +72,40 @@
     </item>
     
     <item>
-      <title>Need Help?</title>
-      <link>http://localhost:1313/getting-started/troubleshooting/</link>
+      <title>Our Security Rating System</title>
+      <link>http://localhost:1313/using-barricade/security-rating-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/getting-started/troubleshooting/</guid>
-      <description>&lt;p&gt;For more information on the Agent and what it does, check out the [LINK NEEDED] [&amp;lsquo;What is an Agent&amp;rsquo; guide.]&lt;/p&gt;
+      <guid>http://localhost:1313/using-barricade/security-rating-system/</guid>
+      <description>
 
-&lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not sure how to run the command on a server.&lt;/strong&gt;&lt;br /&gt;
-You&amp;rsquo;ll need to connect to the server via SSH to run the command - see [LINK NEEDED] [our guide] here.&lt;/p&gt;
+&lt;p&gt;Our Security Rating System is made to be simple by design so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.&lt;/p&gt;
 
-&lt;p&gt;If you run into any problems that require assistance, you can always contact our team via &lt;a href=&#34;mailto:support@barricade.io&#34;&gt;support@barricade.io&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;ratings:b6b124facba7b461ae5f282c07f9f69f&#34;&gt;Ratings&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/ratings.png&#34; alt=&#34;../src/img/using-barricade/ratings.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We have split security threats into Events, Attacks and Incidents. We track events, flag attacks, monitor their progress and alert you when they become incidents.&lt;/p&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Someone tried and failed to attack your app &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Someone makes multiple failed attack attempts &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An attacker succeeds in their attack - your system is breached&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
@@ -113,6 +136,21 @@ You&amp;rsquo;ll need to connect to the server via SSH to run the command - see 
     </item>
     
     <item>
+      <title>Troubleshooting</title>
+      <link>http://localhost:1313/getting-started/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/troubleshooting/</guid>
+      <description>&lt;p&gt;For more information on the Agent and what it does, check out the [LINK NEEDED] [&amp;lsquo;What is an Agent&amp;rsquo; guide.]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not sure how to run the command on a server.&lt;/strong&gt;&lt;br /&gt;
+You&amp;rsquo;ll need to connect to the server via SSH to run the command - see [LINK NEEDED] [our guide] here.&lt;/p&gt;
+
+&lt;p&gt;If you run into any problems that require assistance, you can always contact our team via &lt;a href=&#34;mailto:support@barricade.io&#34;&gt;support@barricade.io&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Welcome to Barricade!</title>
       <link>http://localhost:1313/getting-started/welcome-barricade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -138,9 +176,9 @@ You&amp;rsquo;ll need to connect to the server via SSH to run the command - see 
 
 &lt;p&gt;Data is gathered, encrypted and sent from the agent to our platforms’ engine; where it’s immediately analyzed for any suspicious activity - detecting web app attacks, data breaches or intrusion attempts on your server.&lt;/p&gt;
 
-&lt;p&gt;[IMG]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/agent-chart-sm.png&#34; alt=&#34;../src/img/getting-started/agent-chart-sm.png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting &lt;a href=&#34;../src/img/getting-started/agent-chart-lg.png&#34;&gt;open in full-size&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;how-it-works:d706dc4467121a25c84a38946cbf01ee&#34;&gt;How it Works&lt;/h3&gt;
 

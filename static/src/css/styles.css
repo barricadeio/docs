@@ -11595,6 +11595,11 @@ form textarea,
   padding-right: 5%;
 }
 
+html,
+body {
+  background: white;
+}
+
 .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading .main p, .wf-loading .main li, .wf-loading .breadcrumb, .wf-loading .sidebar li, .wf-loading .home h1 {
   visibility: hidden;
 }
@@ -12397,7 +12402,7 @@ body {
     padding: 0.75em 5%;
   }
   aside.left-off-canvas-menu .button-wrap .button {
-    margin: 0.33em 0;
+    margin: 0.4em 0;
   }
 }
 @media screen and (min-height: 670px) {

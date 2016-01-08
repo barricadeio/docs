@@ -27,12 +27,12 @@ plainIdAnchors = "true"
     weight = -70
 [[menu.main]]
     name = "Security Guides"
-    url = "/recommendations/"
-    identifier = "recommendation"
+    url = "/security-guide/"
+    identifier = "security-guide"
     weight = -60
 [[menu.main]]
     name = "Changelog"
-    url = "/changes/"
+    url = "/changelog/"
     identifier = "changelog"
     weight = -50
 

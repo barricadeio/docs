@@ -5,18 +5,57 @@
     <link>http://localhost:1313/changelog/</link>
     <description>Recent content in Changelog on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Jul 2015 20:56:29 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/changelog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>New Barricade.io Site Launched</title>
-      <link>http://localhost:1313/new-barricade-site-lauched/</link>
-      <pubDate>Fri, 10 Jul 2015 20:56:29 +0100</pubDate>
+      <link>http://localhost:1313/changelog/new-barricade-site-lauched/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/new-barricade-site-lauched/</guid>
+      <guid>http://localhost:1313/changelog/new-barricade-site-lauched/</guid>
       <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/changelog/new-site-01.png&#34; alt=&#34;../src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Added Agent Admin Page</title>
+      <link>http://localhost:1313/changelog/agent-admin-page/</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/changelog/agent-admin-page/</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This section allows you to see what Agents are running, how busy they are and how to control them (stop, start, etc).&lt;/p&gt;
+
+&lt;p&gt;[IMG]&lt;/p&gt;
+
+&lt;h3 id=&#34;agent-controls:0296e37855114436a18e6976efcf3577&#34;&gt;Agent Controls&lt;/h3&gt;
+
+&lt;p&gt;You can stop and start the agent by running commands on your server - this new Agent section provides instructions on how to do this - see our &lt;a href=&#34;LINK NEEDED&#34;&gt;Agent documentation&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;service barricade start  
+service barricade stop  
+service barricade status  
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Updated AI Engine</title>
+      <link>http://localhost:1313/changelog/updated-ai-engine/</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/changelog/updated-ai-engine/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re working constantly on the engine to ensure the best results for our customers. If you&amp;rsquo;re seeing any data you&amp;rsquo;re not sure about - do let us know.&lt;/p&gt;
+
+&lt;p&gt;[IMG]&lt;/p&gt;
 </description>
     </item>
     

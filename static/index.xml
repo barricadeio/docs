@@ -5,20 +5,8 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Jul 2015 20:56:29 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>New Barricade.io Site Launched</title>
-      <link>http://localhost:1313/new-barricade-site-lauched/</link>
-      <pubDate>Fri, 10 Jul 2015 20:56:29 +0100</pubDate>
-      
-      <guid>http://localhost:1313/new-barricade-site-lauched/</guid>
-      <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/changelog/new-site-01.png&#34; alt=&#34;../src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>404 - Page not found</title>
@@ -27,6 +15,18 @@
       
       <guid>http://localhost:1313/404/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>New Barricade.io Site Launched</title>
+      <link>http://localhost:1313/changelog/new-barricade-site-lauched/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/changelog/new-barricade-site-lauched/</guid>
+      <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/changelog/new-site-01.png&#34; alt=&#34;../src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -50,6 +50,157 @@
     </item>
     
     <item>
+      <title>Web Application Attacks</title>
+      <link>http://localhost:1313/security-guide/creating-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/security-guide/creating-account/</guid>
+      <description>
+
+&lt;p&gt;A web application attack is any technique that&amp;rsquo;s used to target websites, web applications and web services with malicious intent.&lt;/p&gt;
+
+&lt;p&gt;Barricade monitors for a variety of Web Application Attacks on your app server - suspicious activity is examined in real-time and Alerts are sent if a legitimate attack is detected.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:6d4e9e6b78bce2650cc52d867108cb51&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Most web application attacks are form-based; attackers will often evaluate web forms as potential gateways as they seek out vulnerable systems to access. Barricade monitors this type of network traffic closely for any suspicious behavioural patterns.&lt;/p&gt;
+
+&lt;p&gt;Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/206217047-SQL-Injection-Attacks&#34;&gt;SQL Injection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-&#34;&gt;Cross Site Scripting (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Broken Authentication and Session ManagementInsecure Direct Object References&lt;/li&gt;
+&lt;li&gt;Security Misconfiguration&lt;/li&gt;
+&lt;li&gt;Sensitive Data Exposure&lt;/li&gt;
+&lt;li&gt;Missing Function Level Access Control&lt;/li&gt;
+&lt;li&gt;Cross-Site Request Forgeries&lt;/li&gt;
+&lt;li&gt;Using Components With Known Vulnerabilities&lt;/li&gt;
+&lt;li&gt;Unvalidated Redirects and Forwards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most common type of web application attack is &lt;a href=&#34;NEED LINK&#34;&gt;SQL Injection&lt;/a&gt; - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
+
+&lt;p&gt;These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:6d4e9e6b78bce2650cc52d867108cb51&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;**Event**&lt;/td&gt;
+
+&lt;td&gt;A failed attack was detected - normally bot activity on your server&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;**Attack**&lt;/td&gt;
+
+&lt;td&gt;A series of failed attacks failed injection attacks were detected&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;**Incident**&lt;/td&gt;
+
+&lt;td&gt;A successful attack was detected - a security breach has occurred!&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:6d4e9e6b78bce2650cc52d867108cb51&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If an Incident or Attack level &lt;em&gt;web app attack&lt;/em&gt; is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. &lt;/p&gt;
+
+&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilities that an attacker could exploit (e.g. forms that are open to Cross-Site Scripting or SQL Injection techniques). &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Secure Your Forms&lt;/strong&gt;&lt;br /&gt;
+The best way to safeguard against these types of attacks in the longer term is to understand how these attacks operate, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
+
+&lt;p&gt;Developers should use validation techniques such as &lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Mitigation&#34;&gt;parameterized statements, escaping and pattern checking&lt;/a&gt; to build forms that cannot be exploited through SQL Injection.&lt;/p&gt;
+
+&lt;p&gt;Related links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/206217047&#34;&gt;SQL Injection Attack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-&#34;&gt;Cross-Site Scripting Attacks (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Security Rating System</title>
+      <link>http://localhost:1313/using-barricade/security-rating-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/using-barricade/security-rating-system/</guid>
+      <description>
+
+&lt;p&gt;Our Security Rating System is made to be simple by design so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.&lt;/p&gt;
+
+&lt;h2 id=&#34;ratings:b6b124facba7b461ae5f282c07f9f69f&#34;&gt;Ratings&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/ratings.png&#34; alt=&#34;../src/img/using-barricade/ratings.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We have split security threats into Events, Attacks and Incidents. We track events, flag attacks, monitor their progress and alert you when they become incidents.&lt;/p&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Someone tried and failed to attack your app &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Someone makes multiple failed attack attempts &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An attacker succeeds in their attack - your system is breached&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Added Agent Admin Page</title>
+      <link>http://localhost:1313/changelog/agent-admin-page/</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/changelog/agent-admin-page/</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This section allows you to see what Agents are running, how busy they are and how to control them (stop, start, etc).&lt;/p&gt;
+
+&lt;p&gt;[IMG]&lt;/p&gt;
+
+&lt;h3 id=&#34;agent-controls:0296e37855114436a18e6976efcf3577&#34;&gt;Agent Controls&lt;/h3&gt;
+
+&lt;p&gt;You can stop and start the agent by running commands on your server - this new Agent section provides instructions on how to do this - see our &lt;a href=&#34;LINK NEEDED&#34;&gt;Agent documentation&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;service barricade start  
+service barricade stop  
+service barricade status  
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Providing a Credit Card</title>
       <link>http://localhost:1313/getting-started/credit-card/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -60,6 +211,20 @@
 &lt;p&gt;We&amp;rsquo;ll notify you every step of the way about your trial and your usage, so there are no hidden charges and you can cancel your account at any time without headaches. See &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;our pricing page&lt;/a&gt; for more information.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions about the trial signup or our pricing plans, &lt;a href=&#34;https://barricade.io/about/#contact-info&#34;&gt;let us know&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Updated AI Engine</title>
+      <link>http://localhost:1313/changelog/updated-ai-engine/</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/changelog/updated-ai-engine/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re working constantly on the engine to ensure the best results for our customers. If you&amp;rsquo;re seeing any data you&amp;rsquo;re not sure about - do let us know.&lt;/p&gt;
+
+&lt;p&gt;[IMG]&lt;/p&gt;
 </description>
     </item>
     
@@ -145,9 +310,9 @@
 
 &lt;p&gt;Data is gathered, encrypted and sent from the agent to our platforms’ engine; where it’s immediately analyzed for any suspicious activity - detecting web app attacks, data breaches or intrusion attempts on your server.&lt;/p&gt;
 
-&lt;p&gt;[IMG]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/agent-chart-sm.png&#34; alt=&#34;../src/img/getting-started/agent-chart-sm.png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting &lt;a href=&#34;../src/img/getting-started/agent-chart-lg.png&#34;&gt;open in full-size&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;how-it-works:d706dc4467121a25c84a38946cbf01ee&#34;&gt;How it Works&lt;/h3&gt;
 
@@ -250,7 +415,7 @@ service barricade status
     </item>
     
     <item>
-      <title>Need Help?</title>
+      <title>Troubleshooting</title>
       <link>http://localhost:1313/getting-started/troubleshooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
