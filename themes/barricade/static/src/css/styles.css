@@ -11769,9 +11769,21 @@ body {
   color: #06807f;
   float: left;
   text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
 }
-.top-bar .breadcrumb a:before:not(:first-child) {
+.top-bar .breadcrumb a:hover {
+  color: #2fb6c6;
+}
+.top-bar .breadcrumb a:before {
   content: '/';
+  display: inline-block;
+  width: 1.5em;
+  height: 2em;
+  margin: 0 0 0 -0.5em;
+  color: #dfdfdf;
+}
+.top-bar .breadcrumb a:first-child:before {
+  display: none;
 }
 
 .left-off-canvas-toggle {
@@ -12345,10 +12357,13 @@ body {
   background: white;
 }
 .main .content-wrap img {
-  box-shadow: 0 0 2px #ecedf3;
+  box-shadow: 0 0 3px #dfdfdf;
   padding: 0.5em;
   background-color: white;
   max-width: 100%;
+}
+.main .content-wrap img:hover {
+  box-shadow: 0 0 4px #bbbcc7;
 }
 
 .changelog.content-wrap h2 {

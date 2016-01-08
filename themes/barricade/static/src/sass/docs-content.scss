@@ -189,10 +189,14 @@
   }
 
   img {
-    box-shadow: 0 0 2px $light2;
+    box-shadow: 0 0 3px $light3;
     padding: 0.5em;
     background-color: white;
     max-width: 100%;
+
+    &:hover {
+      @include box-shadow(0, 0, 4px, $mid1);
+    }
   }
 }
 
