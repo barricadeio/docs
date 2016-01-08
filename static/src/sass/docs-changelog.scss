@@ -68,43 +68,43 @@
           text-align: right;
           padding-right: 2.5%;
         }
-      }
 
-      &.link-site a:before,
-      &.link-website a:before {
-        background-color: lighten($yellow2, 5%);
-        content: "\f0ac";
-      }
+        &.link-site:before,
+        &.link-website:before {
+          background-color: lighten($yellow2, 5%);
+          content: "\f0ac";
+        }
 
-      &.link-app a:before {
-        background-color: $green2;
-        content: "\f109";
-      }
+        &.link-app:before {
+          background-color: $green2;
+          content: "\f109";
+        }
 
-      &.link-agent a:before {
-        background-color: lighten(desaturate($blue2, 20%), 30%);
-        content: "\f1d8";
-      }
+        &.link-agent:before {
+          background-color: lighten(desaturate($blue2, 20%), 30%);
+          content: "\f1d8";
+        }
 
-      &.link-engine a:before {
-        background-color: $red2;
-        content: "\f085";
-      }
+        &.link-engine:before {
+          background-color: $red2;
+          content: "\f085";
+        }
 
-      &.link-billing a:before {
-        background-color: $green3;
-        content: "\f155";
-      }
+        &.link-billing:before {
+          background-color: $green3;
+          content: "\f155";
+        }
 
-      &.link-mobile a:before {
-        background-color: $yellow3;
-        content: "\f10b";
-      }
+        &.link-mobile:before {
+          background-color: $yellow3;
+          content: "\f10b";
+        }
 
-      &.link-cloud a:before,
-      &.link-infra a:before {
-        background-color: saturate($blue3, 25%);
-        content: "\f0c2";
+        &.link-cloud:before,
+        &.link-infra:before {
+          background-color: saturate($blue3, 25%);
+          content: "\f0c2";
+        }
       }
     }
   }

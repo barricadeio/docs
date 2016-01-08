@@ -1,8 +1,14 @@
 <nav class="top-bar">
   <div class="breadcrumb">
     <a href="../">Documentation</a>
-    <a href="../">{{ .Section }}</a>
-    <a href="../">{{ .Title }}</a>
+    {{ if eq .Section "changelog" }}
+      <a href="../">{{ .Section }}</a>
+    {{ else }}
+      <a href="../">{{ .Title }}</a>
+    {{ end }}
+    {{ if eq .Section "changelog" }}
+      <a href="../">{{ .Title }}</a>
+    {{ end }}
   </div>
 
   <div id="searchBar"></div>

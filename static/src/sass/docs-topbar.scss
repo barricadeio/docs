@@ -20,9 +20,23 @@
       color: $green4;
       float: left;
       text-transform: capitalize;
+      @include transition;
 
-      &:before:not(:first-child) {
+      &:hover {
+        color: $blue1;
+      }
+
+      &:before {
         content: '/';
+        display: inline-block;
+        width: 1.5em;
+        height: 2em;
+        margin: 0 0 0 -0.5em;
+        color: $light3;
+      }
+
+      &:first-child:before {
+        display: none;
       }
     }
   }
