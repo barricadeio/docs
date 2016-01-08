@@ -59,7 +59,6 @@ gulp.task('scriptconcat', function() {
       'themes/barricade/static/src/js/custom/foundation.tooltip.js',
       'themes/barricade/static/src/js/custom/particles.min.js',
       'themes/barricade/static/src/js/custom/headroom.min.js',
-      // 'themes/barricade/static/src/js/custom/jquery.headroom.min.js',
       'themes/barricade/static/src/js/custom/init.js'
     ])
     .pipe(concat('main.js'))
@@ -73,10 +72,10 @@ gulp.task('scriptminify', function() {
     ])
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
-    // .pipe(concat('main.js'))
+    .pipe(concat('main.js'))
     .pipe(gulp.dest('static/src/js'))
     .pipe(rename({ suffix: '.min' }))
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('static/src/js'))
     .pipe(notify({ message: 'Script minify task complete' }));
 });
@@ -95,13 +94,13 @@ gulp.task('images', function() {
 
 // Clean
 gulp.task('clean', function() {
-    return del('static/src/**/*');
+  return del('static/src/**/*');
 });
 
 
 // Default task
 gulp.task('default', ['clean'],  function() {
-    gulp.start('copy', 'styles', 'scripts', 'images');
+  gulp.start('copy', 'styles', 'scripts', 'images');
 });
 
 // Watch
@@ -114,7 +113,7 @@ gulp.task('watch', function() {
   gulp.watch('themes/barricade/static/src/js/**/*.js', ['scripts']);
 
   // Watch image files
-  gulp.watch('themes/barricade/static/img/src/**/*', ['images']);
+  gulp.watch('themes/barricade/static/img/src/**/*.{png,gif,jpg}', ['images']);
 
   // Create LiveReload server
   livereload.listen();
