@@ -9,6 +9,78 @@
     <atom:link href="http://localhost:1313/changelog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Added AWS Web App Firewall integration</title>
+      <link>http://localhost:1313/aws-waf</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/aws-waf</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deal for Incubators and Accelerators</title>
+      <link>http://localhost:1313/deal-incubators-accelerators</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/deal-incubators-accelerators</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Pricing - 7 Day Trial</title>
+      <link>http://localhost:1313/new-pricing-trial</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/new-pricing-trial</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improved Web App Attack Detection</title>
+      <link>http://localhost:1313/improved-engine-attack-detection</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/improved-engine-attack-detection</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Universal Tags and Filters</title>
+      <link>http://localhost:1313/tags-and-filters</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags-and-filters</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agent Performance Improvements</title>
+      <link>http://localhost:1313/agent-performance</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/agent-performance</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Agent Detection Message</title>
+      <link>http://localhost:1313/new-agent-detection</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/new-agent-detection</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Email Notification Controls</title>
+      <link>http://localhost:1313/email-notifications</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/email-notifications</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Added Slack Integration</title>
       <link>http://localhost:1313/slack-integration</link>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
@@ -89,6 +161,24 @@ service barricade status
 
 &lt;p&gt;&lt;img src=&#34;{{ baseurl . }}src/img/changelog/new-site-01.png&#34; alt=&#34;{{ baseurl . }}src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Product Demo added to Site</title>
+      <link>http://localhost:1313/email-notifications</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/email-notifications</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hipchat Integration</title>
+      <link>http://localhost:1313/added-hipchat</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/added-hipchat</guid>
+      <description></description>
     </item>
     
   </channel>

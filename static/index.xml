@@ -5,8 +5,26 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Product Demo added to Site</title>
+      <link>http://localhost:1313/email-notifications</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/email-notifications</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hipchat Integration</title>
+      <link>http://localhost:1313/added-hipchat</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/added-hipchat</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>404 - Page not found</title>
@@ -314,6 +332,33 @@ The best way to safeguard against XSS attacks in the long term is to understand
     </item>
     
     <item>
+      <title>Email Notification Controls</title>
+      <link>http://localhost:1313/email-notifications</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/email-notifications</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Agent Detection Message</title>
+      <link>http://localhost:1313/new-agent-detection</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/new-agent-detection</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agent Performance Improvements</title>
+      <link>http://localhost:1313/agent-performance</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/agent-performance</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Overview</title>
       <link>http://localhost:1313/getting-started/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -332,308 +377,6 @@ The best way to safeguard against XSS attacks in the long term is to understand
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/agent-chart-sm.png&#34; alt=&#34;../src/img/getting-started/agent-chart-sm.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting (&lt;a href=&#34;../src/img/getting-started/agent-chart-lg.png&#34;&gt;open in full-size&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Default Username Attempts</title>
-      <link>http://localhost:1313/security-guide/login-default-username/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/security-guide/login-default-username/</guid>
-      <description>
-
-&lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.&lt;/p&gt;
-
-&lt;h2 id=&#34;causes:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Causes&lt;/h2&gt;
-
-&lt;p&gt;Login forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. Default, out-of-the-box usernames like ‘administrator’ make it much easier for attackers to hone in on your login information, and reduce the time needed to run &lt;a href=&#34;http://en.wikipedia.org/wiki/Brute-force_attack&#34;&gt;Brute Force&lt;/a&gt; password attacks.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;admin  
-administrator  
-root  
-temp  
-User  
-DBA
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Some examples from &lt;a href=&#34;http://defaultpassword.com&#34;&gt;defaultpassword.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;risk-levels:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Risk Levels&lt;/h2&gt;
-
-&lt;table class=&#34;risk&#34;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Single failed login attempt using default credentials&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Multiple failed login attempts using default credentials&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Successful login using default credentials - possible security breach&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;recommendations:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Recommendations&lt;/h2&gt;
-
-&lt;p&gt;If a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the &lt;a href=&#34;https://app.barricade.io/dashboard/alerts&#34;&gt;Alert instructions&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In the longer term, you can safeguard against these types of attacks by following best practices:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Remove &amp;lsquo;Default&amp;rsquo; Logins from your app&lt;/li&gt;
-&lt;li&gt;Create and implementing a strong password policy&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Suspicious Login Attempts</title>
-      <link>http://localhost:1313/security-guide/login-suspicious-username/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/security-guide/login-suspicious-username/</guid>
-      <description>
-
-&lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.&lt;/p&gt;
-
-&lt;h2 id=&#34;causes:4ca36353a6f3c6800fdfab63af7f15d8&#34;&gt;Causes&lt;/h2&gt;
-
-&lt;p&gt;Login forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. When certain behavioural patterns are observed, our engine will treat a username as suspicious and create the activity will be reported as a new case.&lt;/p&gt;
-
-&lt;p&gt;A username is treated as suspicious when: &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;username does not exist  
-username has been blocked/locked out  
-username has made many failed login attempts  
-username has failed activity from multiple IP addresses at once
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;risk-levels:4ca36353a6f3c6800fdfab63af7f15d8&#34;&gt;Risk Levels&lt;/h2&gt;
-
-&lt;table class=&#34;risk&#34;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Single failed login attempt using suspicious credentials&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Multiple failed login attempts using suspicious credentials&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Successful login using suspicious credentials - possible security breach&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;recommendations:4ca36353a6f3c6800fdfab63af7f15d8&#34;&gt;Recommendations&lt;/h2&gt;
-
-&lt;p&gt;If a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the &lt;a href=&#34;https://app.barricade.io/dashboard/alerts&#34;&gt;Alert instructions&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In the longer term, you can safeguard against these types of attacks by following best practices:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Remove &amp;lsquo;Default&amp;rsquo; Logins from your app&lt;/li&gt;
-&lt;li&gt;Create and implementing a strong password policy&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Security Rating System</title>
-      <link>http://localhost:1313/using-barricade/security-rating-system/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/using-barricade/security-rating-system/</guid>
-      <description>
-
-&lt;p&gt;Our security rating system is made to be simple by design, so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.&lt;/p&gt;
-
-&lt;h2 id=&#34;ratings:159124d2da0896f1a39f7f69d4d3aeba&#34;&gt;Ratings&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/ranking.png&#34; alt=&#34;../src/img/using-barricade/ranking.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We have split security threats into Events, Attacks and Incidents. We track events, flag attacks, monitor their progress and alert you when they become incidents.&lt;/p&gt;
-
-&lt;table class=&#34;risk&#34;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Someone tried and failed to attack your app &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Someone makes multiple failed attack attempts &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;An attacker succeeds in their attack - your system is breached&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How Agents Work</title>
-      <link>http://localhost:1313/getting-started/how-it-works-agent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/how-it-works-agent/</guid>
-      <description>
-
-&lt;p&gt;Agents quietly monitor, without getting in the way or impacting on your server resources. There is no need for any code or configuration changes to your app.&lt;/p&gt;
-
-&lt;p&gt;Data is gathered, encrypted and sent from the agent to the Barricade platform engine; where it’s immediately analyzed for any suspicious activity - detecting web app attacks, data breaches or intrusion attempts on your server.&lt;/p&gt;
-
-&lt;h2 id=&#34;lightweight-agent:9d5d196026c9b7320d8721a95f202636&#34;&gt;Lightweight Agent&lt;/h2&gt;
-
-&lt;p&gt;The agent sits quietly on your server and keeps an eye on things - the heavy data analysis processes are carried out by our platform’s engine - to ensure your performance isn’t affected.&lt;/p&gt;
-
-&lt;p&gt;Our design ensures that the agent does &lt;strong&gt;not&lt;/strong&gt; -&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Get in the way&lt;/strong&gt;:&lt;br /&gt;
-the agent monitors and collects data, it will not block any traffic on your application&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Slow down your server&lt;/strong&gt;:&lt;br /&gt;
-the agent focuses on lightweight tasks; formatting and transmitting data to our engine.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Expose your data&lt;/strong&gt;:&lt;br /&gt;
-all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;one-way-agent:9d5d196026c9b7320d8721a95f202636&#34;&gt;One-Way Agent&lt;/h2&gt;
-
-&lt;p&gt;Don’t worry - Barricade can’t connect to your server and execute commands. By design, the agent communicates out but Barricade can never communicate in.&lt;/p&gt;
-
-&lt;h2 id=&#34;installation:9d5d196026c9b7320d8721a95f202636&#34;&gt;Installation&lt;/h2&gt;
-
-&lt;p&gt;The Agent is installed via a one touch command, which fetches the code, verifies the package signature and installs the agent on your server. For step-by-step installation instructions see the &lt;a href=&#34;#installing-an-agent&#34;&gt;Installing an Agent&lt;/a&gt; guide.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Adding Team Members</title>
-      <link>http://localhost:1313/using-barricade/adding-team-members/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/using-barricade/adding-team-members/</guid>
-      <description>
-
-&lt;p&gt;You can invite colleagues to join your Barricade team account, granting access to your Agents and their findings from your servers.&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;ll find the Team controls in the Settings &amp;gt; Team &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/members&#34;&gt;Members&lt;/a&gt; page.&lt;/p&gt;
-
-&lt;h3 id=&#34;team-permissions:639f3153471e5042a626a354e5707952&#34;&gt;Team Permissions&lt;/h3&gt;
-
-&lt;p&gt;Teams are comprised of a single Admin user (the person who originally created the account) and Members, who have most of the same permissions - except when it comes to billing and being able to remove other users from the account.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s a breakdown of the permissions per role:&lt;/p&gt;
-
-&lt;table class=&#34;compare&#34;&gt;
-&lt;thead&gt;
-&lt;tr&gt;&lt;th&gt; &lt;/th&gt;&lt;th&gt;&lt;strong&gt;Admin&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Member&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Install Agents:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Edit Agents:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;View Cases:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Mark Cases as Resolved:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Invite Team Members:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Remove Team Members:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-close&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Manage Team Notifcations:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Manage Team Integrations:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;View &amp;amp; Edit Billing Details:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-close&#34;&gt; &lt;/em&gt; &lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;your-team:639f3153471e5042a626a354e5707952&#34;&gt;Your Team&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/profile&#34;&gt;team profile page&lt;/a&gt; allows you to edit your team name. Only the admin can change the name of a team.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-01.png&#34; alt=&#34;../src/img/using-barricade/11-team-01.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;how-to-invite-members:639f3153471e5042a626a354e5707952&#34;&gt;How to Invite Members&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/invitations&#34;&gt;invitations&lt;/a&gt; page lets you add new members via email address: &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-02.gif&#34; alt=&#34;../src/img/using-barricade/11-team-02.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Enter the email address and click the Invite button.&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The page will show that an email invite has been issued.
-You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo; on the right:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-03.png&#34; alt=&#34;../src/img/using-barricade/11-team-03.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The new member will receive a confirmation email with an activation link:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-04.png&#34; alt=&#34;../src/img/using-barricade/11-team-04.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Once activated, they can login and will have read-access to information from your Agents&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;how-to-remove-members:639f3153471e5042a626a354e5707952&#34;&gt;How to Remove Members&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-05.gif&#34; alt=&#34;../src/img/using-barricade/11-team-05.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;To remove members you must be logged in as the Team Admin&lt;/li&gt;
-&lt;li&gt;Visit the app &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/members&#34;&gt;Team page&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Click the &amp;lsquo;X&amp;rsquo; icon to the right of the member name &lt;/li&gt;
-&lt;li&gt;Confirm removal of that member&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     
