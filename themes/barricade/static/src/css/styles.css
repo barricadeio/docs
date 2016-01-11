@@ -12639,9 +12639,14 @@ a:visited:hover {
   .home .feature-box a {
     margin-bottom: 0.5em;
     min-height: auto;
+    background-size: 35px auto;
+  }
+  .home .feature-box a:after {
+    top: 0.925em;
   }
   .home .feature-box a h4 {
     font-size: 20.47898px;
+    margin: 0.25em 0;
   }
   .home .feature-box a p {
     display: none;
