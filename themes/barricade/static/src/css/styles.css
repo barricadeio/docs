@@ -12184,7 +12184,7 @@ body {
 
 .home {
   position: relative;
-  min-height: 1536px;
+  min-height: 1200px;
   box-sizing: border-box;
   height: 100%;
 }
@@ -12205,7 +12205,7 @@ body {
   text-transform: none;
   font-size: 36.5696px;
   letter-spacing: 0.05em;
-  margin: 5em 7.5% 3em;
+  margin: 5em 7.5% 5em;
   padding: 0.75em 0.825em;
   cursor: pointer;
   position: relative;
@@ -12221,6 +12221,92 @@ body {
   right: 2em;
   color: #dfdfdf;
   font-size: 17.142px;
+}
+.home h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-family: "futura-pt", "futura-bold", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  margin: 2em auto 1.825em;
+  font-size: 15.9992px;
+  border-bottom: 2px solid #079493;
+  letter-spacing: 0.0925em;
+}
+.home .feature-box a {
+  display: block;
+  min-height: 100px;
+  margin: 0 0 2em 0;
+  padding: 0.75em 1em 0.75em 5em;
+  position: relative;
+  box-shadow: 0 2px 0 #ecedf3;
+  transition: all 0.3s ease-in-out;
+  background: #fcfcfd url("../img/feature-box-01.png") no-repeat 5% 52%;
+  background-size: 60px auto;
+}
+.home .feature-box a h4 {
+  font-size: 20.47898px;
+  font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.0075em;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 0.25em;
+}
+.home .feature-box a p {
+  font-size: 14.8564px;
+  color: #818395;
+  line-height: 1.5;
+  padding-right: 1.5em;
+  margin: 0;
+}
+.home .feature-box a:after {
+  content: "\f054";
+  font-family: fontawesome;
+  color: #dfdfdf;
+  position: absolute;
+  right: 0.667em;
+  top: 2.2em;
+  font-size: 1em;
+}
+.home .feature-box a:hover {
+  background-color: #66b6ab;
+  box-shadow: 0 2px 2px #f4f5f8;
+}
+.home .feature-box a:hover h4 {
+  color: white;
+}
+.home .feature-box a:hover p {
+  color: #f4f5f8;
+}
+.home .feature-box a:hover:after {
+  color: #079493;
+}
+.home .feature-box:nth-child(2) a {
+  background-image: url("../img/feature-box-02.png");
+}
+.home .feature-box:nth-child(3) a {
+  background-image: url("../img/feature-box-03.png");
+}
+.home .feature-box:nth-child(4) a {
+  background-image: url("../img/feature-box-04.png");
+}
+.home .home-contact {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 17.142px;
+  line-height: 1.5;
+  margin-top: -1.5em;
+}
+.home .home-contact a {
+  max-width: 840px;
+  color: #566c70;
+  padding: 1.25em 1.5em;
+  display: block;
+}
+.home .home-contact a:hover {
+  color: #06807f;
 }
 
 .main .content-wrap {
@@ -12541,6 +12627,26 @@ a:visited:hover {
     padding: 0.25em 1em;
   }
 
+  .home {
+    min-height: 500px;
+  }
+  .home h1 {
+    font-size: 20.47898px;
+  }
+  .home h1 .fa {
+    display: none;
+  }
+  .home .feature-box a {
+    margin-bottom: 0.5em;
+    min-height: auto;
+  }
+  .home .feature-box a h4 {
+    font-size: 20.47898px;
+  }
+  .home .feature-box a p {
+    display: none;
+  }
+
   .main .content-wrap h1 {
     font-size: 36.5696px;
   }
@@ -12559,7 +12665,7 @@ a:visited:hover {
   .styleguide-footer p {
     text-align: center !important;
     display: block;
-    margin: -1.2em auto 0;
+    margin: 0.5em auto 0;
   }
   .styleguide-footer p img {
     float: none;

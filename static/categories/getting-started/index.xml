@@ -203,11 +203,7 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/getting-started/detection-engine/</guid>
-      <description>
-
-&lt;h2 id=&#34;the-engine:1ee15659a3f65e32fe78a8006b52d1f9&#34;&gt;The Engine&lt;/h2&gt;
-
-&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
+      <description>&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
 
 &lt;p&gt;As new data comes in, the engine learns about different types of behaviours for your infrastructure and what seems to be normal behaviour based on the services running.&lt;/p&gt;
 
@@ -262,9 +258,9 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
       <description>&lt;p&gt;For more details on the Agent and how it works, see the &lt;a href=&#34;#overview&#34;&gt;Agent Overview&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The Agent is not detected.&lt;/strong&gt;&lt;br /&gt;
-If you&amp;rsquo;re experiencing problems during Agent installation, check that your server is compatible - &lt;a href=&#34;#&#34;&gt;server OS requirements LINK NEEDED&lt;/a&gt;.&lt;/p&gt;
+If you&amp;rsquo;re experiencing problems during Agent installation, check that your server is compatible - &lt;a href=&#34;#os-requirements-compatibility&#34;&gt;server OS requirements&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;If your server is compatible, try &lt;a href=&#34;using-barricade/#re-register-agent&#34;&gt;re-registering the agent&lt;/a&gt; or &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;contact us&lt;/a&gt; for help.&lt;/p&gt;
+&lt;p&gt;If your server is compatible, try &lt;a href=&#34;../using-barricade/#re-register-agent&#34;&gt;re-registering the agent&lt;/a&gt; or &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;contact us&lt;/a&gt; for help.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not sure how to run the command on a server.&lt;/strong&gt;&lt;br /&gt;
 You&amp;rsquo;ll need to connect to the server via SSH to run the command - see &lt;a href=&#34;#running-commands&#34;&gt;our guide&lt;/a&gt; here.&lt;/p&gt;

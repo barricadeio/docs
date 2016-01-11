@@ -314,9 +314,9 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
       <description>&lt;p&gt;For more details on the Agent and how it works, see the &lt;a href=&#34;#overview&#34;&gt;Agent Overview&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The Agent is not detected.&lt;/strong&gt;&lt;br /&gt;
-If you&amp;rsquo;re experiencing problems during Agent installation, check that your server is compatible - &lt;a href=&#34;#&#34;&gt;server OS requirements LINK NEEDED&lt;/a&gt;.&lt;/p&gt;
+If you&amp;rsquo;re experiencing problems during Agent installation, check that your server is compatible - &lt;a href=&#34;#os-requirements-compatibility&#34;&gt;server OS requirements&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;If your server is compatible, try &lt;a href=&#34;using-barricade/#re-register-agent&#34;&gt;re-registering the agent&lt;/a&gt; or &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;contact us&lt;/a&gt; for help.&lt;/p&gt;
+&lt;p&gt;If your server is compatible, try &lt;a href=&#34;../using-barricade/#re-register-agent&#34;&gt;re-registering the agent&lt;/a&gt; or &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;contact us&lt;/a&gt; for help.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not sure how to run the command on a server.&lt;/strong&gt;&lt;br /&gt;
 You&amp;rsquo;ll need to connect to the server via SSH to run the command - see &lt;a href=&#34;#running-commands&#34;&gt;our guide&lt;/a&gt; here.&lt;/p&gt;

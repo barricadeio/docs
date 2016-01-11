@@ -32,8 +32,16 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/security-guide/sql-injection/</loc>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/added-teams</loc>
     <lastmod>2015-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/security-guide/xss/</loc>
   </url>
   
   <url>

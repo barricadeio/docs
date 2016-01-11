@@ -1,6 +1,6 @@
 .home {
   position: relative;
-  min-height: 1536px;
+  min-height: 1200px;
 
   box-sizing: border-box;
   height: 100%;
@@ -24,7 +24,7 @@
     text-transform: none;
     font-size: $scalex8;
     letter-spacing: 0.05em;
-    margin: 5em 7.5% 3em;
+    margin: 5em 7.5% 5em;
     padding: 0.75em 0.825em;
     cursor: pointer;
     position: relative;
@@ -41,6 +41,102 @@
       right: 2em;
       color: $light3;
       font-size: $scalex4;
+    }
+  }
+
+  h3 {
+    @include upperCase;
+    @include futuraBold;
+    display: inline-block;
+    margin: 2em auto 1.825em;
+    font-size: $scalex3;
+    border-bottom: 2px solid $green3;
+    letter-spacing: 0.0925em;
+  }
+
+  .feature-box {
+    a {
+      display: block;
+      min-height: 100px;
+      margin: 0 0 2em 0;
+      padding: 0.75em 1em 0.75em 5em;
+      position: relative;
+      @include box-shadow(0,2px,0, $light2);
+      @include transition;
+      background: lighten($light2, 5%) url('../img/feature-box-01.png') no-repeat 5% 52%;
+      background-size: 60px auto;
+
+      h4 {
+        font-size: $scalex5;
+        @include futuraRegular;
+        margin: 0 0 0.25em;
+      }
+
+      p {
+        font-size: $scalex2;
+        color: $mid7;
+        line-height: 1.5;
+        padding-right: 1.5em;
+        margin: 0;
+      }
+
+      &:after {
+        content: "\f054";
+        font-family: fontawesome;
+        color: $light3;
+        position: absolute;
+        right: 0.667em;
+        top: 2.2em;
+        font-size: 1em;
+      }
+
+      &:hover {
+        background-color: $green1;
+        @include box-shadow(0,2px,2px, $light1);
+
+        h4 {
+          color: white;
+        }
+
+        p {
+          color: $light1;
+        }
+
+        &:after {
+          color: $green3;
+        }
+      }
+    }
+
+    &:nth-child(2) a {
+      background-image: url('../img/feature-box-02.png');
+    }
+
+    &:nth-child(3) a {
+      background-image: url('../img/feature-box-03.png');
+    }
+
+    &:nth-child(4) a  {
+      background-image: url('../img/feature-box-04.png');
+    }
+  }
+
+  .home-contact {
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    font-size: $scalex4;
+    line-height: 1.5;
+    margin-top: -1.5em;
+
+    a {
+      max-width: 840px;
+      color: $dark1;
+      padding: 1.25em 1.5em;
+      display: block;
+
+      &:hover {
+        color: $green4;
+      }
     }
   }
 }

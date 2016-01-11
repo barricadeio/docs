@@ -70,24 +70,24 @@
 &lt;tbody&gt;
 
 &lt;tr&gt;
-
-&lt;td&gt;**Event**&lt;/td&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
 
 &lt;td&gt;A failed attack was detected - normally bot activity on your server&lt;/td&gt;
 
 &lt;/tr&gt;
 
 &lt;tr&gt;
-
-&lt;td&gt;**Attack**&lt;/td&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
 
 &lt;td&gt;A series of failed attacks failed injection attacks were detected&lt;/td&gt;
 
 &lt;/tr&gt;
 
 &lt;tr&gt;
-
-&lt;td&gt;**Incident**&lt;/td&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
 
 &lt;td&gt;A successful attack was detected - a security breach has occurred!&lt;/td&gt;
 
@@ -111,8 +111,8 @@ The best way to safeguard against these types of attacks in the longer term is t
 &lt;p&gt;Related links:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/206217047&#34;&gt;SQL Injection Attack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-&#34;&gt;Cross-Site Scripting Attacks (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection Attack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#xss&#34;&gt;Cross-Site Scripting Attacks (XSS)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -157,6 +157,94 @@ service barricade status
     </item>
     
     <item>
+      <title>SQL Injection</title>
+      <link>http://localhost:1313/security-guide/sql-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/security-guide/sql-injection/</guid>
+      <description>
+
+&lt;p&gt;A web application attack is any technique that&amp;rsquo;s used to target websites, web applications and web services with malicious intent.&lt;/p&gt;
+
+&lt;p&gt;Barricade monitors for a variety of Web Application Attacks on your app server - suspicious activity is examined in real-time and Alerts are sent if a legitimate attack is detected.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:e1b0a7b80dcc638ec866ac29b27d6ca9&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Most web application attacks are form-based; attackers will often evaluate web forms as potential gateways as they seek out vulnerable systems to access. Barricade monitors this type of network traffic closely for any suspicious behavioural patterns.&lt;/p&gt;
+
+&lt;p&gt;Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/206217047-SQL-Injection-Attacks&#34;&gt;SQL Injection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-&#34;&gt;Cross Site Scripting (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Broken Authentication and Session ManagementInsecure Direct Object References&lt;/li&gt;
+&lt;li&gt;Security Misconfiguration&lt;/li&gt;
+&lt;li&gt;Sensitive Data Exposure&lt;/li&gt;
+&lt;li&gt;Missing Function Level Access Control&lt;/li&gt;
+&lt;li&gt;Cross-Site Request Forgeries&lt;/li&gt;
+&lt;li&gt;Using Components With Known Vulnerabilities&lt;/li&gt;
+&lt;li&gt;Unvalidated Redirects and Forwards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most common type of web application attack is &lt;a href=&#34;NEED LINK&#34;&gt;SQL Injection&lt;/a&gt; - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
+
+&lt;p&gt;These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:e1b0a7b80dcc638ec866ac29b27d6ca9&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+
+&lt;td&gt;A failed attack was detected - normally bot activity on your server&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+
+&lt;td&gt;A series of failed attacks failed injection attacks were detected&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+
+&lt;td&gt;A successful attack was detected - a security breach has occurred!&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:e1b0a7b80dcc638ec866ac29b27d6ca9&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If an Incident or Attack level &lt;em&gt;web app attack&lt;/em&gt; is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. &lt;/p&gt;
+
+&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilities that an attacker could exploit (e.g. forms that are open to Cross-Site Scripting or SQL Injection techniques). &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Secure Your Forms&lt;/strong&gt;&lt;br /&gt;
+The best way to safeguard against these types of attacks in the longer term is to understand how these attacks operate, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
+
+&lt;p&gt;Developers should use validation techniques such as &lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Mitigation&#34;&gt;parameterized statements, escaping and pattern checking&lt;/a&gt; to build forms that cannot be exploited through SQL Injection.&lt;/p&gt;
+
+&lt;p&gt;Related links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection Attack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#xss&#34;&gt;Cross-Site Scripting Attacks (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Added Teams - Invite &amp; Manage Users</title>
       <link>http://localhost:1313/added-teams</link>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
@@ -167,6 +255,94 @@ service barricade status
 &lt;p&gt;&lt;img src=&#34;../src/img/changelog/04-team-invites.gif.png&#34; alt=&#34;../src/img/changelog/04-team-invites.gif&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/&#34;&gt;Adding Team Members&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cross-Site Scripting</title>
+      <link>http://localhost:1313/security-guide/xss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/security-guide/xss/</guid>
+      <description>
+
+&lt;p&gt;A web application attack is any technique that&amp;rsquo;s used to target websites, web applications and web services with malicious intent.&lt;/p&gt;
+
+&lt;p&gt;Barricade monitors for a variety of Web Application Attacks on your app server - suspicious activity is examined in real-time and Alerts are sent if a legitimate attack is detected.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:28b5a5504725bb25df95cbcb50cdc6a9&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Most web application attacks are form-based; attackers will often evaluate web forms as potential gateways as they seek out vulnerable systems to access. Barricade monitors this type of network traffic closely for any suspicious behavioural patterns.&lt;/p&gt;
+
+&lt;p&gt;Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/206217047-SQL-Injection-Attacks&#34;&gt;SQL Injection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-&#34;&gt;Cross Site Scripting (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Broken Authentication and Session ManagementInsecure Direct Object References&lt;/li&gt;
+&lt;li&gt;Security Misconfiguration&lt;/li&gt;
+&lt;li&gt;Sensitive Data Exposure&lt;/li&gt;
+&lt;li&gt;Missing Function Level Access Control&lt;/li&gt;
+&lt;li&gt;Cross-Site Request Forgeries&lt;/li&gt;
+&lt;li&gt;Using Components With Known Vulnerabilities&lt;/li&gt;
+&lt;li&gt;Unvalidated Redirects and Forwards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most common type of web application attack is &lt;a href=&#34;NEED LINK&#34;&gt;SQL Injection&lt;/a&gt; - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
+
+&lt;p&gt;These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:28b5a5504725bb25df95cbcb50cdc6a9&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+
+&lt;td&gt;A failed attack was detected - normally bot activity on your server&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+
+&lt;td&gt;A series of failed attacks failed injection attacks were detected&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+
+&lt;td&gt;A successful attack was detected - a security breach has occurred!&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:28b5a5504725bb25df95cbcb50cdc6a9&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If an Incident or Attack level &lt;em&gt;web app attack&lt;/em&gt; is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. &lt;/p&gt;
+
+&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilities that an attacker could exploit (e.g. forms that are open to Cross-Site Scripting or SQL Injection techniques). &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Secure Your Forms&lt;/strong&gt;&lt;br /&gt;
+The best way to safeguard against these types of attacks in the longer term is to understand how these attacks operate, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
+
+&lt;p&gt;Developers should use validation techniques such as &lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Mitigation&#34;&gt;parameterized statements, escaping and pattern checking&lt;/a&gt; to build forms that cannot be exploited through SQL Injection.&lt;/p&gt;
+
+&lt;p&gt;Related links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection Attack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#xss&#34;&gt;Cross-Site Scripting Attacks (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -423,103 +599,13 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/getting-started/detection-engine/</guid>
-      <description>
-
-&lt;h2 id=&#34;the-engine:1ee15659a3f65e32fe78a8006b52d1f9&#34;&gt;The Engine&lt;/h2&gt;
-
-&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
+      <description>&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
 
 &lt;p&gt;As new data comes in, the engine learns about different types of behaviours for your infrastructure and what seems to be normal behaviour based on the services running.&lt;/p&gt;
 
 &lt;p&gt;The Engine is designed to distill complex machine learning concepts such as artificial neural networks, anomaly detection and ensemble learning into consumable and actionable information.&lt;/p&gt;
 
 &lt;p&gt;For details on the various behaviors &amp;amp; attacks that Barricade detects - &lt;a href=&#34;../security-guide&#34;&gt;see the Security Guide&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Slack Integration</title>
-      <link>http://localhost:1313/using-barricade/slack-integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/using-barricade/slack-integration/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-logo.png&#34; alt=&#34;../src/img/using-barricade/13-slack-logo.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://slack.com&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications. &lt;/p&gt;
-
-&lt;p&gt;You can integrate Slack with Barricade to notify your team when serious security incidents occur:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-message.png&#34; alt=&#34;../src/img/using-barricade/13-slack-message.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;setting-up-the-integration:39b09a0fb6bc114f8cde3db8390945c8&#34;&gt;Setting up the Integration&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Login to Barricade and go to the Settings &amp;gt; Notifications &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/notification/slack&#34;&gt;Slack Notifications&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click on the switch to &lt;strong&gt;Enable&lt;/strong&gt; the integration:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-enable.gif&#34; alt=&#34;../src/img/using-barricade/13-slack-enable.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Follow the Integration Instructions that appear onscreen.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click the &lt;a href=&#34;https://my.slack.com/services/new/incoming-webhook&#34;&gt;link to create a new Incoming Webhook&lt;/a&gt; on slack.com&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Set a channel for Barricade to post to:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-select-channel.png&#34; alt=&#34;../src/img/using-barricade/13-slack-select-channel.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click the Add button.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Copy&lt;/strong&gt; the Webhook URL that appears under &amp;lsquo;Setup Instructions&amp;rsquo;&lt;br /&gt;
-It will look like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;https://hooks.slack.com/services/A01BCDE23/A01B2CDEF/aB0c1DefGH23iJKl45M6nO7P
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Return to the &lt;a href=&#34;https://app.barricade.io/dashboard/settings/notification/slack&#34;&gt;Slack integration page&lt;/a&gt; in the Barricade app.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Paste the Webhook URL into the form:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-paste.gif&#34; alt=&#34;../src/img/using-barricade/13-slack-paste.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click &lt;strong&gt;Save Integration&lt;/strong&gt;. &lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You can customize the integration to choose what items get posted to Slack, by checking the boxes on the right to activate more notifications.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;By default, only Incidents &lt;em&gt;(our most serious classification)&lt;/em&gt; are sent as notifications.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OS Compatibility</title>
-      <link>http://localhost:1313/getting-started/os-requirements-compatibility/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/os-requirements-compatibility/</guid>
-      <description>
-
-&lt;p&gt;Our Agent supports &lt;strong&gt;Ubuntu&lt;/strong&gt; and &lt;strong&gt;CentOS&lt;/strong&gt; based cloud servers - (common configurations on providers like AWS, Google Cloud Platform, DigitalOcean and Microsoft Azure).&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ubuntu 14.04 LTS (64-bit)&lt;/li&gt;
-&lt;li&gt;Ubuntu 14.10 (64-bit)&lt;/li&gt;
-&lt;li&gt;Ubuntu 12.04 (64-bit)&lt;/li&gt;
-&lt;li&gt;CentOS 6.5 (64-bit)&lt;/li&gt;
-&lt;li&gt;CentOS 7.0 (64-bit)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;windows-support:a4289c93faaa8e5b7b34d56ee7e26c25&#34;&gt;Windows Support&lt;/h3&gt;
-
-&lt;p&gt;We currently don&amp;rsquo;t support Windows servers, but it&amp;rsquo;s on our product roadmap. If you&amp;rsquo;d like to be added to our early access list for Windows, &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;let us know&lt;/a&gt; and we&amp;rsquo;ll keep you informed.&lt;/p&gt;
-
-&lt;h3 id=&#34;running-the-agent-on-docker:a4289c93faaa8e5b7b34d56ee7e26c25&#34;&gt;Running the Agent on Docker&lt;/h3&gt;
-
-&lt;p&gt;We are currently testing a new version of our agent that runs natively on Docker.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ll be shipping Docker support in early 2016 - &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;get in touch&lt;/a&gt; if you&amp;rsquo;d like to get early access!&lt;/p&gt;
 </description>
     </item>
     

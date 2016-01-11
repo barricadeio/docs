@@ -46,24 +46,24 @@ These attacks are common, but can be quite destructive if successful, resulting 
 <tbody>
 
 <tr>
-
-<td>**Event**</td>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
 
 <td>A failed attack was detected - normally bot activity on your server</td>
 
 </tr>
 
 <tr>
-
-<td>**Attack**</td>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
 
 <td>A series of failed attacks failed injection attacks were detected</td>
 
 </tr>
 
 <tr>
-
-<td>**Incident**</td>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
 
 <td>A successful attack was detected - a security breach has occurred!</td>
 
@@ -86,5 +86,5 @@ Developers should use validation techniques such as [parameterized statements, e
 
 Related links:
 
-*   [SQL Injection Attack](/hc/en-us/articles/206217047)
-*   [Cross-Site Scripting Attacks (XSS)](/hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-)
+*   [SQL Injection Attack](#sql-injection)
+*   [Cross-Site Scripting Attacks (XSS)](#xss)
