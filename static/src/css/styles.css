@@ -11636,7 +11636,6 @@ body {
   z-index: 700;
   position: fixed;
   overflow-y: scroll;
-  padding-bottom: 170px;
 }
 .sidebar a {
   transition: all 0.3s ease-in-out;
@@ -12005,6 +12004,39 @@ body {
   border-radius: 3px 3px 3px 3px;
 }
 
+.algolia-autocomplete {
+  width: 100%;
+}
+
+.algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+  width: 100%;
+}
+
+.algolia-autocomplete .aa-hint {
+  color: #999;
+}
+
+.algolia-autocomplete .aa-dropdown-menu {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-top: none;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+  cursor: pointer;
+  padding: 5px 4px;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+  background-color: #B2D7FF;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+  font-weight: bold;
+  font-style: normal;
+}
+
 .main {
   margin-bottom: -5em;
 }
@@ -12286,13 +12318,15 @@ body {
 }
 .main .content-wrap table {
   margin: 1.5rem 0;
+  border: none;
+  width: 100%;
 }
 .main .content-wrap table th,
 .main .content-wrap table td {
   border: none;
   vertical-align: top;
   text-align: left;
-  padding: 0 1rem 0.75rem 0;
+  padding: 0.425em 0.75em 0.425em 0.2em;
   width: auto;
 }
 .main .content-wrap table.risk {
@@ -12369,6 +12403,11 @@ body {
 .main .content-wrap img:hover {
   box-shadow: 0 0 4px #bbbcc7;
 }
+.main .content-wrap iframe,
+.main .content-wrap embed,
+.main .content-wrap .youtube-player {
+  min-height: 320px;
+}
 
 .changelog.content-wrap h2 {
   margin: 0.25em 0 0.425em;
@@ -12384,7 +12423,7 @@ body {
 .changelog.content-wrap ul#list {
   transition: all 0.3s ease-in-out;
   list-style: none;
-  margin: 1.5em 0 0 3em;
+  margin: 1.5em 0 0 1em;
 }
 .changelog.content-wrap ul#list li {
   background: transparent;
@@ -12406,7 +12445,7 @@ a:visited:hover {
   background-color: #f7f7fa;
 }
 .changelog.content-wrap ul#list li a {
-  padding: 0.5em 1em 0.5em 1em;
+  padding: 0.5em 1em 0.5em 3em;
   display: block;
   position: relative;
 }
@@ -12529,7 +12568,7 @@ a:visited:hover {
     margin: 0.4em 0;
   }
 }
-@media screen and (min-height: 670px) {
+@media screen and (min-height: 575px) {
   .sidebar {
     padding-bottom: 0px;
   }

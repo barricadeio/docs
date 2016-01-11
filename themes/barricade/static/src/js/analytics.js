@@ -1,7 +1,7 @@
 // // intercom
 window.intercomSettings = {
   "widget": {
-    "activator": "#contact,#contact-text"
+    "activator": "#contact,#contact-text,.intercom-trigger"
   },
   app_id: 'bztln233'
 };

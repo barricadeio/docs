@@ -89,23 +89,29 @@
   }
 
   &.markdown ul,
-  ul {
+  ul,
+  ol {
     padding: 0 0.25rem;
     margin-bottom: 2em;
     color: $dark1;
     line-height: 1.7;
-    font-size: $scalex5;
+
+    li {
+      font-size: $scalex5;
+    }
   }
 
   table {
     margin: 1.5rem 0;
+    border: none;
+    width: 100%;
 
     th,
     td {
       border: none;
       vertical-align: top;
       text-align: left;
-      padding: 0 1rem 0.75rem 0;
+      padding: 0.425em 0.75em 0.425em 0.2em;
       width: auto;
     }
 
@@ -197,6 +203,12 @@
     &:hover {
       @include box-shadow(0, 0, 4px, $mid1);
     }
+  }
+
+  iframe,
+  embed,
+  .youtube-player {
+    min-height: 320px;
   }
 }
 

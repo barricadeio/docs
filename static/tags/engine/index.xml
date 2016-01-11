@@ -5,20 +5,25 @@
     <link>http://localhost:1313/tags/engine/</link>
     <description>Recent content in Engine on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/engine/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Updated AI Engine</title>
-      <link>http://localhost:1313/updated-ai-engine</link>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <title>Our Detection Engine</title>
+      <link>http://localhost:1313/getting-started/detection-engine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/updated-ai-engine</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.&lt;/p&gt;
+      <guid>http://localhost:1313/getting-started/detection-engine/</guid>
+      <description>
 
-&lt;p&gt;We&amp;rsquo;re working constantly on the engine to ensure the best results for our customers. If you&amp;rsquo;re seeing any data you&amp;rsquo;re not sure about - do let us know.&lt;/p&gt;
+&lt;h2 id=&#34;the-engine:1ee15659a3f65e32fe78a8006b52d1f9&#34;&gt;The Engine&lt;/h2&gt;
 
-&lt;p&gt;[IMG]&lt;/p&gt;
+&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
+
+&lt;p&gt;As new data comes in, the engine learns about different types of behaviours for your infrastructure and what seems to be normal behaviour based on the services running.&lt;/p&gt;
+
+&lt;p&gt;The Engine is designed to distill complex machine learning concepts such as artificial neural networks, anomaly detection and ensemble learning into consumable and actionable information.&lt;/p&gt;
+
+&lt;p&gt;For details on the various behaviors &amp;amp; attacks that Barricade detects - &lt;a href=&#34;../security-guide&#34;&gt;see the Security Guide&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

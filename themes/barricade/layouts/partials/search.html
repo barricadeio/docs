@@ -8,19 +8,19 @@
 
       <div class="row">
         <form class="col-sm-12 columns">
-          <input type="text" placeholder="Search..." autofocus="autofocus">
+          <input type="text" placeholder="Search..." autofocus="autofocus" id="algolia-input" autocorrect="off" autocapitalize="none" spellcheck="false" autocomplete="off">
           <input value="Search" type="submit" class="hidden">
           <!-- <small>Press 'Enter' to search</small> -->
         </form>
       </div>
 
-      <div class="row" id="searchResults">
+      <div class="row" id="searchResults" class="results">
         <div class="col-sm-2 column">&nbsp;</div>
         <div class="col-sm-8 text-center column">
           <h2>Results:</h2>
 
           <!-- results go here -->
-          <ul class="no-bullet">
+          <ul class="no-bullet" id="articles">
             <li><a href="#">Installing an Agent</a></li>
             <li><a href="#">What is an Agent?</a></li>
             <li><a href="#">What Does the Agent See?</a></li>

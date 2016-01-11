@@ -18,14 +18,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/getting-started/creating-account/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/using-barricade/security-rating-system/</loc>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/security-guide/creating-account/</loc>
   </url>
   
@@ -35,16 +27,8 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/getting-started/credit-card/</loc>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/updated-ai-engine</loc>
     <lastmod>2015-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/getting-started/choosing-plan/</loc>
   </url>
   
   <url>
@@ -53,16 +37,100 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/getting-started/welcome-barricade/</loc>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/slack-integration</loc>
     <lastmod>2015-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/getting-started/deploying-an-agent/</loc>
+    <loc>http://localhost:1313/getting-started/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/security-rating-system/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started/how-it-works-agent/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/adding-team-members/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started/what-agent-sees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started/detection-engine/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/slack-integration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started/os-requirements-compatibility/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/hipchat-integration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/installing-more-agents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/aws-waf-integration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/ci-sec-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/updating-agents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/stopping-starting-agents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/configuring-agents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/tagging-filtering/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/re-register-agent/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/using-barricade/how-to-remove-agent/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started/account-setup/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started/credit-card/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started/choosing-plan/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started/confirm-account/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started/installing-an-agent/</loc>
   </url>
   
   <url>
@@ -71,10 +139,6 @@
   
   <url>
     <loc>http://localhost:1313/getting-started/agent-detection/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/getting-started/what-is-an-agent/</loc>
   </url>
   
   <url>

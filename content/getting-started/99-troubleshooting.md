@@ -1,6 +1,6 @@
 +++
 title = "Troubleshooting"
-weight = "30"
+weight = "50"
 
 tags = ["install", "agent", "account", "quickstart"]
 section = "getting-started"
@@ -15,9 +15,12 @@ slug = "troubleshooting"
 
 +++
 
-For more information on the Agent and what it does, check out the [LINK NEEDED] ['What is an Agent' guide.]
+For more details on the Agent and how it works, see the [Agent Overview](#overview).
+
+**The Agent is not detected.**  
+If you're experiencing problems during Agent installation, check that your server is compatible - [server OS requirements LINK NEEDED](#).
+
+If your server is compatible, try [re-registering the agent](using-barricade/#re-register-agent) or [contact us](https://barricade.io/about#contact-info) for help.
 
 **I'm not sure how to run the command on a server.**  
-You'll need to connect to the server via SSH to run the command - see [LINK NEEDED] [our guide] here.
-
-If you run into any problems that require assistance, you can always contact our team via [support@barricade.io](mailto:support@barricade.io).
+You'll need to connect to the server via SSH to run the command - see [our guide](#running-commands) here.

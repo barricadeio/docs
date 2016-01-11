@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   $(document).foundation();
 
-  // search
+  // search modal
   $("#searchBar, .search-overlay-bg, .search-trigger").click( function() {
     if ($('#searchOverlay').hasClass('active')) {
       $('#searchOverlay').removeClass("active");
@@ -13,12 +13,39 @@ $(document).ready(function() {
   });
   $(document).keydown(function(e) {
     if (e.keyCode == 27) {
-      $("#searchBar").click();
+      $(".search-trigger").click();
     }
   });
+
+  // demo search functionality
   $('#searchOverlay form input[type=text]').on('input', function() {
       $("#searchResults").addClass('active');
   });
+
+  // algolia search
+  // var client = algoliasearch('QM91V2H4QL', 'edeebf1c9a5e14c6dfb24911a629e27c');
+  // var index = client.initIndex('barricade_docs');
+
+  // autocomplete('#agolia-input', { hint: false }, [
+  //   {
+  //     source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+  //     displayKey: 'my_attribute',
+  //     templates: {
+  //       suggestion: function(suggestion) {
+  //         return suggestion._highlightResult.my_attribute.value;
+  //       }
+  //     }
+  //   }
+  // ]).on('autocomplete:selected', function(event, suggestion, dataset) {
+  //    console.log(suggestion, dataset);
+  // });
+
+  // var $articles = $('#articles');
+  // $articles.empty();
+
+  // for (var i = 0; i < content.hits.length; i++) {
+  //   $articles.append('<li>' + content.hits[i].name + '</li>');
+  // }
 
   // footer
   $(".footer-reveal").click( function() {
@@ -66,7 +93,7 @@ menuItems.click(function(e){
   $('html, body').stop().animate({
       scrollTop: offsetTop
   }, 300);
-  e.preventDefault();
+  // e.preventDefault();
 });
 
   // Bind to scroll

@@ -14,8 +14,7 @@
   <meta property="og:url" content="http://localhost:1313/" />
   <meta property="og:image" content="http://localhost:1313/src/img/security_simplified.png" />
 
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="../../sitemap.xml" />
-
+  
   <link rel="icon" href="http://localhost:1313/src/img/favicon-152.png" type="image/x-icon">
   <link rel="apple-touch-icon-precomposed" href="http://localhost:1313/src/img/apple-touch-icon-precomposed.png">
   <link href="http://localhost:1313/src/css/styles.min.css" rel="stylesheet">
@@ -88,21 +87,29 @@
         
         <ul>
           
-            <li><a href="#creating-account">Creating an Account</a></li>
+            <li><a href="#overview">Overview</a></li>
           
-            <li><a href="#credit-card">Providing a Credit Card</a></li>
+            <li><a href="#how-it-works-agent">How Agents Work</a></li>
           
-            <li><a href="#choosing-plan">Choosing a Plan</a></li>
+            <li><a href="#what-agent-sees">What Can Agents see?</a></li>
           
-            <li><a href="#welcome-barricade">Welcome to Barricade!</a></li>
+            <li><a href="#detection-engine">Our Detection Engine</a></li>
           
-            <li><a href="#deploying-an-agent">Deploying an Agent</a></li>
+            <li><a href="#os-requirements-compatibility">OS Compatibility</a></li>
           
-            <li><a href="#running-commands">Running the Command</a></li>
+            <li><a href="#account-setup">Account Setup</a></li>
+          
+            <li><a href="#credit-card">Starting a Trial</a></li>
+          
+            <li><a href="#choosing-plan">Choose a Plan</a></li>
+          
+            <li><a href="#confirm-account">Confirm Account</a></li>
+          
+            <li><a href="#installing-an-agent">Installing an Agent</a></li>
+          
+            <li><a href="#running-commands">How to Run Commands</a></li>
           
             <li><a href="#agent-detection">Agent Detection</a></li>
-          
-            <li><a href="#what-is-an-agent">What is an Agent?</a></li>
           
             <li><a href="#troubleshooting">Troubleshooting</a></li>
           
@@ -116,7 +123,31 @@
         
         <ul>
           
-            <li><a href="#security-rating-system">Our Security Rating System</a></li>
+            <li><a href="#security-rating-system">Security Rating System</a></li>
+          
+            <li><a href="#adding-team-members">Adding Team Members</a></li>
+          
+            <li><a href="#slack-integration">Slack Integration</a></li>
+          
+            <li><a href="#hipchat-integration">Hipchat Integration</a></li>
+          
+            <li><a href="#installing-more-agents">Installing More Agents</a></li>
+          
+            <li><a href="#aws-waf-integration">Amazon WAF Integration</a></li>
+          
+            <li><a href="#ci-sec-testing">C.I. Security Tests</a></li>
+          
+            <li><a href="#updating-agents">Updating Agents</a></li>
+          
+            <li><a href="#stopping-starting-agents">Stopping &amp; Starting Agents</a></li>
+          
+            <li><a href="#configuring-agents">Configuring Agents</a></li>
+          
+            <li><a href="#tagging-filtering">Tagging &amp; Filtering</a></li>
+          
+            <li><a href="#re-register-agent">Re-registering Agents</a></li>
+          
+            <li><a href="#how-to-remove-agent">Removing Agents</a></li>
           
         </ul>
         
@@ -180,19 +211,19 @@
 
       <div class="row">
         <form class="col-sm-12 columns">
-          <input type="text" placeholder="Search..." autofocus="autofocus">
+          <input type="text" placeholder="Search..." autofocus="autofocus" id="algolia-input" autocorrect="off" autocapitalize="none" spellcheck="false" autocomplete="off">
           <input value="Search" type="submit" class="hidden">
           
         </form>
       </div>
 
-      <div class="row" id="searchResults">
+      <div class="row" id="searchResults" class="results">
         <div class="col-sm-2 column">&nbsp;</div>
         <div class="col-sm-8 text-center column">
           <h2>Results:</h2>
 
           
-          <ul class="no-bullet">
+          <ul class="no-bullet" id="articles">
             <li><a href="#">Installing an Agent</a></li>
             <li><a href="#">What is an Agent?</a></li>
             <li><a href="#">What Does the Agent See?</a></li>
@@ -400,6 +431,7 @@ The best way to safeguard against these types of attacks in the longer term is t
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="http://localhost:1313/src/js/main.min.js"></script>
   <script src="http://localhost:1313/src/js/analytics.min.js" async></script>
+
 
 </body>
 </html>

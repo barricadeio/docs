@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Our Security Rating System</title>
+  <title>Security Rating System</title>
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -14,8 +14,7 @@
   <meta property="og:url" content="http://localhost:1313/" />
   <meta property="og:image" content="http://localhost:1313/src/img/security_simplified.png" />
 
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="../../sitemap.xml" />
-
+  
   <link rel="icon" href="http://localhost:1313/src/img/favicon-152.png" type="image/x-icon">
   <link rel="apple-touch-icon-precomposed" href="http://localhost:1313/src/img/apple-touch-icon-precomposed.png">
   <link href="http://localhost:1313/src/css/styles.min.css" rel="stylesheet">
@@ -88,21 +87,29 @@
         
         <ul>
           
-            <li><a href="#creating-account">Creating an Account</a></li>
+            <li><a href="#overview">Overview</a></li>
           
-            <li><a href="#credit-card">Providing a Credit Card</a></li>
+            <li><a href="#how-it-works-agent">How Agents Work</a></li>
           
-            <li><a href="#choosing-plan">Choosing a Plan</a></li>
+            <li><a href="#what-agent-sees">What Can Agents see?</a></li>
           
-            <li><a href="#welcome-barricade">Welcome to Barricade!</a></li>
+            <li><a href="#detection-engine">Our Detection Engine</a></li>
           
-            <li><a href="#deploying-an-agent">Deploying an Agent</a></li>
+            <li><a href="#os-requirements-compatibility">OS Compatibility</a></li>
           
-            <li><a href="#running-commands">Running the Command</a></li>
+            <li><a href="#account-setup">Account Setup</a></li>
+          
+            <li><a href="#credit-card">Starting a Trial</a></li>
+          
+            <li><a href="#choosing-plan">Choose a Plan</a></li>
+          
+            <li><a href="#confirm-account">Confirm Account</a></li>
+          
+            <li><a href="#installing-an-agent">Installing an Agent</a></li>
+          
+            <li><a href="#running-commands">How to Run Commands</a></li>
           
             <li><a href="#agent-detection">Agent Detection</a></li>
-          
-            <li><a href="#what-is-an-agent">What is an Agent?</a></li>
           
             <li><a href="#troubleshooting">Troubleshooting</a></li>
           
@@ -116,7 +123,31 @@
         
         <ul>
           
-            <li class="active"><a href="#security-rating-system">Our Security Rating System</a></li>
+            <li class="active"><a href="#security-rating-system">Security Rating System</a></li>
+          
+            <li><a href="#adding-team-members">Adding Team Members</a></li>
+          
+            <li><a href="#slack-integration">Slack Integration</a></li>
+          
+            <li><a href="#hipchat-integration">Hipchat Integration</a></li>
+          
+            <li><a href="#installing-more-agents">Installing More Agents</a></li>
+          
+            <li><a href="#aws-waf-integration">Amazon WAF Integration</a></li>
+          
+            <li><a href="#ci-sec-testing">C.I. Security Tests</a></li>
+          
+            <li><a href="#updating-agents">Updating Agents</a></li>
+          
+            <li><a href="#stopping-starting-agents">Stopping &amp; Starting Agents</a></li>
+          
+            <li><a href="#configuring-agents">Configuring Agents</a></li>
+          
+            <li><a href="#tagging-filtering">Tagging &amp; Filtering</a></li>
+          
+            <li><a href="#re-register-agent">Re-registering Agents</a></li>
+          
+            <li><a href="#how-to-remove-agent">Removing Agents</a></li>
           
         </ul>
         
@@ -162,7 +193,7 @@
   <div class="breadcrumb">
     <a href="../">Documentation</a>
     
-      <a href="../">Our Security Rating System</a>
+      <a href="../">Security Rating System</a>
     
     
   </div>
@@ -180,19 +211,19 @@
 
       <div class="row">
         <form class="col-sm-12 columns">
-          <input type="text" placeholder="Search..." autofocus="autofocus">
+          <input type="text" placeholder="Search..." autofocus="autofocus" id="algolia-input" autocorrect="off" autocapitalize="none" spellcheck="false" autocomplete="off">
           <input value="Search" type="submit" class="hidden">
           
         </form>
       </div>
 
-      <div class="row" id="searchResults">
+      <div class="row" id="searchResults" class="results">
         <div class="col-sm-2 column">&nbsp;</div>
         <div class="col-sm-8 text-center column">
           <h2>Results:</h2>
 
           
-          <ul class="no-bullet">
+          <ul class="no-bullet" id="articles">
             <li><a href="#">Installing an Agent</a></li>
             <li><a href="#">What is an Agent?</a></li>
             <li><a href="#">What Does the Agent See?</a></li>
@@ -230,14 +261,14 @@
       <div class="row">
         <div class="small-1 columns">&nbsp;</div>
         <div class="small-10 columns content-wrap">
-          <h3>Our Security Rating System</h3>
+          <h3>Security Rating System</h3>
           
 
-<p>Our Security Rating System is made to be simple by design so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.</p>
+<p>Our security rating system is made to be simple by design, so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.</p>
 
-<h2 id="ratings:b6b124facba7b461ae5f282c07f9f69f">Ratings</h2>
+<h2 id="ratings:159124d2da0896f1a39f7f69d4d3aeba">Ratings</h2>
 
-<p><img src="../src/img/using-barricade/ratings.png" alt="../src/img/using-barricade/ratings.png" /></p>
+<p><img src="../src/img/using-barricade/ranking.png" alt="../src/img/using-barricade/ranking.png" /></p>
 
 <p>We have split security threats into Events, Attacks and Incidents. We track events, flag attacks, monitor their progress and alert you when they become incidents.</p>
 
@@ -350,6 +381,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="http://localhost:1313/src/js/main.min.js"></script>
   <script src="http://localhost:1313/src/js/analytics.min.js" async></script>
+
 
 </body>
 </html>

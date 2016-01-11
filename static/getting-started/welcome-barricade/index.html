@@ -14,8 +14,7 @@
   <meta property="og:url" content="http://localhost:1313/" />
   <meta property="og:image" content="http://localhost:1313/src/img/security_simplified.png" />
 
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="../../sitemap.xml" />
-
+  
   <link rel="icon" href="http://localhost:1313/src/img/favicon-152.png" type="image/x-icon">
   <link rel="apple-touch-icon-precomposed" href="http://localhost:1313/src/img/apple-touch-icon-precomposed.png">
   <link href="http://localhost:1313/src/css/styles.min.css" rel="stylesheet">
@@ -96,7 +95,7 @@
           
             <li class="active"><a href="#welcome-barricade">Welcome to Barricade!</a></li>
           
-            <li><a href="#deploying-an-agent">Deploying an Agent</a></li>
+            <li><a href="#installing-an-agent">Deploying an Agent</a></li>
           
             <li><a href="#running-commands">Running the Command</a></li>
           
@@ -180,19 +179,19 @@
 
       <div class="row">
         <form class="col-sm-12 columns">
-          <input type="text" placeholder="Search..." autofocus="autofocus">
+          <input type="text" placeholder="Search..." autofocus="autofocus" id="algolia-input" autocorrect="off" autocapitalize="none" spellcheck="false" autocomplete="off">
           <input value="Search" type="submit" class="hidden">
           
         </form>
       </div>
 
-      <div class="row" id="searchResults">
+      <div class="row" id="searchResults" class="results">
         <div class="col-sm-2 column">&nbsp;</div>
         <div class="col-sm-8 text-center column">
           <h2>Results:</h2>
 
           
-          <ul class="no-bullet">
+          <ul class="no-bullet" id="articles">
             <li><a href="#">Installing an Agent</a></li>
             <li><a href="#">What is an Agent?</a></li>
             <li><a href="#">What Does the Agent See?</a></li>
@@ -326,6 +325,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="http://localhost:1313/src/js/main.min.js"></script>
   <script src="http://localhost:1313/src/js/analytics.min.js" async></script>
+
 
 </body>
 </html>

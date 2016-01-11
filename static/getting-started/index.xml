@@ -8,128 +8,40 @@
     <atom:link href="http://localhost:1313/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Creating an Account</title>
-      <link>http://localhost:1313/getting-started/creating-account/</link>
+      <title>Overview</title>
+      <link>http://localhost:1313/getting-started/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/getting-started/creating-account/</guid>
-      <description>&lt;p&gt;To get up and running with Barricade, go to &lt;a href=&#34;https://app.barricade.io/&#34;&gt;app.barricade.io&lt;/a&gt;. First-time visitors will see this screen with account creation instructions:&lt;/p&gt;
+      <guid>http://localhost:1313/getting-started/overview/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;video-container&#34;&gt;
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;100%&#34; height=&#34;auto&#34; src=&#34;https://www.youtube.com/embed/ukTAg2ecO8g&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;p&gt;[IMG]&lt;/p&gt;
+&lt;p&gt;Barricade collects data from your server with an &lt;strong&gt;Agent&lt;/strong&gt; - a simple, lightweight package that watches all network activity on your cloud server.&lt;/p&gt;
 
-&lt;p&gt;If you&amp;rsquo;ve previously created an account, you can login by clicking &lt;em&gt;&amp;lsquo;&lt;a href=&#34;https://app.barricade.io/login&#34;&gt;Already Signed Up&lt;/a&gt;&amp;lsquo;&lt;/em&gt;. To create a new account, you&amp;rsquo;ll be asked for:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;an email address&lt;/li&gt;
-&lt;li&gt;a password &lt;em&gt;(make it a &lt;a href=&#34;https://xkcd.com/936/&#34;&gt;good one&lt;/a&gt;!)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;a credit card&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Providing a Credit Card</title>
-      <link>http://localhost:1313/getting-started/credit-card/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/credit-card/</guid>
-      <description>&lt;p&gt;We require a credit card to verify all signups - but don&amp;rsquo;t worry - we won&amp;rsquo;t charge you anything to your card. With Barricade, &lt;strong&gt;you only pay for what you use&lt;/strong&gt;; and nothing is charged while you&amp;rsquo;re on the free trial plan.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ll notify you every step of the way about your trial and your usage, so there are no hidden charges and you can cancel your account at any time without headaches. See &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;our pricing page&lt;/a&gt; for more information.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about the trial signup or our pricing plans, &lt;a href=&#34;https://barricade.io/about/#contact-info&#34;&gt;let us know&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choosing a Plan</title>
-      <link>http://localhost:1313/getting-started/choosing-plan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/choosing-plan/</guid>
-      <description>&lt;p&gt;You can view the different plan price points by clicking the &amp;lsquo;GB size&amp;rsquo; dropdown menu:&lt;/p&gt;
-
-&lt;p&gt;[IMG]&lt;/p&gt;
-
-&lt;p&gt;Barricade is a &amp;lsquo;pay for what you use&amp;rsquo; service - you pay in terms of your GB usage (bandwidth). Whatever you select here will still be &lt;strong&gt;free to use for your trial period&lt;/strong&gt; - and you can always adjust the plan if you need more or less data over time.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Barricade!</title>
-      <link>http://localhost:1313/getting-started/welcome-barricade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/welcome-barricade/</guid>
-      <description>&lt;p&gt;Once you&amp;rsquo;ve completed the account setup, you&amp;rsquo;ll get a confirmation email from us, and you&amp;rsquo;ll see this screen:&lt;/p&gt;
-
-&lt;p&gt;[IMG]&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;re now inside the Barricade app, where you&amp;rsquo;ll be instructed to deploy your first agent.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deploying an Agent</title>
-      <link>http://localhost:1313/getting-started/deploying-an-agent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/deploying-an-agent/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;ll find the installation command in the top panel of the Barricade app - click the New Agent button to reveal the install code, which you will need to &lt;strong&gt;copy&lt;/strong&gt;, then &lt;strong&gt;paste and run&lt;/strong&gt; on your server.&lt;/p&gt;
-
-&lt;p&gt;[IMG]&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Running the Command</title>
-      <link>http://localhost:1313/getting-started/running-commands/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/running-commands/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re unsure about this, see [LINK NEEDED] &lt;em&gt;&amp;lsquo;[How Do I Run the Install Command]&lt;/em&gt;&amp;rsquo; or check your cloud provider&amp;rsquo;s documentation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agent Detection</title>
-      <link>http://localhost:1313/getting-started/agent-detection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/agent-detection/</guid>
-      <description>&lt;p&gt;Shortly after you run the install command, the Barricade setup screen will update automatically to confirm that the Agent has been detected:&lt;/p&gt;
-
-&lt;p&gt;[IMG]&lt;/p&gt;
-
-&lt;p&gt;Once that&amp;rsquo;s done, you can close the form panel by clicking the &amp;lsquo;X&amp;rsquo; in the top right-hand corner, or click the &amp;lsquo;Install Another&amp;rsquo; button to start over and start additional agents.&lt;/p&gt;
-
-&lt;p&gt;[IMG]&lt;/p&gt;
-
-&lt;p&gt;Now that your Agent is running, your server is being monitored in real-time. Click the discover button to visit your dashboard.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What is an Agent?</title>
-      <link>http://localhost:1313/getting-started/what-is-an-agent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/what-is-an-agent/</guid>
-      <description>
-
-&lt;p&gt;Barricades&amp;rsquo; agent is a simple, lightweight package that checks activity on your cloud server. It quietly monitors, without getting in the way - no need for any code or configuration changes!&lt;/p&gt;
-
-&lt;p&gt;Data is gathered, encrypted and sent from the agent to our platforms’ engine; where it’s immediately analyzed for any suspicious activity - detecting web app attacks, data breaches or intrusion attempts on your server.&lt;/p&gt;
+&lt;p&gt;This data is encrypted and processed through Barricades&amp;rsquo; central detection &lt;strong&gt;Engine&lt;/strong&gt;, and findings are displayed in real-time in your dashboard and notification channels.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/agent-chart-sm.png&#34; alt=&#34;../src/img/getting-started/agent-chart-sm.png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting &lt;a href=&#34;../src/img/getting-started/agent-chart-lg.png&#34;&gt;open in full-size&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting (&lt;a href=&#34;../src/img/getting-started/agent-chart-lg.png&#34;&gt;open in full-size&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How Agents Work</title>
+      <link>http://localhost:1313/getting-started/how-it-works-agent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/how-it-works-agent/</guid>
+      <description>
 
-&lt;h3 id=&#34;how-it-works:d706dc4467121a25c84a38946cbf01ee&#34;&gt;How it Works&lt;/h3&gt;
+&lt;p&gt;Agents quietly monitor, without getting in the way or impacting on your server resources. There is no need for any code or configuration changes to your app.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-agent:d706dc4467121a25c84a38946cbf01ee&#34;&gt;The Agent&lt;/h2&gt;
+&lt;p&gt;Data is gathered, encrypted and sent from the agent to the Barricade platform engine; where it’s immediately analyzed for any suspicious activity - detecting web app attacks, data breaches or intrusion attempts on your server.&lt;/p&gt;
+
+&lt;h2 id=&#34;lightweight-agent:9d5d196026c9b7320d8721a95f202636&#34;&gt;Lightweight Agent&lt;/h2&gt;
 
 &lt;p&gt;The agent sits quietly on your server and keeps an eye on things - the heavy data analysis processes are carried out by our platform’s engine - to ensure your performance isn’t affected.&lt;/p&gt;
 
@@ -144,21 +56,23 @@ the agent focuses on lightweight tasks; formatting and transmitting data to our 
 all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;the-engine:d706dc4467121a25c84a38946cbf01ee&#34;&gt;The Engine&lt;/h2&gt;
+&lt;h2 id=&#34;one-way-agent:9d5d196026c9b7320d8721a95f202636&#34;&gt;One-Way Agent&lt;/h2&gt;
 
-&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
+&lt;p&gt;Don’t worry - Barricade can’t connect to your server and execute commands. By design, the agent communicates out but Barricade can never communicate in.&lt;/p&gt;
 
-&lt;p&gt;As new data comes in, the engine learns about different types of behaviours for your infrastructure and what seems to be normal behaviour based on the services running.&lt;/p&gt;
+&lt;h2 id=&#34;installation:9d5d196026c9b7320d8721a95f202636&#34;&gt;Installation&lt;/h2&gt;
 
-&lt;h2 id=&#34;one-way-agent:d706dc4467121a25c84a38946cbf01ee&#34;&gt;One-Way Agent&lt;/h2&gt;
-
-&lt;p&gt;Don’t worry - Barricade can’t connect to your server and execute commands. The agent will occasionally check the Barricade API.&lt;/p&gt;
-
-&lt;p&gt;By design, the agent communicates out but Barricade can never communicate in.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-can-the-agent-see:d706dc4467121a25c84a38946cbf01ee&#34;&gt;What can the Agent see?&lt;/h2&gt;
-
-&lt;p&gt;The agent gathers data about activity on your servers, and transmits it securely to our engine for real-time analysis.&lt;/p&gt;
+&lt;p&gt;The Agent is installed via a one touch command, which fetches the code, verifies the package signature and installs the agent on your server. For step-by-step installation instructions see the &lt;a href=&#34;#installing-an-agent&#34;&gt;Installing an Agent&lt;/a&gt; guide.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What Can Agents see?</title>
+      <link>http://localhost:1313/getting-started/what-agent-sees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/what-agent-sees/</guid>
+      <description>&lt;p&gt;The agent gathers data about activity on your servers, and transmits it securely to our engine for real-time analysis.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Names and versions of software packages&lt;/li&gt;
@@ -169,19 +83,39 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
 
 &lt;p&gt;Whatever DevOps tools you run, Barricade will detect and observe but not interfere - be it Chef, Puppet, Ansible, docker-composer, Beanstalk, etc.&lt;/p&gt;
 
-&lt;p&gt;The Agent is designed to distill complex machine learning concepts such as artificial neural networks, anomaly detection and ensemble learning into consumable and actionable information.&lt;/p&gt;
-
 &lt;p&gt;Using this information, Barricade tells you immediately if someone is trying to break in, if data is leaving your network when it shouldn&amp;rsquo;t, if your server software is affected by known exploits and much more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Detection Engine</title>
+      <link>http://localhost:1313/getting-started/detection-engine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/detection-engine/</guid>
+      <description>
 
-&lt;h2 id=&#34;installation:d706dc4467121a25c84a38946cbf01ee&#34;&gt;Installation&lt;/h2&gt;
+&lt;h2 id=&#34;the-engine:1ee15659a3f65e32fe78a8006b52d1f9&#34;&gt;The Engine&lt;/h2&gt;
 
-&lt;p&gt;The Agent is installed via a one touch command, which fetches the code, verifies the package signature and installs the agent on your server. For step-by-step installation instructions see our &lt;a href=&#34;LINK&#34;&gt;Getting Started&lt;/a&gt; guide.&lt;/p&gt;
+&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
 
-&lt;p&gt;In the interests of transparency, we will be open sourcing the Agent on our &lt;a href=&#34;https://github.com/barricadeio/&#34;&gt;Github&lt;/a&gt; page in the coming weeks.&lt;/p&gt;
+&lt;p&gt;As new data comes in, the engine learns about different types of behaviours for your infrastructure and what seems to be normal behaviour based on the services running.&lt;/p&gt;
 
-&lt;h3 id=&#34;os-requirements:d706dc4467121a25c84a38946cbf01ee&#34;&gt;OS Requirements&lt;/h3&gt;
+&lt;p&gt;The Engine is designed to distill complex machine learning concepts such as artificial neural networks, anomaly detection and ensemble learning into consumable and actionable information.&lt;/p&gt;
 
-&lt;p&gt;Our Agent supports Ubuntu and CentOS based cloud servers - (common configurations on providers like AWS, Google Cloud Platform, DigitalOcean and Microsoft Azure).&lt;/p&gt;
+&lt;p&gt;For details on the various behaviors &amp;amp; attacks that Barricade detects - &lt;a href=&#34;../security-guide&#34;&gt;see the Security Guide&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OS Compatibility</title>
+      <link>http://localhost:1313/getting-started/os-requirements-compatibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/os-requirements-compatibility/</guid>
+      <description>
+
+&lt;p&gt;Our Agent supports &lt;strong&gt;Ubuntu&lt;/strong&gt; and &lt;strong&gt;CentOS&lt;/strong&gt; based cloud servers - (common configurations on providers like AWS, Google Cloud Platform, DigitalOcean and Microsoft Azure).&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ubuntu 14.04 LTS (64-bit)&lt;/li&gt;
@@ -191,39 +125,152 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
 &lt;li&gt;CentOS 7.0 (64-bit)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;em&gt;We currently don&amp;rsquo;t support Windows, but it is on our roadmap.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;windows-support:a4289c93faaa8e5b7b34d56ee7e26c25&#34;&gt;Windows Support&lt;/h3&gt;
 
-&lt;h3 id=&#34;running-the-agent-on-docker:d706dc4467121a25c84a38946cbf01ee&#34;&gt;Running the Agent on Docker&lt;/h3&gt;
+&lt;p&gt;We currently don&amp;rsquo;t support Windows servers, but it&amp;rsquo;s on our product roadmap. If you&amp;rsquo;d like to be added to our early access list for Windows, &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;let us know&lt;/a&gt; and we&amp;rsquo;ll keep you informed.&lt;/p&gt;
 
-&lt;p&gt;We are currently testing a new version of our agent that natively runs with Docker. If you are interested in trying it out, please do not hesitate to contact us and we’d be more than happy to let you try it.&lt;/p&gt;
+&lt;h3 id=&#34;running-the-agent-on-docker:a4289c93faaa8e5b7b34d56ee7e26c25&#34;&gt;Running the Agent on Docker&lt;/h3&gt;
 
-&lt;h3 id=&#34;how-do-i-update-the-agent:d706dc4467121a25c84a38946cbf01ee&#34;&gt;How Do I Update the Agent?&lt;/h3&gt;
+&lt;p&gt;We are currently testing a new version of our agent that runs natively on Docker.&lt;/p&gt;
 
-&lt;p&gt;Once installed, you maintain control over the agent - we can’t push code to your server. When new versions of the agent are &lt;a href=&#34;LINK&#34;&gt;released&lt;/a&gt;, the update process is a simple - re-running the install command to grab the latest version. See &lt;a href=&#34;LINK&#34;&gt;Updating Agents&lt;/a&gt; for more info.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll be shipping Docker support in early 2016 - &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;get in touch&lt;/a&gt; if you&amp;rsquo;d like to get early access!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Account Setup</title>
+      <link>http://localhost:1313/getting-started/account-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/account-setup/</guid>
+      <description>&lt;p&gt;To get up and running with Barricade, go to &lt;a href=&#34;https://app.barricade.io/&#34;&gt;app.barricade.io&lt;/a&gt;. First-time visitors will see this screen with account creation instructions:&lt;/p&gt;
 
-&lt;h3 id=&#34;how-can-i-stop-and-start-agents:d706dc4467121a25c84a38946cbf01ee&#34;&gt;How Can I Stop and Start Agents?&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/onboard-1.gif&#34; alt=&#34;../src/img/getting-started/onboard-1.gif&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;We’re releasing this functionality shortly - adding a section within the interface which details the agents you have running, how much data they’re monitoring and introducing the ability to stop and start agents as needed - so you have more control over what’s running on your servers.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;ve previously created an account, you can login by clicking &lt;em&gt;&amp;lsquo;&lt;a href=&#34;https://app.barricade.io/login&#34;&gt;Already Signed Up&lt;/a&gt;&amp;lsquo;&lt;/em&gt;. To create a new account, you&amp;rsquo;ll be asked for:&lt;/p&gt;
 
-&lt;p&gt;For the time being, depending on your operating system you can use the normal service management. For instance, in the case of Ubuntu, you can run &lt;code&gt;service barricade stop&lt;/code&gt;. This does require a manual intervention via SSH.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;an email address&lt;/li&gt;
+&lt;li&gt;a password &lt;em&gt;(make it a &lt;a href=&#34;https://xkcd.com/936/&#34;&gt;good one&lt;/a&gt;!)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;a credit card&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Starting a Trial</title>
+      <link>http://localhost:1313/getting-started/credit-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/credit-card/</guid>
+      <description>&lt;p&gt;We require a credit card to verify all signups - but don&amp;rsquo;t worry - we won&amp;rsquo;t charge you anything to your card. With Barricade, &lt;strong&gt;you only pay for what you use&lt;/strong&gt;; and nothing is charged while you&amp;rsquo;re on the free trial plan.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;service barricade start  
-service barricade stop  
-service barricade restart  
-service barricade status
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We&amp;rsquo;ll notify you every step of the way about your trial and your usage, so there are no hidden charges and you can cancel your account at any time without headaches.&lt;/p&gt;
 
-&lt;h3 id=&#34;how-do-i-remove-an-agent:d706dc4467121a25c84a38946cbf01ee&#34;&gt;How Do I Remove an Agent?&lt;/h3&gt;
+&lt;p&gt;See &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;our pricing page&lt;/a&gt; for more information. If you have any questions about the trial signup or our pricing plans, &lt;a href=&#34;https://barricade.io/about/#contact-info&#34;&gt;let us know&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choose a Plan</title>
+      <link>http://localhost:1313/getting-started/choosing-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/choosing-plan/</guid>
+      <description>&lt;p&gt;You can view the different plan price points by clicking the &amp;lsquo;GB size&amp;rsquo; dropdown menu:&lt;/p&gt;
 
-&lt;p&gt;If you wish to stop monitoring a server, you’ll need to manually remove the Barricade Agent by running a command on your server:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/plans.png&#34; alt=&#34;../src/img/getting-started/plans.png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To remove from an Ubuntu server:&lt;/p&gt;
+&lt;p&gt;Barricade is a &amp;lsquo;pay for what you use&amp;rsquo; service - you pay in terms of your GB usage (bandwidth).&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;dpkg -r barricade&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Whatever you select here will still be &lt;strong&gt;free to use for your trial period&lt;/strong&gt; - and you can always adjust the plan if you need more or less data over time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Confirm Account</title>
+      <link>http://localhost:1313/getting-started/confirm-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/confirm-account/</guid>
+      <description>&lt;p&gt;Once you&amp;rsquo;ve completed the account setup, you&amp;rsquo;ll get a confirmation email from us, and you&amp;rsquo;ll see this screen:&lt;/p&gt;
 
-&lt;p&gt;To remove from a CentOS server:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/welcome.png&#34; alt=&#34;../src/img/getting-started/welcome.png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;rpm -e barricade&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re now inside the Barricade app, where you&amp;rsquo;ll be instructed to install your first agent.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installing an Agent</title>
+      <link>http://localhost:1313/getting-started/installing-an-agent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/installing-an-agent/</guid>
+      <description>
+
+&lt;p&gt;You&amp;rsquo;ll find the installation command in the top panel of the Barricade app - click the New Agent button to reveal the install code, which you will need to &lt;strong&gt;copy&lt;/strong&gt;, then &lt;strong&gt;paste and run&lt;/strong&gt; on your server.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-opening.gif&#34; alt=&#34;../src/img/getting-started/drawer-opening.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-installed:a83c667b22b4f92d7bbe73ddbbd7e7ab&#34;&gt;What is Installed?&lt;/h2&gt;
+
+&lt;p&gt;The install command sets up a Barricade Agent on your server - a simple, lightweight package that is used to monitor activity on your server. See &lt;a href=&#34;#overview&#34;&gt;What is an Agent?&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We will be open sourcing the Agent code on our &lt;a href=&#34;https://github.com/barricadeio/&#34;&gt;Github&lt;/a&gt; page in the coming weeks.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Run Commands</title>
+      <link>http://localhost:1313/getting-started/running-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/running-commands/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re unsure about how to do this, you should refer to your Cloud provider&amp;rsquo;s documentation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html&#34;&gt;Amazon Web Services - Using SSH&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/compute/docs/ssh-in-browser&#34;&gt;Google Cloud Platform - SSH from the Browser&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh&#34;&gt;Digital Ocean - Connect to Your Droplet with SSH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To make an SSH connection, you&amp;rsquo;ll need the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;An SSH client or Command Line Tool&lt;/li&gt;
+&lt;li&gt;Username (usually &lt;em&gt;root&lt;/em&gt; on Linux)&lt;/li&gt;
+&lt;li&gt;Password and/or SSH Key&lt;/li&gt;
+&lt;li&gt;The IP address of your Server&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;An example of the DigitalOcean&amp;rsquo;s in-browser SSH tool, where you would run the command:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/do-ssh.jpeg&#34; alt=&#34;../src/img/getting-started/do-ssh.jpeg&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agent Detection</title>
+      <link>http://localhost:1313/getting-started/agent-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/agent-detection/</guid>
+      <description>&lt;p&gt;Shortly after you run the install command, the Barricade setup screen will update automatically to confirm that the Agent has been detected:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-detection.gif&#34; alt=&#34;../src/img/getting-started/drawer-detection.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once that&amp;rsquo;s done, you can close the form panel by clicking the &amp;lsquo;X&amp;rsquo; in the top right-hand corner, or click the &amp;lsquo;Install Another&amp;rsquo; button to start over and start additional agents.&lt;/p&gt;
+
+&lt;p&gt;Now that your Agent is running, your server is being monitored in real-time. Data will start to appear in your dashboard as activity is detected and analyzed.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Next: &lt;a href=&#34;../using-barricade/&#34;&gt;Using Barricade &amp;gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
@@ -233,12 +280,15 @@ service barricade status
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/getting-started/troubleshooting/</guid>
-      <description>&lt;p&gt;For more information on the Agent and what it does, check out the [LINK NEEDED] [&amp;lsquo;What is an Agent&amp;rsquo; guide.]&lt;/p&gt;
+      <description>&lt;p&gt;For more details on the Agent and how it works, see the &lt;a href=&#34;#overview&#34;&gt;Agent Overview&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Agent is not detected.&lt;/strong&gt;&lt;br /&gt;
+If you&amp;rsquo;re experiencing problems during Agent installation, check that your server is compatible - &lt;a href=&#34;#&#34;&gt;server OS requirements LINK NEEDED&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If your server is compatible, try &lt;a href=&#34;using-barricade/#re-register-agent&#34;&gt;re-registering the agent&lt;/a&gt; or &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;contact us&lt;/a&gt; for help.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not sure how to run the command on a server.&lt;/strong&gt;&lt;br /&gt;
-You&amp;rsquo;ll need to connect to the server via SSH to run the command - see [LINK NEEDED] [our guide] here.&lt;/p&gt;
-
-&lt;p&gt;If you run into any problems that require assistance, you can always contact our team via &lt;a href=&#34;mailto:support@barricade.io&#34;&gt;support@barricade.io&lt;/a&gt;.&lt;/p&gt;
+You&amp;rsquo;ll need to connect to the server via SSH to run the command - see &lt;a href=&#34;#running-commands&#34;&gt;our guide&lt;/a&gt; here.&lt;/p&gt;
 </description>
     </item>
     

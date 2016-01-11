@@ -17,6 +17,7 @@ var gulp = require('gulp'),
     cache = require('gulp-cache'),
     livereload = require('gulp-livereload'),
     del = require('del');
+    xml2json = require('gulp-xml2json');
 
 
 // Copy
@@ -75,7 +76,7 @@ gulp.task('scriptminify', function() {
     .pipe(concat('main.js'))
     .pipe(gulp.dest('static/src/js'))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(gulp.dest('static/src/js'))
     .pipe(notify({ message: 'Script minify task complete' }));
 });
@@ -92,6 +93,15 @@ gulp.task('images', function() {
     .pipe(notify({ message: 'Images task complete' }));
 });
 
+// JSON
+gulp.task('json', function () {
+  return gulp.src('static/index.xml')
+    .pipe(xml2json())
+    .pipe(rename({extname: '.json'}))
+    .pipe(gulp.dest('static/'))
+    .pipe(notify({ message: 'JSON updated' }));
+});
+
 // Clean
 gulp.task('clean', function() {
   return del('static/src/**/*');
@@ -100,7 +110,7 @@ gulp.task('clean', function() {
 
 // Default task
 gulp.task('default', ['clean'],  function() {
-  gulp.start('copy', 'styles', 'scripts', 'images');
+  gulp.start('styles', 'scripts', 'images', 'json', 'copy');
 });
 
 // Watch

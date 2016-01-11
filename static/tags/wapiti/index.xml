@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wapiti on </title>
+    <link>http://localhost:1313/tags/wapiti/</link>
+    <description>Recent content in Wapiti on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://localhost:1313/tags/wapiti/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>C.I. Security Tests</title>
+      <link>http://localhost:1313/using-barricade/ci-sec-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/using-barricade/ci-sec-testing/</guid>
+      <description>
+
+&lt;p&gt;C.I. Security Testing can be used alongside other test suites as you are developing - to better understand which parts of your application network might be at risk.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re big believers in &lt;a href=&#34;https://blog.barricade.io/continuous-security/&#34;&gt;continuous security&lt;/a&gt;, and want to help you incorporate security into the development lifecycle. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../hc/en-us/article_attachments/204251157/Screen_Shot_2015-12-01_at_19.58.09.png&#34; alt=&#34;IMG&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;what-do-security-tests-check-for:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;What do Security Tests check for?&lt;/h3&gt;
+
+&lt;p&gt;The test will check your application network for a series of common vulnerabilities, based on the &lt;a href=&#34;http://wapiti.sourceforge.net/&#34;&gt;Wapiti&lt;/a&gt; scanner:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SQL Injection&lt;/li&gt;
+&lt;li&gt;Cross Site Scripting (XSS)&lt;/li&gt;
+&lt;li&gt;Htaccess Bypass&lt;/li&gt;
+&lt;li&gt;Backup File&lt;/li&gt;
+&lt;li&gt;File Disclosure&lt;/li&gt;
+&lt;li&gt;Potentially Dangerous File&lt;/li&gt;
+&lt;li&gt;CRLF Injection&lt;/li&gt;
+&lt;li&gt;File Handling &lt;/li&gt;
+&lt;li&gt;Commands Execution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note: &lt;em&gt;These checks are to help you identify any security bugs in your app, before they are shipped - but they do not guarantee that your app is fully secure from potential attacks.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;security-tests-with-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Security Tests with Webhooks&lt;/h3&gt;
+
+&lt;p&gt; &lt;img src=&#34;../../hc/en-us/article_attachments/204251978/sectest-settings.gif&#34; alt=&#34;IMG&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;enabling-the-integration:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Enabling the Integration:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Visit the Settings &amp;gt; Integrations &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/csi&#34;&gt;C.I. Security Testing&lt;/a&gt; page.&lt;/li&gt;
+&lt;li&gt;Slide the switch to &lt;strong&gt;enable&lt;/strong&gt; the integration.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Copy&lt;/strong&gt; the webhook url that is generated.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;submitting-tests:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Submitting Tests:&lt;/h2&gt;
+
+&lt;p&gt;To submit a report, you&amp;rsquo;ll need to make a HTTP post request to the webhook URL. Webhooks are user-defined HTTP callbacks - triggered by some an, such as pushing code to a repository.&lt;/p&gt;
+
+&lt;p&gt;Currently, we support Wapiti test results in JSON format.&lt;br /&gt;
+The request body may contain:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;type: &#39;wapiti&#39;, // required, reporting type
+data: &#39;test result&#39;, // required, rtest result in text
+commit_id: &#39;171fdce&#39;, // commit Id
+commit_username: &#39;sakaenakajima&#39;, // username
+commit_organization: &#39;Barricade&#39;, // organization
+commit_repository: &#39;webapp&#39;, // repository name
+commit_branch: &#39;feature-ci-sec&#39;, // branch name
+commit_compare_url: &#39;https://github.com/barricadeio/internal-admin/compare/81c1235767ee...171fdce6f3b0&#39;, // compare URL
+build_number: &#39;1660&#39;, // build number
+build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build URL
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;example-request:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Example Request&lt;/h2&gt;
+
+&lt;p&gt;The following example reads a test result from &lt;code&gt;wapiti.json&lt;/code&gt;, builds a request body and submits it to the webhook.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jq -r &#39;{type:&amp;quot;wapiti&amp;quot;, &amp;quot;data&amp;quot;: tostring}&#39; wapiti.json | curl -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d @- https://app.barricade.io/services/56294f3ef8f68d452e3ce561/csi/dee1aa08-bc80-48ba-844b-1c8c71f0ccdf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;vulnerabilities&amp;quot;:{
+    &amp;quot;Cross Site Scripting&amp;quot;:[
+      {
+        &amp;quot;info&amp;quot;:&amp;quot;XSS vulnerability found via injection in the parameter name&amp;quot;,
+        &amp;quot;http_request&amp;quot;:&amp;quot;GET /page?name=%3Cscript%3Ealert%28%27w2e6ijy9jc%27%29%3C%2Fscript%3E HTTP/1.1\nHost: 172.17.42.1:80\n&amp;quot;,
+        &amp;quot;level&amp;quot;:&amp;quot;1&amp;quot;,
+        &amp;quot;curl_command&amp;quot;:&amp;quot;curl \&amp;quot;http://172.17.42.1:80/page?name=%3Cscript%3Ealert%28%27w2e6ijy9jc%27%29%3C%2Fscript%3E\&amp;quot;&amp;quot;,
+        &amp;quot;path&amp;quot;:&amp;quot;/page&amp;quot;,
+        &amp;quot;parameter&amp;quot;:&amp;quot;name&amp;quot;,
+        &amp;quot;method&amp;quot;:&amp;quot;GET&amp;quot;
+      }
+    ],
+    &amp;quot;Htaccess Bypass&amp;quot;:[
+
+    ],
+    &amp;quot;Backup file&amp;quot;:[
+
+    ],
+    &amp;quot;SQL Injection&amp;quot;:[
+
+    ],
+    &amp;quot;Blind SQL Injection&amp;quot;:[
+
+    ],
+    &amp;quot;File Handling&amp;quot;:[
+
+    ],
+    &amp;quot;Potentially dangerous file&amp;quot;:[
+
+    ],
+    &amp;quot;CRLF Injection&amp;quot;:[
+
+    ],
+    &amp;quot;Commands execution&amp;quot;:[
+
+    ]
+  },
+  &amp;quot;infos&amp;quot;:{
+    &amp;quot;date&amp;quot;:&amp;quot;Mon, 28 Sep 2015 14:26:00 +0000&amp;quot;,
+    &amp;quot;scope&amp;quot;:&amp;quot;folder&amp;quot;,
+    &amp;quot;version&amp;quot;:&amp;quot;Wapiti 2.3.0&amp;quot;,
+    &amp;quot;target&amp;quot;:&amp;quot;http://172.17.42.1:80&amp;quot;
+  },
+  &amp;quot;classifications&amp;quot;:{
+    &amp;quot;Resource consumption&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;CWE-400: Uncontrolled Resource Consumption (&#39;Resource Exhaustion&#39;)&amp;quot;:&amp;quot;http://cwe.mitre.org/data/definitions/400.html&amp;quot;,
+        &amp;quot;http://www.owasp.org/index.php/Asymmetric_resource_consumption_(amplification)&amp;quot;:&amp;quot;http://www.owasp.org/index.php/Asymmetric_resource_consumption_(amplification)&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;The involved script is maybe using the server resources (CPU, memory, network, file access...) in a non-efficient way&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;Resource consumption description&amp;quot;
+    },
+    &amp;quot;Internal Server Error&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;Wikipedia article for 5xx HTTP error codes&amp;quot;:&amp;quot;https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;More information about the error should be found in the server logs.&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;Internal server error description&amp;quot;
+    },
+    &amp;quot;Cross Site Scripting&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;CWE-79: Improper Neutralization of Input During Web Page Generation (&#39;Cross-site Scripting&#39;)&amp;quot;:&amp;quot;http://cwe.mitre.org/data/definitions/79.html&amp;quot;,
+        &amp;quot;http://en.wikipedia.org/wiki/Cross-site_scripting&amp;quot;:&amp;quot;http://en.wikipedia.org/wiki/Cross-site_scripting&amp;quot;,
+        &amp;quot;VulneraNET wiki: Cross Site Scripting Flaw article&amp;quot;:&amp;quot;http://lab.gsi.dit.upm.es/semanticwiki/index.php/Cross_Site_Scripting_Flaw&amp;quot;,
+        &amp;quot;http://www.owasp.org/index.php/Cross_Site_Scripting&amp;quot;:&amp;quot;http://www.owasp.org/index.php/Cross_Site_Scripting&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;The best way to protect a web application from XSS attacks is ensure that the application performs validation of all headers, cookies, query strings, form fields, and hidden fields. Encoding user supplied output in the server side can also defeat XSS vulnerabilities by preventing inserted scripts from being transmitted to users in an executable form. Applications can gain significant protection from javascript based attacks by converting the following characters in all generated output to the appropriate HTML entity encoding: &amp;lt;, &amp;gt;, &amp;amp;, &amp;quot;, &#39;, (, ), #, %, ; , +, -.&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;Cross-site scripting (XSS) is a type of computer security vulnerability typically found in web applications which allow code injection by malicious web users into the web pages viewed by other users. Examples of such code include HTML code and client-side scripts.&amp;quot;
+    },
+    &amp;quot;Htaccess Bypass&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;http://blog.teusink.net/2009/07/common-apache-htaccess-misconfiguration.html&amp;quot;:&amp;quot;http://blog.teusink.net/2009/07/common-apache-htaccess-misconfiguration.html&amp;quot;,
+        &amp;quot;CWE-538: File and Directory Information Exposure&amp;quot;:&amp;quot;http://cwe.mitre.org/data/definitions/538.html&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;Make sure every HTTP method is forbidden if the credentials are bad.&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;htaccess files are used to restrict access to some files or HTTP method. In some case it may be possible to bypass this restriction and access the files.&amp;quot;
+    },
+    &amp;quot;Backup file&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;Testing for Old, Backup and Unreferenced Files (OWASP-CM-006)&amp;quot;:&amp;quot;http://www.owasp.org/index.php/Testing_for_Old,_Backup_and_Unreferenced_Files_(OWASP-CM-006)&amp;quot;,
+        &amp;quot;CWE-530: Exposure of Backup File to an Unauthorized Control Sphere&amp;quot;:&amp;quot;http://cwe.mitre.org/data/definitions/530.html&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;The webadmin must manually delete the backup files or remove it from the web root. He should also reconfigure its editor to deactivate automatic backups.&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;It may be possible to find backup files of scripts on the webserver that the web-admin put here to save a previous version or backup files that are automaticallygenerated by the software editor used (like for example Emacs). These copies may reveal interesting informations like source code or credentials&amp;quot;
+    },
+    &amp;quot;SQL Injection&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;http://www.owasp.org/index.php/SQL_Injection&amp;quot;:&amp;quot;http://www.owasp.org/index.php/SQL_Injection&amp;quot;,
+        &amp;quot;http://en.wikipedia.org/wiki/SQL_injection&amp;quot;:&amp;quot;http://en.wikipedia.org/wiki/SQL_injection&amp;quot;,
+        &amp;quot;CWE-89: Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;)&amp;quot;:&amp;quot;http://cwe.mitre.org/data/definitions/89.html&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;To protect against SQL injection, user input must not directly be embedded in SQL statements. Instead, user input must be escaped or filtered or parameterized statements must be used.&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;SQL injection vulnerabilities allow an attacker to alter the queries executed on the backend database. An attacker may then be able to extract or modify informations stored in the database or even escalate his privileges on the system.&amp;quot;
+    },
+    &amp;quot;Blind SQL Injection&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;CWE-89: Improper Neutralization of Special Elements used in an SQL Command (&#39;SQL Injection&#39;)&amp;quot;:&amp;quot;http://cwe.mitre.org/data/definitions/89.html&amp;quot;,
+        &amp;quot;http://www.imperva.com/resources/adc/blind_sql_server_injection.html&amp;quot;:&amp;quot;http://www.imperva.com/resources/adc/blind_sql_server_injection.html&amp;quot;,
+        &amp;quot;http://www.owasp.org/index.php/Blind_SQL_Injection&amp;quot;:&amp;quot;http://www.owasp.org/index.php/Blind_SQL_Injection&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;To protect against SQL injection, user input must not directly be embedded in SQL statements. Instead, user input must be escaped or filtered or parameterized statements must be used.&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;Blind SQL injection is a technique that exploits a vulnerability occurring in the database of an application. This kind of vulnerability is harder to detect than basic SQL injections because no error message will be displayed on the webpage.&amp;quot;
+    },
+    &amp;quot;File Handling&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;http://www.owasp.org/index.php/Path_Traversal&amp;quot;:&amp;quot;http://www.owasp.org/index.php/Path_Traversal&amp;quot;,
+        &amp;quot;http://www.acunetix.com/websitesecurity/directory-traversal.htm&amp;quot;:&amp;quot;http://www.acunetix.com/websitesecurity/directory-traversal.htm&amp;quot;,
+        &amp;quot;CWE-22: Improper Limitation of a Pathname to a Restricted Directory (&#39;Path Traversal&#39;)&amp;quot;:&amp;quot;http://cwe.mitre.org/data/definitions/22.html&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;Prefer working without user input when using file system calls. Use indexes rather than actual portions of file names when templating or using language files (eg: value 5 from the user submission = Czechoslovakian, rather than expecting the user to return &#39;Czechoslovakian&#39;). Ensure the user cannot supply all parts of the path - surround it with your path code. Validate the user&#39;s input by only accepting known good - do not sanitize the data. Use chrooted jails and code access policies to restrict where the files can be obtained or saved to.&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;This attack is also known as Path or Directory Traversal, its aim is the access to files and directories that are stored outside the web root folder. The attacker tries to explore the directories stored in the web server. The attacker uses some techniques, for instance, the manipulation of variables that reference files with &#39;dot-dot-slash (../)&#39; sequences and its variations to move up to root directory to navigate through the file system.&amp;quot;
+    },
+    &amp;quot;Potentially dangerous file&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;The Open Source Vulnerability Database&amp;quot;:&amp;quot;http://osvdb.org/&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;Make sure the script is up-to-date and restrict access to it if possible&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;A file with potential vulnerabilities has been found on the website.&amp;quot;
+    },
+    &amp;quot;CRLF Injection&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;CWE-93: Improper Neutralization of CRLF Sequences (&#39;CRLF Injection&#39;)&amp;quot;:&amp;quot;http://cwe.mitre.org/data/definitions/93.html&amp;quot;,
+        &amp;quot;http://www.owasp.org/index.php/CRLF_Injection&amp;quot;:&amp;quot;http://www.owasp.org/index.php/CRLF_Injection&amp;quot;,
+        &amp;quot;http://www.acunetix.com/websitesecurity/crlf-injection.htm&amp;quot;:&amp;quot;http://www.acunetix.com/websitesecurity/crlf-injection.htm&amp;quot;,
+        &amp;quot;VulneraNET wiki: CRLF Injection article&amp;quot;:&amp;quot;http://lab.gsi.dit.upm.es/semanticwiki/index.php/CRLF_Injection&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;Check the submitted parameters and do not allow CRLF to be injected by filtering CRLF&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;The term CRLF refers to Carriage Return (ASCII 13, \\r) Line Feed (ASCII 10, \\n). They&#39;re used to note the termination of a line, however, dealt with differently in today&#39;s popular Operating Systems. For example: in Windows both a CR and LF are required to note the end of a line, whereas in Linux/UNIX a LF is only required. This combination of CR and LR is used for example when pressing &#39;Enter&#39; on the keyboard. Depending on the application being used, pressing &#39;Enter&#39; generally instructs the application to start a new line, or to send a command.&amp;quot;
+    },
+    &amp;quot;Commands execution&amp;quot;:{
+      &amp;quot;ref&amp;quot;:{
+        &amp;quot;CWE-78: Improper Neutralization of Special Elements used in an OS Command (&#39;OS Command Injection&#39;)&amp;quot;:&amp;quot;http://cwe.mitre.org/data/definitions/78.html&amp;quot;,
+        &amp;quot;http://www.owasp.org/index.php/Command_Injection&amp;quot;:&amp;quot;http://www.owasp.org/index.php/Command_Injection&amp;quot;
+      },
+      &amp;quot;sol&amp;quot;:&amp;quot;Prefer working without user input when using file system calls&amp;quot;,
+      &amp;quot;desc&amp;quot;:&amp;quot;This attack consists in executing system commands on the server. The attacker tries to inject this commands in the request parameters&amp;quot;
+    }
+  },
+  &amp;quot;anomalies&amp;quot;:{
+    &amp;quot;Resource consumption&amp;quot;:[
+
+    ],
+    &amp;quot;Internal Server Error&amp;quot;:[
+
+    ]
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;troubleshooting-c-i-test-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Troubleshooting C.I. Test Webhooks&lt;/h3&gt;
+
+&lt;p&gt;If you&amp;rsquo;re experiencing issues submitting a test, try generating a new webhook URL on the settings page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../hc/en-us/article_attachments/204252048/regen.gif&#34; alt=&#34;IMG&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

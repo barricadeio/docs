@@ -24,6 +24,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-ruby-sass": "^2.0.6",
     "gulp-uglify": "^1.5.1",
+    "gulp-xml2json": "^0.1.5",
     "jshint": "^2.8.0"
   }
 }

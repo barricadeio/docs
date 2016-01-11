@@ -56,10 +56,11 @@ $bower : '../../../../../bower_components';
 @import "../../../../../bower_components/foundation/scss/foundation/components/offcanvas.scss";
 @import "../../../../../bower_components/foundation/scss/foundation/components/visibility.scss";
 
-// load font awesome
+// font awesome
+// load customized (smaller) set from Fontello, for smaller load
 $fa-font-path: "../fonts" !default;
 @import "../../../../../bower_components/font-awesome/scss/font-awesome.scss";
-
+// @import "fontawesome.scss";
 
 // load barricade styleguide
 @import "../../../../../bower_components/barricade-styleguide/scss/style.scss";

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Update on </title>
+    <link>http://localhost:1313/tags/update/</link>
+    <description>Recent content in Update on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://localhost:1313/tags/update/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing More Agents</title>
+      <link>http://localhost:1313/using-barricade/installing-more-agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/using-barricade/installing-more-agents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Updating Agents</title>
+      <link>http://localhost:1313/using-barricade/updating-agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/using-barricade/updating-agents/</guid>
+      <description>
+
+&lt;p&gt;Agents are designed with strict constraints for security and performance reasons; to send but not to receive. This means that Barricade can never modify an agent running on your server - and neither can anybody else.&lt;/p&gt;
+
+&lt;p&gt;From time to time, we will notify you of updates and improvements, prompting you to run an Agent update to ensure you are running the latest version. You maintain full control over the Agent - we can’t push code to your server.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-update-an-agent:d5151d15c54bda419149e5e798bdf0b2&#34;&gt;How to Update an Agent&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply an update, re-run the install command:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-opening.gif&#34; alt=&#34;../src/img/getting-started/drawer-opening.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click the New Agent button to open the installer section&lt;/li&gt;
+&lt;li&gt;Copy the install command&lt;/li&gt;
+&lt;li&gt;Connect to your server and run the command (&lt;a href=&#34;../getting-started/#installing-an-agent&#34;&gt;see our SSH guide&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;When the install command is finished, the new Agent will be detected automatically &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-detection.gif&#34; alt=&#34;../src/img/getting-started/drawer-detection.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;finding-out-about-updates:d5151d15c54bda419149e5e798bdf0b2&#34;&gt;Finding Out About Updates&lt;/h2&gt;
+
+&lt;p&gt;You can find details of &lt;a href=&#34;../changelog&#34;&gt;Product Changes&lt;/a&gt; and Agent updates &lt;a href=&#34;../changelog&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
