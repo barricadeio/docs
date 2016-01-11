@@ -25,7 +25,7 @@
       <guid>http://localhost:1313/new-barricade-site-lauched/</guid>
       <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/changelog/new-site-01.png&#34; alt=&#34;../src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;{{ baseurl . }}src/img/changelog/new-site-01.png&#34; alt=&#34;{{ baseurl . }}src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -334,32 +334,28 @@ backup
 <p>In the longer term, here are some tips on strengthening your SSH security:  </p>
 
 <ol>
-<li><p><strong>Use SSH Keys instead of Passwords  </strong><br />
+<li><p><strong>Use SSH Keys instead of Passwords</strong><br />
 It&rsquo;s a good idea to use SSH keys to authenticate users, rather than passwords.</p>
 
-<pre class="console">PasswordAuthentication no</pre>
+<p><code>PasswordAuthentication no</code></p>
 
 <p>If you&rsquo;re doing this, be sure you have your keys set properly - you should make sure you&rsquo;re not locking yourself out!</p></li>
 
-<li><p>**Increase Strength<br />
-**Keys default to a key strength of 768 bits - we recommend that use are using at least 1024 or 2048 bit strength.</p>
+<li><p><strong>Increase Strength</strong><br />
+Keys default to a key strength of 768 bits - we recommend that use are using at least 1024 or 2048 bit strength.</p>
 
-<pre class="console">ServerKeyBits 1024</pre>
+<p><code>ServerKeyBits 1024</code></p>
 
 <p>If you change this; you will subsequently need to remove your host keys and SSH will regenerate them when it restarts.</p></li>
 
 <li><p><strong>Restrict Users</strong><br />
-You can configure SSH to permit only certain users to log in. By default all users can access SSH. By using the AllowUsers directive, you can restrict access. I like using this as it provides another layer of security. There is also an AllowGroup directive. Using the group option, you can put all approved SSH users into a group and then allow this group.</p>
-
-<p>```
-AllowUsers root admin webmaster</p>
-
-<ul>
-<li>Or -
-AllowGroup sshusers
-```</li>
-</ul></li>
+You can configure SSH to permit only certain users to log in. By default all users can access SSH. By using the AllowUsers directive, you can restrict access. I like using this as it provides another layer of security. There is also an AllowGroup directive. Using the group option, you can put all approved SSH users into a group and then allow this group.</p></li>
 </ol>
+
+<pre><code>AllowUsers root admin webmaster
+- Or -
+AllowGroup sshusers
+</code></pre>
 
         </div>
         <div class="small-1 columns">&nbsp;</div>

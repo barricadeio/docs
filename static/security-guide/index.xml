@@ -394,32 +394,28 @@ backup
 &lt;p&gt;In the longer term, here are some tips on strengthening your SSH security:  &lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Use SSH Keys instead of Passwords  &lt;/strong&gt;&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Use SSH Keys instead of Passwords&lt;/strong&gt;&lt;br /&gt;
 It&amp;rsquo;s a good idea to use SSH keys to authenticate users, rather than passwords.&lt;/p&gt;
 
-&lt;pre class=&#34;console&#34;&gt;PasswordAuthentication no&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;PasswordAuthentication no&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re doing this, be sure you have your keys set properly - you should make sure you&amp;rsquo;re not locking yourself out!&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;**Increase Strength&lt;br /&gt;
-**Keys default to a key strength of 768 bits - we recommend that use are using at least 1024 or 2048 bit strength.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Increase Strength&lt;/strong&gt;&lt;br /&gt;
+Keys default to a key strength of 768 bits - we recommend that use are using at least 1024 or 2048 bit strength.&lt;/p&gt;
 
-&lt;pre class=&#34;console&#34;&gt;ServerKeyBits 1024&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;ServerKeyBits 1024&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;If you change this; you will subsequently need to remove your host keys and SSH will regenerate them when it restarts.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Restrict Users&lt;/strong&gt;&lt;br /&gt;
-You can configure SSH to permit only certain users to log in. By default all users can access SSH. By using the AllowUsers directive, you can restrict access. I like using this as it provides another layer of security. There is also an AllowGroup directive. Using the group option, you can put all approved SSH users into a group and then allow this group.&lt;/p&gt;
-
-&lt;p&gt;```
-AllowUsers root admin webmaster&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Or -
-AllowGroup sshusers
-```&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+You can configure SSH to permit only certain users to log in. By default all users can access SSH. By using the AllowUsers directive, you can restrict access. I like using this as it provides another layer of security. There is also an AllowGroup directive. Using the group option, you can put all approved SSH users into a group and then allow this group.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;AllowUsers root admin webmaster
+- Or -
+AllowGroup sshusers
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

@@ -66,25 +66,25 @@ If a suspicious SSH login attempt is detected, it’s likely that additional att
 
 In the longer term, here are some tips on strengthening your SSH security:  
 
-1.  **Use SSH Keys instead of Passwords  **  
+1.  **Use SSH Keys instead of Passwords**  
     It's a good idea to use SSH keys to authenticate users, rather than passwords.  
 
-    <pre class="console">PasswordAuthentication no</pre>
+    `PasswordAuthentication no`
 
     If you're doing this, be sure you have your keys set properly - you should make sure you're not locking yourself out!  
 
-2.  **Increase Strength  
-    **Keys default to a key strength of 768 bits - we recommend that use are using at least 1024 or 2048 bit strength.  
+2.  **Increase Strength**  
+    Keys default to a key strength of 768 bits - we recommend that use are using at least 1024 or 2048 bit strength.  
 
-    <pre class="console">ServerKeyBits 1024</pre>
+    `ServerKeyBits 1024`
 
     If you change this; you will subsequently need to remove your host keys and SSH will regenerate them when it restarts.  
 
 3.  **Restrict Users**  
     You can configure SSH to permit only certain users to log in. By default all users can access SSH. By using the AllowUsers directive, you can restrict access. I like using this as it provides another layer of security. There is also an AllowGroup directive. Using the group option, you can put all approved SSH users into a group and then allow this group.  
 
-    ```
-    AllowUsers root admin webmaster
-    - Or -
-    AllowGroup sshusers
-    ```
+```
+AllowUsers root admin webmaster
+- Or -
+AllowGroup sshusers
+```
