@@ -13,7 +13,29 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/using-barricade/installing-more-agents/</guid>
-      <description></description>
+      <description>
+
+&lt;p&gt;During the &lt;a href=&#34;../../hc/en-us/articles/205447438-Getting-Started&#34;&gt;account signup process&lt;/a&gt;, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional  Agents at any time, allowing Barricade to watch over entire clusters of servers.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-install:d11bb84a6614a0a553bc4704d254e434&#34;&gt;How to Install&lt;/h2&gt;
+
+&lt;p&gt;Inside the Barricade &lt;a href=&#34;https://app.barricade.io&#34;&gt;app&lt;/a&gt;, you&amp;rsquo;ll see a New Agent button in the top-right-hand corner:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-opening.gif&#34; alt=&#34;../src/img/getting-started/drawer-opening.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click the New Agent button to open the installer section&lt;/li&gt;
+&lt;li&gt;Copy the install command&lt;/li&gt;
+&lt;li&gt;Connect to your server and run the command (&lt;a href=&#34;../getting-started/#running-commands&#34;&gt;see our SSH guide&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;When the install command is finished, the new Agent will be detected automatically &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-detection.gif&#34; alt=&#34;../src/img/getting-started/drawer-detection.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once detected, you can close the panel by clicking the &amp;lsquo;X&amp;rsquo; icon in the top-right corner, or choose to Install Another.&lt;/p&gt;
+</description>
     </item>
     
     <item>

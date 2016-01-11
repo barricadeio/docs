@@ -149,6 +149,8 @@
           
             <li><a href="#how-to-remove-agent">Removing Agents</a></li>
           
+            <li><a href="#closing-account">Close Account</a></li>
+          
         </ul>
         
       </li>
@@ -263,6 +265,61 @@
         <div class="small-10 columns content-wrap">
           <h3>Hipchat Integration</h3>
           
+
+<p><a href="https://www.hipchat.com/">HipChat</a> is team chat that&rsquo;s actually built for business - a centralized place for group and private chat, file sharing, and integrations.</p>
+
+<p>You can integrate HipChat with Barricade to share security notifications with your team:</p>
+
+<p><img src="../src/img/using-barricade/14-hipchat-01.png" alt="../src/img/using-barricade/14-hipchat-01.png" /></p>
+
+<h3 id="setting-up-the-integration:dca5d5bd8580eafd280a3fc4c35e98a6">Setting up the Integration</h3>
+
+<ol>
+<li>Login to Barricade and go to the Settings &gt; Notifications &gt; <a href="https://app.barricade.io/dashboard/settings/notification/hipchat">HipChat Notifications</a></li>
+
+<li><p>Click on the switch to <strong>Enable</strong> the integration:</p>
+
+<p><img src="../src/img/using-barricade/14-hipchat-enable.gif" alt="../src/img/using-barricade/14-hipchat-enable.gif" /></p></li>
+
+<li><p>Follow the Integration Instructions that appear onscreen -</p></li>
+
+<li><p>Open your Hipchat window, and navigate to the channel you want to send notifications to. We recommend creating a new room named <em>Barricade.</em></p></li>
+
+<li><p>Open the Room options and select <strong>Integrations</strong>.
+<img src="../src/img/using-barricade/14-hipchat-select.png" alt="../src/img/using-barricade/14-hipchat-select.png" /></p></li>
+
+<li><p>From the Integrations page click on <strong>Tokens</strong> in the menu on the right, and you&rsquo;ll see a <strong>Create new token</strong> form appear at the bottom of the page:</p>
+
+<p><img src="../src/img/using-barricade/14-hipchat-set-label.png" alt="../src/img/using-barricade/14-hipchat-set-label.png" /></p>
+
+<p>Set a descriptive label in the text field at the bottom of the page. In the second field, select <em>Send Notification</em> and click <em>Create</em>.</p>
+
+<p><img src="../src/img/using-barricade/14-tokens.gif" alt="../src/img/using-barricade/14-tokens.gif" /></p></li>
+
+<li><p>The page will display a Room Notification Token, a string that looks something like this: <code>9KFell1q8yZpcZTIWwUaDohs4gNfw7C2LHCyHWCT</code></p>
+
+<p><img src="../src/img/using-barricade/14-hipchat-copy-token.png" alt="../src/img/using-barricade/14-hipchat-copy-token.png" /><br />
+<strong>Copy the Token</strong>, and return to the <a href="https://app.barricade.io/dashboard/settings/notification/hipchat">HipChat page</a> in the Barricade app.</p></li>
+
+<li><p>Paste the token into the form, under the Instructions, and add a label for the HipChat channel you wish to post notifications to:</p>
+
+<p><img src="../src/img/using-barricade/14-hipchat-save.gif" alt="../src/img/using-barricade/14-hipchat-save.gif" /></p></li>
+
+<li><p>Click <em>Save Integration</em>.</p></li>
+
+<li><p>You can customize the integration to choose what items get posted to HipChat, by checking the boxes on the right to activate more notifications.</p></li>
+</ol>
+
+<p>&ndash;</p>
+
+<p>By default, only Incidents <em>(our most serious classification)</em> are sent as notifications.</p>
+
+<h3 id="troubleshooting-integrations-isn-t-available-in-hipchat:dca5d5bd8580eafd280a3fc4c35e98a6">Troubleshooting: Integrations isn&rsquo;t available in HipChat</h3>
+
+<p><img src="../src/img/using-barricade/14-hipchat-no-integration.png" alt="../src/img/using-barricade/14-hipchat-no-integration.png" /></p>
+
+<p>In HipChat, accounts can be configured to restrict access to Integration and Token settings. If Integrations appears as a greyed-out, disabled option; you&rsquo;ll need to contact theHipChat account owner.</p>
+
         </div>
         <div class="small-1 columns">&nbsp;</div>
       </div>

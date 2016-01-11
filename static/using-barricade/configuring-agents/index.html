@@ -149,6 +149,8 @@
           
             <li><a href="#how-to-remove-agent">Removing Agents</a></li>
           
+            <li><a href="#closing-account">Close Account</a></li>
+          
         </ul>
         
       </li>
@@ -263,6 +265,47 @@
         <div class="small-10 columns content-wrap">
           <h3>Configuring Agents</h3>
           
+
+<p>By default, Agents are optimized to handle heavy traffic without impacting on the performance of your server - but you can always change the configuration to suit your needs.</p>
+
+<h2 id="configuration-file:a2ef2e10f5bfebd9cd5ff124478bf260">Configuration File</h2>
+
+<p>Config settings can be found and modified in this file on your server: </p>
+
+<p><code>/etc/barricade/barricade.cfg</code></p>
+
+<p>Once updated, a restart is <strong>required</strong> for any changes to take effect:</p>
+
+<p><code>sudo restart barricade</code></p>
+
+<h2 id="configuration-options:a2ef2e10f5bfebd9cd5ff124478bf260">Configuration Options:</h2>
+
+<h3 id="tag:a2ef2e10f5bfebd9cd5ff124478bf260">tag</h3>
+
+<p><em>Tag</em> is an arbitrary config value which can be used to identify and organize your Agents - particularly useful for <a href="#tagging-filtering">Filtering Agents</a>. The default value is <code>production</code>.</p>
+
+<p><code>tag=production</code></p>
+
+<p>You can e.g. to denote <em>development, staging, production environments, &ldquo;commit&rdquo; versions</em>, etc.</p>
+
+<p><code>tag=staging,development,beta</code></p>
+
+<h3 id="high-water-mark:a2ef2e10f5bfebd9cd5ff124478bf260">high_water_mark</h3>
+
+<p>This is the maximum number of packets per second that the agent will send to Barricade. Default value is 10,000 packets per second.</p>
+
+<p><code>high_water_mark=10000</code></p>
+
+<p>After this, the Agent will begin dropping older packets to prioritize the newest information, and emit a warning to this effect in the logs (/var/log/barricade.log on most systems, in journalctl for systemd based systems).</p>
+
+<h2 id="barricade-cfg-troubleshooting:a2ef2e10f5bfebd9cd5ff124478bf260">Barricade.cfg Troubleshooting</h2>
+
+<p><strong>Some options do not appear in my barricade.cfg file.</strong><br />
+Your Agent may not be up to date - ensure you have <a href="#updating-agents">updated to the latest version</a>.</p>
+
+<p><strong>I&rsquo;m not sure how to access the file on a server.</strong><br />
+You&rsquo;ll need connect to the server via SSH to run the command - see <a href="../getting-started/#running-commands">our guide</a> here.</p>
+
         </div>
         <div class="small-1 columns">&nbsp;</div>
       </div>

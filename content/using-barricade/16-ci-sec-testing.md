@@ -15,11 +15,11 @@ slug = "ci-sec-testing"
 
 +++
 
-C.I. Security Testing can be used alongside other test suites as you are developing - to better understand which parts of your application network might be at risk.
+Continuous Integration Security Testing can be used alongside other test suites as you are developing - to better understand which parts of your application network might be at risk.
 
 We're big believers in [continuous security](https://blog.barricade.io/continuous-security/), and want to help you incorporate security into the development lifecycle. 
 
-![IMG](/hc/en-us/article_attachments/204251157/Screen_Shot_2015-12-01_at_19.58.09.png)
+![../src/img/using-barricade/16-sectests.png](../src/img/using-barricade/16-sectests.png)
 
 ### What do Security Tests check for?
 
@@ -39,7 +39,7 @@ Note: _These checks are to help you identify any security bugs in your app, befo
 
 ### Security Tests with Webhooks
 
- ![IMG](/hc/en-us/article_attachments/204251978/sectest-settings.gif)
+ ![../src/img/using-barricade/16-sectest-settings.gif](../src/img/using-barricade/16-sectest-settings.gif)
 
 ## Enabling the Integration:
 
@@ -91,28 +91,20 @@ jq -r '{type:"wapiti", "data": tostring}' wapiti.json | curl -X POST -H "Content
       }
     ],
     "Htaccess Bypass":[
-
     ],
     "Backup file":[
-
     ],
     "SQL Injection":[
-
     ],
     "Blind SQL Injection":[
-
     ],
     "File Handling":[
-
     ],
     "Potentially dangerous file":[
-
     ],
     "CRLF Injection":[
-
     ],
     "Commands execution":[
-
     ]
   },
   "infos":{
@@ -218,10 +210,8 @@ jq -r '{type:"wapiti", "data": tostring}' wapiti.json | curl -X POST -H "Content
   },
   "anomalies":{
     "Resource consumption":[
-
     ],
     "Internal Server Error":[
-
     ]
   }
 }
@@ -231,4 +221,4 @@ jq -r '{type:"wapiti", "data": tostring}' wapiti.json | curl -X POST -H "Content
 
 If you're experiencing issues submitting a test, try generating a new webhook URL on the settings page:
 
-![IMG](/hc/en-us/article_attachments/204252048/regen.gif)
+![../src/img/using-barricade/16-regen.gif](../src/img/using-barricade/16-regen.gif)

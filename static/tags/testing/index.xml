@@ -15,11 +15,11 @@
       <guid>http://localhost:1313/using-barricade/ci-sec-testing/</guid>
       <description>
 
-&lt;p&gt;C.I. Security Testing can be used alongside other test suites as you are developing - to better understand which parts of your application network might be at risk.&lt;/p&gt;
+&lt;p&gt;Continuous Integration Security Testing can be used alongside other test suites as you are developing - to better understand which parts of your application network might be at risk.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re big believers in &lt;a href=&#34;https://blog.barricade.io/continuous-security/&#34;&gt;continuous security&lt;/a&gt;, and want to help you incorporate security into the development lifecycle. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../hc/en-us/article_attachments/204251157/Screen_Shot_2015-12-01_at_19.58.09.png&#34; alt=&#34;IMG&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-sectests.png&#34; alt=&#34;../src/img/using-barricade/16-sectests.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;what-do-security-tests-check-for:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;What do Security Tests check for?&lt;/h3&gt;
 
@@ -41,7 +41,7 @@
 
 &lt;h3 id=&#34;security-tests-with-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Security Tests with Webhooks&lt;/h3&gt;
 
-&lt;p&gt; &lt;img src=&#34;../../hc/en-us/article_attachments/204251978/sectest-settings.gif&#34; alt=&#34;IMG&#34; /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;img src=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; alt=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;enabling-the-integration:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Enabling the Integration:&lt;/h2&gt;
 
@@ -91,28 +91,20 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
       }
     ],
     &amp;quot;Htaccess Bypass&amp;quot;:[
-
     ],
     &amp;quot;Backup file&amp;quot;:[
-
     ],
     &amp;quot;SQL Injection&amp;quot;:[
-
     ],
     &amp;quot;Blind SQL Injection&amp;quot;:[
-
     ],
     &amp;quot;File Handling&amp;quot;:[
-
     ],
     &amp;quot;Potentially dangerous file&amp;quot;:[
-
     ],
     &amp;quot;CRLF Injection&amp;quot;:[
-
     ],
     &amp;quot;Commands execution&amp;quot;:[
-
     ]
   },
   &amp;quot;infos&amp;quot;:{
@@ -218,10 +210,8 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
   },
   &amp;quot;anomalies&amp;quot;:{
     &amp;quot;Resource consumption&amp;quot;:[
-
     ],
     &amp;quot;Internal Server Error&amp;quot;:[
-
     ]
   }
 }
@@ -231,7 +221,7 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 
 &lt;p&gt;If you&amp;rsquo;re experiencing issues submitting a test, try generating a new webhook URL on the settings page:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../hc/en-us/article_attachments/204252048/regen.gif&#34; alt=&#34;IMG&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-regen.gif&#34; alt=&#34;../src/img/using-barricade/16-regen.gif&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

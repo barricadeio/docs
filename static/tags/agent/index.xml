@@ -69,7 +69,48 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/using-barricade/configuring-agents/</guid>
-      <description></description>
+      <description>
+
+&lt;p&gt;By default, Agents are optimized to handle heavy traffic without impacting on the performance of your server - but you can always change the configuration to suit your needs.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration-file:a2ef2e10f5bfebd9cd5ff124478bf260&#34;&gt;Configuration File&lt;/h2&gt;
+
+&lt;p&gt;Config settings can be found and modified in this file on your server: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/etc/barricade/barricade.cfg&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Once updated, a restart is &lt;strong&gt;required&lt;/strong&gt; for any changes to take effect:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo restart barricade&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration-options:a2ef2e10f5bfebd9cd5ff124478bf260&#34;&gt;Configuration Options:&lt;/h2&gt;
+
+&lt;h3 id=&#34;tag:a2ef2e10f5bfebd9cd5ff124478bf260&#34;&gt;tag&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Tag&lt;/em&gt; is an arbitrary config value which can be used to identify and organize your Agents - particularly useful for &lt;a href=&#34;#tagging-filtering&#34;&gt;Filtering Agents&lt;/a&gt;. The default value is &lt;code&gt;production&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;tag=production&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can e.g. to denote &lt;em&gt;development, staging, production environments, &amp;ldquo;commit&amp;rdquo; versions&lt;/em&gt;, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;tag=staging,development,beta&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;high-water-mark:a2ef2e10f5bfebd9cd5ff124478bf260&#34;&gt;high_water_mark&lt;/h3&gt;
+
+&lt;p&gt;This is the maximum number of packets per second that the agent will send to Barricade. Default value is 10,000 packets per second.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;high_water_mark=10000&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;After this, the Agent will begin dropping older packets to prioritize the newest information, and emit a warning to this effect in the logs (/var/log/barricade.log on most systems, in journalctl for systemd based systems).&lt;/p&gt;
+
+&lt;h2 id=&#34;barricade-cfg-troubleshooting:a2ef2e10f5bfebd9cd5ff124478bf260&#34;&gt;Barricade.cfg Troubleshooting&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Some options do not appear in my barricade.cfg file.&lt;/strong&gt;&lt;br /&gt;
+Your Agent may not be up to date - ensure you have &lt;a href=&#34;#updating-agents&#34;&gt;updated to the latest version&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not sure how to access the file on a server.&lt;/strong&gt;&lt;br /&gt;
+You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt;a href=&#34;../getting-started/#running-commands&#34;&gt;our guide&lt;/a&gt; here.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -160,7 +201,29 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/using-barricade/installing-more-agents/</guid>
-      <description></description>
+      <description>
+
+&lt;p&gt;During the &lt;a href=&#34;../../hc/en-us/articles/205447438-Getting-Started&#34;&gt;account signup process&lt;/a&gt;, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional  Agents at any time, allowing Barricade to watch over entire clusters of servers.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-install:d11bb84a6614a0a553bc4704d254e434&#34;&gt;How to Install&lt;/h2&gt;
+
+&lt;p&gt;Inside the Barricade &lt;a href=&#34;https://app.barricade.io&#34;&gt;app&lt;/a&gt;, you&amp;rsquo;ll see a New Agent button in the top-right-hand corner:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-opening.gif&#34; alt=&#34;../src/img/getting-started/drawer-opening.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click the New Agent button to open the installer section&lt;/li&gt;
+&lt;li&gt;Copy the install command&lt;/li&gt;
+&lt;li&gt;Connect to your server and run the command (&lt;a href=&#34;../getting-started/#running-commands&#34;&gt;see our SSH guide&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;When the install command is finished, the new Agent will be detected automatically &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-detection.gif&#34; alt=&#34;../src/img/getting-started/drawer-detection.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once detected, you can close the panel by clicking the &amp;lsquo;X&amp;rsquo; icon in the top-right corner, or choose to Install Another.&lt;/p&gt;
+</description>
     </item>
     
     <item>

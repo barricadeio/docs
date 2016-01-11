@@ -48,9 +48,8 @@
 
 &lt;p&gt;You can change the Tags associated with your Agents in the configuration file, located on your server at &lt;code&gt;/service/barricade/barricade.cfg &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;By default, all Agents start out with one tag: &lt;code&gt;production&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;See &lt;a href=&#34;#configuring-agents&#34;&gt;Configuring Agents&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;By default, all Agents start out with one tag: &lt;code&gt;production&lt;/code&gt;.
+See &lt;a href=&#34;#configuring-agents&#34;&gt;Configuring Agents&lt;/a&gt; for more information.&lt;/p&gt;
 </description>
     </item>
     

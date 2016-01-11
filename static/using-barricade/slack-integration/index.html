@@ -149,6 +149,8 @@
           
             <li><a href="#how-to-remove-agent">Removing Agents</a></li>
           
+            <li><a href="#closing-account">Close Account</a></li>
+          
         </ul>
         
       </li>
@@ -263,6 +265,53 @@
         <div class="small-10 columns content-wrap">
           <h3>Slack Integration</h3>
           
+
+<p><img src="../src/img/using-barricade/13-slack-logo.png" alt="../src/img/using-barricade/13-slack-logo.png" /></p>
+
+<p><a href="https://slack.com">Slack</a> is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications. </p>
+
+<p>You can integrate Slack with Barricade to notify your team when serious security incidents occur:</p>
+
+<p><img src="../src/img/using-barricade/13-slack-message.png" alt="../src/img/using-barricade/13-slack-message.png" /></p>
+
+<h3 id="setting-up-the-integration:39b09a0fb6bc114f8cde3db8390945c8">Setting up the Integration</h3>
+
+<ol>
+<li>Login to Barricade and go to the Settings &gt; Notifications &gt; <a href="https://app.barricade.io/dashboard/settings/notification/slack">Slack Notifications</a></li>
+
+<li><p>Click on the switch to <strong>Enable</strong> the integration:</p>
+
+<p><img src="../src/img/using-barricade/13-slack-enable.gif" alt="../src/img/using-barricade/13-slack-enable.gif" /></p></li>
+
+<li><p>Follow the Integration Instructions that appear onscreen.</p></li>
+
+<li><p>Click the <a href="https://my.slack.com/services/new/incoming-webhook">link to create a new Incoming Webhook</a> on slack.com</p></li>
+
+<li><p>Set a channel for Barricade to post to:</p>
+
+<p><img src="../src/img/using-barricade/13-slack-select-channel.png" alt="../src/img/using-barricade/13-slack-select-channel.png" /></p>
+
+<p>Click the Add button.</p></li>
+
+<li><p><strong>Copy</strong> the Webhook URL that appears under &lsquo;Setup Instructions&rsquo;<br />
+It will look like this:</p>
+
+<pre><code>https://hooks.slack.com/services/A01BCDE23/A01B2CDEF/aB0c1DefGH23iJKl45M6nO7P
+</code></pre></li>
+
+<li><p>Return to the <a href="https://app.barricade.io/dashboard/settings/notification/slack">Slack integration page</a> in the Barricade app.</p></li>
+
+<li><p>Paste the Webhook URL into the form:</p>
+
+<p><img src="../src/img/using-barricade/13-slack-paste.gif" alt="../src/img/using-barricade/13-slack-paste.gif" /></p>
+
+<p>Click <strong>Save Integration</strong>. </p></li>
+
+<li><p>You can customize the integration to choose what items get posted to Slack, by checking the boxes on the right to activate more notifications.</p></li>
+</ol>
+
+<p>By default, only Incidents <em>(our most serious classification)</em> are sent as notifications.</p>
+
         </div>
         <div class="small-1 columns">&nbsp;</div>
       </div>

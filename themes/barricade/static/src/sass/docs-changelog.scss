@@ -16,7 +16,7 @@
   ul#list {
     @include transition;
     list-style: none;
-    margin: 1.5em 0 0 1em;
+    margin: 1.5em 0 0 0;
 
     li {
       background: transparent;
@@ -30,6 +30,8 @@
         border-bottom: none;
         cursor: pointer;
         background: transparent;
+        @include border-radius(0.25em,0.25em);
+        @include transition;
 
         &:hover {
           color: $blue2 !important;
@@ -38,7 +40,7 @@
       }
 
       a {
-        padding: 0.5em 1em 0.5em 3em;
+        padding: 0.5em 1em 0.5em 3.25em;
         display: block;
         position: relative;
 
@@ -49,7 +51,7 @@
           width: 2em;
           height: 2.125em;
           position: absolute;
-          left: -2.667em;
+          left: 0.333em;
           top: 0.275em;
           font-family: "FontAwesome";
           color: white;
