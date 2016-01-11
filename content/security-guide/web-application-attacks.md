@@ -1,5 +1,5 @@
 +++
-title = "Web Application Attacks"
+title = "Web App Attacks"
 weight = "01"
 
 tags = ["security", "cases", "attacks", "recommendations", "web app"]
@@ -25,8 +25,8 @@ Most web application attacks are form-based; attackers will often evaluate web 
 
 Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:
 
-*   [SQL Injection](/hc/en-us/articles/206217047-SQL-Injection-Attacks)
-*   [Cross Site Scripting (XSS)](/hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-)
+*   [SQL Injection](#sql-injection)
+*   [Cross Site Scripting (XSS)](#xss)
 *   Broken Authentication and Session ManagementInsecure Direct Object References
 *   Security Misconfiguration
 *   Sensitive Data Exposure
@@ -35,7 +35,7 @@ Our engine can detect many different types of web application attack, and notifi
 *   Using Components With Known Vulnerabilities
 *   Unvalidated Redirects and Forwards
 
-The most common type of web application attack is [SQL Injection](NEED LINK) - where someone submits SQL commands through a pages' form fields, attempting to perform admin-level actions to the connected database.
+The most common type of web application attack is [SQL Injection](#sql-injection) - where someone submits SQL commands through a pages' form fields, attempting to perform admin-level actions to the connected database.
 
 These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.
 

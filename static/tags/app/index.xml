@@ -5,63 +5,80 @@
     <link>http://localhost:1313/tags/app/</link>
     <description>Recent content in App on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/app/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Added Agent Admin Page</title>
-      <link>http://localhost:1313/agent-admin-page</link>
-      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      <title>System Information Leaks</title>
+      <link>http://localhost:1313/security-guide/system-info-detected/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/agent-admin-page</guid>
+      <guid>http://localhost:1313/security-guide/system-info-detected/</guid>
       <description>
 
-&lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Barricade helps protect your data by checking your traffic for any information leaks - if admin or  config information is output by the application in a response, you will be alerted immediately.&lt;/p&gt;
 
-&lt;p&gt;This section allows you to see what Agents are running, how busy they are and how to control them (stop, start, etc).&lt;/p&gt;
+&lt;h2 id=&#34;causes:1e4513977b3fb19207f4f019eeb5b497&#34;&gt;Causes&lt;/h2&gt;
 
-&lt;p&gt;[IMG]&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s important to keep any information about your systems away from prying eyes - software versions, server information, http headers - anything that could help a hacker learn about your application and the stack it&amp;rsquo;s running has the potential to uncover vulnerabilities that could be exploited.&lt;/p&gt;
 
-&lt;h3 id=&#34;agent-controls:0296e37855114436a18e6976efcf3577&#34;&gt;Agent Controls&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;You can stop and start the agent by running commands on your server - this new Agent section provides instructions on how to do this - see our &lt;a href=&#34;LINK NEEDED&#34;&gt;Agent documentation&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Http Header info in error messages:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;service barricade start  
-service barricade stop  
-service barricade status  
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Added Slack Integration</title>
-      <link>http://localhost:1313/slack-integration</link>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/slack-integration</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/info-leak-01.png&#34; alt=&#34;../src/img/security-guide/info-leak-01.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-logo.png&#34; alt=&#34;../../src/img/changelog/05-slack-logo.png&#34; /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Including developer comments in the page:&lt;/p&gt;
 
-&lt;p&gt;You can integrate Slack with Barricade to share security notifications with you team:&lt;/p&gt;
+&lt;p&gt;e.g. &lt;code&gt;&amp;lt;!-- if image files fails load check 192.168.0.110 --&amp;gt;&lt;/code&gt; &lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-message.png&#34; alt=&#34;../../src/img/changelog/05-slack-message.png&#34; /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Exposing directories:&lt;/p&gt;
 
-&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Integrating with Slack&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Added Teams - Invite &amp; Manage Users</title>
-      <link>http://localhost:1313/added-teams</link>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/added-teams</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve added the ability to invite and manage users to a team account, so you can grant &lt;strong&gt;read-only access&lt;/strong&gt; to your colleagues.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/info-leak-02.png&#34; alt=&#34;../src/img/security-guide/info-leak-02.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/changelog/04-team-invites.gif.png&#34; alt=&#34;../src/img/changelog/04-team-invites.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Information leaks can occur in a variety of ways, depending on what language your app is written in, what software it connects to, etc. Barricade provides a layer of visibility into any weak points you may be presenting to web traffic.&lt;/p&gt;
 
-&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/&#34;&gt;Adding Team Members&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In addition to system information, Barricade also monitors content on your application for any &lt;a href=&#34;#sensitive-info-detected&#34;&gt;Sensitive Information&lt;/a&gt; (e.g. credit card or social security numbers). &lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:1e4513977b3fb19207f4f019eeb5b497&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An attempted information leak was detected - nothing to worry about.&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Low-level information was leaked - review the revealed info.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A serious information leak was detected - a security breach has occurred!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:1e4513977b3fb19207f4f019eeb5b497&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If an Incident or Attack level &lt;em&gt;Information Leak&lt;/em&gt; is detected, we recommend you take immediate action to block the source of the attack, as per the in-app &lt;a href=&#34;https://app.barricade.io/alert&#34;&gt;Alert instructions&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Blocking an IP is a short-term fix; you should immediately follow up by evaluating the issue and taking steps to ensure you pinpoint and strengthen the vulnerability that resulted in the information leak. The case page in the Barricade app will tell you the path at which the leak occurred - you should review that page and the metadata associated with the leak.&lt;/p&gt;
+
+&lt;p&gt;Very often, the source of the leak will be a form that returns debug information as part of the feedback that is returned to the user - perhaps some development code made it into production that shouldn&amp;rsquo;t have - you should test your app&amp;rsquo;s responses and look for any detail that would help a hacker learn about how your app is structured. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Related links:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.owasp.org/index.php/Information_Leakage&#34;&gt;OWASP: Information Leakage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cwe.mitre.org/data/definitions/209.html&#34;&gt;CWE Information Exposure Through an Error Message&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://projects.webappsec.org/w/page/13246936/Information%20Leakage&#34;&gt;WASC Classification: Information Leakage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

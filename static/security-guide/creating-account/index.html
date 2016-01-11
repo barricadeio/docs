@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Web Application Attacks</title>
+  <title>Web App Attacks</title>
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -107,8 +107,6 @@
           
             <li><a href="#installing-an-agent">Installing an Agent</a></li>
           
-            <li><a href="#running-commands">How to Run Commands</a></li>
-          
             <li><a href="#agent-detection">Agent Detection</a></li>
           
             <li><a href="#troubleshooting">Troubleshooting</a></li>
@@ -161,11 +159,27 @@
         
         <ul>
           
-            <li class="active"><a href="#web-app-attack">Web Application Attacks</a></li>
+            <li class="active"><a href="#web-app-attack">Web App Attacks</a></li>
           
             <li><a href="#sql-injection">SQL Injection</a></li>
           
             <li><a href="#xss">Cross-Site Scripting</a></li>
+          
+            <li><a href="#login-default-username">Default Username Attempts</a></li>
+          
+            <li><a href="#login-suspicious-username">Suspicious Login Attempts</a></li>
+          
+            <li><a href="#attempted-ssh-login">Attempted SSH login</a></li>
+          
+            <li><a href="#system-info-detected">System Information Leaks</a></li>
+          
+            <li><a href="#sensitive-info-detected">Sensitive Information Leaks</a></li>
+          
+            <li><a href="#running-commands">How to Run Commands</a></li>
+          
+            <li><a href="#blocking-ip-address">Blocking IP Addresses</a></li>
+          
+            <li><a href="#securing-web-forms">Securing Web Forms</a></li>
           
         </ul>
         
@@ -199,7 +213,7 @@
   <div class="breadcrumb">
     <a href="../">Documentation</a>
     
-      <a href="../">Web Application Attacks</a>
+      <a href="../">Web App Attacks</a>
     
     
   </div>
@@ -267,7 +281,7 @@
       <div class="row">
         <div class="small-1 columns">&nbsp;</div>
         <div class="small-10 columns content-wrap">
-          <h3>Web Application Attacks</h3>
+          <h3>Web App Attacks</h3>
           
 
 <p>A web application attack is any technique that&rsquo;s used to target websites, web applications and web services with malicious intent.</p>
@@ -281,8 +295,8 @@
 <p>Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:</p>
 
 <ul>
-<li><a href="../../hc/en-us/articles/206217047-SQL-Injection-Attacks">SQL Injection</a></li>
-<li><a href="../../hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-">Cross Site Scripting (XSS)</a></li>
+<li><a href="#sql-injection">SQL Injection</a></li>
+<li><a href="#xss">Cross Site Scripting (XSS)</a></li>
 <li>Broken Authentication and Session ManagementInsecure Direct Object References</li>
 <li>Security Misconfiguration</li>
 <li>Sensitive Data Exposure</li>
@@ -292,7 +306,7 @@
 <li>Unvalidated Redirects and Forwards</li>
 </ul>
 
-<p>The most common type of web application attack is <a href="NEED LINK">SQL Injection</a> - where someone submits SQL commands through a pages&rsquo; form fields, attempting to perform admin-level actions to the connected database.</p>
+<p>The most common type of web application attack is <a href="#sql-injection">SQL Injection</a> - where someone submits SQL commands through a pages&rsquo; form fields, attempting to perform admin-level actions to the connected database.</p>
 
 <p>These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.</p>
 

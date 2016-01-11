@@ -15,82 +15,53 @@
       <guid>http://localhost:1313/security-guide/xss/</guid>
       <description>
 
-&lt;p&gt;A web application attack is any technique that&amp;rsquo;s used to target websites, web applications and web services with malicious intent.&lt;/p&gt;
-
-&lt;p&gt;Barricade monitors for a variety of Web Application Attacks on your app server - suspicious activity is examined in real-time and Alerts are sent if a legitimate attack is detected.&lt;/p&gt;
+&lt;p&gt;Barricade monitors for Cross-Site Scripting attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
 
 &lt;h2 id=&#34;causes:28b5a5504725bb25df95cbcb50cdc6a9&#34;&gt;Causes&lt;/h2&gt;
 
-&lt;p&gt;Most web application attacks are form-based; attackers will often evaluate web forms as potential gateways as they seek out vulnerable systems to access. Barricade monitors this type of network traffic closely for any suspicious behavioural patterns.&lt;/p&gt;
+&lt;p&gt;Cross-Site Scripting is a common method used by attackers as they seek vulnerable systems to access. These &amp;lsquo;XSS&amp;rsquo; attacks involve submitting web forms with scripts and commands inserted into the input fields; in an effort to upload and embed scripts into someone&amp;rsquo;s website or app.&lt;/p&gt;
 
-&lt;p&gt;Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../../hc/en-us/articles/206217047-SQL-Injection-Attacks&#34;&gt;SQL Injection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../../hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-&#34;&gt;Cross Site Scripting (XSS)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Broken Authentication and Session ManagementInsecure Direct Object References&lt;/li&gt;
-&lt;li&gt;Security Misconfiguration&lt;/li&gt;
-&lt;li&gt;Sensitive Data Exposure&lt;/li&gt;
-&lt;li&gt;Missing Function Level Access Control&lt;/li&gt;
-&lt;li&gt;Cross-Site Request Forgeries&lt;/li&gt;
-&lt;li&gt;Using Components With Known Vulnerabilities&lt;/li&gt;
-&lt;li&gt;Unvalidated Redirects and Forwards&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The most common type of web application attack is &lt;a href=&#34;NEED LINK&#34;&gt;SQL Injection&lt;/a&gt; - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
-
-&lt;p&gt;These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.&lt;/p&gt;
+&lt;p&gt;When successful, these scripts can be used to attack other visitors, who unknowingly load the script when they visit the infected webpage or app. Comment forms and media uploaders are often targetted by these kinds of attacks - the scripts used range in size and purpose, but have the potential to be quite destructive if successful.&lt;/p&gt;
 
 &lt;h2 id=&#34;risk-levels:28b5a5504725bb25df95cbcb50cdc6a9&#34;&gt;Risk Levels&lt;/h2&gt;
 
 &lt;table class=&#34;risk&#34;&gt;
-
 &lt;tbody&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-
-&lt;td&gt;A failed attack was detected - normally bot activity on your server&lt;/td&gt;
-
+&lt;td&gt;A failed XSS attack was detected&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-
-&lt;td&gt;A series of failed attacks failed injection attacks were detected&lt;/td&gt;
-
+&lt;td&gt;Multiple failed XSS attacks were detected&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-
-&lt;td&gt;A successful attack was detected - a security breach has occurred!&lt;/td&gt;
-
+&lt;td&gt;A successful XSS attack occurred - possible security breach&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;/tbody&gt;
-
 &lt;/table&gt;
 
 &lt;h2 id=&#34;recommendations:28b5a5504725bb25df95cbcb50cdc6a9&#34;&gt;Recommendations&lt;/h2&gt;
 
-&lt;p&gt;If an Incident or Attack level &lt;em&gt;web app attack&lt;/em&gt; is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. &lt;/p&gt;
+&lt;p&gt;If Cross-Site Scripting attacks are detected, we recommend you take immediate action to block the source of the attack, as per the in-app &lt;a href=&#34;https://app.barricade.io/alert&#34;&gt;Alert instructions&lt;/a&gt;. &lt;/p&gt;
 
-&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilities that an attacker could exploit (e.g. forms that are open to Cross-Site Scripting or SQL Injection techniques). &lt;/p&gt;
+&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilites that an injection attack could exploit. &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Secure Your Forms&lt;/strong&gt;&lt;br /&gt;
-The best way to safeguard against these types of attacks in the longer term is to understand how these attacks operate, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Securing Your Forms&lt;/strong&gt;&lt;br /&gt;
+The best way to safeguard against XSS attacks in the long term is to understand how these attacks work, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
 
-&lt;p&gt;Developers should use validation techniques such as &lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Mitigation&#34;&gt;parameterized statements, escaping and pattern checking&lt;/a&gt; to build forms that cannot be exploited through SQL Injection.&lt;/p&gt;
+&lt;p&gt;Developers should ensure to &lt;a href=&#34;https://en.wikipedia.org/wiki/Cross-site_scripting#Reducing_the_threat&#34;&gt;properly escape and validate form field inputs&lt;/a&gt; to remove the possibility of exploits. It&amp;rsquo;s also a good idea to testing your app for vulnerabilities on a regular basis, to find and reinforce any points of weakness.&lt;/p&gt;
 
 &lt;p&gt;Related links:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection Attack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#xss&#34;&gt;Cross-Site Scripting Attacks (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#blocking-ip-address&#34;&gt;Blocking Attacker IP Addresses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#secure-web-forms&#34;&gt;Removing Vulnerabilities in Forms&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -103,88 +74,66 @@ The best way to safeguard against these types of attacks in the longer term is t
       <guid>http://localhost:1313/security-guide/sql-injection/</guid>
       <description>
 
-&lt;p&gt;A web application attack is any technique that&amp;rsquo;s used to target websites, web applications and web services with malicious intent.&lt;/p&gt;
-
-&lt;p&gt;Barricade monitors for a variety of Web Application Attacks on your app server - suspicious activity is examined in real-time and Alerts are sent if a legitimate attack is detected.&lt;/p&gt;
+&lt;p&gt;Barricade monitors for SQL Injection attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
 
 &lt;h2 id=&#34;causes:e1b0a7b80dcc638ec866ac29b27d6ca9&#34;&gt;Causes&lt;/h2&gt;
 
-&lt;p&gt;Most web application attacks are form-based; attackers will often evaluate web forms as potential gateways as they seek out vulnerable systems to access. Barricade monitors this type of network traffic closely for any suspicious behavioural patterns.&lt;/p&gt;
+&lt;p&gt;Web forms are often targetted by attackers as they seek out vulnerable systems to access. The most common technique used in such attacks is SQL Injection - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
 
-&lt;p&gt;Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;See our infographic for a visual explanation of SQL Injection attacks &amp;gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../../hc/en-us/articles/206217047-SQL-Injection-Attacks&#34;&gt;SQL Injection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../../hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-&#34;&gt;Cross Site Scripting (XSS)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Broken Authentication and Session ManagementInsecure Direct Object References&lt;/li&gt;
-&lt;li&gt;Security Misconfiguration&lt;/li&gt;
-&lt;li&gt;Sensitive Data Exposure&lt;/li&gt;
-&lt;li&gt;Missing Function Level Access Control&lt;/li&gt;
-&lt;li&gt;Cross-Site Request Forgeries&lt;/li&gt;
-&lt;li&gt;Using Components With Known Vulnerabilities&lt;/li&gt;
-&lt;li&gt;Unvalidated Redirects and Forwards&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;&lt;img src=&#34;../src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; alt=&#34;../src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The most common type of web application attack is &lt;a href=&#34;NEED LINK&#34;&gt;SQL Injection&lt;/a&gt; - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
-
-&lt;p&gt;These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.&lt;/p&gt;
+&lt;p&gt;These attacks are common, and can be quite destructive - if successful, an attacker can interact with your database and steal or even erase sensitive data.&lt;/p&gt;
 
 &lt;h2 id=&#34;risk-levels:e1b0a7b80dcc638ec866ac29b27d6ca9&#34;&gt;Risk Levels&lt;/h2&gt;
 
 &lt;table class=&#34;risk&#34;&gt;
-
 &lt;tbody&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-
-&lt;td&gt;A failed attack was detected - normally bot activity on your server&lt;/td&gt;
-
+&lt;td&gt;A failed SQL Injection attack was detected&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-
-&lt;td&gt;A series of failed attacks failed injection attacks were detected&lt;/td&gt;
-
+&lt;td&gt;Multiple failed injection attacks were detected&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-
-&lt;td&gt;A successful attack was detected - a security breach has occurred!&lt;/td&gt;
-
+&lt;td&gt;A successful SQL Injection attack occurred - possible security breach&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;/tbody&gt;
-
 &lt;/table&gt;
 
 &lt;h2 id=&#34;recommendations:e1b0a7b80dcc638ec866ac29b27d6ca9&#34;&gt;Recommendations&lt;/h2&gt;
 
-&lt;p&gt;If an Incident or Attack level &lt;em&gt;web app attack&lt;/em&gt; is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. &lt;/p&gt;
+&lt;p&gt;If SQL Injection attacks are detected, we recommend you take immediate action to block the source of the attack, as per the in-app &lt;a href=&#34;https://app.barricade.io/alert&#34;&gt;Alert instructions&lt;/a&gt;. &lt;/p&gt;
 
-&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilities that an attacker could exploit (e.g. forms that are open to Cross-Site Scripting or SQL Injection techniques). &lt;/p&gt;
+&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilites that an injection attack could exploit. &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Secure Your Forms&lt;/strong&gt;&lt;br /&gt;
-The best way to safeguard against these types of attacks in the longer term is to understand how these attacks operate, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
+The best way to safeguard against SQL Injection attacks in the longer term is to understand how these attacks work, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
 
 &lt;p&gt;Developers should use validation techniques such as &lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Mitigation&#34;&gt;parameterized statements, escaping and pattern checking&lt;/a&gt; to build forms that cannot be exploited through SQL Injection.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Database Backups&lt;/strong&gt;&lt;br /&gt;
+SQL Injection is just one of many techniques that can pose a threat to you and your data. It&amp;rsquo;s important to capture and securely store database backups to reduce the potential risk of a successful attack. &lt;/p&gt;
 
 &lt;p&gt;Related links:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection Attack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#xss&#34;&gt;Cross-Site Scripting Attacks (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#blocking-ip-address&#34;&gt;Blocking Attacker IP Addresses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#securing-web-forms&#34;&gt;Removing Vulnerabilities in Forms&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Web Application Attacks</title>
+      <title>Web App Attacks</title>
       <link>http://localhost:1313/security-guide/creating-account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -202,8 +151,8 @@ The best way to safeguard against these types of attacks in the longer term is t
 &lt;p&gt;Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../../hc/en-us/articles/206217047-SQL-Injection-Attacks&#34;&gt;SQL Injection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../../hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-&#34;&gt;Cross Site Scripting (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#xss&#34;&gt;Cross Site Scripting (XSS)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Broken Authentication and Session ManagementInsecure Direct Object References&lt;/li&gt;
 &lt;li&gt;Security Misconfiguration&lt;/li&gt;
 &lt;li&gt;Sensitive Data Exposure&lt;/li&gt;
@@ -213,7 +162,7 @@ The best way to safeguard against these types of attacks in the longer term is t
 &lt;li&gt;Unvalidated Redirects and Forwards&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The most common type of web application attack is &lt;a href=&#34;NEED LINK&#34;&gt;SQL Injection&lt;/a&gt; - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
+&lt;p&gt;The most common type of web application attack is &lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection&lt;/a&gt; - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
 
 &lt;p&gt;These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.&lt;/p&gt;
 

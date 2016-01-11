@@ -56,9 +56,15 @@
     .feature-box a {
       margin-bottom: 0.5em;
       min-height: auto;
+      background-size: 35px auto;
+
+      &:after {
+        top: 0.925em;
+      }
 
       h4 {
         font-size: $scalex5;
+        margin: 0.25em 0;
       }
 
       p {

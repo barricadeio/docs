@@ -109,8 +109,6 @@
           
             <li><a href="#installing-an-agent">Installing an Agent</a></li>
           
-            <li><a href="#running-commands">How to Run Commands</a></li>
-          
             <li><a href="#agent-detection">Agent Detection</a></li>
           
             <li><a href="#troubleshooting">Troubleshooting</a></li>
@@ -163,11 +161,27 @@
         
         <ul>
           
-            <li><a href="#web-app-attack">Web Application Attacks</a></li>
+            <li><a href="#web-app-attack">Web App Attacks</a></li>
           
             <li><a href="#sql-injection">SQL Injection</a></li>
           
             <li><a href="#xss">Cross-Site Scripting</a></li>
+          
+            <li><a href="#login-default-username">Default Username Attempts</a></li>
+          
+            <li><a href="#login-suspicious-username">Suspicious Login Attempts</a></li>
+          
+            <li><a href="#attempted-ssh-login">Attempted SSH login</a></li>
+          
+            <li><a href="#system-info-detected">System Information Leaks</a></li>
+          
+            <li><a href="#sensitive-info-detected">Sensitive Information Leaks</a></li>
+          
+            <li><a href="#running-commands">How to Run Commands</a></li>
+          
+            <li><a href="#blocking-ip-address">Blocking IP Addresses</a></li>
+          
+            <li><a href="#securing-web-forms">Securing Web Forms</a></li>
           
         </ul>
         
@@ -275,7 +289,7 @@
 
           
             <article id="creating-account">
-  <h1 class="post-title">Web Application Attacks</h1>
+  <h1 class="post-title">Web App Attacks</h1>
   <div>
 
 <p>A web application attack is any technique that&rsquo;s used to target websites, web applications and web services with malicious intent.</p>
@@ -289,8 +303,8 @@
 <p>Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:</p>
 
 <ul>
-<li><a href="../hc/en-us/articles/206217047-SQL-Injection-Attacks">SQL Injection</a></li>
-<li><a href="../hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-">Cross Site Scripting (XSS)</a></li>
+<li><a href="#sql-injection">SQL Injection</a></li>
+<li><a href="#xss">Cross Site Scripting (XSS)</a></li>
 <li>Broken Authentication and Session ManagementInsecure Direct Object References</li>
 <li>Security Misconfiguration</li>
 <li>Sensitive Data Exposure</li>
@@ -300,7 +314,7 @@
 <li>Unvalidated Redirects and Forwards</li>
 </ul>
 
-<p>The most common type of web application attack is <a href="NEED LINK">SQL Injection</a> - where someone submits SQL commands through a pages&rsquo; form fields, attempting to perform admin-level actions to the connected database.</p>
+<p>The most common type of web application attack is <a href="#sql-injection">SQL Injection</a> - where someone submits SQL commands through a pages&rsquo; form fields, attempting to perform admin-level actions to the connected database.</p>
 
 <p>These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.</p>
 
@@ -362,82 +376,60 @@ The best way to safeguard against these types of attacks in the longer term is t
   <h1 class="post-title">SQL Injection</h1>
   <div>
 
-<p>A web application attack is any technique that&rsquo;s used to target websites, web applications and web services with malicious intent.</p>
-
-<p>Barricade monitors for a variety of Web Application Attacks on your app server - suspicious activity is examined in real-time and Alerts are sent if a legitimate attack is detected.</p>
+<p>Barricade monitors for SQL Injection attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  </p>
 
 <h2 id="causes:e1b0a7b80dcc638ec866ac29b27d6ca9">Causes</h2>
 
-<p>Most web application attacks are form-based; attackers will often evaluate web forms as potential gateways as they seek out vulnerable systems to access. Barricade monitors this type of network traffic closely for any suspicious behavioural patterns.</p>
+<p>Web forms are often targetted by attackers as they seek out vulnerable systems to access. The most common technique used in such attacks is SQL Injection - where someone submits SQL commands through a pages&rsquo; form fields, attempting to perform admin-level actions to the connected database.</p>
 
-<p>Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:</p>
+<p><a href="https://blog.barricade.io/sql-injection-attacks-visually-explained/">See our infographic for a visual explanation of SQL Injection attacks &gt;</a></p>
 
-<ul>
-<li><a href="../hc/en-us/articles/206217047-SQL-Injection-Attacks">SQL Injection</a></li>
-<li><a href="../hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-">Cross Site Scripting (XSS)</a></li>
-<li>Broken Authentication and Session ManagementInsecure Direct Object References</li>
-<li>Security Misconfiguration</li>
-<li>Sensitive Data Exposure</li>
-<li>Missing Function Level Access Control</li>
-<li>Cross-Site Request Forgeries</li>
-<li>Using Components With Known Vulnerabilities</li>
-<li>Unvalidated Redirects and Forwards</li>
-</ul>
+<p><a href="https://blog.barricade.io/sql-injection-attacks-visually-explained/"><img src="../src/img/security-guide/sqlinjection-thumbnail-home-750.png" alt="../src/img/security-guide/sqlinjection-thumbnail-home-750.png" /></a></p>
 
-<p>The most common type of web application attack is <a href="NEED LINK">SQL Injection</a> - where someone submits SQL commands through a pages&rsquo; form fields, attempting to perform admin-level actions to the connected database.</p>
-
-<p>These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.</p>
+<p>These attacks are common, and can be quite destructive - if successful, an attacker can interact with your database and steal or even erase sensitive data.</p>
 
 <h2 id="risk-levels:e1b0a7b80dcc638ec866ac29b27d6ca9">Risk Levels</h2>
 
 <table class="risk">
-
 <tbody>
-
 <tr>
 <td><em> </em></td>
 <td><strong>Event</strong></td>
-
-<td>A failed attack was detected - normally bot activity on your server</td>
-
+<td>A failed SQL Injection attack was detected</td>
+<td> </td>
 </tr>
-
 <tr>
 <td><em> </em></td>
 <td><strong>Attack</strong></td>
-
-<td>A series of failed attacks failed injection attacks were detected</td>
-
+<td>Multiple failed injection attacks were detected</td>
 </tr>
-
 <tr>
 <td><em> </em></td>
 <td><strong>Incident</strong></td>
-
-<td>A successful attack was detected - a security breach has occurred!</td>
-
+<td>A successful SQL Injection attack occurred - possible security breach</td>
 </tr>
-
 </tbody>
-
 </table>
 
 <h2 id="recommendations:e1b0a7b80dcc638ec866ac29b27d6ca9">Recommendations</h2>
 
-<p>If an Incident or Attack level <em>web app attack</em> is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. </p>
+<p>If SQL Injection attacks are detected, we recommend you take immediate action to block the source of the attack, as per the in-app <a href="https://app.barricade.io/alert">Alert instructions</a>. </p>
 
-<p>In the longer term, it&rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilities that an attacker could exploit (e.g. forms that are open to Cross-Site Scripting or SQL Injection techniques). </p>
+<p>In the longer term, it&rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilites that an injection attack could exploit. </p>
 
 <p><strong>Secure Your Forms</strong><br />
-The best way to safeguard against these types of attacks in the longer term is to understand how these attacks operate, and take preventative measures to ensure your code doesn&rsquo;t offer any vulnerable attack points to would-be-attackers.</p>
+The best way to safeguard against SQL Injection attacks in the longer term is to understand how these attacks work, and take preventative measures to ensure your code doesn&rsquo;t offer any vulnerable attack points to would-be-attackers.</p>
 
 <p>Developers should use validation techniques such as <a href="https://en.wikipedia.org/wiki/SQL_injection#Mitigation">parameterized statements, escaping and pattern checking</a> to build forms that cannot be exploited through SQL Injection.</p>
+
+<p><strong>Database Backups</strong><br />
+SQL Injection is just one of many techniques that can pose a threat to you and your data. It&rsquo;s important to capture and securely store database backups to reduce the potential risk of a successful attack. </p>
 
 <p>Related links:</p>
 
 <ul>
-<li><a href="#sql-injection">SQL Injection Attack</a></li>
-<li><a href="#xss">Cross-Site Scripting Attacks (XSS)</a></li>
+<li><a href="#blocking-ip-address">Blocking Attacker IP Addresses</a></li>
+<li><a href="#securing-web-forms">Removing Vulnerabilities in Forms</a></li>
 </ul>
 </div>
 </article>
@@ -446,82 +438,401 @@ The best way to safeguard against these types of attacks in the longer term is t
   <h1 class="post-title">Cross-Site Scripting</h1>
   <div>
 
-<p>A web application attack is any technique that&rsquo;s used to target websites, web applications and web services with malicious intent.</p>
-
-<p>Barricade monitors for a variety of Web Application Attacks on your app server - suspicious activity is examined in real-time and Alerts are sent if a legitimate attack is detected.</p>
+<p>Barricade monitors for Cross-Site Scripting attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  </p>
 
 <h2 id="causes:28b5a5504725bb25df95cbcb50cdc6a9">Causes</h2>
 
-<p>Most web application attacks are form-based; attackers will often evaluate web forms as potential gateways as they seek out vulnerable systems to access. Barricade monitors this type of network traffic closely for any suspicious behavioural patterns.</p>
+<p>Cross-Site Scripting is a common method used by attackers as they seek vulnerable systems to access. These &lsquo;XSS&rsquo; attacks involve submitting web forms with scripts and commands inserted into the input fields; in an effort to upload and embed scripts into someone&rsquo;s website or app.</p>
 
-<p>Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:</p>
-
-<ul>
-<li><a href="../hc/en-us/articles/206217047-SQL-Injection-Attacks">SQL Injection</a></li>
-<li><a href="../hc/en-us/articles/205447628-Cross-Site-Scripting-Attacks-XSS-">Cross Site Scripting (XSS)</a></li>
-<li>Broken Authentication and Session ManagementInsecure Direct Object References</li>
-<li>Security Misconfiguration</li>
-<li>Sensitive Data Exposure</li>
-<li>Missing Function Level Access Control</li>
-<li>Cross-Site Request Forgeries</li>
-<li>Using Components With Known Vulnerabilities</li>
-<li>Unvalidated Redirects and Forwards</li>
-</ul>
-
-<p>The most common type of web application attack is <a href="NEED LINK">SQL Injection</a> - where someone submits SQL commands through a pages&rsquo; form fields, attempting to perform admin-level actions to the connected database.</p>
-
-<p>These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.</p>
+<p>When successful, these scripts can be used to attack other visitors, who unknowingly load the script when they visit the infected webpage or app. Comment forms and media uploaders are often targetted by these kinds of attacks - the scripts used range in size and purpose, but have the potential to be quite destructive if successful.</p>
 
 <h2 id="risk-levels:28b5a5504725bb25df95cbcb50cdc6a9">Risk Levels</h2>
 
 <table class="risk">
-
 <tbody>
-
 <tr>
 <td><em> </em></td>
 <td><strong>Event</strong></td>
-
-<td>A failed attack was detected - normally bot activity on your server</td>
-
+<td>A failed XSS attack was detected</td>
+<td> </td>
 </tr>
-
 <tr>
 <td><em> </em></td>
 <td><strong>Attack</strong></td>
-
-<td>A series of failed attacks failed injection attacks were detected</td>
-
+<td>Multiple failed XSS attacks were detected</td>
 </tr>
-
 <tr>
 <td><em> </em></td>
 <td><strong>Incident</strong></td>
-
-<td>A successful attack was detected - a security breach has occurred!</td>
-
+<td>A successful XSS attack occurred - possible security breach</td>
 </tr>
-
 </tbody>
-
 </table>
 
 <h2 id="recommendations:28b5a5504725bb25df95cbcb50cdc6a9">Recommendations</h2>
 
-<p>If an Incident or Attack level <em>web app attack</em> is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. </p>
+<p>If Cross-Site Scripting attacks are detected, we recommend you take immediate action to block the source of the attack, as per the in-app <a href="https://app.barricade.io/alert">Alert instructions</a>. </p>
 
-<p>In the longer term, it&rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilities that an attacker could exploit (e.g. forms that are open to Cross-Site Scripting or SQL Injection techniques). </p>
+<p>In the longer term, it&rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilites that an injection attack could exploit. </p>
 
-<p><strong>Secure Your Forms</strong><br />
-The best way to safeguard against these types of attacks in the longer term is to understand how these attacks operate, and take preventative measures to ensure your code doesn&rsquo;t offer any vulnerable attack points to would-be-attackers.</p>
+<p><strong>Securing Your Forms</strong><br />
+The best way to safeguard against XSS attacks in the long term is to understand how these attacks work, and take preventative measures to ensure your code doesn&rsquo;t offer any vulnerable attack points to would-be-attackers.</p>
 
-<p>Developers should use validation techniques such as <a href="https://en.wikipedia.org/wiki/SQL_injection#Mitigation">parameterized statements, escaping and pattern checking</a> to build forms that cannot be exploited through SQL Injection.</p>
+<p>Developers should ensure to <a href="https://en.wikipedia.org/wiki/Cross-site_scripting#Reducing_the_threat">properly escape and validate form field inputs</a> to remove the possibility of exploits. It&rsquo;s also a good idea to testing your app for vulnerabilities on a regular basis, to find and reinforce any points of weakness.</p>
 
 <p>Related links:</p>
 
 <ul>
-<li><a href="#sql-injection">SQL Injection Attack</a></li>
-<li><a href="#xss">Cross-Site Scripting Attacks (XSS)</a></li>
+<li><a href="#blocking-ip-address">Blocking Attacker IP Addresses</a></li>
+<li><a href="#secure-web-forms">Removing Vulnerabilities in Forms</a></li>
+</ul>
+</div>
+</article>
+          
+            <article id="login-default-username">
+  <h1 class="post-title">Default Username Attempts</h1>
+  <div>
+
+<p>Barricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.</p>
+
+<h2 id="causes:69e8a17692cf3f3f17278939bf4b859a">Causes</h2>
+
+<p>Login forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. Default, out-of-the-box usernames like ‘administrator’ make it much easier for attackers to hone in on your login information, and reduce the time needed to run <a href="http://en.wikipedia.org/wiki/Brute-force_attack">Brute Force</a> password attacks.</p>
+
+<pre><code>admin  
+administrator  
+root  
+temp  
+User  
+DBA
+</code></pre>
+
+<p>Some examples from <a href="http://defaultpassword.com">defaultpassword.com</a></p>
+
+<h2 id="risk-levels:69e8a17692cf3f3f17278939bf4b859a">Risk Levels</h2>
+
+<table class="risk">
+<tbody>
+<tr>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
+<td>Single failed login attempt using default credentials</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
+<td>Multiple failed login attempts using default credentials</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
+<td>Successful login using default credentials - possible security breach</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="recommendations:69e8a17692cf3f3f17278939bf4b859a">Recommendations</h2>
+
+<p>If a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the <a href="https://app.barricade.io/dashboard/alerts">Alert instructions</a>.</p>
+
+<p>In the longer term, you can safeguard against these types of attacks by following best practices:</p>
+
+<ul>
+<li>Remove &lsquo;Default&rsquo; Logins from your app</li>
+<li>Create and implementing a strong password policy</li>
+</ul>
+</div>
+</article>
+          
+            <article id="login-suspicious-username">
+  <h1 class="post-title">Suspicious Login Attempts</h1>
+  <div>
+
+<p>Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.</p>
+
+<h2 id="causes:4ca36353a6f3c6800fdfab63af7f15d8">Causes</h2>
+
+<p>Login forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. When certain behavioural patterns are observed, our engine will treat a username as suspicious and create the activity will be reported as a new case.</p>
+
+<p>A username is treated as suspicious when: </p>
+
+<pre><code>username does not exist  
+username has been blocked/locked out  
+username has made many failed login attempts  
+username has failed activity from multiple IP addresses at once
+</code></pre>
+
+<h2 id="risk-levels:4ca36353a6f3c6800fdfab63af7f15d8">Risk Levels</h2>
+
+<table class="risk">
+<tbody>
+<tr>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
+<td>Single failed login attempt using suspicious credentials</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
+<td>Multiple failed login attempts using suspicious credentials</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
+<td>Successful login using suspicious credentials - possible security breach</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="recommendations:4ca36353a6f3c6800fdfab63af7f15d8">Recommendations</h2>
+
+<p>If a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the <a href="https://app.barricade.io/dashboard/alerts">Alert instructions</a>.</p>
+
+<p>In the longer term, you can safeguard against these types of attacks by following best practices:</p>
+
+<ul>
+<li>Remove &lsquo;Default&rsquo; Logins from your app</li>
+<li>Create and implementing a strong password policy</li>
+</ul>
+</div>
+</article>
+          
+            <article id="attempted-ssh-login">
+  <h1 class="post-title">Attempted SSH login</h1>
+  <div>
+
+<p>Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.</p>
+
+<h2 id="causes:d9a02658317d674641ad7be5986b6967">Causes</h2>
+
+<p>SSH servers are commonly targeted by automated bots, as they seek out ways to access vulnerable and badly configured servers. When certain behavioural patterns are observed, our engine will treat a login attempt as suspicious and create the activity will be reported as a new case.</p>
+
+<p>An SSH login attempt is considered suspicious when a login failure is seen multiple times. Furthermore, if an unknown address makes fewer requests Barricade will also consider this suspicious and inform you.</p>
+
+<p>These are ususally repeated login (brute force) attempts, using common usernames:</p>
+
+<pre><code>root
+test
+admin
+oracle
+guest
+mysql
+postgres
+backup
+-etc
+</code></pre>
+
+<h2 id="risk-levels:d9a02658317d674641ad7be5986b6967">Risk Levels</h2>
+
+<table class="risk">
+<tbody>
+<tr>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
+<td>Single failed SSH login attempt</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
+<td>Multiple failed SSH login attempts</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
+<td>Successful SSH login preceded by multiple failed attempts - possible security breach</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="recommendations:d9a02658317d674641ad7be5986b6967">Recommendations</h2>
+
+<p>If a suspicious SSH login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the <a href="https://app.barricade.io/dashboard/alerts">Alert instructions</a>.</p>
+
+<p>In the longer term, here are some tips on strengthening your SSH security:  </p>
+
+<ol>
+<li><p><strong>Use SSH Keys instead of Passwords  </strong><br />
+It&rsquo;s a good idea to use SSH keys to authenticate users, rather than passwords.</p>
+
+<pre class="console">PasswordAuthentication no</pre>
+
+<p>If you&rsquo;re doing this, be sure you have your keys set properly - you should make sure you&rsquo;re not locking yourself out!</p></li>
+
+<li><p>**Increase Strength<br />
+**Keys default to a key strength of 768 bits - we recommend that use are using at least 1024 or 2048 bit strength.</p>
+
+<pre class="console">ServerKeyBits 1024</pre>
+
+<p>If you change this; you will subsequently need to remove your host keys and SSH will regenerate them when it restarts.</p></li>
+
+<li><p><strong>Restrict Users</strong><br />
+You can configure SSH to permit only certain users to log in. By default all users can access SSH. By using the AllowUsers directive, you can restrict access. I like using this as it provides another layer of security. There is also an AllowGroup directive. Using the group option, you can put all approved SSH users into a group and then allow this group.</p>
+
+<p>```
+AllowUsers root admin webmaster</p>
+
+<ul>
+<li>Or -
+AllowGroup sshusers
+```</li>
+</ul></li>
+</ol>
+</div>
+</article>
+          
+            <article id="system-info-detected">
+  <h1 class="post-title">System Information Leaks</h1>
+  <div>
+
+<p>Barricade helps protect your data by checking your traffic for any information leaks - if admin or  config information is output by the application in a response, you will be alerted immediately.</p>
+
+<h2 id="causes:1e4513977b3fb19207f4f019eeb5b497">Causes</h2>
+
+<p>It&rsquo;s important to keep any information about your systems away from prying eyes - software versions, server information, http headers - anything that could help a hacker learn about your application and the stack it&rsquo;s running has the potential to uncover vulnerabilities that could be exploited.</p>
+
+<p><strong>Examples:</strong></p>
+
+<ul>
+<li><p>Http Header info in error messages:</p>
+
+<p><img src="../src/img/security-guide/info-leak-01.png" alt="../src/img/security-guide/info-leak-01.png" /></p></li>
+
+<li><p>Including developer comments in the page:</p>
+
+<p>e.g. <code>&lt;!-- if image files fails load check 192.168.0.110 --&gt;</code> </p></li>
+
+<li><p>Exposing directories:</p>
+
+<p><img src="../src/img/security-guide/info-leak-02.png" alt="../src/img/security-guide/info-leak-02.png" /></p></li>
+</ul>
+
+<p>Information leaks can occur in a variety of ways, depending on what language your app is written in, what software it connects to, etc. Barricade provides a layer of visibility into any weak points you may be presenting to web traffic.</p>
+
+<p>In addition to system information, Barricade also monitors content on your application for any <a href="#sensitive-info-detected">Sensitive Information</a> (e.g. credit card or social security numbers). </p>
+
+<h2 id="risk-levels:1e4513977b3fb19207f4f019eeb5b497">Risk Levels</h2>
+
+<table class="risk">
+<tbody>
+<tr>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
+<td>An attempted information leak was detected - nothing to worry about.</td>
+<td> </td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
+<td>Low-level information was leaked - review the revealed info.</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
+<td>A serious information leak was detected - a security breach has occurred!</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="recommendations:1e4513977b3fb19207f4f019eeb5b497">Recommendations</h2>
+
+<p>If an Incident or Attack level <em>Information Leak</em> is detected, we recommend you take immediate action to block the source of the attack, as per the in-app <a href="https://app.barricade.io/alert">Alert instructions</a>. </p>
+
+<p>Blocking an IP is a short-term fix; you should immediately follow up by evaluating the issue and taking steps to ensure you pinpoint and strengthen the vulnerability that resulted in the information leak. The case page in the Barricade app will tell you the path at which the leak occurred - you should review that page and the metadata associated with the leak.</p>
+
+<p>Very often, the source of the leak will be a form that returns debug information as part of the feedback that is returned to the user - perhaps some development code made it into production that shouldn&rsquo;t have - you should test your app&rsquo;s responses and look for any detail that would help a hacker learn about how your app is structured. </p>
+
+<p><strong>Related links:</strong></p>
+
+<ul>
+<li><a href="https://www.owasp.org/index.php/Information_Leakage">OWASP: Information Leakage</a></li>
+<li><a href="https://cwe.mitre.org/data/definitions/209.html">CWE Information Exposure Through an Error Message</a></li>
+<li><a href="http://projects.webappsec.org/w/page/13246936/Information%20Leakage">WASC Classification: Information Leakage</a></li>
+</ul>
+</div>
+</article>
+          
+            <article id="sensitive-info-detected">
+  <h1 class="post-title">Sensitive Information Leaks</h1>
+  <div>
+
+<p>Barricade helps protect your data by checking for signs of sensitive information. If credit card info or content of a sensitive nature is found to be publicly visible; you will be alerted immediately.</p>
+
+<h2 id="causes:2dfb5d8ba5877632864e4acebaf84d92">Causes</h2>
+
+<p>It&rsquo;s important to keep sensitive information safe online - in the wrong hands, credit card and identifying information can be used to commit fraud and identity theft. </p>
+
+<p>Barricade will help you identify any such exposed information on your systems - if someone posts credit card details to a public-facing part of your website or application, you will be alerted in real time.</p>
+</div>
+</article>
+          
+            <article id="running-commands">
+  <h1 class="post-title">How to Run Commands</h1>
+  <div><p>You&rsquo;ll need to connect to your server via <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> to run the commands - how you go about doing this depends on the type of server you&rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).</p>
+
+<p>If you&rsquo;re unsure about how to do this, you should refer to your Cloud provider&rsquo;s documentation:</p>
+
+<ul>
+<li><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html">Amazon Web Services - Using SSH</a><br /></li>
+<li><a href="https://cloud.google.com/compute/docs/ssh-in-browser">Google Cloud Platform - SSH from the Browser</a><br /></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh">Digital Ocean - Connect to Your Droplet with SSH</a></li>
+</ul>
+
+<p>To make an SSH connection, you&rsquo;ll need the following:</p>
+
+<ol>
+<li>An SSH client or Command Line Tool</li>
+<li>Username (usually <em>root</em> on Linux)</li>
+<li>Password and/or SSH Key</li>
+<li>The IP address of your Server</li>
+</ol>
+
+<p><em>An example of the DigitalOcean&rsquo;s in-browser SSH tool, where you would run the command:</em></p>
+
+<p><img src="../src/img/getting-started/do-ssh.jpeg" alt="../src/img/getting-started/do-ssh.jpeg" /></p>
+</div>
+</article>
+          
+            <article id="blocking-ip-address">
+  <h1 class="post-title">Blocking IP Addresses</h1>
+  <div>
+
+<p>If you&rsquo;re receiving alerts that your system is experiencing an attack, we will often recommend you take action and block the attacker to prevent them from trying again.</p>
+
+<h2 id="how-to-block-an-ip-address:ffe20ac09e209f2525f17858c38b5c25">How to Block an IP Address</h2>
+
+<p>To block an IP address, you&rsquo;ll need to run an <code>IPTABLES</code> command on your server - our Alert messages present this command for you to copy:</p>
+
+<p><img src="../src/img/security-guide/block-ip-01.png" alt="../src/img/security-guide/block-ip-01.png" /></p>
+
+<ol>
+<li>Click the button on the right to copy the command to your clipboard.</li>
+<li>Paste and run the command on your server.</li>
+</ol>
+
+<p>Iptables is a tool for configuring firewall rules in Linux servers - see the <a href="http://ipset.netfilter.org/iptables.man.html">iptables main page</a> for the full list of supported commands.</p>
+
+<h2 id="how-to-run-commands:ffe20ac09e209f2525f17858c38b5c25">How to Run Commands</h2>
+
+<p>If you&rsquo;d not familiar with running commands on your server (using SSH), see the <a href="#running-commands">How to Run Commands on Your Server</a>tips.</p>
+</div>
+</article>
+          
+            <article id="securing-web-forms">
+  <h1 class="post-title">Securing Web Forms</h1>
+  <div><p>Many common security issues can be avoided by keeping your web forms secure from injection and cross-site scripting attacks. </p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Code_injection#Preventing_code_injection">Validation</a> (or sanitization)</li>
+<li><a href="https://en.wikipedia.org/wiki/SQL_injection#Escaping">Escaping</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SQL_injection#Parameterized_statements">Parameterized Statements</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SQL_injection#Pattern_check">Pattern Checking</a></li>
+</ul>
+
+<p>Related links:</p>
+
+<ul>
+<li><a href="#sql-injection">SQL Injection Attacks</a></li>
+<li><a href="#xss">Cross-Site Injection Attacks</a></li>
 </ul>
 </div>
 </article>

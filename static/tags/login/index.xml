@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Login on </title>
+    <link>http://localhost:1313/tags/login/</link>
+    <description>Recent content in Login on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://localhost:1313/tags/login/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Attempted SSH login</title>
+      <link>http://localhost:1313/security-guide/attempted-ssh-login/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/security-guide/attempted-ssh-login/</guid>
+      <description>
+
+&lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:d9a02658317d674641ad7be5986b6967&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;SSH servers are commonly targeted by automated bots, as they seek out ways to access vulnerable and badly configured servers. When certain behavioural patterns are observed, our engine will treat a login attempt as suspicious and create the activity will be reported as a new case.&lt;/p&gt;
+
+&lt;p&gt;An SSH login attempt is considered suspicious when a login failure is seen multiple times. Furthermore, if an unknown address makes fewer requests Barricade will also consider this suspicious and inform you.&lt;/p&gt;
+
+&lt;p&gt;These are ususally repeated login (brute force) attempts, using common usernames:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;root
+test
+admin
+oracle
+guest
+mysql
+postgres
+backup
+-etc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;risk-levels:d9a02658317d674641ad7be5986b6967&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Single failed SSH login attempt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple failed SSH login attempts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Successful SSH login preceded by multiple failed attempts - possible security breach&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:d9a02658317d674641ad7be5986b6967&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If a suspicious SSH login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the &lt;a href=&#34;https://app.barricade.io/dashboard/alerts&#34;&gt;Alert instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the longer term, here are some tips on strengthening your SSH security:  &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Use SSH Keys instead of Passwords  &lt;/strong&gt;&lt;br /&gt;
+It&amp;rsquo;s a good idea to use SSH keys to authenticate users, rather than passwords.&lt;/p&gt;
+
+&lt;pre class=&#34;console&#34;&gt;PasswordAuthentication no&lt;/pre&gt;
+
+&lt;p&gt;If you&amp;rsquo;re doing this, be sure you have your keys set properly - you should make sure you&amp;rsquo;re not locking yourself out!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;**Increase Strength&lt;br /&gt;
+**Keys default to a key strength of 768 bits - we recommend that use are using at least 1024 or 2048 bit strength.&lt;/p&gt;
+
+&lt;pre class=&#34;console&#34;&gt;ServerKeyBits 1024&lt;/pre&gt;
+
+&lt;p&gt;If you change this; you will subsequently need to remove your host keys and SSH will regenerate them when it restarts.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Restrict Users&lt;/strong&gt;&lt;br /&gt;
+You can configure SSH to permit only certain users to log in. By default all users can access SSH. By using the AllowUsers directive, you can restrict access. I like using this as it provides another layer of security. There is also an AllowGroup directive. Using the group option, you can put all approved SSH users into a group and then allow this group.&lt;/p&gt;
+
+&lt;p&gt;```
+AllowUsers root admin webmaster&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Or -
+AllowGroup sshusers
+```&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Default Username Attempts</title>
+      <link>http://localhost:1313/security-guide/login-default-username/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/security-guide/login-default-username/</guid>
+      <description>
+
+&lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Login forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. Default, out-of-the-box usernames like ‘administrator’ make it much easier for attackers to hone in on your login information, and reduce the time needed to run &lt;a href=&#34;http://en.wikipedia.org/wiki/Brute-force_attack&#34;&gt;Brute Force&lt;/a&gt; password attacks.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;admin  
+administrator  
+root  
+temp  
+User  
+DBA
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Some examples from &lt;a href=&#34;http://defaultpassword.com&#34;&gt;defaultpassword.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Single failed login attempt using default credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple failed login attempts using default credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Successful login using default credentials - possible security breach&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the &lt;a href=&#34;https://app.barricade.io/dashboard/alerts&#34;&gt;Alert instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the longer term, you can safeguard against these types of attacks by following best practices:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remove &amp;lsquo;Default&amp;rsquo; Logins from your app&lt;/li&gt;
+&lt;li&gt;Create and implementing a strong password policy&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Suspicious Login Attempts</title>
+      <link>http://localhost:1313/security-guide/login-suspicious-username/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/security-guide/login-suspicious-username/</guid>
+      <description>
+
+&lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:4ca36353a6f3c6800fdfab63af7f15d8&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Login forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. When certain behavioural patterns are observed, our engine will treat a username as suspicious and create the activity will be reported as a new case.&lt;/p&gt;
+
+&lt;p&gt;A username is treated as suspicious when: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;username does not exist  
+username has been blocked/locked out  
+username has made many failed login attempts  
+username has failed activity from multiple IP addresses at once
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;risk-levels:4ca36353a6f3c6800fdfab63af7f15d8&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Single failed login attempt using suspicious credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple failed login attempts using suspicious credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Successful login using suspicious credentials - possible security breach&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:4ca36353a6f3c6800fdfab63af7f15d8&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the &lt;a href=&#34;https://app.barricade.io/dashboard/alerts&#34;&gt;Alert instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the longer term, you can safeguard against these types of attacks by following best practices:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remove &amp;lsquo;Default&amp;rsquo; Logins from your app&lt;/li&gt;
+&lt;li&gt;Create and implementing a strong password policy&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

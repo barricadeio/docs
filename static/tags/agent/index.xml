@@ -166,6 +166,37 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>How to Run Commands</title>
+      <link>http://localhost:1313/security-guide/running-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/security-guide/running-commands/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re unsure about how to do this, you should refer to your Cloud provider&amp;rsquo;s documentation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html&#34;&gt;Amazon Web Services - Using SSH&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/compute/docs/ssh-in-browser&#34;&gt;Google Cloud Platform - SSH from the Browser&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh&#34;&gt;Digital Ocean - Connect to Your Droplet with SSH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To make an SSH connection, you&amp;rsquo;ll need the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;An SSH client or Command Line Tool&lt;/li&gt;
+&lt;li&gt;Username (usually &lt;em&gt;root&lt;/em&gt; on Linux)&lt;/li&gt;
+&lt;li&gt;Password and/or SSH Key&lt;/li&gt;
+&lt;li&gt;The IP address of your Server&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;An example of the DigitalOcean&amp;rsquo;s in-browser SSH tool, where you would run the command:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/do-ssh.jpeg&#34; alt=&#34;../src/img/getting-started/do-ssh.jpeg&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Run Commands</title>
       <link>http://localhost:1313/getting-started/running-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -370,20 +401,6 @@ $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-reg
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Starting a Trial</title>
-      <link>http://localhost:1313/getting-started/credit-card/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/getting-started/credit-card/</guid>
-      <description>&lt;p&gt;We require a credit card to verify all signups - but don&amp;rsquo;t worry - we won&amp;rsquo;t charge you anything to your card. With Barricade, &lt;strong&gt;you only pay for what you use&lt;/strong&gt;; and nothing is charged while you&amp;rsquo;re on the free trial plan.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ll notify you every step of the way about your trial and your usage, so there are no hidden charges and you can cancel your account at any time without headaches.&lt;/p&gt;
-
-&lt;p&gt;See &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;our pricing page&lt;/a&gt; for more information. If you have any questions about the trial signup or our pricing plans, &lt;a href=&#34;https://barricade.io/about/#contact-info&#34;&gt;let us know&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

@@ -54,6 +54,14 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/security-guide/login-default-username/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/security-guide/login-suspicious-username/</loc>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/using-barricade/security-rating-system/</loc>
   </url>
   
@@ -82,6 +90,10 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/security-guide/attempted-ssh-login/</loc>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/using-barricade/hipchat-integration/</loc>
   </url>
   
@@ -95,6 +107,18 @@
   
   <url>
     <loc>http://localhost:1313/using-barricade/ci-sec-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/security-guide/system-info-detected/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/security-guide/sensitive-info-detected/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/security-guide/running-commands/</loc>
   </url>
   
   <url>
@@ -151,6 +175,14 @@
   
   <url>
     <loc>http://localhost:1313/getting-started/agent-detection/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/security-guide/blocking-ip-address/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/security-guide/securing-web-forms/</loc>
   </url>
   
   <url>
