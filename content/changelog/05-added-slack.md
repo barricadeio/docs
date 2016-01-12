@@ -1,5 +1,5 @@
 +++
-date = "2015-07-10"
+date = "2015-07-31"
 title = "Added Slack Integration"
 description = "Changelog - Added Slack Integration"
 url = "slack-integration"

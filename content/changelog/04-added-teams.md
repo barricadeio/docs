@@ -1,5 +1,5 @@
 +++
-date = "2015-07-10"
+date = "2015-07-16"
 title = "Added Teams - Invite & Manage Users"
 description = "Changelog - Added Teams - Invite & Manage Users"
 url = "added-teams"

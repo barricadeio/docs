@@ -5,13 +5,105 @@
     <link>http://localhost:1313/changelog/</link>
     <description>Recent content in Changelog on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/changelog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HTTP Request Insights</title>
+      <link>http://localhost:1313/request-insights</link>
+      <pubDate>Mon, 14 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/request-insights</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve shipped an improvement to our new &amp;lsquo;&lt;a href=&#34;../#app-security-story&#34;&gt;Security Story&lt;/a&gt;&amp;rsquo; App Sec feature, which breaks down the details of the attackers behavior in terms of HTTP requests:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/changelog/21-app-security-story.png&#34; alt=&#34;../src/img/changelog/21-app-security-story.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This change is &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;now live in the app&lt;/a&gt; - you should see the &lt;strong&gt;&amp;lsquo;Reveal Details&amp;rsquo;&lt;/strong&gt; option appearing for different types of cases.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Broader Detection of Attacks</title>
+      <link>http://localhost:1313/broader-app-detection</link>
+      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/broader-app-detection</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve shipped a big update to our detection engine, to improve the criteria for detecting events, attacks and incidents. This will ensure greater coverage for systems being monitored by Barricade.&lt;/p&gt;
+
+&lt;p&gt;These changes will result in improved behavior of our detection engine:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;adds new, wider and smarter criteria for detection&lt;/li&gt;
+&lt;li&gt;improved detection of SSH login attacks&lt;/li&gt;
+&lt;li&gt;better classify different types of web app attack&lt;/li&gt;
+&lt;li&gt;reduces false positives&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;These changes are now live in our central engine - &lt;strong&gt;no action is required on your part.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing the App Security Story</title>
+      <link>http://localhost:1313/app-security-story</link>
+      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/app-security-story</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous Integration Security Test Logs</title>
+      <link>http://localhost:1313/ci-sec-tests</link>
+      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ci-sec-tests</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Changes to Team Permissions</title>
+      <link>http://localhost:1313/changes-to-teams</link>
+      <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/changes-to-teams</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Site Performance Improvements</title>
+      <link>http://localhost:1313/site-performance</link>
+      <pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/site-performance</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Replace Websockets with SEE</title>
+      <link>http://localhost:1313/replace-websockets</link>
+      <pubDate>Wed, 28 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/replace-websockets</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve updated app.barricade.io to use Server Side Events instead of Websockets (socket.io), to address issues with Websocket + CloudFlare.&lt;/p&gt;
+
+&lt;p&gt;Our application doesn&amp;rsquo;t require duplex communication between clients and server, so we switched to a simpler solution - one which means no more errors appearing in the console.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Case Grouping</title>
+      <link>http://localhost:1313/case-grouping</link>
+      <pubDate>Wed, 28 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/case-grouping</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Added AWS Web App Firewall integration</title>
       <link>http://localhost:1313/aws-waf</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/aws-waf</guid>
       <description></description>
@@ -20,7 +112,7 @@
     <item>
       <title>Deal for Incubators and Accelerators</title>
       <link>http://localhost:1313/deal-incubators-accelerators</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/deal-incubators-accelerators</guid>
       <description></description>
@@ -29,7 +121,7 @@
     <item>
       <title>New Pricing - 7 Day Trial</title>
       <link>http://localhost:1313/new-pricing-trial</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/new-pricing-trial</guid>
       <description></description>
@@ -38,7 +130,7 @@
     <item>
       <title>Improved Web App Attack Detection</title>
       <link>http://localhost:1313/improved-engine-attack-detection</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/improved-engine-attack-detection</guid>
       <description></description>
@@ -47,7 +139,7 @@
     <item>
       <title>Universal Tags and Filters</title>
       <link>http://localhost:1313/tags-and-filters</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags-and-filters</guid>
       <description></description>
@@ -56,7 +148,7 @@
     <item>
       <title>Agent Performance Improvements</title>
       <link>http://localhost:1313/agent-performance</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/agent-performance</guid>
       <description></description>
@@ -65,119 +157,9 @@
     <item>
       <title>New Agent Detection Message</title>
       <link>http://localhost:1313/new-agent-detection</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/new-agent-detection</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Email Notification Controls</title>
-      <link>http://localhost:1313/email-notifications</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/email-notifications</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Added Slack Integration</title>
-      <link>http://localhost:1313/slack-integration</link>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/slack-integration</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-logo.png&#34; alt=&#34;../../src/img/changelog/05-slack-logo.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can integrate Slack with Barricade to share security notifications with you team:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-message.png&#34; alt=&#34;../../src/img/changelog/05-slack-message.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Integrating with Slack&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Added Teams - Invite &amp; Manage Users</title>
-      <link>http://localhost:1313/added-teams</link>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/added-teams</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve added the ability to invite and manage users to a team account, so you can grant &lt;strong&gt;read-only access&lt;/strong&gt; to your colleagues.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/changelog/04-team-invites.gif.png&#34; alt=&#34;../src/img/changelog/04-team-invites.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/&#34;&gt;Adding Team Members&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Updated AI Engine</title>
-      <link>http://localhost:1313/updated-ai-engine</link>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/updated-ai-engine</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;re working constantly on the engine to ensure the best results for our customers. If you&amp;rsquo;re seeing any data you&amp;rsquo;re not sure about - do let us know.&lt;/p&gt;
-
-&lt;p&gt;[IMG]&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Added Agent Admin Page</title>
-      <link>http://localhost:1313/agent-admin-page</link>
-      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/agent-admin-page</guid>
-      <description>
-
-&lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This section allows you to see what Agents are running, how busy they are and how to control them (stop, start, etc).&lt;/p&gt;
-
-&lt;p&gt;[IMG]&lt;/p&gt;
-
-&lt;h3 id=&#34;agent-controls:0296e37855114436a18e6976efcf3577&#34;&gt;Agent Controls&lt;/h3&gt;
-
-&lt;p&gt;You can stop and start the agent by running commands on your server - this new Agent section provides instructions on how to do this - see our &lt;a href=&#34;LINK NEEDED&#34;&gt;Agent documentation&lt;/a&gt; for more details.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;service barricade start  
-service barricade stop  
-service barricade status  
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>New Barricade.io Site Launched</title>
-      <link>http://localhost:1313/new-barricade-site-lauched/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/new-barricade-site-lauched/</guid>
-      <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;{{ baseurl . }}src/img/changelog/new-site-01.png&#34; alt=&#34;{{ baseurl . }}src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Product Demo added to Site</title>
-      <link>http://localhost:1313/email-notifications</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/email-notifications</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hipchat Integration</title>
-      <link>http://localhost:1313/added-hipchat</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/added-hipchat</guid>
       <description></description>
     </item>
     

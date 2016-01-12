@@ -1,5 +1,5 @@
 +++
-date = "2015-07-01"
+date = "2015-09-29"
 title = "New Pricing - 7 Day Trial"
 description = "Changelog - New Pricing - 7 Day Trial"
 url = "new-pricing-trial"

@@ -1,5 +1,5 @@
 +++
-date = "2015-07-01"
+date = "2015-08-26"
 title = "Hipchat Integration"
 description = "Changelog - Hipchat Integration"
 url = "added-hipchat"

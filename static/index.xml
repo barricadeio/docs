@@ -5,24 +5,24 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Product Demo added to Site</title>
-      <link>http://localhost:1313/email-notifications</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/email-notifications</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Hipchat Integration</title>
       <link>http://localhost:1313/added-hipchat</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/added-hipchat</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Product Demo added to Site</title>
+      <link>http://localhost:1313/email-notifications</link>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/email-notifications</guid>
       <description></description>
     </item>
     
@@ -243,7 +243,7 @@ SQL Injection is just one of many techniques that can pose a threat to you and y
     <item>
       <title>Added Teams - Invite &amp; Manage Users</title>
       <link>http://localhost:1313/added-teams</link>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/added-teams</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve added the ability to invite and manage users to a team account, so you can grant &lt;strong&gt;read-only access&lt;/strong&gt; to your colleagues.&lt;/p&gt;
@@ -316,7 +316,7 @@ The best way to safeguard against XSS attacks in the long term is to understand
     <item>
       <title>Added Slack Integration</title>
       <link>http://localhost:1313/slack-integration</link>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/slack-integration</guid>
       <description>&lt;p&gt;&lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!&lt;/p&gt;
@@ -334,7 +334,7 @@ The best way to safeguard against XSS attacks in the long term is to understand
     <item>
       <title>Email Notification Controls</title>
       <link>http://localhost:1313/email-notifications</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/email-notifications</guid>
       <description></description>
@@ -343,7 +343,7 @@ The best way to safeguard against XSS attacks in the long term is to understand
     <item>
       <title>New Agent Detection Message</title>
       <link>http://localhost:1313/new-agent-detection</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/new-agent-detection</guid>
       <description></description>
@@ -352,7 +352,7 @@ The best way to safeguard against XSS attacks in the long term is to understand
     <item>
       <title>Agent Performance Improvements</title>
       <link>http://localhost:1313/agent-performance</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/agent-performance</guid>
       <description></description>

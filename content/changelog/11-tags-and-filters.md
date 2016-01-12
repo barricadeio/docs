@@ -1,5 +1,5 @@
 +++
-date = "2015-07-01"
+date = "2015-09-07"
 title = "Universal Tags and Filters"
 description = "Changelog - Universal Tags and Filters"
 url = "tags-and-filters"

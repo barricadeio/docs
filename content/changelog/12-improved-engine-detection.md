@@ -1,5 +1,5 @@
 +++
-date = "2015-07-01"
+date = "2015-09-16"
 title = "Improved Web App Attack Detection"
 description = "Changelog - Improved Web App Attack Detection"
 url = "improved-engine-attack-detection"
