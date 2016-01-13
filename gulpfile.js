@@ -18,6 +18,9 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     del = require('del');
     xml2json = require('gulp-xml2json');
+    streamqueue = require('streamqueue');
+    cssnano = require('gulp-cssnano');
+    sourcemaps = require('gulp-sourcemaps');
 
 
 // Copy
@@ -43,6 +46,9 @@ gulp.task('styles', function() {
     .pipe(gulp.dest('themes/barricade/static/src/css'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(minifycss())
+    .pipe(sourcemaps.init())
+    .pipe(cssnano())
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('static/src/css'))
     .pipe(notify({ message: 'Styles task complete' }));
 });
@@ -68,15 +74,14 @@ gulp.task('scriptconcat', function() {
 });
 gulp.task('scriptminify', function() {
   return gulp.src([
-    'themes/barricade/static/src/js/main.js',
-    'themes/barricade/static/src/js/analytics.js'
+      'themes/barricade/static/src/js/main.js',
+      'themes/barricade/static/src/js/analytics.js'
     ])
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
-    .pipe(concat('main.js'))
-    .pipe(gulp.dest('static/src/js'))
+    // .pipe(concat())
     .pipe(rename({ suffix: '.min' }))
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('static/src/js'))
     .pipe(notify({ message: 'Script minify task complete' }));
 });
@@ -86,11 +91,14 @@ gulp.task('scripts', function() {
 
 // Images
 gulp.task('images', function() {
-  return gulp.src('themes/barricade/static/src/img/**/*')
-    // imagemin can't handle svg?
-    // .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
+  return streamqueue({ objectMode: true },
+    gulp.src('themes/barricade/static/src/img/**/*{.jpg,.png,.gif}')
+    .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
+    .pipe(notify({ message: 'Images minifed' })),
+    gulp.src('themes/barricade/static/src/img/**/*')
+    .pipe(notify({ message: 'Images task complete' }))
     .pipe(gulp.dest('static/src/img'))
-    .pipe(notify({ message: 'Images task complete' }));
+  )
 });
 
 // JSON
@@ -120,7 +128,7 @@ gulp.task('watch', function() {
   gulp.watch('themes/barricade/static/src/sass/**/*.scss', ['styles']);
 
   // Watch .js files
-  gulp.watch('themes/barricade/static/src/js/**/*.js', ['scripts']);
+  gulp.watch('themes/barricade/static/src/js/custom/init.js', ['scripts']);
 
   // Watch image files
   gulp.watch('themes/barricade/static/img/src/**/*.{png,gif,jpg}', ['images']);
@@ -128,7 +136,7 @@ gulp.task('watch', function() {
   // Create LiveReload server
   livereload.listen();
 
-  // Watch any files in dist/, reload on change
+  // Watch any files in static/, reload on change
   gulp.watch(['static/**', 'static/src/**']).on('change', livereload.changed);
 
 });

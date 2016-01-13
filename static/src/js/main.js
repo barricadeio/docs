@@ -2705,6 +2705,13 @@ $(document).ready(function() {
   $(document).foundation();
 
   // search modal
+  $(document).unbind('keyup');
+  $(document).keyup(function(e){
+    if (e.keyCode==27) {
+      $("#searchBar").click();
+    }
+  });
+
   $("#searchBar, .search-overlay-bg, .search-trigger").click( function() {
     if ($('#searchOverlay').hasClass('active')) {
       $('#searchOverlay').removeClass("active");
@@ -2712,16 +2719,6 @@ $(document).ready(function() {
       $('#searchOverlay').addClass("active");
       $('#searchOverlay input[type="text"]').focus();
     }
-  });
-  $(document).keydown(function(e) {
-    if (e.keyCode == 27) {
-      $(".search-trigger").click();
-    }
-  });
-
-  // demo search functionality
-  $('#searchOverlay form input[type=text]').on('input', function() {
-      $("#searchResults").addClass('active');
   });
 
   // algolia search
@@ -2749,15 +2746,25 @@ $(document).ready(function() {
   //   $articles.append('<li>' + content.hits[i].name + '</li>');
   // }
 
+
+  // demo search functionality
+  //
+    // remove this
+    //when algolia is integrated
+
+  $('#searchOverlay form input[type=text]').on('input', function() {
+      $("#searchResults").addClass('active');
+  });
+
+
   // footer
   $(".footer-reveal").click( function() {
     $(".styleguide-footer").toggleClass("footer-expanded");
     $(".container-full").toggleClass("footer-expanded");
   });
 
-
   // change contact us links to intercom chat triggers
-  // (workaround as no ids/classes allowed inside markdown)
+    // (workaround as no ids/classes allowed inside markdown)
   $("article a").each(function() {
     if( $(this).attr("href") == "https://barricade.io/about#contact-info") {
       $(this).attr("href", "");
@@ -2799,7 +2806,7 @@ var lastId,
 
   // Bind click handler to menu items
   // so we can get a fancy scroll animation
-menuItems.click(function(e){
+menuItems.click(function(f){
   var href = $(this).attr("href"),
       offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
   $('html, body').stop().animate({

@@ -148,6 +148,9 @@
 
     ul {
       margin: 2em 20%;
+      overflow: scroll;
+      height: 400px;
+      position: relative;
 
       li {
         a {
