@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Remove on </title>
-    <link>http://barricadeio.github.io/docs/tags/remove/</link>
+    <link>http://localhost:1313/tags/remove/</link>
     <description>Recent content in Remove on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://barricadeio.github.io/docs/tags/remove/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/remove/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Removing Agents</title>
-      <link>http://barricadeio.github.io/docs/using-barricade/how-to-remove-agent/</link>
+      <link>http://localhost:1313/using-barricade/how-to-remove-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/using-barricade/how-to-remove-agent/</guid>
+      <guid>http://localhost:1313/using-barricade/how-to-remove-agent/</guid>
       <description>&lt;p&gt;If you wish to stop monitoring a server, you’ll need to manually remove the Barricade Agent by running a command on your server:&lt;/p&gt;
 
 &lt;p&gt;To remove from an Ubuntu server: &lt;code&gt;dpkg -r barricade&lt;/code&gt;&lt;/p&gt;
