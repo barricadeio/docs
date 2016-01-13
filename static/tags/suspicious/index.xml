@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suspicious on </title>
+    <link>http://docs.barricade.io/tags/suspicious/</link>
+    <description>Recent content in Suspicious on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://docs.barricade.io/tags/suspicious/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Suspicious Login Attempts</title>
+      <link>http://docs.barricade.io/security-guide/login-suspicious-username/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/security-guide/login-suspicious-username/</guid>
+      <description>
+
+&lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:4ca36353a6f3c6800fdfab63af7f15d8&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Login forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. When certain behavioural patterns are observed, our engine will treat a username as suspicious and create the activity will be reported as a new case.&lt;/p&gt;
+
+&lt;p&gt;A username is treated as suspicious when: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;username does not exist  
+username has been blocked/locked out  
+username has made many failed login attempts  
+username has failed activity from multiple IP addresses at once
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;risk-levels:4ca36353a6f3c6800fdfab63af7f15d8&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Single failed login attempt using suspicious credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple failed login attempts using suspicious credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Successful login using suspicious credentials - possible security breach&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:4ca36353a6f3c6800fdfab63af7f15d8&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the &lt;a href=&#34;https://app.barricade.io/dashboard/alerts&#34;&gt;Alert instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the longer term, you can safeguard against these types of attacks by following best practices:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remove &amp;lsquo;Default&amp;rsquo; Logins from your app&lt;/li&gt;
+&lt;li&gt;Create and implementing a strong password policy&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

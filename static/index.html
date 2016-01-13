@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title></title>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta property="og:title" content="Barricade - The security product modern companies have been waiting for. Full Stack Security" />
+  <meta property="og:url" content="http://docs.barricade.io/" />
+  <meta property="og:image" content="http://docs.barricade.io/src/img/security_simplified.png" />
+
+  
+  <link href="http://docs.barricade.io/index.xml" rel="feed" type="application/rss+xml" title="Barricade Docs | Sitemap" />
+  
+  <link rel="icon" href="http://docs.barricade.io/src/img/favicon-152.png" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" href="http://docs.barricade.io/src/img/apple-touch-icon-precomposed.png">
+  <link href="http://docs.barricade.io/src/css/styles.min.css" rel="stylesheet">
+
+  
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'lnv6nit',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+</head>
+
+<body id="landing">
+
+  <div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+
+      <a class="left-off-canvas-toggle show-for-small" href="#off-canvas-navigation">
+        <i class="fa fa-bars"></i>
+      </a>
+      <aside class="left-off-canvas-menu" id="off-canvas-navigation" data-topbar>
+  <div class="drawer-wrap">
+
+  <ul class="off-canvas-list">
+      
+      <li><a href="/getting-started/">Getting Started</a></li>
+      
+      <li><a href="/using-barricade/">Using Barricade</a></li>
+      
+      <li><a href="/security-guide/">Security Guides</a></li>
+      
+      <li><a href="https://styleguide.barricade.io/">Design Style Guide</a></li>
+      
+      <li><a href="/changelog/">Changelog</a></li>
+      
+    </ul>
+
+    <div class="drawer-line"></div>
+
+    <div class="button-wrap">
+      <a href="mailto:support@barricade.io" class="button small primary expand email-support"><i class="fa fa-envelope-o"></i> Email Support</a>
+      <a href="" id="contact-text" class="button small expand primary live-chat"><i class="fa fa-comment-o"></i>  Live Chat</a>
+    </div>
+
+  </div>
+</aside>
+
+  <div class="container container-full">
+    <div class="sidebar hide-for-small-only">
+  <h1>
+    <a href="../">
+      <svg xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink version=1.1 id=Layer_1 x=0px y=0px viewBox="-373 271.7 212 18.3" xml:space=preserve enable-background="new -373 271.7 212 18.3"><style type=text/css>.st0{display:none}.st1{display:inline}.st2{clip-path:url(#SVGID_2_)}</style><g id=png class=st0><g id=xvfUKl.tif class="st1"/></g><g id=Layer_1_1_><g><path d="M-317 286.3v-11.1h3.6c0.7 0 1.3 0.1 1.8 0.2 0.5 0.1 0.9 0.3 1.2 0.6 0.3 0.2 0.6 0.6 0.7 0.9 0.2 0.4 0.2 0.8 0.2 1.2 0 0.3 0 0.5-0.1 0.8 -0.1 0.3-0.2 0.5-0.4 0.7 -0.2 0.2-0.4 0.4-0.7 0.6 -0.3 0.2-0.6 0.3-0.9 0.4 0.8 0.2 1.4 0.5 1.9 0.9 0.4 0.4 0.6 1 0.6 1.7 0 0.5-0.1 0.9-0.3 1.3 -0.2 0.4-0.4 0.7-0.8 1 -0.3 0.3-0.8 0.5-1.2 0.6 -0.5 0.2-1.1 0.2-1.7 0.2H-317L-317 286.3zM-315.5 280.2h2c0.4 0 0.8 0 1.1-0.1 0.4-0.1 0.6-0.3 0.8-0.4 0.2-0.2 0.4-0.4 0.5-0.6 0.1-0.2 0.2-0.5 0.2-0.8 0-0.7-0.2-1.1-0.6-1.4 -0.4-0.3-1-0.5-1.9-0.5h-2.1V280.2L-315.5 280.2zM-315.5 281.3v3.9h2.5c0.4 0 0.8 0 1.1-0.1 0.3-0.1 0.6-0.2 0.8-0.4 0.2-0.2 0.4-0.4 0.4-0.6 0.1-0.2 0.1-0.5 0.1-0.8 0-0.6-0.2-1-0.6-1.4 -0.4-0.3-1-0.5-1.9-0.5L-315.5 281.3 -315.5 281.3z"/><path d="M-277 281.7v4.6h-1.5v-11.1h3.2c0.7 0 1.3 0.1 1.8 0.2 0.5 0.1 1 0.3 1.3 0.6 0.3 0.3 0.6 0.6 0.8 1 0.2 0.4 0.2 0.8 0.2 1.3 0 0.4-0.1 0.8-0.2 1.1 -0.1 0.3-0.3 0.6-0.5 0.9 -0.2 0.3-0.5 0.5-0.9 0.7 -0.3 0.2-0.7 0.3-1.2 0.4 0.2 0.1 0.4 0.3 0.5 0.5l3.3 4.4h-1.4c-0.3 0-0.5-0.1-0.6-0.3l-2.9-4c-0.1-0.1-0.2-0.2-0.3-0.3 -0.1 0-0.2 0-0.5 0H-277L-277 281.7zM-277 280.6h1.6c0.4 0 0.8-0.1 1.2-0.2 0.3-0.1 0.6-0.3 0.9-0.4 0.3-0.1 0.4-0.4 0.5-0.7 0.1-0.3 0.2-0.6 0.2-0.9 0-0.7-0.2-1.2-0.7-1.5 -0.4-0.3-1.1-0.5-2-0.5h-1.7V280.6z"/><path d="M-258.2 281.7v4.6h-1.5v-11.1h3.2c0.7 0 1.3 0.1 1.8 0.2 0.5 0.1 1 0.3 1.3 0.6 0.3 0.3 0.6 0.6 0.8 1 0.2 0.4 0.2 0.8 0.2 1.3 0 0.4-0.1 0.8-0.2 1.1 -0.1 0.3-0.3 0.6-0.5 0.9 -0.2 0.3-0.5 0.5-0.9 0.7 -0.4 0.2-0.7 0.3-1.2 0.4 0.2 0.1 0.4 0.3 0.5 0.5l3.3 4.4h-1.4c-0.3 0-0.5-0.1-0.6-0.3l-2.9-4c-0.1-0.1-0.2-0.2-0.3-0.3 -0.1-0.1-0.3-0.1-0.5-0.1h-1.1V281.7zM-258.2 280.6h1.6c0.4 0 0.8-0.1 1.2-0.2 0.4-0.1 0.6-0.3 0.9-0.4 0.3-0.1 0.4-0.4 0.5-0.7 0.1-0.3 0.2-0.6 0.2-0.9 0-0.7-0.2-1.2-0.7-1.5 -0.4-0.3-1.1-0.5-2-0.5h-1.7V280.6L-258.2 280.6z"/><path d="M-239.2 286.3h-1.5v-11.1h1.5V286.3z"/><path d="M-219.5 284c0.1 0 0.2 0 0.2 0.1l0.6 0.6c-0.5 0.5-1 0.9-1.7 1.2 -0.7 0.3-1.4 0.4-2.4 0.4 -0.8 0-1.5-0.1-2.2-0.4 -0.7-0.3-1.2-0.7-1.7-1.2s-0.8-1.1-1.1-1.8c-0.3-0.7-0.4-1.5-0.4-2.3 0-0.8 0.1-1.6 0.4-2.3 0.3-0.7 0.7-1.3 1.2-1.8s1.1-0.9 1.8-1.2c0.7-0.3 1.5-0.4 2.3-0.4s1.5 0.1 2.1 0.4c0.6 0.3 1.1 0.6 1.6 1l-0.5 0.7c0 0.1-0.1 0.1-0.1 0.1s-0.1 0.1-0.2 0.1c-0.1 0-0.1 0-0.2-0.1 -0.1 0-0.2-0.1-0.3-0.2 -0.1-0.1-0.2-0.1-0.4-0.2 -0.1-0.1-0.3-0.2-0.5-0.2 -0.2-0.1-0.4-0.1-0.7-0.2 -0.3 0-0.6-0.1-0.9-0.1 -0.6 0-1.2 0.1-1.7 0.3 -0.5 0.2-0.9 0.5-1.3 0.9 -0.4 0.4-0.6 0.8-0.8 1.4s-0.3 1.1-0.3 1.8c0 0.7 0.1 1.3 0.3 1.8s0.5 1 0.8 1.4 0.8 0.7 1.2 0.9c0.5 0.2 1 0.3 1.5 0.3 0.3 0 0.6 0 0.9-0.1 0.3 0 0.5-0.1 0.7-0.2s0.4-0.2 0.6-0.3c0.2-0.1 0.4-0.3 0.6-0.5C-219.7 284.1-219.6 284-219.5 284z"/><path d="M-178.7 280.8c0 0.8-0.1 1.6-0.4 2.3 -0.3 0.7-0.6 1.3-1.1 1.7 -0.5 0.5-1.1 0.9-1.8 1.1 -0.7 0.3-1.4 0.4-2.3 0.4h-4.2v-11.1h4.2c0.8 0 1.6 0.1 2.3 0.4 0.7 0.3 1.3 0.6 1.8 1.1s0.9 1.1 1.1 1.7C-178.9 279.2-178.7 279.9-178.7 280.8zM-180.3 280.8c0-0.7-0.1-1.3-0.3-1.8s-0.5-1-0.8-1.4 -0.8-0.7-1.3-0.9 -1-0.3-1.6-0.3h-2.7v8.6h2.7c0.6 0 1.2-0.1 1.6-0.3 0.5-0.2 0.9-0.5 1.3-0.8 0.3-0.4 0.6-0.8 0.8-1.4C-180.4 282.1-180.3 281.5-180.3 280.8z"/><path d="M-161 275.2v1.2h-5.4v3.7h4.4v1.2h-4.4v3.8h5.4v1.2h-7v-11.1H-161z"/><polygon points="-299.2 286.3 -294.9 275.2 -293.3 275.2 -289 286.3 -290.5 286.3 -294.1 276.8 -296.7 283.7 -294.1 282.3 -293.4 283.1 -297.8 286.3 "/><polygon points="-198.7 286 -203 275 -204.6 275 -209 286 -207.4 286 -203.9 276.5 -201.2 283.4 -203.9 282.1 -204.5 282.9 -200.1 286 "/></g><g id=XMLID_2_><g id=XMLID_19_><g><g><defs><path id=SVGID_1_ d="M-343 282.1c0 0.5-0.4 1-1 1h-28c-0.5 0-1-0.4-1-1v-7.4c0-0.5 0.4-1 1-1h28c0.5 0 1 0.4 1 1V282.1z"/></defs><clipPath id=SVGID_2_><use xlink:href=#SVGID_1_ overflow="visible"/></clipPath><g id=XMLID_21_ class=st2><rect id=XMLID_30_ x=-371.4 y=270.1 transform="matrix(0.8293 0.5588 -0.5588 0.8293 92.1847 254.4165)" width=2.1 height="15.9"/><rect id=XMLID_29_ x=-374 y=267.8 transform="matrix(0.8293 0.5588 -0.5588 0.8293 90.4305 255.4858)" width=2.1 height="15.9"/><rect id=XMLID_28_ x=-367.6 y=271 transform="matrix(0.8293 0.5588 -0.5588 0.8293 93.2987 252.4438)" width=2.1 height="15.9"/><rect id=XMLID_27_ x=-363.3 y=270.9 transform="matrix(0.8293 0.5588 -0.5588 0.8293 93.9533 250.0396)" width=2.1 height="15.9"/><rect id=XMLID_26_ x=-358.9 y=270.6 transform="matrix(0.8293 0.5588 -0.5588 0.8293 94.5614 247.541)" width=2.1 height="15.9"/><rect id=XMLID_25_ x=-355.1 y=271.1 transform="matrix(0.8293 0.5588 -0.5588 0.8293 95.476 245.4591)" width=2.1 height="15.9"/><rect id=XMLID_24_ x=-351.1 y=271.3 transform="matrix(0.8293 0.5588 -0.5588 0.8293 96.2904 243.2482)" width=2.1 height="15.9"/><rect id=XMLID_23_ x=-347.4 y=272.2 transform="matrix(0.8293 0.5588 -0.5588 0.8293 97.4459 241.39)" width=2.1 height="15.9"/><rect id=XMLID_22_ x=-344.2 y=273.4 transform="matrix(0.8293 0.5588 -0.5588 0.8293 98.6293 239.7439)" width=2.1 height="15.9"/></g></g></g></g><g id=XMLID_16_><path id=XMLID_18_ d="M-367.5 272.8c0 0.3-0.2 0.5-0.5 0.5h-1.9c-0.3 0-0.5-0.2-0.5-0.5v-0.6c-0.1-0.3 0.2-0.5 0.5-0.5h1.8c0.3 0 0.5 0.2 0.5 0.5L-367.5 272.8 -367.5 272.8z"/><rect id=XMLID_17_ x=-370.5 y=272.3 width=1.8 height="1"/></g><g id=XMLID_13_><path id=XMLID_15_ d="M-348.4 272.8c0 0.3 0.2 0.5 0.5 0.5h1.8c0.3 0 0.5-0.2 0.5-0.5v-0.6c0-0.3-0.2-0.5-0.5-0.5h-1.8c-0.3 0-0.5 0.2-0.5 0.5V272.8z"/><rect id=XMLID_14_ x=-347.3 y=272.3 width=1.8 height="1"/></g><g id=XMLID_8_><g id=XMLID_10_><path id=XMLID_12_ d="M-367.5 284.2c0-0.3-0.2-0.5-0.5-0.5h-1.9c-0.3 0-0.5 0.2-0.5 0.5v0.6c0 0.3 0.2 0.5 0.5 0.5h1.8c0.3 0 0.5-0.2 0.5-0.5L-367.5 284.2 -367.5 284.2z"/><rect id=XMLID_11_ x=-370.5 y=283.7 width=1.8 height="1"/></g><path id=XMLID_9_ d="M-367.5 284.4c0-0.3-0.2-0.6-0.5-0.6h-1.9c-0.3 0-0.5 0.2-0.5 0.6v5c0 0.3 0.2 0.6 0.5 0.6h1.8c0.3 0 0.5-0.2 0.5-0.6L-367.5 284.4 -367.5 284.4z"/></g><g id=XMLID_3_><g id=XMLID_5_><path id=XMLID_7_ d="M-348.4 284.2c0-0.3 0.2-0.5 0.5-0.5h1.8c0.3 0 0.5 0.2 0.5 0.5v0.6c0 0.3-0.2 0.5-0.5 0.5h-1.8c-0.3 0-0.5-0.2-0.5-0.5V284.2z"/><rect id=XMLID_6_ x=-347.3 y=283.7 width=1.8 height="1"/></g><path id=XMLID_4_ d="M-348.4 284.4c0-0.3 0.2-0.6 0.5-0.6h1.8c0.3 0 0.5 0.2 0.5 0.6v5c0 0.3-0.2 0.6-0.5 0.6h-1.8c-0.3 0-0.5-0.2-0.5-0.6V284.4z"/></g></g></g></svg>
+    </a>
+  </h1>
+
+
+
+  <nav class="sidebar-nav">
+    <ul>
+      
+      
+      <li><a class="sidebar-nav-item" href="/getting-started/">
+          <span class="ripple">Getting Started <span></span></span>
+        </a>
+        
+        <ul>
+          
+            <li><a href="#overview">Overview</a></li>
+          
+            <li><a href="#how-it-works-agent">How Agents Work</a></li>
+          
+            <li><a href="#what-agent-sees">What Can Agents see?</a></li>
+          
+            <li><a href="#detection-engine">Our Detection Engine</a></li>
+          
+            <li><a href="#os-requirements-compatibility">OS Compatibility</a></li>
+          
+            <li><a href="#account-setup">Account Setup</a></li>
+          
+            <li><a href="#credit-card">Starting a Trial</a></li>
+          
+            <li><a href="#choosing-plan">Choose a Plan</a></li>
+          
+            <li><a href="#confirm-account">Confirm Account</a></li>
+          
+            <li><a href="#installing-an-agent">Installing an Agent</a></li>
+          
+            <li><a href="#agent-detection">Agent Detection</a></li>
+          
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      <li><a class="sidebar-nav-item" href="/using-barricade/">
+          <span class="ripple">Using Barricade <span></span></span>
+        </a>
+        
+        <ul>
+          
+            <li><a href="#security-rating-system">Security Rating System</a></li>
+          
+            <li><a href="#adding-team-members">Adding Team Members</a></li>
+          
+            <li><a href="#slack-integration">Slack Integration</a></li>
+          
+            <li><a href="#hipchat-integration">Hipchat Integration</a></li>
+          
+            <li><a href="#installing-more-agents">Installing More Agents</a></li>
+          
+            <li><a href="#aws-waf-integration">Amazon WAF Integration</a></li>
+          
+            <li><a href="#ci-sec-testing">C.I. Security Tests</a></li>
+          
+            <li><a href="#updating-agents">Updating Agents</a></li>
+          
+            <li><a href="#stopping-starting-agents">Stopping &amp; Starting Agents</a></li>
+          
+            <li><a href="#configuring-agents">Configuring Agents</a></li>
+          
+            <li><a href="#tagging-filtering">Tagging &amp; Filtering</a></li>
+          
+            <li><a href="#re-register-agent">Re-registering Agents</a></li>
+          
+            <li><a href="#how-to-remove-agent">Removing Agents</a></li>
+          
+            <li><a href="#closing-account">Close Account</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      <li><a class="sidebar-nav-item" href="/security-guide/">
+          <span class="ripple">Security Guides <span></span></span>
+        </a>
+        
+        <ul>
+          
+            <li><a href="#web-app-attack">Web App Attacks</a></li>
+          
+            <li><a href="#sql-injection">SQL Injection</a></li>
+          
+            <li><a href="#xss">Cross-Site Scripting</a></li>
+          
+            <li><a href="#login-default-username">Default Username Attempts</a></li>
+          
+            <li><a href="#login-suspicious-username">Suspicious Login Attempts</a></li>
+          
+            <li><a href="#attempted-ssh-login">Attempted SSH login</a></li>
+          
+            <li><a href="#system-info-detected">System Information Leaks</a></li>
+          
+            <li><a href="#sensitive-info-detected">Sensitive Information Leaks</a></li>
+          
+            <li><a href="#running-commands">How to Run Commands</a></li>
+          
+            <li><a href="#blocking-ip-address">Blocking IP Addresses</a></li>
+          
+            <li><a href="#securing-web-forms">Securing Web Forms</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      <li><a class="sidebar-nav-item" href="https://styleguide.barricade.io/">
+          <span class="ripple">Design Style Guide <span></span></span>
+        </a>
+        
+      </li>
+      
+      <li><a class="sidebar-nav-item" href="/changelog/">
+          <span class="ripple">Changelog <span></span></span>
+        </a>
+        
+      </li>
+      
+    </ul>
+  </nav>
+
+  <aside class="sidebar-buttons">
+    <div class="button-wrap">
+      <a href="mailto:support@barricade.io" class="button small hollow primary expand email-support"><i class="fa fa-envelope-o"></i> Email Support</a>
+      <a href="" id="contact-text" class="button small hollow expand primary live-chat"><i class="fa fa-comment-o"></i>  Live Chat</a>
+    </div>
+  </aside>
+</div>
+
+    <div class="main home" id="scrollpane">
+
+      <nav class="top-bar">
+  <div class="breadcrumb">
+    <a href="../">Documentation</a>
+    
+      <a href="../"></a>
+    
+    
+  </div>
+
+  <div id="searchBar"></div>
+</nav>
+
+      <aside>
+  <a class="fa fa-search right search-icon search-trigger" title="Search this site"></a>
+
+  <div id="searchOverlay">
+    <span class="left prompt">Type to search:</span>
+    <a class="fa fa-times right search-icon search-trigger" title="Click to exit search"></a>
+    <div class="container">
+
+      <div class="row">
+        <form class="col-sm-12 columns">
+          <input type="text" placeholder="Search..." autofocus="autofocus" id="algolia-input" autocorrect="off" autocapitalize="none" spellcheck="false" autocomplete="off">
+          <input value="Search" type="submit" class="hidden">
+          
+        </form>
+      </div>
+
+      <div class="row" id="searchResults" class="results">
+        <div class="col-sm-2 column">&nbsp;</div>
+        <div class="col-sm-8 text-center column">
+          <h2>Results:</h2>
+
+          
+          <ul class="no-bullet" id="articles">
+            <li><a href="#">Installing an Agent</a></li>
+            <li><a href="#">What is an Agent?</a></li>
+            <li><a href="#">What Does the Agent See?</a></li>
+            <li><a href="#">Installing an Agent</a></li>
+            <li><a href="#">What is an Agent?</a></li>
+            <li><a href="#">What Does the Agent See?</a></li>
+            <li><a href="#">Installing an Agent</a></li>
+            <li><a href="#">What is an Agent?</a></li>
+            <li><a href="#">What Does the Agent See?</a></li>
+            <li><a href="#">Installing an Agent</a></li>
+            <li><a href="#">What is an Agent?</a></li>
+            <li><a href="#">What Does the Agent See?</a></li>
+            <li><a href="#">Installing an Agent</a></li>
+            <li><a href="#">What is an Agent?</a></li>
+            <li><a href="#">What Does the Agent See?</a></li>
+            <li><a href="#">Installing an Agent</a></li>
+            <li><a href="#">What is an Agent?</a></li>
+            <li><a href="#">What Does the Agent See?</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 columns">
+          <span class="overlay-footer">Press <em>Esc</em> to close</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="search-overlay-bg"></div>
+  </div>
+</aside>
+
+      <div id="particles-js" class="home-intro-wrap"></div>
+
+      <div class="row home-intro-wrap">
+        <div class="small-12 columns">
+          <h1 class="search-trigger">
+            What can we help you with?
+            <i class="fa fa-chevron-right"></i>
+          </h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-1 column">&nbsp;</div>
+        <div class="large-10 medium-12 column">
+
+          <div class="row text-center">
+            <div class="small-12 columns">
+              <h3>Highlights</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-6 medium-12 feature-box columns">
+              <a href="getting-started/#account-setup">
+                <h4>Getting Started</h4>
+                <p>Our guide to setting up an account and installing the Barricade Agent.</p>
+              </a>
+            </div>
+            <div class="large-6 medium-12 feature-box columns">
+              <a href="using-barricade/#slack">
+                <h4>Integrating with Slack</h4>
+                <p>Get real-time security notifications for your team, on any device.</p>
+              </a>
+            </div>
+            <div class="large-6 medium-12 feature-box columns">
+              <a href="getting-started/#overview">
+                <h4>How Barricade Works</h4>
+                <p>What is an Agent? What does Barricade check for? Find out.</p>
+              </a>
+            </div>
+            <div class="large-6 medium-12 feature-box columns">
+              <a href="changelog/">
+                <h4>Updates &amp; New Features</h4>
+                <p>Our changelog showcases the latest releases from our team.</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="small-12 columns">
+              <h3>Need Help?</h3>
+              <p class="home-contact"><a href="" class="intercom-trigger">We're here to answer any questions you may have. &nbsp; &nbsp; <i class="fa fa-comment-o"></i></a></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="large-1 column">&nbsp;</div>
+      </div>
+    </div>
+
+    
+      <div class="styleguide-footer">
+        <footer class="row">
+          <div class="small-12 small-centered column">
+
+            <div class="row">
+              <div class="large-1 column">&nbsp;</div>
+              <div class="large-8 medium-8 hide-for-small column">
+                <ul class="medium-3 large-2">
+                  <li><strong><a class="footer-reveal">Product</a></strong></li>
+                </ul>
+
+                <ul class="medium-3 large-2">
+                  <li><strong><a class="footer-reveal">Company</a></strong></li>
+                </ul>
+
+                <ul class="medium-3 large-2">
+                  <li><strong><a class="footer-reveal">Resources</a></strong></li>
+                </ul>
+
+                <a class="footer-reveal fa fa-angle-up"></a>
+              </div>
+
+              <div class="large-3 medium-4 small-12 column">
+                <p class="text-right clearfix">
+                  <a href="http://barricade.io" title="Barricade - the security product modern companies have been waiting for">
+                    <img src="http://docs.barricade.io/src/img/logo-strip-white.svg" width="220px" class="pull-right">
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="row footer-extra">
+              <div class="large-1 column">&nbsp;</div>
+              <div class="large-8 medium-8 hide-for-small column">
+                <ul class="medium-3 large-2">
+                  <li><a href="https://barricade.io/features.html" title="See how Barricade make security approachable">Features</a></li>
+                  <li><a href="https://app.barricade.io/demo" title="Launch a Demo of Barricade">Launch Demo</a></li>
+                  <li><a href="https://barricade.statuspage.io" title="Status">Status</a></li>
+                  <li><a href="https://app.barricade.io/tac" title="Terms &amp; Conditions">Terms</a></li>
+                </ul>
+
+                <ul class="medium-3 large-2">
+                  <li><a href="https://barricade.io/about.html" title="Who we are and what we do">About Us</a></li>
+                  <li><a href="https://blog.barricade.io" title="Read our blog">Blog</a></li>
+                  <li><a href="https://barricade.io/jobs.html" title="Interested in working at Barricade?">Jobs</a></li>
+                  <li><a href="https://barricade.io/about.html#contact-info" title="Get in touch with our team">Contact</a></li>
+                </ul>
+
+                <ul class="medium-3 large-2">
+                  <li><a href="https://docs.barricade.io" title="View our documentation">Documentation</a></li>
+                  <li><a href="https://docs.barricade.io/hc/en-us/sections/201144088" title="Product Changelog">Product Changes</a></li>
+                  <li><a href="https://styleguide.barricade.io" title="Visit the Barricade Style Guide">Style Guide</a></li>
+                  <li><a href="mailto:support@barricade.io?subject=Support Issue" title="Get in touch with our support team">Support</a></li>
+                </ul>
+              </div>
+
+              <div class="large-3 medium-4 small-12 column">
+                <ul class="text-right inline-list sub-nav-social clearfix">
+                  <li><a class="fa fa-twitter" href="https://twitter.com/barricadeio"></a></li>
+                  <li><a class="fa fa-facebook" href="https://www.facebook.com/barricadeio"></a></li>
+                  <li><a class="fa fa-linkedin" href="https://www.linkedin.com/company/barricade-io"></a></li>
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
+        </footer>
+      </div>
+
+      <a class="exit-off-canvas"></a>
+
+    </div> 
+  </div> 
+
+  
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="http://docs.barricade.io/src/js/main.min.js"></script>
+  <script src="http://docs.barricade.io/src/js/analytics.min.js" async></script>
+
+
+<script>
+  particlesJS.load('particles-js', 'src/particlesjs-config.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
+
+</body>
+</html>

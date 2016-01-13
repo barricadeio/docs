@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://docs.barricade.io/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 26 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://docs.barricade.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hipchat Integration</title>
+      <link>http://docs.barricade.io/changelog/added-hipchat</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/added-hipchat</guid>
+      <description>&lt;p&gt;You can now receive Barricade notification in HipChat!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; alt=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/09-message.png&#34; alt=&#34;../../src/img/changelog/09-message.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.hipchat.com/&#34;&gt;HipChat&lt;/a&gt; is team chat that&amp;rsquo;s actually built for business - a centralized place for group and private chat, file sharing, and integrations. &lt;/p&gt;
+
+&lt;p&gt;For more information on using this Integration, see our guide to &lt;a href=&#34;../../using-barricade/#hipchat-integration&#34;&gt;Integrating with HipChat&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Product Demo added to Site</title>
+      <link>http://docs.barricade.io/changelog/product-demo</link>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/product-demo</guid>
+      <description>&lt;p&gt;Now there&amp;rsquo;s no need to signup or install an Agent to see how Barricade looks and feels - our new dashboard demo uses sample data to mimic insights into a live server. Try it out now at: &lt;a href=&#34;https://app.barricade.io/demo&#34;&gt;app.barricade.io/demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Explore the Barricade webapp&lt;/li&gt;
+&lt;li&gt;Trigger simulations of Events, Attacks and Incidents&lt;/li&gt;
+&lt;li&gt;View simulated app responses - alerts and recommendations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/08-demo.gif&#34; alt=&#34;../../src/img/changelog/08-demo.gif&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>404 - Page not found</title>
+      <link>http://docs.barricade.io/404/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/404/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Barricade.io Site Launched</title>
+      <link>http://docs.barricade.io/changelog/new-barricade-site-launched</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/new-barricade-site-launched</guid>
+      <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../../src/img/changelog/new-site-01.png&#34; alt=&#34;../../../src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Web App Attacks</title>
+      <link>http://docs.barricade.io/security-guide/web-app-attack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/security-guide/web-app-attack/</guid>
+      <description>
+
+&lt;p&gt;A web application attack is any technique that&amp;rsquo;s used to target websites, web applications and web services with malicious intent.&lt;/p&gt;
+
+&lt;p&gt;Barricade monitors for a variety of Web Application Attacks on your app server - suspicious activity is examined in real-time and Alerts are sent if a legitimate attack is detected.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:6d4e9e6b78bce2650cc52d867108cb51&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Most web application attacks are form-based; attackers will often evaluate web forms as potential gateways as they seek out vulnerable systems to access. Barricade monitors this type of network traffic closely for any suspicious behavioural patterns.&lt;/p&gt;
+
+&lt;p&gt;Our engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#xss&#34;&gt;Cross Site Scripting (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Broken Authentication and Session ManagementInsecure Direct Object References&lt;/li&gt;
+&lt;li&gt;Security Misconfiguration&lt;/li&gt;
+&lt;li&gt;Sensitive Data Exposure&lt;/li&gt;
+&lt;li&gt;Missing Function Level Access Control&lt;/li&gt;
+&lt;li&gt;Cross-Site Request Forgeries&lt;/li&gt;
+&lt;li&gt;Using Components With Known Vulnerabilities&lt;/li&gt;
+&lt;li&gt;Unvalidated Redirects and Forwards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most common type of web application attack is &lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection&lt;/a&gt; - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
+
+&lt;p&gt;These attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:6d4e9e6b78bce2650cc52d867108cb51&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+
+&lt;td&gt;A failed attack was detected - normally bot activity on your server&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+
+&lt;td&gt;A series of failed attacks failed injection attacks were detected&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+
+&lt;td&gt;A successful attack was detected - a security breach has occurred!&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:6d4e9e6b78bce2650cc52d867108cb51&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If an Incident or Attack level &lt;em&gt;web app attack&lt;/em&gt; is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. &lt;/p&gt;
+
+&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilities that an attacker could exploit (e.g. forms that are open to Cross-Site Scripting or SQL Injection techniques). &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Secure Your Forms&lt;/strong&gt;&lt;br /&gt;
+The best way to safeguard against these types of attacks in the longer term is to understand how these attacks operate, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
+
+&lt;p&gt;Developers should use validation techniques such as &lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Mitigation&#34;&gt;parameterized statements, escaping and pattern checking&lt;/a&gt; to build forms that cannot be exploited through SQL Injection.&lt;/p&gt;
+
+&lt;p&gt;Related links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection Attack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#xss&#34;&gt;Cross-Site Scripting Attacks (XSS)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Added Agent Admin Page</title>
+      <link>http://docs.barricade.io/changelog/agent-admin-page</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/agent-admin-page</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This section allows you to see what Agents are running, how busy they are and how to control them (stop, start, etc).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/02-agents.png&#34; alt=&#34;../../src/img/changelog/02-agents.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;agent-controls:0296e37855114436a18e6976efcf3577&#34;&gt;Agent Controls&lt;/h3&gt;
+
+&lt;p&gt;You can stop and start the agent by running commands on your server - this new Agent section provides instructions on how to do this - see our &lt;a href=&#34;../../using-barricade/#updating-agents&#34;&gt;Agent documentation&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;service barricade start  
+service barricade stop  
+service barricade status  
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Updated AI Engine</title>
+      <link>http://docs.barricade.io/changelog/updated-ai-engine</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/updated-ai-engine</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re working constantly on the engine to ensure the best results for our customers. If you&amp;rsquo;re seeing any data you&amp;rsquo;re not sure about - do let us know.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/03-screen.png&#34; alt=&#34;../../src/img/changelog/03-screen.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SQL Injection</title>
+      <link>http://docs.barricade.io/security-guide/sql-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/security-guide/sql-injection/</guid>
+      <description>
+
+&lt;p&gt;Barricade monitors for SQL Injection attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
+
+&lt;h2 id=&#34;causes:e1b0a7b80dcc638ec866ac29b27d6ca9&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Web forms are often targetted by attackers as they seek out vulnerable systems to access. The most common technique used in such attacks is SQL Injection - where someone submits SQL commands through a pages&amp;rsquo; form fields, attempting to perform admin-level actions to the connected database.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;See our infographic for a visual explanation of SQL Injection attacks &amp;gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;&lt;img src=&#34;../src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; alt=&#34;../src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These attacks are common, and can be quite destructive - if successful, an attacker can interact with your database and steal or even erase sensitive data.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:e1b0a7b80dcc638ec866ac29b27d6ca9&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A failed SQL Injection attack was detected&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple failed injection attacks were detected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A successful SQL Injection attack occurred - possible security breach&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:e1b0a7b80dcc638ec866ac29b27d6ca9&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If SQL Injection attacks are detected, we recommend you take immediate action to block the source of the attack, as per the in-app &lt;a href=&#34;https://app.barricade.io/alert&#34;&gt;Alert instructions&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilites that an injection attack could exploit. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Secure Your Forms&lt;/strong&gt;&lt;br /&gt;
+The best way to safeguard against SQL Injection attacks in the longer term is to understand how these attacks work, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
+
+&lt;p&gt;Developers should use validation techniques such as &lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Mitigation&#34;&gt;parameterized statements, escaping and pattern checking&lt;/a&gt; to build forms that cannot be exploited through SQL Injection.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Database Backups&lt;/strong&gt;&lt;br /&gt;
+SQL Injection is just one of many techniques that can pose a threat to you and your data. It&amp;rsquo;s important to capture and securely store database backups to reduce the potential risk of a successful attack. &lt;/p&gt;
+
+&lt;p&gt;Related links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#blocking-ip-address&#34;&gt;Blocking Attacker IP Addresses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#securing-web-forms&#34;&gt;Removing Vulnerabilities in Forms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Added Teams - Invite &amp; Manage Users</title>
+      <link>http://docs.barricade.io/changelog/added-teams</link>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/added-teams</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve added the ability to invite and manage users to a team account, so you can grant &lt;strong&gt;read-only access&lt;/strong&gt; to your colleagues.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/04-team-invites.gif&#34; alt=&#34;../../src/img/changelog/04-team-invites.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/#adding-team-members&#34;&gt;Adding Team Members&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cross-Site Scripting</title>
+      <link>http://docs.barricade.io/security-guide/xss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/security-guide/xss/</guid>
+      <description>
+
+&lt;p&gt;Barricade monitors for Cross-Site Scripting attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
+
+&lt;h2 id=&#34;causes:28b5a5504725bb25df95cbcb50cdc6a9&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Cross-Site Scripting is a common method used by attackers as they seek vulnerable systems to access. These &amp;lsquo;XSS&amp;rsquo; attacks involve submitting web forms with scripts and commands inserted into the input fields; in an effort to upload and embed scripts into someone&amp;rsquo;s website or app.&lt;/p&gt;
+
+&lt;p&gt;When successful, these scripts can be used to attack other visitors, who unknowingly load the script when they visit the infected webpage or app. Comment forms and media uploaders are often targetted by these kinds of attacks - the scripts used range in size and purpose, but have the potential to be quite destructive if successful.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:28b5a5504725bb25df95cbcb50cdc6a9&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A failed XSS attack was detected&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple failed XSS attacks were detected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A successful XSS attack occurred - possible security breach&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:28b5a5504725bb25df95cbcb50cdc6a9&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If Cross-Site Scripting attacks are detected, we recommend you take immediate action to block the source of the attack, as per the in-app &lt;a href=&#34;https://app.barricade.io/alert&#34;&gt;Alert instructions&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;In the longer term, it&amp;rsquo;s important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilites that an injection attack could exploit. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Securing Your Forms&lt;/strong&gt;&lt;br /&gt;
+The best way to safeguard against XSS attacks in the long term is to understand how these attacks work, and take preventative measures to ensure your code doesn&amp;rsquo;t offer any vulnerable attack points to would-be-attackers.&lt;/p&gt;
+
+&lt;p&gt;Developers should ensure to &lt;a href=&#34;https://en.wikipedia.org/wiki/Cross-site_scripting#Reducing_the_threat&#34;&gt;properly escape and validate form field inputs&lt;/a&gt; to remove the possibility of exploits. It&amp;rsquo;s also a good idea to testing your app for vulnerabilities on a regular basis, to find and reinforce any points of weakness.&lt;/p&gt;
+
+&lt;p&gt;Related links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#blocking-ip-address&#34;&gt;Blocking Attacker IP Addresses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#secure-web-forms&#34;&gt;Removing Vulnerabilities in Forms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Added Slack Integration</title>
+      <link>http://docs.barricade.io/changelog/slack-integration</link>
+      <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/slack-integration</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-logo.png&#34; alt=&#34;../../src/img/changelog/05-slack-logo.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can integrate Slack with Barricade to share security notifications with you team:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-message.png&#34; alt=&#34;../../src/img/changelog/05-slack-message.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Integrating with Slack&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Email Notification Controls</title>
+      <link>http://docs.barricade.io/changelog/email-notifications</link>
+      <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/email-notifications</guid>
+      <description>&lt;p&gt;You can now manage your email notification through the Barricade app settings, to opt-in and opt-out of different levels of security notifications.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/06-screen-01.png&#34; alt=&#34;../../src/img/changelog/06-screen-01.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By default, you will receive notifications for &lt;strong&gt;Incidents&lt;/strong&gt; - our most serious security classification. For more insight into the things Barricade observes, you can enable Alerts and Events - but doing so will typically result in a lot more notifications from common, low-level issues.&lt;/p&gt;
+
+&lt;p&gt;We &lt;strong&gt;do not recommend&lt;/strong&gt; you opt-out of Incident notifications!&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll find the new controls in the app: Settings &amp;gt; Notifications &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/notification/email&#34;&gt;Email Notifications&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/06-email-settings.gif&#34; alt=&#34;../../src/img/changelog/06-email-settings.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that the ability to manage notifications is &lt;strong&gt;limited to account admins&lt;/strong&gt; - if you have been added to a team, your account is read-only. You&amp;rsquo;ll need to contact the account owner.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Agent Detection Message</title>
+      <link>http://docs.barricade.io/changelog/new-agent-detection</link>
+      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/new-agent-detection</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve added visual feedback to the &lt;a href=&#34;https://app.barricade.io&#34;&gt;app&lt;/a&gt;, so you can see when the installation of a new Agent has completed successfully:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/07-drawer-detection.gif&#34; alt=&#34;../../src/img/changelog/07-drawer-detection.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information on &lt;a href=&#34;../../using-barricade/#installing-more-agents&#34;&gt;Installing Additional Agents&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agent Performance Improvements</title>
+      <link>http://docs.barricade.io/changelog/agent-performance</link>
+      <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/changelog/agent-performance</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve shipped a major update to our monitoring Agent, to improve performance and minimise the amount of server CPU the Agent requires.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Avoiding CPU Spikes&lt;/strong&gt;&lt;br /&gt;
+All data preprocessing is now handled server side - meaning the agent has been simplified to consume less server resources. This results in better performance under load, and allows us to scale and upgrade our analysis without requiring an update of the agent.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Packets Per Second&lt;/strong&gt;&lt;br /&gt;
+The agent configuration has also been updated with a maximum number of packets per second that will be sent to Barricade - this is to help prevent the agent becoming a problem itself during a high traffic event, such as a DoS attack. By default, this is 10,000 packets per second, and this figure can be modified to suit the environment and traffic profile.&lt;/p&gt;
+
+&lt;p&gt;When this limit is hit, the agent will begin dropping older packets to prioritise the newest information, and emit a warning to this effect in the logs (&lt;code&gt;/var/log/barricade.log&lt;/code&gt; on most systems, in journalctl for systemd based systems).&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You must to &lt;a href=&#34;../../using-barricade/#updating-agents&#34;&gt;Update Your Agents&lt;/a&gt; to apply these changes.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Default Username Attempts</title>
+      <link>http://docs.barricade.io/security-guide/login-default-username/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/security-guide/login-default-username/</guid>
+      <description>
+
+&lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Login forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. Default, out-of-the-box usernames like ‘administrator’ make it much easier for attackers to hone in on your login information, and reduce the time needed to run &lt;a href=&#34;http://en.wikipedia.org/wiki/Brute-force_attack&#34;&gt;Brute Force&lt;/a&gt; password attacks.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;admin  
+administrator  
+root  
+temp  
+User  
+DBA
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Some examples from &lt;a href=&#34;http://defaultpassword.com&#34;&gt;defaultpassword.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Single failed login attempt using default credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple failed login attempts using default credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Successful login using default credentials - possible security breach&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the &lt;a href=&#34;https://app.barricade.io/dashboard/alerts&#34;&gt;Alert instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the longer term, you can safeguard against these types of attacks by following best practices:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remove &amp;lsquo;Default&amp;rsquo; Logins from your app&lt;/li&gt;
+&lt;li&gt;Create and implementing a strong password policy&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
