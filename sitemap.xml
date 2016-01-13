@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://docs.barricade.io/</loc>
+    <lastmod>2015-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/added-hipchat</loc>
+    <lastmod>2015-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/product-demo</loc>
+    <lastmod>2015-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/404/</loc>
+    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/new-barricade-site-launched</loc>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/web-app-attack/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/agent-admin-page</loc>
+    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/updated-ai-engine</loc>
+    <lastmod>2015-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/sql-injection/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/added-teams</loc>
+    <lastmod>2015-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/xss/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/slack-integration</loc>
+    <lastmod>2015-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/email-notifications</loc>
+    <lastmod>2015-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/new-agent-detection</loc>
+    <lastmod>2015-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/agent-performance</loc>
+    <lastmod>2015-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/login-default-username/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/security-rating-system/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/login-suspicious-username/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/tags-and-filters</loc>
+    <lastmod>2015-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/adding-team-members/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/how-it-works-agent/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/improved-engine-attack-detection</loc>
+    <lastmod>2015-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/what-agent-sees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/new-pricing-trial</loc>
+    <lastmod>2015-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/detection-engine/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/slack-integration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/deal-incubators-accelerators</loc>
+    <lastmod>2015-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/attempted-ssh-login/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/hipchat-integration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/installing-more-agents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/os-requirements-compatibility/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/aws-waf</loc>
+    <lastmod>2015-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/aws-waf-integration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/case-grouping</loc>
+    <lastmod>2015-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/ci-sec-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/replace-websockets</loc>
+    <lastmod>2015-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/system-info-detected/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/site-performance</loc>
+    <lastmod>2015-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/sensitive-info-detected/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/changes-to-teams</loc>
+    <lastmod>2015-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/ci-sec-tests</loc>
+    <lastmod>2015-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/app-security-story</loc>
+    <lastmod>2015-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/broader-app-detection</loc>
+    <lastmod>2015-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/running-commands/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/changelog/request-insights</loc>
+    <lastmod>2015-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/updating-agents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/stopping-starting-agents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/configuring-agents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/tagging-filtering/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/re-register-agent/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/how-to-remove-agent/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/account-setup/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/using-barricade/closing-account/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/credit-card/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/choosing-plan/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/confirm-account/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/installing-an-agent/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/running-commands/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/agent-detection/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/blocking-ip-address/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/security-guide/securing-web-forms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.barricade.io/getting-started/troubleshooting/</loc>
+  </url>
+  
+</urlset>

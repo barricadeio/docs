@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag on </title>
+    <link>http://docs.barricade.io/tags/tag/</link>
+    <description>Recent content in Tag on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://docs.barricade.io/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tagging &amp; Filtering</title>
+      <link>http://docs.barricade.io/using-barricade/tagging-filtering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.barricade.io/using-barricade/tagging-filtering/</guid>
+      <description>
+
+&lt;p&gt;If you are running multiple Barricade Agents, you&amp;rsquo;ll see data pooled in the dashboard from different servers. Filters help you narrow your view to see results from specific servers.&lt;/p&gt;
+
+&lt;h3 id=&#34;where-to-find-filters:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Where to find Filters&lt;/h3&gt;
+
+&lt;p&gt;You can filter Case data in the app by accessing the Filter option at the top of the &lt;code&gt;Dashboard -&amp;gt; Overview&lt;/code&gt; navigation:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-01.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-01.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you have active Filters, the menu will look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-02.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-02.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;using-filters:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Using Filters&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click the Filter button in the top right of the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;Overview&lt;/a&gt; screen.&lt;/li&gt;
+&lt;li&gt;A new panel will appear from the right, displaying a list of &lt;strong&gt;Agent Tags&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Remove the check marks from any Agent tags you wish to filter out. The form auto-saves your selection.&lt;/li&gt;
+&lt;li&gt;To close the Filter panel, click to the left outside of the panel.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-filters.gif&#34; alt=&#34;../src/img/using-barricade/28-filters.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;editing-agent-tags:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Editing Agent Tags&lt;/h3&gt;
+
+&lt;p&gt;An agent&amp;rsquo;s tag can be edited in two ways. Either through the &lt;code&gt;Dashboard -&amp;gt; Agents&lt;/code&gt; page which can be found on the left-hand side menu, or through an automated configuration file described below the animation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; alt=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can change the Tags associated with your Agents in the configuration file, located on your server at &lt;code&gt;/service/barricade/barricade.cfg &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;By default, all Agents start out with one tag: &lt;code&gt;production&lt;/code&gt;.
+See &lt;a href=&#34;#configuring-agents&#34;&gt;Configuring Agents&lt;/a&gt; for more information.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
