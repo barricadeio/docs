@@ -1,4 +1,4 @@
-baseurl = "http://docs-staging2.barricade.io.s3-website-us-east-1.amazonaws.com/"
+baseurl = "http://docs.barricade.io/"
 theme = "barricade"
 
 publishdir = "static"
