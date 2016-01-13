@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/added-hipchat</loc>
+    <loc>http://localhost:1313/changelog/added-hipchat</loc>
     <lastmod>2015-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/email-notifications</loc>
+    <loc>http://localhost:1313/changelog/product-demo</loc>
     <lastmod>2015-08-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,21 +23,21 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/new-barricade-site-lauched/</loc>
+    <loc>http://localhost:1313/changelog/new-barricade-site-launched</loc>
     <lastmod>2015-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/security-guide/creating-account/</loc>
+    <loc>http://localhost:1313/security-guide/web-app-attack/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/agent-admin-page</loc>
+    <loc>http://localhost:1313/changelog/agent-admin-page</loc>
     <lastmod>2015-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/updated-ai-engine</loc>
+    <loc>http://localhost:1313/changelog/updated-ai-engine</loc>
     <lastmod>2015-07-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -46,7 +46,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/added-teams</loc>
+    <loc>http://localhost:1313/changelog/added-teams</loc>
     <lastmod>2015-07-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -55,22 +55,22 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/slack-integration</loc>
+    <loc>http://localhost:1313/changelog/slack-integration</loc>
     <lastmod>2015-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/email-notifications</loc>
+    <loc>http://localhost:1313/changelog/email-notifications</loc>
     <lastmod>2015-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/new-agent-detection</loc>
+    <loc>http://localhost:1313/changelog/new-agent-detection</loc>
     <lastmod>2015-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/agent-performance</loc>
+    <loc>http://localhost:1313/changelog/agent-performance</loc>
     <lastmod>2015-08-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -91,7 +91,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags-and-filters</loc>
+    <loc>http://localhost:1313/changelog/tags-and-filters</loc>
     <lastmod>2015-09-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -104,7 +104,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/improved-engine-attack-detection</loc>
+    <loc>http://localhost:1313/changelog/improved-engine-attack-detection</loc>
     <lastmod>2015-09-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -113,7 +113,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/new-pricing-trial</loc>
+    <loc>http://localhost:1313/changelog/new-pricing-trial</loc>
     <lastmod>2015-09-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -126,7 +126,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/deal-incubators-accelerators</loc>
+    <loc>http://localhost:1313/changelog/deal-incubators-accelerators</loc>
     <lastmod>2015-09-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -147,7 +147,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/aws-waf</loc>
+    <loc>http://localhost:1313/changelog/aws-waf</loc>
     <lastmod>2015-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -156,7 +156,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/case-grouping</loc>
+    <loc>http://localhost:1313/changelog/case-grouping</loc>
     <lastmod>2015-10-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -165,7 +165,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/replace-websockets</loc>
+    <loc>http://localhost:1313/changelog/replace-websockets</loc>
     <lastmod>2015-10-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -174,7 +174,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/site-performance</loc>
+    <loc>http://localhost:1313/changelog/site-performance</loc>
     <lastmod>2015-11-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -183,22 +183,22 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/changes-to-teams</loc>
+    <loc>http://localhost:1313/changelog/changes-to-teams</loc>
     <lastmod>2015-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/ci-sec-tests</loc>
+    <loc>http://localhost:1313/changelog/ci-sec-tests</loc>
     <lastmod>2015-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/app-security-story</loc>
+    <loc>http://localhost:1313/changelog/app-security-story</loc>
     <lastmod>2015-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/broader-app-detection</loc>
+    <loc>http://localhost:1313/changelog/broader-app-detection</loc>
     <lastmod>2015-12-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -207,7 +207,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/request-insights</loc>
+    <loc>http://localhost:1313/changelog/request-insights</loc>
     <lastmod>2015-12-14T00:00:00+00:00</lastmod>
   </url>
   

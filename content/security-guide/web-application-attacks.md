@@ -7,7 +7,7 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "creating-account"
+slug = "web-app-attack"
 
 [menu.main]
     url = "web-app-attack"

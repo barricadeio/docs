@@ -2,7 +2,8 @@
 date = "2015-12-07"
 title = "Broader Detection of Attacks"
 description = "Changelog - Broader Detection of Attacks"
-url = "broader-app-detection"
+url = "changelog/broader-app-detection"
+section = "changelog"
 category = "engine"
 weight = "22"
 

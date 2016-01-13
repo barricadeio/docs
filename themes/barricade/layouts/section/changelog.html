@@ -14,9 +14,9 @@
 
           <p>Our release notes for new features and updates to the Barricade service.</p>
           <ul id="list">
-            {{ range .Data.Pages.ByWeight.Reverse }}
+            {{ range .Data.Pages.ByDate.Reverse }}
             <li>
-              <a href="{{ .URL }}" class="link-{{ .Params.category }}">
+              <a href="../{{ .URL }}" class="link-{{ .Params.category }}">
                 <span class="ripple">{{ .Title }} <span></span></span>
                 <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
               </a>

@@ -73,7 +73,7 @@ $(document).ready(function() {
 
 
 // scrollspy, as per https://jsfiddle.net/mekwall/up4nu/
-  // Cache selectors
+// Cache selectors
 var lastId,
     topMenu = $(".sidebar ul ul"),
     topMenuHeight = topMenu.outerHeight()+15,
@@ -93,7 +93,6 @@ menuItems.click(function(e){
   $('html, body').stop().animate({
       scrollTop: offsetTop
   }, 300);
-  // e.preventDefault();
 });
 
 // smooth scroll
@@ -105,8 +104,8 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000);
-        return false;
+        }, 400);
+        // return false;
       }
     }
   });

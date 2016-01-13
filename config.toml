@@ -1,9 +1,11 @@
-baseurl = "https://docs.barricade.io/"
+baseurl = "http://docs-staging2.barricade.io.s3-website-us-east-1.amazonaws.com/"
 theme = "barricade"
+
 publishdir = "static"
 destination = "static"
-canonifyURLs = "true"
-relativeURLs = "true"
+
+canonifyURLs = "false"
+relativeURLs = "false"
 pluralizeListTitles = "false"
 plainIdAnchors = "true"
 

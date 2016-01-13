@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+.off-canvas-wrap {
+  min-height: 100%;
+}
+
 .sidebar {
   height: 100%;
 }
@@ -22,4 +26,8 @@ body {
 .sidebar {
   width: 25%;
   width: 300px;
+}
+
+.main {
+  min-height: 760px;
 }

@@ -2,7 +2,8 @@
 date = "2015-07-01"
 title = "New Barricade.io Site Launched"
 description = "Changelog - New Barricade.io Site Launched"
-url = "new-barricade-site-lauched/"
+url = "changelog/new-barricade-site-launched"
+section = "changelog"
 category = "website"
 weight = "01"
 
@@ -10,4 +11,4 @@ weight = "01"
 
 Our new site is live! [Check it out at Barricade.io](https://barricade.io)
 
-![{{ baseurl . }}src/img/changelog/new-site-01.png]({{ baseurl . }}src/img/changelog/new-site-01.png)
+![../../../src/img/changelog/new-site-01.png](../../../src/img/changelog/new-site-01.png)

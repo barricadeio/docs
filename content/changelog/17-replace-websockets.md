@@ -2,7 +2,8 @@
 date = "2015-10-28"
 title = "Replace Websockets with SEE"
 description = "Changelog - Replace Websockets with SEE"
-url = "replace-websockets"
+url = "changelog/replace-websockets"
+section = "changelog"
 category = "app"
 weight = "17"
 

@@ -20,7 +20,8 @@
 
     li {
       background: transparent;
-      padding: 0.15em 0;
+      padding: 0.1em 0;
+      margin: 0;
 
       a,
       a:hover
@@ -30,7 +31,7 @@
         border-bottom: none;
         cursor: pointer;
         background: transparent;
-        @include border-radius(0.25em,0.25em);
+        @include border-radius(0.425em,0.425em);
         @include transition;
 
         &:hover {

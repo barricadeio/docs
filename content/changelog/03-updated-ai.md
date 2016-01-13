@@ -2,7 +2,8 @@
 date = "2015-07-10"
 title = "Updated AI Engine"
 description = "Changelog - Updated AI Engine"
-url = "updated-ai-engine"
+url = "changelog/updated-ai-engine"
+section = "changelog"
 category = "engine"
 weight = "03"
 
@@ -12,4 +13,4 @@ We've shipped an update to our A.I. engine, to improve the detection accuracy an
 
 We're working constantly on the engine to ensure the best results for our customers. If you're seeing any data you're not sure about - do let us know.
 
-[IMG]
+![../../src/img/changelog/03-screen.png](../../src/img/changelog/03-screen.png)
