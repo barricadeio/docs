@@ -1,0 +1,217 @@
+.main .content-wrap {
+  padding-top: 6.25em;
+  padding-bottom: 10em;
+  font-size: $scalex5;
+  font-weight: normal;
+  line-height: 1.5;
+  z-index: 500;
+  position: relative;
+  @include futuraRegular;
+
+  h1 {
+    text-transform: none;
+    letter-spacing: 0.03em;
+  }
+
+  article {
+    padding: 1em 0;
+
+    &:first-child {
+      padding-top: 2em;
+    }
+
+    h1 {
+      font-size: $scalex8;
+      color: $green3;
+      margin: 1em 0 1em;
+    }
+  }
+
+  h2 {
+    color: darken($blue3, 5%);
+    font-size: $scalex5;
+    @include futuraBold;
+    @include upperCase;
+    letter-spacing: 0.125em;
+    margin: 2.5em 0 0.875em;
+  }
+
+  h3 {
+    color: $dark1;
+  }
+
+  p {
+    color: $dark1;
+    line-height: 1.725;
+    margin: 0.825rem 0 1.667rem;
+    font-size: $scalex5;
+
+    &:first-child {
+      font-size: $scalex6;
+      color: $dark1;
+      line-height: 1.636;
+      margin-bottom: 1.925rem;
+      padding-right: 7.5%;
+    }
+  }
+
+  &.markdown pre,
+  pre {
+    background: lighten($blue3, 25%);
+    color: $blue4;
+    border: none;
+    padding: 0.75em 1em;
+    margin: 0.25em 0 2.5em;
+
+    code {
+      padding: 0;
+    }
+  }
+
+  .code-box {
+    margin: 0px;
+    width: 100%;
+    height: 220px;
+    border-bottom: 3px solid $light3;
+    overflow: scroll;
+  }
+
+  strong {
+    letter-spacing: 0.0125em;
+  }
+
+  code {
+    color: $blue4;
+    font-size: $scalex3;
+    padding: 0.5em 0.5em;
+    background: lighten($blue3, 25%);
+    border: none;
+  }
+
+  &.markdown ul,
+  &.markdown ol,
+  ul,
+  ol {
+    padding: 0 0.25rem;
+    margin-bottom: 2em;
+    color: $dark1;
+    font-size: $scalex5;
+    line-height: 1.7;
+
+    li {
+      
+    }
+  }
+
+  table {
+    margin: 1.5rem 0;
+    border: none;
+    width: 100%;
+
+    th,
+    td {
+      border: none;
+      vertical-align: top;
+      text-align: left;
+      padding: 0.425em 0.75em 0.425em 0.2em;
+      width: auto;
+    }
+
+    &.risk {
+      font-size: $scalex2;
+      margin: 1.925rem 0;
+
+      strong {
+        @include upperCase;
+        font-size: 12px;
+        color: $dark1;
+      }
+
+      td {
+        line-height: 22px;
+        vertical-align: middle;
+      }
+
+      tr td:first-child {
+        width: 26px;
+        padding-right: 0;
+
+        em {
+          @include border-radius(50%,50%);
+          width: 13px;
+          height: 13px;
+          display: inline-block;
+          float: left;
+          margin-top: 2px;
+          background: $green1;
+        }
+      }
+
+      tr:nth-child(2) td em {
+        background-color: $yellow1;
+      }
+
+      tr:nth-child(3) td em {
+        background-color: $red1;
+      }
+    }
+
+    &.compare {
+      background-color: white;
+      margin: 2em 0;
+
+      th, td {
+        padding: 0.7em 1.25em;
+        line-height: 1;
+        font-size: $scalex2;
+
+        .fa-check:before {
+          color: $green2;
+        }
+        .fa-close:before {
+          color: $red2;
+        }
+      }
+
+      th {
+        font-size: $scalex3;
+        padding-top: 1em;
+        color: $mid5;
+      }
+
+      tr:last-child td {
+        padding-bottom: 2em;
+      }
+    }
+  }
+
+  a {
+    color: $blue2;
+    @include transition;
+
+    &:hover {
+      color: darken($blue2, 5%);
+      border-bottom: 2px solid $blue1;
+      background: white;
+    }
+  }
+
+  img {
+    box-shadow: 0 0 3px $light3;
+    padding: 0.5em;
+    background-color: white;
+    max-width: 100%;
+    margin-bottom: 0.75em;
+
+    &:hover {
+      @include box-shadow(0, 0, 4px, $mid1);
+    }
+  }
+
+  iframe,
+  embed,
+  .youtube-player {
+    min-height: 320px;
+  }
+}
+

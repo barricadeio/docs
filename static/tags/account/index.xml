@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Account on </title>
-    <link>http://barricadeio.github.io/docs/tags/account/</link>
+    <link>http://localhost:1313/tags/account/</link>
     <description>Recent content in Account on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://barricadeio.github.io/docs/tags/account/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/account/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Account Setup</title>
-      <link>http://barricadeio.github.io/docs/getting-started/account-setup/</link>
+      <link>http://localhost:1313/getting-started/account-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/getting-started/account-setup/</guid>
+      <guid>http://localhost:1313/getting-started/account-setup/</guid>
       <description>&lt;p&gt;To get up and running with Barricade, go to &lt;a href=&#34;https://app.barricade.io/&#34;&gt;app.barricade.io&lt;/a&gt;. First-time visitors will see this screen with account creation instructions:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/onboard-1.gif&#34; alt=&#34;../src/img/getting-started/onboard-1.gif&#34; /&gt;&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Adding Team Members</title>
-      <link>http://barricadeio.github.io/docs/using-barricade/adding-team-members/</link>
+      <link>http://localhost:1313/using-barricade/adding-team-members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/using-barricade/adding-team-members/</guid>
+      <guid>http://localhost:1313/using-barricade/adding-team-members/</guid>
       <description>
 
 &lt;p&gt;You can invite colleagues to join your Barricade team account, granting access to your Agents and their findings from your servers.&lt;/p&gt;
@@ -140,10 +140,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>Agent Detection</title>
-      <link>http://barricadeio.github.io/docs/getting-started/agent-detection/</link>
+      <link>http://localhost:1313/getting-started/agent-detection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/getting-started/agent-detection/</guid>
+      <guid>http://localhost:1313/getting-started/agent-detection/</guid>
       <description>&lt;p&gt;Shortly after you run the install command, the Barricade setup screen will update automatically to confirm that the Agent has been detected:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-detection.gif&#34; alt=&#34;../src/img/getting-started/drawer-detection.gif&#34; /&gt;&lt;/p&gt;
@@ -160,10 +160,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>Choose a Plan</title>
-      <link>http://barricadeio.github.io/docs/getting-started/choosing-plan/</link>
+      <link>http://localhost:1313/getting-started/choosing-plan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/getting-started/choosing-plan/</guid>
+      <guid>http://localhost:1313/getting-started/choosing-plan/</guid>
       <description>&lt;p&gt;You can view the different plan price points by clicking the &amp;lsquo;GB size&amp;rsquo; dropdown menu:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/plans.png&#34; alt=&#34;../src/img/getting-started/plans.png&#34; /&gt;&lt;/p&gt;
@@ -176,10 +176,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>Close Account</title>
-      <link>http://barricadeio.github.io/docs/using-barricade/closing-account/</link>
+      <link>http://localhost:1313/using-barricade/closing-account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/using-barricade/closing-account/</guid>
+      <guid>http://localhost:1313/using-barricade/closing-account/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re looking to stop using Barricade entirely, you can &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/close&#34;&gt;close your account through this page&lt;/a&gt;. Only admin users can close an account, for security reasons.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re sorry to see you go - if there&amp;rsquo;s any feedback you&amp;rsquo;d like to leave for us, please do &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;submit a comment&lt;/a&gt;.&lt;/p&gt;
@@ -188,10 +188,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>Confirm Account</title>
-      <link>http://barricadeio.github.io/docs/getting-started/confirm-account/</link>
+      <link>http://localhost:1313/getting-started/confirm-account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/getting-started/confirm-account/</guid>
+      <guid>http://localhost:1313/getting-started/confirm-account/</guid>
       <description>&lt;p&gt;Once you&amp;rsquo;ve completed the account setup, you&amp;rsquo;ll get a confirmation email from us, and you&amp;rsquo;ll see this screen:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/welcome.png&#34; alt=&#34;../src/img/getting-started/welcome.png&#34; /&gt;&lt;/p&gt;
@@ -202,10 +202,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>How to Run Commands</title>
-      <link>http://barricadeio.github.io/docs/security-guide/running-commands/</link>
+      <link>http://localhost:1313/security-guide/running-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/security-guide/running-commands/</guid>
+      <guid>http://localhost:1313/security-guide/running-commands/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re unsure about how to do this, you should refer to your Cloud provider&amp;rsquo;s documentation:&lt;/p&gt;
@@ -233,10 +233,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>How to Run Commands</title>
-      <link>http://barricadeio.github.io/docs/getting-started/running-commands/</link>
+      <link>http://localhost:1313/getting-started/running-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/getting-started/running-commands/</guid>
+      <guid>http://localhost:1313/getting-started/running-commands/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re unsure about how to do this, you should refer to your Cloud provider&amp;rsquo;s documentation:&lt;/p&gt;
@@ -264,10 +264,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>Installing an Agent</title>
-      <link>http://barricadeio.github.io/docs/getting-started/installing-an-agent/</link>
+      <link>http://localhost:1313/getting-started/installing-an-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/getting-started/installing-an-agent/</guid>
+      <guid>http://localhost:1313/getting-started/installing-an-agent/</guid>
       <description>
 
 &lt;p&gt;You&amp;rsquo;ll find the installation command in the top panel of the Barricade app - click the New Agent button to reveal the install code, which you will need to &lt;strong&gt;copy&lt;/strong&gt;, then &lt;strong&gt;paste and run&lt;/strong&gt; on your server.&lt;/p&gt;
@@ -286,10 +286,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>Security Rating System</title>
-      <link>http://barricadeio.github.io/docs/using-barricade/security-rating-system/</link>
+      <link>http://localhost:1313/using-barricade/security-rating-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/using-barricade/security-rating-system/</guid>
+      <guid>http://localhost:1313/using-barricade/security-rating-system/</guid>
       <description>
 
 &lt;p&gt;Our security rating system is made to be simple by design, so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.&lt;/p&gt;
@@ -324,10 +324,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>Starting a Trial</title>
-      <link>http://barricadeio.github.io/docs/getting-started/credit-card/</link>
+      <link>http://localhost:1313/getting-started/credit-card/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/getting-started/credit-card/</guid>
+      <guid>http://localhost:1313/getting-started/credit-card/</guid>
       <description>&lt;p&gt;We require a credit card to verify all signups - but don&amp;rsquo;t worry - we won&amp;rsquo;t charge you anything to your card. With Barricade, &lt;strong&gt;you only pay for what you use&lt;/strong&gt;; and nothing is charged while you&amp;rsquo;re on the free trial plan.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;ll notify you every step of the way about your trial and your usage, so there are no hidden charges and you can cancel your account at any time without headaches.&lt;/p&gt;
@@ -338,10 +338,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>Troubleshooting</title>
-      <link>http://barricadeio.github.io/docs/getting-started/troubleshooting/</link>
+      <link>http://localhost:1313/getting-started/troubleshooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/getting-started/troubleshooting/</guid>
+      <guid>http://localhost:1313/getting-started/troubleshooting/</guid>
       <description>&lt;p&gt;For more details on the Agent and how it works, see the &lt;a href=&#34;#overview&#34;&gt;Agent Overview&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The Agent is not detected.&lt;/strong&gt;&lt;br /&gt;
