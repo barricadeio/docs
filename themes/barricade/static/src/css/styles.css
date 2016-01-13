@@ -11611,8 +11611,8 @@ body {
   margin: 0;
 }
 
-.off-canvas-wrap {
-  min-height: 100%;
+.main {
+  min-height: 760px;
 }
 
 .sidebar {
@@ -11630,10 +11630,6 @@ body {
 .sidebar {
   width: 25%;
   width: 300px;
-}
-
-.main {
-  min-height: 760px;
 }
 
 .sidebar {

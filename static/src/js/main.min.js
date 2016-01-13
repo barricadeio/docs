@@ -2755,6 +2755,16 @@ $(document).ready(function() {
     $(".container-full").toggleClass("footer-expanded");
   });
 
+
+  // change contact us links to intercom chat triggers
+  // (workaround as no ids/classes allowed inside markdown)
+  $("article a").each(function() {
+    if( $(this).attr("href") == "https://barricade.io/about#contact-info") {
+      $(this).attr("href", "");
+      $(this).attr("class", "intercom-trigger");
+    };
+  })
+
 }); // document ready
 
 
