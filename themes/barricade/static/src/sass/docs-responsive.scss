@@ -107,6 +107,33 @@
       margin: 0.4em 0;
     }
   }
+
+  .changelog.content-wrap {
+    ul#list li {
+      margin: 1em 0;
+
+      a {
+        font-size: $scalex4;
+        padding: 0em 1em 0em 3.25em;
+
+        // span.ripple {
+        //   font-style: $scalex3;
+        //   display: block;
+        // }
+
+        span.date {
+          display: block;
+          width: 100%;
+          font-size: $scalex2;
+          position: relative;
+          top: auto;
+          right: auto;
+          text-align: left;
+          line-height: 1;
+        }
+      }
+    }
+  }
 }
 
 

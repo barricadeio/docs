@@ -8836,7 +8836,7 @@ body {
   overflow: hidden;
   position: relative;
   z-index: 500;
-  padding-top: 1.25em;
+  padding-top: 0.2em;
   background-color: #323f4c;
   border-bottom: 6px solid #203539;
   min-width: 100%;
@@ -9468,6 +9468,24 @@ a:visited:hover {
   }
   aside.left-off-canvas-menu .button-wrap .button {
     margin: 0.4em 0;
+  }
+
+  .changelog.content-wrap ul#list li {
+    margin: 1em 0;
+  }
+  .changelog.content-wrap ul#list li a {
+    font-size: 17.142px;
+    padding: 0em 1em 0em 3.25em;
+  }
+  .changelog.content-wrap ul#list li a span.date {
+    display: block;
+    width: 100%;
+    font-size: 14.8564px;
+    position: relative;
+    top: auto;
+    right: auto;
+    text-align: left;
+    line-height: 1;
   }
 }
 @media screen and (min-height: 575px) {
