@@ -11,10 +11,14 @@ New images and other media should be located in `themes/barricade/static/src`.
 
 --  
 
-For local development, clone this repo and run
+# Deploying Changes
 
-```
-hugo server
-```
+The deploy script will take care of running Hugo, Gulp and the required Git magic - just run `bash deploy.sh` and the site will be pushed to the gh-pages branch.
 
-In a second window, run `gulp watch` to compile any new scss/js changes.
+
+# Local Development
+
+* Run `hugo server --watch` to generate the site
+* In a different window, run `gulp watch` to compile assets
+* The site will be available at [localhost:1313](http://localhost:1313/)
+
