@@ -8831,12 +8831,11 @@ body {
 }
 
 .styleguide-footer {
-  margin-top: -5rem;
   min-height: 5rem;
   overflow: hidden;
   position: relative;
   z-index: 500;
-  padding-top: 0.2em;
+  padding-top: 1.25em;
   background-color: #323f4c;
   border-bottom: 6px solid #203539;
   min-width: 100%;
@@ -9454,6 +9453,9 @@ a:visited:hover {
     font-size: 20.47898px;
   }
 
+  .styleguide-footer {
+    padding-top: 0.2em;
+  }
   .styleguide-footer p {
     text-align: center !important;
     display: block;

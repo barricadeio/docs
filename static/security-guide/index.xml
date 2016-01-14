@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security-Guide on </title>
-    <link>http://localhost:1313/security-guide/</link>
+    <link>http://barricadeio.github.io/docs/security-guide/</link>
     <description>Recent content in Security-Guide on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://localhost:1313/security-guide/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://barricadeio.github.io/docs/security-guide/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Web App Attacks</title>
-      <link>http://localhost:1313/security-guide/web-app-attack/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/web-app-attack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/web-app-attack/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/web-app-attack/</guid>
       <description>
 
 &lt;p&gt;A web application attack is any technique that&amp;rsquo;s used to target websites, web applications and web services with malicious intent.&lt;/p&gt;
@@ -97,10 +97,10 @@ The best way to safeguard against these types of attacks in the longer term is t
     
     <item>
       <title>SQL Injection</title>
-      <link>http://localhost:1313/security-guide/sql-injection/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/sql-injection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/sql-injection/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/sql-injection/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for SQL Injection attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
@@ -163,10 +163,10 @@ SQL Injection is just one of many techniques that can pose a threat to you and y
     
     <item>
       <title>Cross-Site Scripting</title>
-      <link>http://localhost:1313/security-guide/xss/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/xss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/xss/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/xss/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for Cross-Site Scripting attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
@@ -222,10 +222,10 @@ The best way to safeguard against XSS attacks in the long term is to understand
     
     <item>
       <title>Default Username Attempts</title>
-      <link>http://localhost:1313/security-guide/login-default-username/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/login-default-username/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/login-default-username/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/login-default-username/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.&lt;/p&gt;
@@ -281,10 +281,10 @@ DBA
     
     <item>
       <title>Suspicious Login Attempts</title>
-      <link>http://localhost:1313/security-guide/login-suspicious-username/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/login-suspicious-username/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/login-suspicious-username/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/login-suspicious-username/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.&lt;/p&gt;
@@ -338,10 +338,10 @@ username has failed activity from multiple IP addresses at once
     
     <item>
       <title>Attempted SSH login</title>
-      <link>http://localhost:1313/security-guide/attempted-ssh-login/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/attempted-ssh-login/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/attempted-ssh-login/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/attempted-ssh-login/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.&lt;/p&gt;
@@ -421,10 +421,10 @@ AllowGroup sshusers
     
     <item>
       <title>System Information Leaks</title>
-      <link>http://localhost:1313/security-guide/system-info-detected/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/system-info-detected/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/system-info-detected/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/system-info-detected/</guid>
       <description>
 
 &lt;p&gt;Barricade helps protect your data by checking your traffic for any information leaks - if admin or  config information is output by the application in a response, you will be alerted immediately.&lt;/p&gt;
@@ -496,10 +496,10 @@ AllowGroup sshusers
     
     <item>
       <title>Sensitive Information Leaks</title>
-      <link>http://localhost:1313/security-guide/sensitive-info-detected/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/sensitive-info-detected/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/sensitive-info-detected/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/sensitive-info-detected/</guid>
       <description>
 
 &lt;p&gt;Barricade helps protect your data by checking for signs of sensitive information. If credit card info or content of a sensitive nature is found to be publicly visible; you will be alerted immediately.&lt;/p&gt;
@@ -514,10 +514,10 @@ AllowGroup sshusers
     
     <item>
       <title>How to Run Commands</title>
-      <link>http://localhost:1313/security-guide/running-commands/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/running-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/running-commands/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/running-commands/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re unsure about how to do this, you should refer to your Cloud provider&amp;rsquo;s documentation:&lt;/p&gt;
@@ -545,10 +545,10 @@ AllowGroup sshusers
     
     <item>
       <title>Blocking IP Addresses</title>
-      <link>http://localhost:1313/security-guide/blocking-ip-address/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/blocking-ip-address/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/blocking-ip-address/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/blocking-ip-address/</guid>
       <description>
 
 &lt;p&gt;If you&amp;rsquo;re receiving alerts that your system is experiencing an attack, we will often recommend you take action and block the attacker to prevent them from trying again.&lt;/p&gt;
@@ -574,10 +574,10 @@ AllowGroup sshusers
     
     <item>
       <title>Securing Web Forms</title>
-      <link>http://localhost:1313/security-guide/securing-web-forms/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/securing-web-forms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/securing-web-forms/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/securing-web-forms/</guid>
       <description>&lt;p&gt;Many common security issues can be avoided by keeping your web forms secure from injection and cross-site scripting attacks. &lt;/p&gt;
 
 &lt;ul&gt;
