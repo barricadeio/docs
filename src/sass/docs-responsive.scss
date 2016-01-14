@@ -90,13 +90,17 @@
     }
   }
 
-  .styleguide-footer p {
-    text-align: center !important;
-    display: block;
-    margin: 0.5em auto 0;
+  .styleguide-footer{
+    padding-top: 0.2em;
 
-    img {
-      float: none;
+    p {
+      text-align: center !important;
+      display: block;
+      margin: 0.5em auto 0;
+
+      img {
+        float: none;
+      }
     }
   }
 

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Suspicious on </title>
-    <link>http://localhost:1313/tags/suspicious/</link>
+    <link>http://barricadeio.github.io/docs/tags/suspicious/</link>
     <description>Recent content in Suspicious on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://localhost:1313/tags/suspicious/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://barricadeio.github.io/docs/tags/suspicious/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Suspicious Login Attempts</title>
-      <link>http://localhost:1313/security-guide/login-suspicious-username/</link>
+      <link>http://barricadeio.github.io/docs/security-guide/login-suspicious-username/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/login-suspicious-username/</guid>
+      <guid>http://barricadeio.github.io/docs/security-guide/login-suspicious-username/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.&lt;/p&gt;

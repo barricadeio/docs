@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sectests on </title>
-    <link>http://localhost:1313/tags/sectests/</link>
+    <link>http://barricadeio.github.io/docs/tags/sectests/</link>
     <description>Recent content in Sectests on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://localhost:1313/tags/sectests/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://barricadeio.github.io/docs/tags/sectests/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>C.I. Security Tests</title>
-      <link>http://localhost:1313/using-barricade/ci-sec-testing/</link>
+      <link>http://barricadeio.github.io/docs/using-barricade/ci-sec-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/using-barricade/ci-sec-testing/</guid>
+      <guid>http://barricadeio.github.io/docs/using-barricade/ci-sec-testing/</guid>
       <description>
 
 &lt;p&gt;Continuous Integration Security Testing can be used alongside other test suites as you are developing - to better understand which parts of your application network might be at risk.&lt;/p&gt;
