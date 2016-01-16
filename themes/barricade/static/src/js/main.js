@@ -2722,67 +2722,30 @@ $(document).ready(function() {
   });
 
 
-  $(function() {
-    var client = algoliasearch('QM91V2H4QL', 'edeebf1c9a5e14c6dfb24911a629e27c');
-    var index = client.initIndex('test_index');
-    var $input = $('#agolia-input');
-    $input.keyup(function() {
-      index.search($input.val(), {
-        hitsPerPage: 10,
-        facets: '*'
-      }, searchCallback);
-    }).focus();
+  // algolia
+  var client = algoliasearch('QM91V2H4QL', 'edeebf1c9a5e14c6dfb24911a629e27c');
+  var index = client.initIndex('test_index');
+  var $input = $('#agolia-input');
+  $input.keyup(function() {
+    index.search($input.val(), {
+      hitsPerPage: 10,
+      facets: '*'
+    }, searchCallback);
+  }).focus();
 
-    function searchCallback(err, content) {
-      if (err) {
-        console.error(err);
-        return;
-      }
+  function searchCallback(err, content) {
+    if (err) {
+      console.error(err);
+      return;
+    }
 
-      var $articles = $('#articles');
-      $articles.empty();
+    var $articles = $('#articles');
+    $articles.empty();
 
-      for (var i = 0; i < content.hits.length; i++) {
-        $articles.append('<li>' + content.hits[i].name + '</li>');
-      }
-    };
-
-
-
-  // algolia search
-  // var client = algoliasearch('QM91V2H4QL', 'edeebf1c9a5e14c6dfb24911a629e27c');
-  // var index = client.initIndex('barricade_docs');
-
-  // autocomplete('#agolia-input', { hint: false }, [
-  //   {
-  //     source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
-  //     displayKey: 'my_attribute',
-  //     templates: {
-  //       suggestion: function(suggestion) {
-  //         return suggestion._highlightResult.my_attribute.value;
-  //       }
-  //     }
-  //   }
-  // ]).on('autocomplete:selected', function(event, suggestion, dataset) {
-  //    console.log(suggestion, dataset);
-  // });
-
-  // var $articles = $('#articles');
-  // $articles.empty();
-
-  // for (var i = 0; i < content.hits.length; i++) {
-  //   $articles.append('<li>' + content.hits[i].name + '</li>');
-  // }
-
-
-  // demo search functionality
-  //
-    // remove this
-    //when algolia is integrated
-
-  // $('#searchOverlay form input[type=text]').on('input', function() {
-  //     $("#searchResults").addClass('active');
-  // });
+    for (var i = 0; i < content.hits.length; i++) {
+      $articles.append('<li>' + content.hits[i].name + '</li>');
+    }
+  };
 
 
   // footer
