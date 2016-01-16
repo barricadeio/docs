@@ -38,6 +38,7 @@
 
   h3 {
     color: $dark1;
+    margin: 1.25em 0 1.825em;
   }
 
   p {
@@ -95,11 +96,15 @@
     padding: 0 0.25rem;
     margin-bottom: 2em;
     color: $dark1;
-    font-size: $scalex5;
+    font-size: $scalex4;
     line-height: 1.7;
 
     li {
-      
+      &:first-child,
+      & > p,
+      & > p:first-child {
+        font-size: 1em;
+      }
     }
   }
 
@@ -117,8 +122,13 @@
       width: auto;
     }
 
+    td {
+      color: $dark1;
+      font-size: $scalex4;
+    }
+
     &.risk {
-      font-size: $scalex2;
+      font-size: $scalex4;
       margin: 1.925rem 0;
 
       strong {

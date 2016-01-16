@@ -19,6 +19,36 @@ $(document).ready(function() {
     }
   });
 
+
+  // algolia
+  $(function() {
+    var client = algoliasearch('QM91V2H4QL', 'edeebf1c9a5e14c6dfb24911a629e27c');
+    var index = client.initIndex('barricade_docs');
+    var $input = $('#agolia-input');
+    $input.keyup(function() {
+      index.search($input.val(), {
+        hitsPerPage: 10,
+        facets: '*'
+      }, searchCallback);
+    }).focus();
+
+    function searchCallback(err, content) {
+      if (err) {
+        console.error(err);
+        return;
+      }
+
+      var $articles = $('#articles');
+      $articles.empty();
+
+      for (var i = 0; i < content.hits.length; i++) {
+        $articles.append('<li>' + content.hits[i].name + '</li>');
+      }
+    };
+  });
+
+
+
   // algolia search
   // var client = algoliasearch('QM91V2H4QL', 'edeebf1c9a5e14c6dfb24911a629e27c');
   // var index = client.initIndex('barricade_docs');
@@ -50,9 +80,9 @@ $(document).ready(function() {
     // remove this
     //when algolia is integrated
 
-  $('#searchOverlay form input[type=text]').on('input', function() {
-      $("#searchResults").addClass('active');
-  });
+  // $('#searchOverlay form input[type=text]').on('input', function() {
+  //     $("#searchResults").addClass('active');
+  // });
 
 
   // footer

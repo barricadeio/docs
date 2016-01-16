@@ -9185,8 +9185,17 @@ body {
   padding: 0 0.25rem;
   margin-bottom: 2em;
   color: #566c70;
-  font-size: 20.47898px;
+  font-size: 17.142px;
   line-height: 1.7;
+}
+.main .content-wrap.markdown ul li:first-child, .main .content-wrap.markdown ul li > p, .main .content-wrap.markdown ul li > p:first-child, .main .content-wrap.markdown ol li:first-child, .main .content-wrap.markdown ol li > p, .main .content-wrap.markdown ol li > p:first-child,
+.main .content-wrap ul li:first-child,
+.main .content-wrap ul li > p,
+.main .content-wrap ul li > p:first-child,
+.main .content-wrap ol li:first-child,
+.main .content-wrap ol li > p,
+.main .content-wrap ol li > p:first-child {
+  font-size: 1em;
 }
 .main .content-wrap table {
   margin: 1.5rem 0;
@@ -9201,8 +9210,12 @@ body {
   padding: 0.425em 0.75em 0.425em 0.2em;
   width: auto;
 }
+.main .content-wrap table td {
+  color: #566c70;
+  font-size: 17.142px;
+}
 .main .content-wrap table.risk {
-  font-size: 14.8564px;
+  font-size: 17.142px;
   margin: 1.925rem 0;
 }
 .main .content-wrap table.risk strong {
