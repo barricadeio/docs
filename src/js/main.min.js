@@ -2722,10 +2722,9 @@ $(document).ready(function() {
   });
 
 
-  // algolia
   $(function() {
     var client = algoliasearch('QM91V2H4QL', 'edeebf1c9a5e14c6dfb24911a629e27c');
-    var index = client.initIndex('barricade_docs');
+    var index = client.initIndex('test_index');
     var $input = $('#agolia-input');
     $input.keyup(function() {
       index.search($input.val(), {
@@ -2747,7 +2746,6 @@ $(document).ready(function() {
         $articles.append('<li>' + content.hits[i].name + '</li>');
       }
     };
-  });
 
 
 
