@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://barricadeio.github.io/docs/</link>
+    <link>http://docs.barricade.io/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 26 Aug 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://barricadeio.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://docs.barricade.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hipchat Integration</title>
-      <link>http://barricadeio.github.io/docs/changelog/added-hipchat</link>
+      <link>http://docs.barricade.io/changelog/added-hipchat</link>
       <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/added-hipchat</guid>
+      <guid>http://docs.barricade.io/changelog/added-hipchat</guid>
       <description>&lt;p&gt;You can now receive Barricade notification in HipChat!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; alt=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; /&gt;&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>Product Demo added to Site</title>
-      <link>http://barricadeio.github.io/docs/changelog/product-demo</link>
+      <link>http://docs.barricade.io/changelog/product-demo</link>
       <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/product-demo</guid>
+      <guid>http://docs.barricade.io/changelog/product-demo</guid>
       <description>&lt;p&gt;Now there&amp;rsquo;s no need to signup or install an Agent to see how Barricade looks and feels - our new dashboard demo uses sample data to mimic insights into a live server. Try it out now at: &lt;a href=&#34;https://app.barricade.io/demo&#34;&gt;app.barricade.io/demo&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -46,19 +46,19 @@
     
     <item>
       <title>404 - Page not found</title>
-      <link>http://barricadeio.github.io/docs/404/</link>
+      <link>http://docs.barricade.io/404/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/404/</guid>
+      <guid>http://docs.barricade.io/404/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New Barricade.io Site Launched</title>
-      <link>http://barricadeio.github.io/docs/changelog/new-barricade-site-launched</link>
+      <link>http://docs.barricade.io/changelog/new-barricade-site-launched</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/new-barricade-site-launched</guid>
+      <guid>http://docs.barricade.io/changelog/new-barricade-site-launched</guid>
       <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../../src/img/changelog/new-site-01.png&#34; alt=&#34;../../../src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>Web App Attacks</title>
-      <link>http://barricadeio.github.io/docs/security-guide/web-app-attack/</link>
+      <link>http://docs.barricade.io/security-guide/web-app-attack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/security-guide/web-app-attack/</guid>
+      <guid>http://docs.barricade.io/security-guide/web-app-attack/</guid>
       <description>
 
 &lt;p&gt;A web application attack is any technique that&amp;rsquo;s used to target websites, web applications and web services with malicious intent.&lt;/p&gt;
@@ -155,10 +155,10 @@ The best way to safeguard against these types of attacks in the longer term is t
     
     <item>
       <title>Added Agent Admin Page</title>
-      <link>http://barricadeio.github.io/docs/changelog/agent-admin-page</link>
+      <link>http://docs.barricade.io/changelog/agent-admin-page</link>
       <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/agent-admin-page</guid>
+      <guid>http://docs.barricade.io/changelog/agent-admin-page</guid>
       <description>
 
 &lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
@@ -180,10 +180,10 @@ service barricade status
     
     <item>
       <title>Updated AI Engine</title>
-      <link>http://barricadeio.github.io/docs/changelog/updated-ai-engine</link>
+      <link>http://docs.barricade.io/changelog/updated-ai-engine</link>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/updated-ai-engine</guid>
+      <guid>http://docs.barricade.io/changelog/updated-ai-engine</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re working constantly on the engine to ensure the best results for our customers. If you&amp;rsquo;re seeing any data you&amp;rsquo;re not sure about - do let us know.&lt;/p&gt;
@@ -194,10 +194,10 @@ service barricade status
     
     <item>
       <title>SQL Injection</title>
-      <link>http://barricadeio.github.io/docs/security-guide/sql-injection/</link>
+      <link>http://docs.barricade.io/security-guide/sql-injection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/security-guide/sql-injection/</guid>
+      <guid>http://docs.barricade.io/security-guide/sql-injection/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for SQL Injection attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
@@ -260,10 +260,10 @@ SQL Injection is just one of many techniques that can pose a threat to you and y
     
     <item>
       <title>Added Teams - Invite &amp; Manage Users</title>
-      <link>http://barricadeio.github.io/docs/changelog/added-teams</link>
+      <link>http://docs.barricade.io/changelog/added-teams</link>
       <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/added-teams</guid>
+      <guid>http://docs.barricade.io/changelog/added-teams</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve added the ability to invite and manage users to a team account, so you can grant &lt;strong&gt;read-only access&lt;/strong&gt; to your colleagues.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/04-team-invites.gif&#34; alt=&#34;../../src/img/changelog/04-team-invites.gif&#34; /&gt;&lt;/p&gt;
@@ -274,10 +274,10 @@ SQL Injection is just one of many techniques that can pose a threat to you and y
     
     <item>
       <title>Cross-Site Scripting</title>
-      <link>http://barricadeio.github.io/docs/security-guide/xss/</link>
+      <link>http://docs.barricade.io/security-guide/xss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/security-guide/xss/</guid>
+      <guid>http://docs.barricade.io/security-guide/xss/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for Cross-Site Scripting attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
@@ -333,10 +333,10 @@ The best way to safeguard against XSS attacks in the long term is to understand
     
     <item>
       <title>Added Slack Integration</title>
-      <link>http://barricadeio.github.io/docs/changelog/slack-integration</link>
+      <link>http://docs.barricade.io/changelog/slack-integration</link>
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/slack-integration</guid>
+      <guid>http://docs.barricade.io/changelog/slack-integration</guid>
       <description>&lt;p&gt;&lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-logo.png&#34; alt=&#34;../../src/img/changelog/05-slack-logo.png&#34; /&gt;&lt;/p&gt;
@@ -351,10 +351,10 @@ The best way to safeguard against XSS attacks in the long term is to understand
     
     <item>
       <title>Email Notification Controls</title>
-      <link>http://barricadeio.github.io/docs/changelog/email-notifications</link>
+      <link>http://docs.barricade.io/changelog/email-notifications</link>
       <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/email-notifications</guid>
+      <guid>http://docs.barricade.io/changelog/email-notifications</guid>
       <description>&lt;p&gt;You can now manage your email notification through the Barricade app settings, to opt-in and opt-out of different levels of security notifications.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/06-screen-01.png&#34; alt=&#34;../../src/img/changelog/06-screen-01.png&#34; /&gt;&lt;/p&gt;
@@ -373,10 +373,10 @@ The best way to safeguard against XSS attacks in the long term is to understand
     
     <item>
       <title>New Agent Detection Message</title>
-      <link>http://barricadeio.github.io/docs/changelog/new-agent-detection</link>
+      <link>http://docs.barricade.io/changelog/new-agent-detection</link>
       <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/new-agent-detection</guid>
+      <guid>http://docs.barricade.io/changelog/new-agent-detection</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve added visual feedback to the &lt;a href=&#34;https://app.barricade.io&#34;&gt;app&lt;/a&gt;, so you can see when the installation of a new Agent has completed successfully:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/07-drawer-detection.gif&#34; alt=&#34;../../src/img/changelog/07-drawer-detection.gif&#34; /&gt;&lt;/p&gt;
@@ -387,10 +387,10 @@ The best way to safeguard against XSS attacks in the long term is to understand
     
     <item>
       <title>Agent Performance Improvements</title>
-      <link>http://barricadeio.github.io/docs/changelog/agent-performance</link>
+      <link>http://docs.barricade.io/changelog/agent-performance</link>
       <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/agent-performance</guid>
+      <guid>http://docs.barricade.io/changelog/agent-performance</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve shipped a major update to our monitoring Agent, to improve performance and minimise the amount of server CPU the Agent requires.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Avoiding CPU Spikes&lt;/strong&gt;&lt;br /&gt;
@@ -401,7 +401,7 @@ The agent configuration has also been updated with a maximum number of packets p
 
 &lt;p&gt;When this limit is hit, the agent will begin dropping older packets to prioritise the newest information, and emit a warning to this effect in the logs (&lt;code&gt;/var/log/barricade.log&lt;/code&gt; on most systems, in journalctl for systemd based systems).&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;You must to &lt;a href=&#34;../../using-barricade/#updating-agents&#34;&gt;Update Your Agents&lt;/a&gt; to apply these changes.&lt;/strong&gt;&lt;/p&gt;
 </description>
@@ -409,10 +409,10 @@ The agent configuration has also been updated with a maximum number of packets p
     
     <item>
       <title>Default Username Attempts</title>
-      <link>http://barricadeio.github.io/docs/security-guide/login-default-username/</link>
+      <link>http://docs.barricade.io/security-guide/login-default-username/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/security-guide/login-default-username/</guid>
+      <guid>http://docs.barricade.io/security-guide/login-default-username/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.&lt;/p&gt;
