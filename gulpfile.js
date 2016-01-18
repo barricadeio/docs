@@ -81,7 +81,7 @@ gulp.task('scriptminify', function() {
     .pipe(jshint.reporter('default'))
     // .pipe(concat())
     .pipe(rename({ suffix: '.min' }))
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('static/src/js'))
     .pipe(notify({ message: 'Script minify task complete' }));
 });
