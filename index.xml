@@ -401,31 +401,68 @@ The agent configuration has also been updated with a maximum number of packets p
 
 &lt;p&gt;When this limit is hit, the agent will begin dropping older packets to prioritise the newest information, and emit a warning to this effect in the logs (&lt;code&gt;/var/log/barricade.log&lt;/code&gt; on most systems, in journalctl for systemd based systems).&lt;/p&gt;
 
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;You must to &lt;a href=&#34;../../using-barricade/#updating-agents&#34;&gt;Update Your Agents&lt;/a&gt; to apply these changes.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Overview</title>
-      <link>http://barricadeio.github.io/docs/getting-started/overview/</link>
+      <title>Default Username Attempts</title>
+      <link>http://barricadeio.github.io/docs/security-guide/login-default-username/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/getting-started/overview/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;video-container&#34;&gt;
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;100%&#34; height=&#34;auto&#34; src=&#34;https://www.youtube.com/embed/ukTAg2ecO8g&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/security-guide/login-default-username/</guid>
+      <description>
 
-&lt;p&gt;Barricade collects data from your server with an &lt;strong&gt;Agent&lt;/strong&gt; - a simple, lightweight package that watches all network activity on your cloud server.&lt;/p&gt;
+&lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.&lt;/p&gt;
 
-&lt;p&gt;This data is encrypted and processed through Barricades&amp;rsquo; central detection &lt;strong&gt;Engine&lt;/strong&gt;, and findings are displayed in real-time in your dashboard and notification channels.&lt;/p&gt;
+&lt;h2 id=&#34;causes:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Causes&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/agent-chart-sm.png&#34; alt=&#34;../src/img/getting-started/agent-chart-sm.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Login forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. Default, out-of-the-box usernames like ‘administrator’ make it much easier for attackers to hone in on your login information, and reduce the time needed to run &lt;a href=&#34;http://en.wikipedia.org/wiki/Brute-force_attack&#34;&gt;Brute Force&lt;/a&gt; password attacks.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting (&lt;a href=&#34;../src/img/getting-started/agent-chart-lg.png&#34;&gt;open in full-size&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;admin  
+administrator  
+root  
+temp  
+User  
+DBA
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Some examples from &lt;a href=&#34;http://defaultpassword.com&#34;&gt;defaultpassword.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Single failed login attempt using default credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple failed login attempts using default credentials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Successful login using default credentials - possible security breach&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:69e8a17692cf3f3f17278939bf4b859a&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;If a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the &lt;a href=&#34;https://app.barricade.io/dashboard/alerts&#34;&gt;Alert instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the longer term, you can safeguard against these types of attacks by following best practices:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remove &amp;lsquo;Default&amp;rsquo; Logins from your app&lt;/li&gt;
+&lt;li&gt;Create and implementing a strong password policy&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

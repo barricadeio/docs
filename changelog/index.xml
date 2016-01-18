@@ -9,271 +9,179 @@
     <atom:link href="http://barricadeio.github.io/docs/changelog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>HTTP Request Insights</title>
-      <link>http://barricadeio.github.io/docs/changelog/request-insights</link>
-      <pubDate>Mon, 14 Dec 2015 00:00:00 +0000</pubDate>
+      <title>Hipchat Integration</title>
+      <link>http://barricadeio.github.io/docs/changelog/added-hipchat</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/request-insights</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve shipped an improvement to our new &amp;lsquo;&lt;a href=&#34;../#app-security-story&#34;&gt;Security Story&lt;/a&gt;&amp;rsquo; App Sec feature, which breaks down the details of the attackers behavior in terms of HTTP requests:&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/added-hipchat</guid>
+      <description>&lt;p&gt;You can now receive Barricade notification in HipChat!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/23-app-sec-details.png&#34; alt=&#34;../../src/img/changelog/23-app-sec-details.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; alt=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This change is &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;now live in the app&lt;/a&gt; - you should see the &lt;strong&gt;&amp;lsquo;Reveal Details&amp;rsquo;&lt;/strong&gt; option appearing for different types of cases.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/09-message.png&#34; alt=&#34;../../src/img/changelog/09-message.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.hipchat.com/&#34;&gt;HipChat&lt;/a&gt; is team chat that&amp;rsquo;s actually built for business - a centralized place for group and private chat, file sharing, and integrations. &lt;/p&gt;
+
+&lt;p&gt;For more information on using this Integration, see our guide to &lt;a href=&#34;../../using-barricade/#hipchat-integration&#34;&gt;Integrating with HipChat&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Broader Detection of Attacks</title>
-      <link>http://barricadeio.github.io/docs/changelog/broader-app-detection</link>
-      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      <title>Product Demo added to Site</title>
+      <link>http://barricadeio.github.io/docs/changelog/product-demo</link>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/broader-app-detection</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve shipped a big update to our detection engine, to improve the criteria for detecting events, attacks and incidents. This will ensure greater coverage for systems being monitored by Barricade.&lt;/p&gt;
-
-&lt;p&gt;These changes will result in improved behavior of our detection engine:&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/product-demo</guid>
+      <description>&lt;p&gt;Now there&amp;rsquo;s no need to signup or install an Agent to see how Barricade looks and feels - our new dashboard demo uses sample data to mimic insights into a live server. Try it out now at: &lt;a href=&#34;https://app.barricade.io/demo&#34;&gt;app.barricade.io/demo&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;adds new, wider and smarter criteria for detection&lt;/li&gt;
-&lt;li&gt;improved detection of SSH login attacks&lt;/li&gt;
-&lt;li&gt;better classify different types of web app attack&lt;/li&gt;
-&lt;li&gt;reduces false positives&lt;/li&gt;
+&lt;li&gt;Explore the Barricade webapp&lt;/li&gt;
+&lt;li&gt;Trigger simulations of Events, Attacks and Incidents&lt;/li&gt;
+&lt;li&gt;View simulated app responses - alerts and recommendations&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;em&gt;These changes are now live in our central engine - &lt;strong&gt;no action is required on your part.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/08-demo.gif&#34; alt=&#34;../../src/img/changelog/08-demo.gif&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Introducing the App Security Story</title>
-      <link>http://barricadeio.github.io/docs/changelog/app-security-story</link>
-      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      <title>New Barricade.io Site Launched</title>
+      <link>http://barricadeio.github.io/docs/changelog/new-barricade-site-launched</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/app-security-story</guid>
-      <description>
-
-&lt;p&gt;We&amp;rsquo;re very happy to reveal a big change to how we present details of events, attacks and incidents; the &lt;strong&gt;Security Story&lt;/strong&gt; - designed to improve your visibility into your Application Security.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../../src/img/changelog/21-appsec.png&#34;&gt;&lt;img src=&#34;../../src/img/changelog/21-appsec.png&#34; alt=&#34;../../src/img/changelog/21-appsec.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-session-timeline:e7cad272807e8cfa2e931e5170090086&#34;&gt;The Session Timeline&lt;/h3&gt;
-
-&lt;p&gt;Case details will now include a &lt;strong&gt;timeline&lt;/strong&gt; of the attacker&amp;rsquo;s behavior, including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;page requests&lt;/li&gt;
-&lt;li&gt;endpoint requests&lt;/li&gt;
-&lt;li&gt;application errors&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This information is presented alongside the case details and recommendations, to provide greater context to you and your team&lt;/p&gt;
-
-&lt;p&gt;Now you can see wider &lt;strong&gt;activity&lt;/strong&gt; and the &lt;strong&gt;route&lt;/strong&gt; that that attacker has taken through your system - so you can spend less time digging through server logs, and get more visibility into issues, to better understand where a particular vulnerability originated in your app.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/21-timeline.png&#34; alt=&#34;../../src/img/changelog/21-timeline.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;attacker-profile:e7cad272807e8cfa2e931e5170090086&#34;&gt;Attacker Profile&lt;/h3&gt;
-
-&lt;p&gt;We&amp;rsquo;ve also added information to help you &lt;strong&gt;profile&lt;/strong&gt; the behavior of attackers over time, so that you&amp;rsquo;re not just seeing the requests they make; but also patterns in their behavior.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;We&amp;rsquo;re excited about this - we will continue to bring new user-friendly features to help you organize, filter and browse insights into your application security.&lt;/em&gt;  &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/21-details.png&#34; alt=&#34;../../src/img/changelog/21-details.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
-
-&lt;p&gt;The changes are now live in the app - &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;view a Case page&lt;/a&gt; to see it in action.&lt;/p&gt;
-
-&lt;h3 id=&#34;feedback:e7cad272807e8cfa2e931e5170090086&#34;&gt;Feedback&lt;/h3&gt;
-
-&lt;p&gt;We&amp;rsquo;re hoping you&amp;rsquo;ll find this information as useful as we do; let us know if you&amp;rsquo;ve got any feedback on this new approach &lt;a href=&#34;https://barricade.io/about/#contact-info&#34;&gt;we&amp;rsquo;d love to hear from you&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Continuous Integration Security Test Logs</title>
-      <link>http://barricadeio.github.io/docs/changelog/ci-sec-tests</link>
-      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://barricadeio.github.io/docs/changelog/ci-sec-tests</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve added a new feature that lets you log automated C.I. security tests inside the Barricade app interface.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;re big believers in &lt;a href=&#34;https://blog.barricade.io/continuous-security/&#34;&gt;Continuous Integration&lt;/a&gt; - this change lets you log details from penetration tests (through a special Barricade webhook url) that you run alongside other test suites that you run as part of your development cycle.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/20-ci-tests.png&#34; alt=&#34;../../src/img/changelog/20-ci-tests.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;See our docs on &lt;a href=&#34;../../using-barricade/#ci-sec-testing&#34;&gt;C.I. Security Testing for more info&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Changes to Team Permissions</title>
-      <link>http://barricadeio.github.io/docs/changelog/changes-to-teams</link>
-      <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://barricadeio.github.io/docs/changelog/changes-to-teams</guid>
-      <description>&lt;p&gt;Following requests from customers, we&amp;rsquo;ve revised the user permissions for Teams, so that members &lt;em&gt;(non-admin users)&lt;/em&gt; have broader access to features.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s a breakdown of the permissions per role:&lt;/p&gt;
-
-&lt;table class=&#34;compare&#34;&gt;
-&lt;thead&gt;
-&lt;tr&gt;&lt;th&gt; &lt;/th&gt;&lt;th&gt;&lt;strong&gt;Admin&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Member&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Install Agents:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Edit Agents:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;View Cases:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Mark Cases as Resolved:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Invite Team Members:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Remove Team Members:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-close&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Manage Team Notifcations:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Manage Team Integrations:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;View &amp;amp; Edit Billing Details:&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-check&#34;&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em class=&#34;fa fa-close&#34;&gt; &lt;/em&gt; &lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Check out our docs on &lt;a href=&#34;../../using-barricade/#adding-team-members&#34;&gt;Team and User Management here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Site Performance Improvements</title>
-      <link>http://barricadeio.github.io/docs/changelog/site-performance</link>
-      <pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://barricadeio.github.io/docs/changelog/site-performance</guid>
-      <description>&lt;p&gt;Our site has been ported over to &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, and optimized for a faster load time - you should see improved performance on &lt;a href=&#34;https://www.barricade.io&#34;&gt;www.barricade.io&lt;/a&gt;!&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/new-barricade-site-launched</guid>
+      <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../../src/img/changelog/new-site-01.png&#34; alt=&#34;../../../src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Replace Websockets with SEE</title>
-      <link>http://barricadeio.github.io/docs/changelog/replace-websockets</link>
-      <pubDate>Wed, 28 Oct 2015 00:00:00 +0000</pubDate>
+      <title>Added Agent Admin Page</title>
+      <link>http://barricadeio.github.io/docs/changelog/agent-admin-page</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/replace-websockets</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve updated app.barricade.io to use Server Side Events instead of Websockets (socket.io), to address issues with Websocket + CloudFlare.&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/agent-admin-page</guid>
+      <description>
 
-&lt;p&gt;Our application doesn&amp;rsquo;t require duplex communication between clients and server, so we switched to a simpler solution - one which means no more errors appearing in the console.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This section allows you to see what Agents are running, how busy they are and how to control them (stop, start, etc).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/02-agents.png&#34; alt=&#34;../../src/img/changelog/02-agents.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;agent-controls:0296e37855114436a18e6976efcf3577&#34;&gt;Agent Controls&lt;/h3&gt;
+
+&lt;p&gt;You can stop and start the agent by running commands on your server - this new Agent section provides instructions on how to do this - see our &lt;a href=&#34;../../using-barricade/#updating-agents&#34;&gt;Agent documentation&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;service barricade start  
+service barricade stop  
+service barricade status  
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
     <item>
-      <title>Case Grouping</title>
-      <link>http://barricadeio.github.io/docs/changelog/case-grouping</link>
-      <pubDate>Wed, 28 Oct 2015 00:00:00 +0000</pubDate>
+      <title>Updated AI Engine</title>
+      <link>http://barricadeio.github.io/docs/changelog/updated-ai-engine</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/case-grouping</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve shipped some changes in response to customer requests, to improve the organization of Cases in the app.&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/updated-ai-engine</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.&lt;/p&gt;
 
-&lt;p&gt;Now similar, repetitive cases will be combined into &lt;strong&gt;groups&lt;/strong&gt; so they can be viewed, assessed and resolved in batches, to reduce the amount of noise (and clicks) a user is presented with as new cases are detected.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re working constantly on the engine to ensure the best results for our customers. If you&amp;rsquo;re seeing any data you&amp;rsquo;re not sure about - do let us know.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/16-grouping.png&#34; alt=&#34;../../src/img/changelog/16-grouping.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;These changes have been rolled out on &lt;a href=&#34;https://app.barricade.io/login&#34;&gt;app.barricade.io - login&lt;/a&gt; to see them in action!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/03-screen.png&#34; alt=&#34;../../src/img/changelog/03-screen.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Added AWS Web App Firewall integration</title>
-      <link>http://barricadeio.github.io/docs/changelog/aws-waf</link>
-      <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
+      <title>Added Teams - Invite &amp; Manage Users</title>
+      <link>http://barricadeio.github.io/docs/changelog/added-teams</link>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/aws-waf</guid>
-      <description>&lt;p&gt;Now you can use &lt;a href=&#34;https://aws.amazon.com/waf/&#34;&gt;AWS WAF&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://barricade.io/features&#34;&gt;Barricade&lt;/a&gt; together to make an &lt;strong&gt;intelligent&lt;/strong&gt; and &lt;strong&gt;learning&lt;/strong&gt; firewall.&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/added-teams</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve added the ability to invite and manage users to a team account, so you can grant &lt;strong&gt;read-only access&lt;/strong&gt; to your colleagues.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../src/img/using-barricade/15-awswaf.png&#34; alt=&#34;../../src/img/using-barricade/15-awswaf.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/04-team-invites.gif&#34; alt=&#34;../../src/img/changelog/04-team-invites.gif&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;You&amp;rsquo;ll find a new section in the app to &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/aws_waf&#34;&gt;add the integration here&lt;/a&gt;, which will add a simple &amp;lsquo;Add to Firewall&amp;rsquo; button to security cases that we detect. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../src/img/using-barricade/15-awswaf-08.png&#34; alt=&#34;../../src/img/using-barricade/15-awswaf-08.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For more details on using the integration, see our &lt;a href=&#34;../../using-barricade/#aws-waf-integration&#34;&gt;documentation&lt;/a&gt;, or check out &lt;a href=&#34;https://blog.barricade.io/introducing-our-new-amazon-web-application-firewall-integration/&#34;&gt;our blog announcement&lt;/a&gt; - or just go ahead and &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/aws_waf&#34;&gt;try it out for yourself&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/#adding-team-members&#34;&gt;Adding Team Members&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Deal for Incubators and Accelerators</title>
-      <link>http://barricadeio.github.io/docs/changelog/deal-incubators-accelerators</link>
-      <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
+      <title>Added Slack Integration</title>
+      <link>http://barricadeio.github.io/docs/changelog/slack-integration</link>
+      <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/deal-incubators-accelerators</guid>
-      <description>&lt;p&gt;We understand that startups are often cash tight and have specific constraints that do not apply to slightly more mature businesses. Your focus is 100% on launching your app and proving the need for it. We want to work with you. We will give you Barricade&amp;rsquo;s medium business plan for three months for free, you&amp;rsquo;ll be up and running within minutes.&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/slack-integration</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/14-lean.png&#34; alt=&#34;../../src/img/changelog/14-lean.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-logo.png&#34; alt=&#34;../../src/img/changelog/05-slack-logo.png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Visit our &lt;a href=&#34;https://barricade.io/lean.html&#34;&gt;Incubators and Accelerators&lt;/a&gt; page for more information.&lt;/p&gt;
+&lt;p&gt;You can integrate Slack with Barricade to share security notifications with you team:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-message.png&#34; alt=&#34;../../src/img/changelog/05-slack-message.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information on using this feature, see our guide to &lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Integrating with Slack&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>New Pricing &amp; Free Trial Launched</title>
-      <link>http://barricadeio.github.io/docs/changelog/new-pricing-trial</link>
-      <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
+      <title>Email Notification Controls</title>
+      <link>http://barricadeio.github.io/docs/changelog/email-notifications</link>
+      <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/new-pricing-trial</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/13-pricing.jpg&#34; alt=&#34;../../src/img/changelog/13-pricing.jpg&#34; /&gt;&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/email-notifications</guid>
+      <description>&lt;p&gt;You can now manage your email notification through the Barricade app settings, to opt-in and opt-out of different levels of security notifications.&lt;/p&gt;
 
-&lt;p&gt;This &lt;a href=&#34;https://blog.barricade.io/introducing-our-new-pricing/&#34;&gt;new pricing&lt;/a&gt; is more tailored to who will benefit the most from using Barricade. We’re also pretty excited to announce the immediate availability of our &lt;strong&gt;7-day trial&lt;/strong&gt; on all plans.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/06-screen-01.png&#34; alt=&#34;../../src/img/changelog/06-screen-01.png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;See our &lt;a href=&#34;https://barricade.io/pricing.html&#34;&gt;Pricing page&lt;/a&gt; for details on the new plans, or read &lt;a href=&#34;https://blog.barricade.io/introducing-our-new-pricing/&#34;&gt;&amp;ldquo;Introducing Our New Pricing&amp;rdquo;&lt;/a&gt; on our blog.&lt;/p&gt;
+&lt;p&gt;By default, you will receive notifications for &lt;strong&gt;Incidents&lt;/strong&gt; - our most serious security classification. For more insight into the things Barricade observes, you can enable Alerts and Events - but doing so will typically result in a lot more notifications from common, low-level issues.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Incubators &amp;amp; Accelerators Deal&lt;/strong&gt;&lt;br /&gt;
-Furthermore, if you are part of an incubator or an accelerator, we will give you three months free on the medium plan. &lt;a href=&#34;https://barricade.io/lean/&#34;&gt;Click here for more details&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We &lt;strong&gt;do not recommend&lt;/strong&gt; you opt-out of Incident notifications!&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll find the new controls in the app: Settings &amp;gt; Notifications &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/notification/email&#34;&gt;Email Notifications&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/06-email-settings.gif&#34; alt=&#34;../../src/img/changelog/06-email-settings.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that the ability to manage notifications is &lt;strong&gt;limited to account admins&lt;/strong&gt; - if you have been added to a team, your account is read-only. You&amp;rsquo;ll need to contact the account owner.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Improved Web App Attack Detection</title>
-      <link>http://barricadeio.github.io/docs/changelog/improved-engine-attack-detection</link>
-      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
+      <title>New Agent Detection Message</title>
+      <link>http://barricadeio.github.io/docs/changelog/new-agent-detection</link>
+      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/improved-engine-attack-detection</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our detection engine, to improve the accuracy of web app attack cases. These changes will reduce false positives, and better classify the type of web app attack (&lt;a href=&#34;../../security-guide/#web-app-attack&#34;&gt;SQL Injection&lt;/a&gt;, &lt;a href=&#34;../../security-guide/#xss&#34;&gt;Cross-Site Scripting&lt;/a&gt;, etc).&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/new-agent-detection</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve added visual feedback to the &lt;a href=&#34;https://app.barricade.io&#34;&gt;app&lt;/a&gt;, so you can see when the installation of a new Agent has completed successfully:&lt;/p&gt;
 
-&lt;p&gt;We&amp;rsquo;ve also corrected an issue where some &lt;code&gt;scripts&lt;/code&gt; were being identified as attacks.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/07-drawer-detection.gif&#34; alt=&#34;../../src/img/changelog/07-drawer-detection.gif&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;For more information on &lt;a href=&#34;../../using-barricade/#installing-more-agents&#34;&gt;Installing Additional Agents&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agent Performance Improvements</title>
+      <link>http://barricadeio.github.io/docs/changelog/agent-performance</link>
+      <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://barricadeio.github.io/docs/changelog/agent-performance</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve shipped a major update to our monitoring Agent, to improve performance and minimise the amount of server CPU the Agent requires.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;These changes are already in effect - you don&amp;rsquo;t need to update your Agents .&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Avoiding CPU Spikes&lt;/strong&gt;&lt;br /&gt;
+All data preprocessing is now handled server side - meaning the agent has been simplified to consume less server resources. This results in better performance under load, and allows us to scale and upgrade our analysis without requiring an update of the agent.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Packets Per Second&lt;/strong&gt;&lt;br /&gt;
+The agent configuration has also been updated with a maximum number of packets per second that will be sent to Barricade - this is to help prevent the agent becoming a problem itself during a high traffic event, such as a DoS attack. By default, this is 10,000 packets per second, and this figure can be modified to suit the environment and traffic profile.&lt;/p&gt;
+
+&lt;p&gt;When this limit is hit, the agent will begin dropping older packets to prioritise the newest information, and emit a warning to this effect in the logs (&lt;code&gt;/var/log/barricade.log&lt;/code&gt; on most systems, in journalctl for systemd based systems).&lt;/p&gt;
+
+&lt;p&gt;--&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You must to &lt;a href=&#34;../../using-barricade/#updating-agents&#34;&gt;Update Your Agents&lt;/a&gt; to apply these changes.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -298,42 +206,67 @@ This change was directly driven by our customers&amp;rsquo; needs and feedback. 
     </item>
     
     <item>
-      <title>Agent Performance Improvements</title>
-      <link>http://barricadeio.github.io/docs/changelog/agent-performance</link>
-      <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
+      <title>Improved Web App Attack Detection</title>
+      <link>http://barricadeio.github.io/docs/changelog/improved-engine-attack-detection</link>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/agent-performance</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ve shipped a major update to our monitoring Agent, to improve performance and minimise the amount of server CPU the Agent requires.&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/improved-engine-attack-detection</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our detection engine, to improve the accuracy of web app attack cases. These changes will reduce false positives, and better classify the type of web app attack (&lt;a href=&#34;../../security-guide/#web-app-attack&#34;&gt;SQL Injection&lt;/a&gt;, &lt;a href=&#34;../../security-guide/#xss&#34;&gt;Cross-Site Scripting&lt;/a&gt;, etc).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Avoiding CPU Spikes&lt;/strong&gt;&lt;br /&gt;
-All data preprocessing is now handled server side - meaning the agent has been simplified to consume less server resources. This results in better performance under load, and allows us to scale and upgrade our analysis without requiring an update of the agent.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve also corrected an issue where some &lt;code&gt;scripts&lt;/code&gt; were being identified as attacks.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Packets Per Second&lt;/strong&gt;&lt;br /&gt;
-The agent configuration has also been updated with a maximum number of packets per second that will be sent to Barricade - this is to help prevent the agent becoming a problem itself during a high traffic event, such as a DoS attack. By default, this is 10,000 packets per second, and this figure can be modified to suit the environment and traffic profile.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
 
-&lt;p&gt;When this limit is hit, the agent will begin dropping older packets to prioritise the newest information, and emit a warning to this effect in the logs (&lt;code&gt;/var/log/barricade.log&lt;/code&gt; on most systems, in journalctl for systemd based systems).&lt;/p&gt;
-
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;You must to &lt;a href=&#34;../../using-barricade/#updating-agents&#34;&gt;Update Your Agents&lt;/a&gt; to apply these changes.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;These changes are already in effect - you don&amp;rsquo;t need to update your Agents .&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Hipchat Integration</title>
-      <link>http://barricadeio.github.io/docs/changelog/added-hipchat</link>
-      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      <title>New Pricing &amp; Free Trial Launched</title>
+      <link>http://barricadeio.github.io/docs/changelog/new-pricing-trial</link>
+      <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://barricadeio.github.io/docs/changelog/added-hipchat</guid>
-      <description>&lt;p&gt;You can now receive Barricade notification in HipChat!&lt;/p&gt;
+      <guid>http://barricadeio.github.io/docs/changelog/new-pricing-trial</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/13-pricing.jpg&#34; alt=&#34;../../src/img/changelog/13-pricing.jpg&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; alt=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This &lt;a href=&#34;https://blog.barricade.io/introducing-our-new-pricing/&#34;&gt;new pricing&lt;/a&gt; is more tailored to who will benefit the most from using Barricade. We’re also pretty excited to announce the immediate availability of our &lt;strong&gt;7-day trial&lt;/strong&gt; on all plans.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/09-message.png&#34; alt=&#34;../../src/img/changelog/09-message.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;See our &lt;a href=&#34;https://barricade.io/pricing.html&#34;&gt;Pricing page&lt;/a&gt; for details on the new plans, or read &lt;a href=&#34;https://blog.barricade.io/introducing-our-new-pricing/&#34;&gt;&amp;ldquo;Introducing Our New Pricing&amp;rdquo;&lt;/a&gt; on our blog.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.hipchat.com/&#34;&gt;HipChat&lt;/a&gt; is team chat that&amp;rsquo;s actually built for business - a centralized place for group and private chat, file sharing, and integrations. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incubators &amp;amp; Accelerators Deal&lt;/strong&gt;&lt;br /&gt;
+Furthermore, if you are part of an incubator or an accelerator, we will give you three months free on the medium plan. &lt;a href=&#34;https://barricade.io/lean/&#34;&gt;Click here for more details&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deal for Incubators and Accelerators</title>
+      <link>http://barricadeio.github.io/docs/changelog/deal-incubators-accelerators</link>
+      <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://barricadeio.github.io/docs/changelog/deal-incubators-accelerators</guid>
+      <description>&lt;p&gt;We understand that startups are often cash tight and have specific constraints that do not apply to slightly more mature businesses. Your focus is 100% on launching your app and proving the need for it. We want to work with you. We will give you Barricade&amp;rsquo;s medium business plan for three months for free, you&amp;rsquo;ll be up and running within minutes.&lt;/p&gt;
 
-&lt;p&gt;For more information on using this Integration, see our guide to &lt;a href=&#34;../../using-barricade/#hipchat-integration&#34;&gt;Integrating with HipChat&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/14-lean.png&#34; alt=&#34;../../src/img/changelog/14-lean.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Visit our &lt;a href=&#34;https://barricade.io/lean.html&#34;&gt;Incubators and Accelerators&lt;/a&gt; page for more information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Added AWS Web App Firewall integration</title>
+      <link>http://barricadeio.github.io/docs/changelog/aws-waf</link>
+      <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://barricadeio.github.io/docs/changelog/aws-waf</guid>
+      <description>&lt;p&gt;Now you can use &lt;a href=&#34;https://aws.amazon.com/waf/&#34;&gt;AWS WAF&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://barricade.io/features&#34;&gt;Barricade&lt;/a&gt; together to make an &lt;strong&gt;intelligent&lt;/strong&gt; and &lt;strong&gt;learning&lt;/strong&gt; firewall.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/using-barricade/15-awswaf.png&#34; alt=&#34;../../src/img/using-barricade/15-awswaf.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll find a new section in the app to &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/aws_waf&#34;&gt;add the integration here&lt;/a&gt;, which will add a simple &amp;lsquo;Add to Firewall&amp;rsquo; button to security cases that we detect. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/using-barricade/15-awswaf-08.png&#34; alt=&#34;../../src/img/using-barricade/15-awswaf-08.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more details on using the integration, see our &lt;a href=&#34;../../using-barricade/#aws-waf-integration&#34;&gt;documentation&lt;/a&gt;, or check out &lt;a href=&#34;https://blog.barricade.io/introducing-our-new-amazon-web-application-firewall-integration/&#34;&gt;our blog announcement&lt;/a&gt; - or just go ahead and &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/aws_waf&#34;&gt;try it out for yourself&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
