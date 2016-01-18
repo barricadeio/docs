@@ -1,0 +1,194 @@
+.search-icon {
+  padding: 1.425em 1.5em;
+  color: $mid1;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1040;
+  cursor: pointer;
+  @include transition;
+
+  &.fa-times {
+    background: $light1;
+    z-index: 1080;
+
+    &:hover {
+      color: $blue1;
+    }
+  }
+}
+
+#searchBar {
+  cursor: text;
+  display: block;
+  padding: 1.5em 1em;
+  min-height: 4em;
+  background-color: white;
+  position: relative;
+  z-index: 500;
+  border-bottom: 1px solid $light1;
+  @include transition;
+
+  &:hover {
+    @include box-shadow(0, 1px, 3px, $light2);
+  }
+}
+
+#searchOverlay {
+  position: fixed;
+  height: 1px;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  @include transition;
+
+  .fa-times,
+  .prompt,
+  .search-overlay-bg {
+    display: none;
+  }
+
+  &.active {
+    display: block;
+    height: auto;
+    bottom: 0;
+
+    #algolia-wrap input#algolia-input[type=text] {
+      padding: 2.5em 5%;
+      margin-top: 0px;
+    }
+
+    .fa-times,
+    .prompt,
+    .search-overlay-bg {
+      display: block;
+    }
+
+    .overlay-footer {
+      display: block;
+    }
+  }
+
+  .search-overlay-bg {
+    background: rgba(255,255,255,0.92);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1020;
+  }
+
+  .prompt {
+    z-index: 1075;
+    position: fixed;
+    left: 2em;
+    top: 1em;
+    color: $mid7;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1060;
+  }
+
+  #algolia-wrap {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    input#algolia-input[type=text] {
+      border: none;
+      margin-top: -200px;
+      outline: none;
+      background: $light1;
+      font-size: $scalex9;
+      color: $green4;
+      letter-spacing: 0.015em;
+      padding: 1em 5%;
+      text-align: center;
+      border-bottom: 1px solid $light2;
+      @include transition(padding, 0.2s, ease);
+      @include futuraLight;
+      @include box-shadow(0, 0, 0, transparent);
+    }
+    // input[type=submit] {
+    //   position: absolute;
+    //   left: -999em;
+    // }
+  }
+
+  #searchResults {
+    text-align: center;
+    margin-top: 10em;
+    @include transition;
+
+    h2 {
+      color: darken($blue3, 5%);
+      font-size: $scalex5;
+      @include futuraBold;
+      @include upperCase;
+      letter-spacing: 0.125em;
+      margin: 2.5em 0 0.875em;
+    }
+
+    ul {
+      margin: 2em 20%;
+      overflow: scroll;
+      height: 400px;
+      position: relative;
+
+      li {
+        a {
+          text-align: left;
+          display: block;
+          font-size: $scalex5;
+          padding: 0.75em 1em;
+          color: $dark1;
+          @include border-radius(0.25em,0.25em);
+          @include transition;
+
+          &:hover {
+            color: $blue4;
+            padding-left: 1.125em;
+            background: lighten($blue3, 25%);
+          }
+        }
+      }
+    }
+  }
+
+  .overlay-footer {
+    position: fixed;
+    background: white;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    padding: 2em 0;
+    display: none;
+
+    span {
+      color: $mid7;
+    }
+
+    em {
+      font-family: $mono;
+      font-style: normal;
+      border: 1px solid $mid1;
+      position: relative;
+      color: $mid2;
+      text-transform: uppercase;
+      font-size: 10px;
+      top: -0.67em;
+      margin: 0 1em;
+      padding: 0.25em 0.5em 1.5em 0.5em;
+      @include border-radius;
+    }
+  }
+}
