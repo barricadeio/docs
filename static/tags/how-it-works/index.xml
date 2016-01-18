@@ -96,11 +96,11 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://barricadeio.github.io/docs/getting-started/overview/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;video-container&#34;&gt;
+      <description>&lt;div class=&#34;video-container&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;100%&#34; height=&#34;auto&#34; src=&#34;https://www.youtube.com/embed/ukTAg2ecO8g&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;Barricade collects data from your server with an &lt;strong&gt;Agent&lt;/strong&gt; - a simple, lightweight package that watches all network activity on your cloud server.&lt;/p&gt;
 

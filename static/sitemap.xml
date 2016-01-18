@@ -75,11 +75,11 @@
   </url>
   
   <url>
-    <loc>http://barricadeio.github.io/docs/getting-started/overview/</loc>
+    <loc>http://barricadeio.github.io/docs/security-guide/login-default-username/</loc>
   </url>
   
   <url>
-    <loc>http://barricadeio.github.io/docs/security-guide/login-default-username/</loc>
+    <loc>http://barricadeio.github.io/docs/getting-started/overview/</loc>
   </url>
   
   <url>
@@ -96,11 +96,11 @@
   </url>
   
   <url>
-    <loc>http://barricadeio.github.io/docs/getting-started/how-it-works-agent/</loc>
+    <loc>http://barricadeio.github.io/docs/using-barricade/adding-team-members/</loc>
   </url>
   
   <url>
-    <loc>http://barricadeio.github.io/docs/using-barricade/adding-team-members/</loc>
+    <loc>http://barricadeio.github.io/docs/getting-started/how-it-works-agent/</loc>
   </url>
   
   <url>
@@ -131,10 +131,6 @@
   </url>
   
   <url>
-    <loc>http://barricadeio.github.io/docs/getting-started/os-requirements-compatibility/</loc>
-  </url>
-  
-  <url>
     <loc>http://barricadeio.github.io/docs/security-guide/attempted-ssh-login/</loc>
   </url>
   
@@ -144,6 +140,10 @@
   
   <url>
     <loc>http://barricadeio.github.io/docs/using-barricade/installing-more-agents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://barricadeio.github.io/docs/getting-started/os-requirements-compatibility/</loc>
   </url>
   
   <url>
