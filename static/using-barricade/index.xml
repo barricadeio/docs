@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Using-barricade on </title>
-    <link>http://docs.barricade.io/using-barricade/</link>
+    <link>http://localhost:1313/using-barricade/</link>
     <description>Recent content in Using-barricade on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://docs.barricade.io/using-barricade/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/using-barricade/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Security Rating System</title>
-      <link>http://docs.barricade.io/using-barricade/security-rating-system/</link>
+      <link>http://localhost:1313/using-barricade/security-rating-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/security-rating-system/</guid>
+      <guid>http://localhost:1313/using-barricade/security-rating-system/</guid>
       <description>
 
 &lt;p&gt;Our security rating system is made to be simple by design, so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.&lt;/p&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>Adding Team Members</title>
-      <link>http://docs.barricade.io/using-barricade/adding-team-members/</link>
+      <link>http://localhost:1313/using-barricade/adding-team-members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/adding-team-members/</guid>
+      <guid>http://localhost:1313/using-barricade/adding-team-members/</guid>
       <description>
 
 &lt;p&gt;You can invite colleagues to join your Barricade team account, granting access to your Agents and their findings from your servers.&lt;/p&gt;
@@ -158,10 +158,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>Slack Integration</title>
-      <link>http://docs.barricade.io/using-barricade/slack-integration/</link>
+      <link>http://localhost:1313/using-barricade/slack-integration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/slack-integration/</guid>
+      <guid>http://localhost:1313/using-barricade/slack-integration/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-logo.png&#34; alt=&#34;../src/img/using-barricade/13-slack-logo.png&#34; /&gt;&lt;/p&gt;
@@ -214,10 +214,10 @@ It will look like this:&lt;/p&gt;
     
     <item>
       <title>Hipchat Integration</title>
-      <link>http://docs.barricade.io/using-barricade/hipchat-integration/</link>
+      <link>http://localhost:1313/using-barricade/hipchat-integration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/hipchat-integration/</guid>
+      <guid>http://localhost:1313/using-barricade/hipchat-integration/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://www.hipchat.com/&#34;&gt;HipChat&lt;/a&gt; is team chat that&amp;rsquo;s actually built for business - a centralized place for group and private chat, file sharing, and integrations.&lt;/p&gt;
@@ -278,13 +278,13 @@ It will look like this:&lt;/p&gt;
     
     <item>
       <title>Installing More Agents</title>
-      <link>http://docs.barricade.io/using-barricade/installing-more-agents/</link>
+      <link>http://localhost:1313/using-barricade/installing-more-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/installing-more-agents/</guid>
+      <guid>http://localhost:1313/using-barricade/installing-more-agents/</guid>
       <description>
 
-&lt;p&gt;During the &lt;a href=&#34;http://docs.barricade.io/hc/en-us/articles/205447438-Getting-Started&#34;&gt;account signup process&lt;/a&gt;, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional  Agents at any time, allowing Barricade to watch over entire clusters of servers.&lt;/p&gt;
+&lt;p&gt;During the &lt;a href=&#34;http://localhost:1313/hc/en-us/articles/205447438-Getting-Started&#34;&gt;account signup process&lt;/a&gt;, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional  Agents at any time, allowing Barricade to watch over entire clusters of servers.&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-install:d11bb84a6614a0a553bc4704d254e434&#34;&gt;How to Install&lt;/h2&gt;
 
@@ -309,10 +309,10 @@ It will look like this:&lt;/p&gt;
     
     <item>
       <title>Amazon WAF Integration</title>
-      <link>http://docs.barricade.io/using-barricade/aws-waf-integration/</link>
+      <link>http://localhost:1313/using-barricade/aws-waf-integration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/aws-waf-integration/</guid>
+      <guid>http://localhost:1313/using-barricade/aws-waf-integration/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf.png&#34; /&gt;&lt;/p&gt;
@@ -451,10 +451,10 @@ _&lt;/p&gt;&lt;/li&gt;
     
     <item>
       <title>C.I. Security Tests</title>
-      <link>http://docs.barricade.io/using-barricade/ci-sec-testing/</link>
+      <link>http://localhost:1313/using-barricade/ci-sec-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/ci-sec-testing/</guid>
+      <guid>http://localhost:1313/using-barricade/ci-sec-testing/</guid>
       <description>
 
 &lt;p&gt;Continuous Integration Security Testing can be used alongside other test suites as you are developing - to better understand which parts of your application network might be at risk.&lt;/p&gt;
@@ -669,10 +669,10 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
     
     <item>
       <title>Updating Agents</title>
-      <link>http://docs.barricade.io/using-barricade/updating-agents/</link>
+      <link>http://localhost:1313/using-barricade/updating-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/updating-agents/</guid>
+      <guid>http://localhost:1313/using-barricade/updating-agents/</guid>
       <description>
 
 &lt;p&gt;Agents are designed with strict constraints for security and performance reasons; to send but not to receive. This means that Barricade can never modify an agent running on your server - and neither can anybody else.&lt;/p&gt;
@@ -704,10 +704,10 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
     
     <item>
       <title>Agent Controls</title>
-      <link>http://docs.barricade.io/using-barricade/pausing-retiring-agents/</link>
+      <link>http://localhost:1313/using-barricade/pausing-retiring-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/pausing-retiring-agents/</guid>
+      <guid>http://localhost:1313/using-barricade/pausing-retiring-agents/</guid>
       <description>&lt;p&gt;The Agents section of the app interface provides a breakdown of the Agents you have running:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -721,10 +721,10 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
     
     <item>
       <title>Stopping &amp; Removing Agents</title>
-      <link>http://docs.barricade.io/using-barricade/stopping-and-removing-agents/</link>
+      <link>http://localhost:1313/using-barricade/stopping-and-removing-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/stopping-and-removing-agents/</guid>
+      <guid>http://localhost:1313/using-barricade/stopping-and-removing-agents/</guid>
       <description>
 
 &lt;p&gt;If you wish to stop monitoring a server, you can &lt;strong&gt;pause&lt;/strong&gt; or &lt;strong&gt;retire&lt;/strong&gt; the Agent via the &lt;a href=&#34;https://app.barricade.io/dashboard/agents&#34;&gt;controls on this page&lt;/a&gt;:&lt;/p&gt;
@@ -754,16 +754,62 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
     </item>
     
     <item>
-      <title>Configuring Agents</title>
-      <link>http://docs.barricade.io/using-barricade/configuring-agents/</link>
+      <title>Tagging &amp; Filtering</title>
+      <link>http://localhost:1313/using-barricade/tagging-filtering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/configuring-agents/</guid>
+      <guid>http://localhost:1313/using-barricade/tagging-filtering/</guid>
+      <description>
+
+&lt;p&gt;If you are running multiple Barricade Agents, you&amp;rsquo;ll see data pooled in the dashboard from different servers. Filters help you narrow your view to see results from specific servers.&lt;/p&gt;
+
+&lt;h3 id=&#34;where-to-find-filters:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Where to find Filters&lt;/h3&gt;
+
+&lt;p&gt;You can filter Case data in the app by accessing the Filter option at the top of the &lt;code&gt;Dashboard -&amp;gt; Overview&lt;/code&gt; navigation:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-01.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-01.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you have active Filters, the menu will look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-02.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-02.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;using-filters:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Using Filters&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click the Filter button in the top right of the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;Overview&lt;/a&gt; screen.&lt;/li&gt;
+&lt;li&gt;A new panel will appear from the right, displaying a list of &lt;strong&gt;Agent Tags&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Remove the check marks from any Agent tags you wish to filter out. The form auto-saves your selection.&lt;/li&gt;
+&lt;li&gt;To close the Filter panel, click to the left outside of the panel.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-filters.gif&#34; alt=&#34;../src/img/using-barricade/28-filters.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;editing-agent-tags:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Editing Agent Tags&lt;/h3&gt;
+
+&lt;p&gt;An agent&amp;rsquo;s tag can be edited in two ways. Either through the &lt;code&gt;Dashboard -&amp;gt; Agents&lt;/code&gt; page which can be found on the left-hand side menu, or through an automated configuration file described below the animation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; alt=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can change the Tags associated with your Agents in the configuration file, located on your server at &lt;code&gt;/service/barricade/barricade.cfg &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;By default, all Agents start out with one tag: &lt;code&gt;production&lt;/code&gt;.
+See &lt;a href=&#34;#configuring-agents&#34;&gt;Configuring Agents&lt;/a&gt; for more information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Configuring Agents</title>
+      <link>http://localhost:1313/using-barricade/configuring-agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/using-barricade/configuring-agents/</guid>
       <description>
 
 &lt;p&gt;By default, Agents are optimized to handle heavy traffic without impacting on the performance of your server - but you can always change the configuration to suit your needs.&lt;/p&gt;
 
-&lt;h2 id=&#34;configuration-file:3b8321908a83a2604be26385746333a1&#34;&gt;Configuration File&lt;/h2&gt;
+&lt;h2 id=&#34;configuration-file:4dc8be8e166f64c29db981f27c6c3661&#34;&gt;Configuration File&lt;/h2&gt;
 
 &lt;p&gt;Config settings can be found and modified in this file on your server: &lt;/p&gt;
 
@@ -773,9 +819,9 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 
 &lt;p&gt;&lt;code&gt;sudo restart barricade&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;configuration-options:3b8321908a83a2604be26385746333a1&#34;&gt;Configuration Options:&lt;/h2&gt;
+&lt;h2 id=&#34;configuration-options:4dc8be8e166f64c29db981f27c6c3661&#34;&gt;Configuration Options:&lt;/h2&gt;
 
-&lt;h3 id=&#34;tag:3b8321908a83a2604be26385746333a1&#34;&gt;tag&lt;/h3&gt;
+&lt;h3 id=&#34;tag:4dc8be8e166f64c29db981f27c6c3661&#34;&gt;tag&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;Tag&lt;/em&gt; is an arbitrary config value which can be used to identify and organize your Agents - particularly useful for &lt;a href=&#34;#tagging-filtering&#34;&gt;Filtering Agents&lt;/a&gt;. The default value is &lt;code&gt;production&lt;/code&gt;.&lt;/p&gt;
 
@@ -785,7 +831,7 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 
 &lt;p&gt;&lt;code&gt;tag=staging,development,beta&lt;/code&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;high-water-mark:3b8321908a83a2604be26385746333a1&#34;&gt;high_water_mark&lt;/h3&gt;
+&lt;h3 id=&#34;high-water-mark:4dc8be8e166f64c29db981f27c6c3661&#34;&gt;high_water_mark&lt;/h3&gt;
 
 &lt;p&gt;This is the maximum number of packets per second that the agent will send to Barricade. Default value is 10,000 packets per second.&lt;/p&gt;
 
@@ -793,7 +839,7 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 
 &lt;p&gt;After this, the Agent will begin dropping older packets to prioritize the newest information, and emit a warning to this effect in the logs (/var/log/barricade.log on most systems, in journalctl for systemd based systems).&lt;/p&gt;
 
-&lt;h2 id=&#34;barricade-cfg-troubleshooting:3b8321908a83a2604be26385746333a1&#34;&gt;Barricade.cfg Troubleshooting&lt;/h2&gt;
+&lt;h2 id=&#34;barricade-cfg-troubleshooting:4dc8be8e166f64c29db981f27c6c3661&#34;&gt;Barricade.cfg Troubleshooting&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Some options do not appear in my barricade.cfg file.&lt;/strong&gt;&lt;br /&gt;
 Your Agent may not be up to date - ensure you have &lt;a href=&#34;#updating-agents&#34;&gt;updated to the latest version&lt;/a&gt;.&lt;/p&gt;
@@ -805,10 +851,10 @@ You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt
     
     <item>
       <title>Re-registering Agents</title>
-      <link>http://docs.barricade.io/using-barricade/re-register-agent/</link>
+      <link>http://localhost:1313/using-barricade/re-register-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/re-register-agent/</guid>
+      <guid>http://localhost:1313/using-barricade/re-register-agent/</guid>
       <description>&lt;p&gt;We recommend re-registering an Agent if any of the following issues arise during the installation process:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -825,57 +871,11 @@ $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-reg
     </item>
     
     <item>
-      <title>Tagging &amp; Filtering</title>
-      <link>http://docs.barricade.io/using-barricade/tagging-filtering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://docs.barricade.io/using-barricade/tagging-filtering/</guid>
-      <description>
-
-&lt;p&gt;If you are running multiple Barricade Agents, you&amp;rsquo;ll see data pooled in the dashboard from different servers. Filters help you narrow your view to see results from specific servers.&lt;/p&gt;
-
-&lt;h3 id=&#34;where-to-find-filters:bf4bdce21a2391b741706ba20b7c2cd9&#34;&gt;Where to find Filters&lt;/h3&gt;
-
-&lt;p&gt;You can filter Case data in the app by accessing the Filter option at the top of the &lt;code&gt;Dashboard -&amp;gt; Overview&lt;/code&gt; navigation:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-01.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-01.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When you have active Filters, the menu will look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-02.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-02.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;using-filters:bf4bdce21a2391b741706ba20b7c2cd9&#34;&gt;Using Filters&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Click the Filter button in the top right of the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;Overview&lt;/a&gt; screen.&lt;/li&gt;
-&lt;li&gt;A new panel will appear from the right, displaying a list of &lt;strong&gt;Agent Tags&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Remove the check marks from any Agent tags you wish to filter out. The form auto-saves your selection.&lt;/li&gt;
-&lt;li&gt;To close the Filter panel, click to the left outside of the panel.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-filters.gif&#34; alt=&#34;../src/img/using-barricade/28-filters.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;editing-agent-tags:bf4bdce21a2391b741706ba20b7c2cd9&#34;&gt;Editing Agent Tags&lt;/h3&gt;
-
-&lt;p&gt;An agent&amp;rsquo;s tag can be edited in two ways. Either through the &lt;code&gt;Dashboard -&amp;gt; Agents&lt;/code&gt; page which can be found on the left-hand side menu, or through an automated configuration file described below the animation.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; alt=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can change the Tags associated with your Agents in the configuration file, located on your server at &lt;code&gt;/service/barricade/barricade.cfg &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;By default, all Agents start out with one tag: &lt;code&gt;production&lt;/code&gt;.
-See &lt;a href=&#34;#configuring-agents&#34;&gt;Configuring Agents&lt;/a&gt; for more information.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Close Account</title>
-      <link>http://docs.barricade.io/using-barricade/closing-account/</link>
+      <link>http://localhost:1313/using-barricade/closing-account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/closing-account/</guid>
+      <guid>http://localhost:1313/using-barricade/closing-account/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re looking to stop using Barricade entirely, you can &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/close&#34;&gt;close your account through this page&lt;/a&gt;. Only admin users can close an account, for security reasons.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re sorry to see you go - if there&amp;rsquo;s any feedback you&amp;rsquo;d like to leave for us, please do &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;submit a comment&lt;/a&gt;.&lt;/p&gt;

@@ -1,7 +1,7 @@
 +++
 title = "Tagging & Filtering"
 description = "How to tag and filter a Barricade Agent"
-weight = "30"
+weight = "28"
 
 tags = ["agent", "tagging", "tag", "filter"]
 section = "using-barricade"
