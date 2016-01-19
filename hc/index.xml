@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hc on </title>
-    <link>http://localhost:1313/hc/</link>
+    <link>http://docs.barricade.io/hc/</link>
     <description>Recent content in Hc on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://localhost:1313/hc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://docs.barricade.io/hc/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://localhost:1313/hc/en-us/</link>
+      <link>http://docs.barricade.io/hc/en-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hc/en-us/</guid>
+      <guid>http://docs.barricade.io/hc/en-us/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/hc/en/</link>
+      <link>http://docs.barricade.io/hc/en/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hc/en/</guid>
+      <guid>http://docs.barricade.io/hc/en/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;

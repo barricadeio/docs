@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Connection on </title>
-    <link>http://localhost:1313/tags/connection/</link>
+    <link>http://docs.barricade.io/tags/connection/</link>
     <description>Recent content in Connection on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://localhost:1313/tags/connection/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://docs.barricade.io/tags/connection/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Re-registering Agents</title>
-      <link>http://localhost:1313/using-barricade/re-register-agent/</link>
+      <link>http://docs.barricade.io/using-barricade/re-register-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/using-barricade/re-register-agent/</guid>
+      <guid>http://docs.barricade.io/using-barricade/re-register-agent/</guid>
       <description>&lt;p&gt;We recommend re-registering an Agent if any of the following issues arise during the installation process:&lt;/p&gt;
 
 &lt;ul&gt;
