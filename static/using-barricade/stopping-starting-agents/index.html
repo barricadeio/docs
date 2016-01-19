@@ -6,18 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Stopping &amp; Starting Agents</title>
+  <title>Agent Controls</title>
 
   <meta name="description" content="">
   <meta name="author" content="">
   <meta property="og:title" content="Barricade - The security product modern companies have been waiting for. Full Stack Security" />
-  <meta property="og:url" content="http://docs.barricade.io/" />
-  <meta property="og:image" content="http://docs.barricade.io/src/img/security_simplified.png" />
+  <meta property="og:url" content="http://localhost:1313/" />
+  <meta property="og:image" content="http://localhost:1313/src/img/security_simplified.png" />
 
   
-  <link rel="icon" href="http://docs.barricade.io/src/img/favicon-152.png" type="image/x-icon">
-  <link rel="apple-touch-icon-precomposed" href="http://docs.barricade.io/src/img/apple-touch-icon-precomposed.png">
-  <link href="http://docs.barricade.io/src/css/styles.min.css" rel="stylesheet">
+  <link rel="icon" href="http://localhost:1313/src/img/favicon-152.png" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:1313/src/img/apple-touch-icon-precomposed.png">
+  <link href="http://localhost:1313/src/css/styles.min.css" rel="stylesheet">
 
   
   <script>
@@ -138,15 +138,15 @@
           
             <li><a href="#updating-agents">Updating Agents</a></li>
           
-            <li class="active"><a href="#stopping-starting-agents">Stopping &amp; Starting Agents</a></li>
+            <li class="active"><a href="#stopping-starting-agents">Agent Controls</a></li>
+          
+            <li><a href="#how-to-remove-agent">Stopping &amp; Removing Agents</a></li>
           
             <li><a href="#configuring-agents">Configuring Agents</a></li>
           
-            <li><a href="#tagging-filtering">Tagging &amp; Filtering</a></li>
-          
             <li><a href="#re-register-agent">Re-registering Agents</a></li>
           
-            <li><a href="#how-to-remove-agent">Removing Agents</a></li>
+            <li><a href="#tagging-filtering">Tagging &amp; Filtering</a></li>
           
             <li><a href="#closing-account">Close Account</a></li>
           
@@ -214,7 +214,7 @@
   <div class="breadcrumb">
     <a href="../">Documentation</a>
     
-      <a href="../">Stopping &amp; Starting Agents</a>
+      <a href="../">Agent Controls</a>
     
     
   </div>
@@ -229,31 +229,15 @@
       <div class="row">
         <div class="small-1 columns">&nbsp;</div>
         <div class="small-10 columns content-wrap">
-          <h3>Stopping &amp; Starting Agents</h3>
-          
-
-<h2 id="agent-controls:2322975ed7b276d93bd0bc3b9eb44731">Agent Controls</h2>
-
-<p>The Agents section of the app interface provides a breakdown of the Agents you have running:</p>
+          <h3>Agent Controls</h3>
+          <p>The Agents section of the app interface provides a breakdown of the Agents you have running:</p>
 
 <ul>
 <li>state of the Agent (active/inactive)</li>
 <li>how much data they’re using in the monitoring process</li>
 <li>cost of each Agent in terms of GB</li>
-<li>ability to stop and start agents <em>(coming soon)</em></li>
+<li>ability to pause and retire Agents</li>
 </ul>
-
-<h3 id="how-can-i-stop-and-start-agents:2322975ed7b276d93bd0bc3b9eb44731">How Can I Stop and Start Agents?</h3>
-
-<p>We will be releasing an interface control for this in early 2016, so you have more control over what’s running on your servers.</p>
-
-<p>For the time being, depending on your operating system you can use the normal service management. For instance, in the case of Ubuntu, you can run <code>service barricade stop</code>. This does require a manual intervention via SSH.</p>
-
-<pre><code>service barricade start  
-service barricade stop  
-service barricade restart  
-service barricade status
-</code></pre>
 
         </div>
         <div class="small-1 columns">&nbsp;</div>
@@ -286,7 +270,7 @@ service barricade status
               <div class="large-3 medium-4 small-12 column">
                 <p class="text-right clearfix">
                   <a href="http://barricade.io" title="Barricade - the security product modern companies have been waiting for">
-                    <img src="http://docs.barricade.io/src/img/logo-strip-white.svg" width="220px" class="pull-right">
+                    <img src="http://localhost:1313/src/img/logo-strip-white.svg" width="220px" class="pull-right">
                   </a>
                 </p>
               </div>
@@ -342,9 +326,9 @@ service barricade status
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="http://docs.barricade.io/src/js/main.min.js"></script>
-  <script src="http://docs.barricade.io/src/js/analytics.min.js" async></script>
+  <script src="http://localhost:1313/src/js/main.min.js"></script>
+  <script src="http://localhost:1313/src/js/analytics.min.js" async></script>
   
 
-</body>
+<script data-no-instant>document.write('<script src="/livereload.js?mindelay=10"></' + 'script>')</script></body>
 </html>

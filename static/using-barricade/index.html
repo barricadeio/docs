@@ -11,15 +11,15 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta property="og:title" content="Barricade - The security product modern companies have been waiting for. Full Stack Security" />
-  <meta property="og:url" content="http://docs.barricade.io/" />
-  <meta property="og:image" content="http://docs.barricade.io/src/img/security_simplified.png" />
+  <meta property="og:url" content="http://localhost:1313/" />
+  <meta property="og:image" content="http://localhost:1313/src/img/security_simplified.png" />
 
   
-  <link href="http://docs.barricade.io/using-barricade/index.xml" rel="feed" type="application/rss+xml" title="Barricade Docs | Sitemap" />
+  <link href="http://localhost:1313/using-barricade/index.xml" rel="feed" type="application/rss+xml" title="Barricade Docs | Sitemap" />
   
-  <link rel="icon" href="http://docs.barricade.io/src/img/favicon-152.png" type="image/x-icon">
-  <link rel="apple-touch-icon-precomposed" href="http://docs.barricade.io/src/img/apple-touch-icon-precomposed.png">
-  <link href="http://docs.barricade.io/src/css/styles.min.css" rel="stylesheet">
+  <link rel="icon" href="http://localhost:1313/src/img/favicon-152.png" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:1313/src/img/apple-touch-icon-precomposed.png">
+  <link href="http://localhost:1313/src/css/styles.min.css" rel="stylesheet">
 
   
   <script>
@@ -140,15 +140,15 @@
           
             <li><a href="#updating-agents">Updating Agents</a></li>
           
-            <li><a href="#stopping-starting-agents">Stopping &amp; Starting Agents</a></li>
+            <li><a href="#pausing-retiring-agents">Agent Controls</a></li>
+          
+            <li><a href="#stopping-and-removing-agents">Stopping &amp; Removing Agents</a></li>
           
             <li><a href="#configuring-agents">Configuring Agents</a></li>
           
-            <li><a href="#tagging-filtering">Tagging &amp; Filtering</a></li>
-          
             <li><a href="#re-register-agent">Re-registering Agents</a></li>
           
-            <li><a href="#how-to-remove-agent">Removing Agents</a></li>
+            <li><a href="#tagging-filtering">Tagging &amp; Filtering</a></li>
           
             <li><a href="#closing-account">Close Account</a></li>
           
@@ -477,7 +477,7 @@ It will look like this:</p>
 <li><p>You can customize the integration to choose what items get posted to HipChat, by checking the boxes on the right to activate more notifications.</p></li>
 </ol>
 
-<p>&ndash;</p>
+<p>--</p>
 
 <p>By default, only Incidents <em>(our most serious classification)</em> are sent as notifications.</p>
 
@@ -899,32 +899,46 @@ build_link: 'https://circleci.com/gh/barricadeio/webapp/1660' // build URL
 </div>
 </article>
           
-            <article id="stopping-starting-agents">
-  <h1 class="post-title">Stopping &amp; Starting Agents</h1>
-  <div>
-
-<h2 id="agent-controls:2322975ed7b276d93bd0bc3b9eb44731">Agent Controls</h2>
-
-<p>The Agents section of the app interface provides a breakdown of the Agents you have running:</p>
+            <article id="pausing-retiring-agents">
+  <h1 class="post-title">Agent Controls</h1>
+  <div><p>The Agents section of the app interface provides a breakdown of the Agents you have running:</p>
 
 <ul>
 <li>state of the Agent (active/inactive)</li>
 <li>how much data they’re using in the monitoring process</li>
 <li>cost of each Agent in terms of GB</li>
-<li>ability to stop and start agents <em>(coming soon)</em></li>
+<li>ability to pause and retire Agents</li>
 </ul>
+</div>
+</article>
+          
+            <article id="stopping-and-removing-agents">
+  <h1 class="post-title">Stopping &amp; Removing Agents</h1>
+  <div>
 
-<h3 id="how-can-i-stop-and-start-agents:2322975ed7b276d93bd0bc3b9eb44731">How Can I Stop and Start Agents?</h3>
+<p>If you wish to stop monitoring a server, you can <strong>pause</strong> or <strong>retire</strong> the Agent via the <a href="https://app.barricade.io/dashboard/agents">controls on this page</a>:</p>
 
-<p>We will be releasing an interface control for this in early 2016, so you have more control over what’s running on your servers.</p>
+<p><img src="../../src/img/changelog/24-controls.gif" alt="../../src/img/changelog/24-controls.gif" /></p>
 
-<p>For the time being, depending on your operating system you can use the normal service management. For instance, in the case of Ubuntu, you can run <code>service barricade stop</code>. This does require a manual intervention via SSH.</p>
+<p>Agents that are paused can be restarted later - whereas you cannot &lsquo;undo&rsquo; a retired Agent through the web interface - a <a href="#installing-more-agents">reinstall</a> would be required to restore the Agent.</p>
 
-<pre><code>service barricade start  
-service barricade stop  
-service barricade restart  
-service barricade status
-</code></pre>
+<h2 id="pausing-agents:172444a8f3e05633c6caacec2e0f907c">Pausing Agents</h2>
+
+<p>Older Agent versions do not support pausing and restarting. You should <a href="#updating-agents">update the Agent</a> to the latest version.</p>
+
+<h2 id="retiring-and-removing-agents:172444a8f3e05633c6caacec2e0f907c">Retiring and Removing Agents</h2>
+
+<p>Retiring an Agent will stop the tranmission of data from your server, but it doesn&rsquo;t remove the Agent files. If you want to fully remove all traces of the Agent, you will need to manually do so by running a command on your server:</p>
+
+<p>To remove from an Ubuntu server: <code>dpkg -r barricade</code></p>
+
+<p>To remove from a CentOS server: <code>rpm -e barricade</code></p>
+
+<h2 id="one-way-agents:172444a8f3e05633c6caacec2e0f907c">One-way Agents</h2>
+
+<p>Clicking &lsquo;pause&rsquo; or retire&rsquo; will prompt Barricade to signal a change in behavior to the Agent through the status API - it can&rsquo;t directly write to or alter the Agent directly (<a href="../getting-started/#how-it-works-agent">by design</a>).</p>
+
+<p>When the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.</p>
 </div>
 </article>
           
@@ -934,7 +948,7 @@ service barricade status
 
 <p>By default, Agents are optimized to handle heavy traffic without impacting on the performance of your server - but you can always change the configuration to suit your needs.</p>
 
-<h2 id="configuration-file:a2ef2e10f5bfebd9cd5ff124478bf260">Configuration File</h2>
+<h2 id="configuration-file:3b8321908a83a2604be26385746333a1">Configuration File</h2>
 
 <p>Config settings can be found and modified in this file on your server: </p>
 
@@ -944,9 +958,9 @@ service barricade status
 
 <p><code>sudo restart barricade</code></p>
 
-<h2 id="configuration-options:a2ef2e10f5bfebd9cd5ff124478bf260">Configuration Options:</h2>
+<h2 id="configuration-options:3b8321908a83a2604be26385746333a1">Configuration Options:</h2>
 
-<h3 id="tag:a2ef2e10f5bfebd9cd5ff124478bf260">tag</h3>
+<h3 id="tag:3b8321908a83a2604be26385746333a1">tag</h3>
 
 <p><em>Tag</em> is an arbitrary config value which can be used to identify and organize your Agents - particularly useful for <a href="#tagging-filtering">Filtering Agents</a>. The default value is <code>production</code>.</p>
 
@@ -956,7 +970,7 @@ service barricade status
 
 <p><code>tag=staging,development,beta</code></p>
 
-<h3 id="high-water-mark:a2ef2e10f5bfebd9cd5ff124478bf260">high_water_mark</h3>
+<h3 id="high-water-mark:3b8321908a83a2604be26385746333a1">high_water_mark</h3>
 
 <p>This is the maximum number of packets per second that the agent will send to Barricade. Default value is 10,000 packets per second.</p>
 
@@ -964,55 +978,13 @@ service barricade status
 
 <p>After this, the Agent will begin dropping older packets to prioritize the newest information, and emit a warning to this effect in the logs (/var/log/barricade.log on most systems, in journalctl for systemd based systems).</p>
 
-<h2 id="barricade-cfg-troubleshooting:a2ef2e10f5bfebd9cd5ff124478bf260">Barricade.cfg Troubleshooting</h2>
+<h2 id="barricade-cfg-troubleshooting:3b8321908a83a2604be26385746333a1">Barricade.cfg Troubleshooting</h2>
 
 <p><strong>Some options do not appear in my barricade.cfg file.</strong><br />
 Your Agent may not be up to date - ensure you have <a href="#updating-agents">updated to the latest version</a>.</p>
 
 <p><strong>I&rsquo;m not sure how to access the file on a server.</strong><br />
 You&rsquo;ll need connect to the server via SSH to run the command - see <a href="../getting-started/#running-commands">our guide</a> here.</p>
-</div>
-</article>
-          
-            <article id="tagging-filtering">
-  <h1 class="post-title">Tagging &amp; Filtering</h1>
-  <div>
-
-<p>If you are running multiple Barricade Agents, you&rsquo;ll see data pooled in the dashboard from different servers. Filters help you narrow your view to see results from specific servers.</p>
-
-<h3 id="where-to-find-filters:4bf906d4e08e394c13258dde4bb8cad0">Where to find Filters</h3>
-
-<p>You can filter Case data in the app by accessing the Filter option at the top of the <code>Dashboard -&gt; Overview</code> navigation:</p>
-
-<p><img src="../src/img/using-barricade/28-tagging-01.png" alt="../src/img/using-barricade/28-tagging-01.png" /></p>
-
-<p>When you have active Filters, the menu will look like this:</p>
-
-<p><img src="../src/img/using-barricade/28-tagging-02.png" alt="../src/img/using-barricade/28-tagging-02.png" /></p>
-
-<h3 id="using-filters:4bf906d4e08e394c13258dde4bb8cad0">Using Filters</h3>
-
-<ol>
-<li>Click the Filter button in the top right of the <a href="https://app.barricade.io/dashboard/overview">Overview</a> screen.</li>
-<li>A new panel will appear from the right, displaying a list of <strong>Agent Tags</strong></li>
-<li>Remove the check marks from any Agent tags you wish to filter out. The form auto-saves your selection.</li>
-<li>To close the Filter panel, click to the left outside of the panel.</li>
-</ol>
-
-<p><em>Example:</em></p>
-
-<p><img src="../src/img/using-barricade/28-filters.gif" alt="../src/img/using-barricade/28-filters.gif" /></p>
-
-<h3 id="editing-agent-tags:4bf906d4e08e394c13258dde4bb8cad0">Editing Agent Tags</h3>
-
-<p>An agent&rsquo;s tag can be edited in two ways. Either through the <code>Dashboard -&gt; Agents</code> page which can be found on the left-hand side menu, or through an automated configuration file described below the animation.</p>
-
-<p><img src="../src/img/using-barricade/28-Agent-Tags-Edit.gif" alt="../src/img/using-barricade/28-Agent-Tags-Edit.gif" /></p>
-
-<p>You can change the Tags associated with your Agents in the configuration file, located on your server at <code>/service/barricade/barricade.cfg </code></p>
-
-<p>By default, all Agents start out with one tag: <code>production</code>.
-See <a href="#configuring-agents">Configuring Agents</a> for more information.</p>
 </div>
 </article>
           
@@ -1033,13 +1005,45 @@ $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-reg
 </div>
 </article>
           
-            <article id="how-to-remove-agent">
-  <h1 class="post-title">Removing Agents</h1>
-  <div><p>If you wish to stop monitoring a server, you’ll need to manually remove the Barricade Agent by running a command on your server:</p>
+            <article id="tagging-filtering">
+  <h1 class="post-title">Tagging &amp; Filtering</h1>
+  <div>
 
-<p>To remove from an Ubuntu server: <code>dpkg -r barricade</code></p>
+<p>If you are running multiple Barricade Agents, you&rsquo;ll see data pooled in the dashboard from different servers. Filters help you narrow your view to see results from specific servers.</p>
 
-<p>To remove from a CentOS server: <code>rpm -e barricade</code></p>
+<h3 id="where-to-find-filters:bf4bdce21a2391b741706ba20b7c2cd9">Where to find Filters</h3>
+
+<p>You can filter Case data in the app by accessing the Filter option at the top of the <code>Dashboard -&gt; Overview</code> navigation:</p>
+
+<p><img src="../src/img/using-barricade/28-tagging-01.png" alt="../src/img/using-barricade/28-tagging-01.png" /></p>
+
+<p>When you have active Filters, the menu will look like this:</p>
+
+<p><img src="../src/img/using-barricade/28-tagging-02.png" alt="../src/img/using-barricade/28-tagging-02.png" /></p>
+
+<h3 id="using-filters:bf4bdce21a2391b741706ba20b7c2cd9">Using Filters</h3>
+
+<ol>
+<li>Click the Filter button in the top right of the <a href="https://app.barricade.io/dashboard/overview">Overview</a> screen.</li>
+<li>A new panel will appear from the right, displaying a list of <strong>Agent Tags</strong></li>
+<li>Remove the check marks from any Agent tags you wish to filter out. The form auto-saves your selection.</li>
+<li>To close the Filter panel, click to the left outside of the panel.</li>
+</ol>
+
+<p><em>Example:</em></p>
+
+<p><img src="../src/img/using-barricade/28-filters.gif" alt="../src/img/using-barricade/28-filters.gif" /></p>
+
+<h3 id="editing-agent-tags:bf4bdce21a2391b741706ba20b7c2cd9">Editing Agent Tags</h3>
+
+<p>An agent&rsquo;s tag can be edited in two ways. Either through the <code>Dashboard -&gt; Agents</code> page which can be found on the left-hand side menu, or through an automated configuration file described below the animation.</p>
+
+<p><img src="../src/img/using-barricade/28-Agent-Tags-Edit.gif" alt="../src/img/using-barricade/28-Agent-Tags-Edit.gif" /></p>
+
+<p>You can change the Tags associated with your Agents in the configuration file, located on your server at <code>/service/barricade/barricade.cfg </code></p>
+
+<p>By default, all Agents start out with one tag: <code>production</code>.
+See <a href="#configuring-agents">Configuring Agents</a> for more information.</p>
 </div>
 </article>
           
@@ -1082,7 +1086,7 @@ $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-reg
               <div class="large-3 medium-4 small-12 column">
                 <p class="text-right clearfix">
                   <a href="http://barricade.io" title="Barricade - the security product modern companies have been waiting for">
-                    <img src="http://docs.barricade.io/src/img/logo-strip-white.svg" width="220px" class="pull-right">
+                    <img src="http://localhost:1313/src/img/logo-strip-white.svg" width="220px" class="pull-right">
                   </a>
                 </p>
               </div>
@@ -1138,9 +1142,9 @@ $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-reg
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="http://docs.barricade.io/src/js/main.min.js"></script>
-  <script src="http://docs.barricade.io/src/js/analytics.min.js" async></script>
+  <script src="http://localhost:1313/src/js/main.min.js"></script>
+  <script src="http://localhost:1313/src/js/analytics.min.js" async></script>
   
 
-</body>
+<script data-no-instant>document.write('<script src="/livereload.js?mindelay=10"></' + 'script>')</script></body>
 </html>

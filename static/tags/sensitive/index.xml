@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sensitive on </title>
-    <link>http://docs.barricade.io/tags/sensitive/</link>
+    <link>http://localhost:1313/tags/sensitive/</link>
     <description>Recent content in Sensitive on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://docs.barricade.io/tags/sensitive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/sensitive/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sensitive Information Leaks</title>
-      <link>http://docs.barricade.io/security-guide/sensitive-info-detected/</link>
+      <link>http://localhost:1313/security-guide/sensitive-info-detected/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/security-guide/sensitive-info-detected/</guid>
+      <guid>http://localhost:1313/security-guide/sensitive-info-detected/</guid>
       <description>
 
 &lt;p&gt;Barricade helps protect your data by checking for signs of sensitive information. If credit card info or content of a sensitive nature is found to be publicly visible; you will be alerted immediately.&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>System Information Leaks</title>
-      <link>http://docs.barricade.io/security-guide/system-info-detected/</link>
+      <link>http://localhost:1313/security-guide/system-info-detected/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/security-guide/system-info-detected/</guid>
+      <guid>http://localhost:1313/security-guide/system-info-detected/</guid>
       <description>
 
 &lt;p&gt;Barricade helps protect your data by checking your traffic for any information leaks - if admin or  config information is output by the application in a response, you will be alerted immediately.&lt;/p&gt;

@@ -1,7 +1,7 @@
 +++
 title = "Configuring Agents"
 description = "How to configure a Barricade Agent"
-weight = "27"
+weight = "28"
 
 tags = ["agent", "configuration"]
 section = "using-barricade"
