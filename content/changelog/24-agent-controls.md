@@ -1,8 +1,8 @@
 +++
 
 date = "2016-01-06"
-title = "Easier Agent Management"
-description = "Changelog - Easier Agent Management"
+title = "Improved Agent Management"
+description = "Changelog - Improved Agent Management"
 url = "changelog/agent-controls"
 section = "changelog"
 category = "app"
