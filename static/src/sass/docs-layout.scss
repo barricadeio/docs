@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+// holy grail layout - 100% height content is breaking headroom.js
+// .inner-wrap,
+// .off-canvas-wrap,
+// .main {
+//   height: 100%;
+// }
+
+.main {
+  min-height: 760px;
+}
+
+.sidebar {
+  height: 100%;
+}
+
+.container-full {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+  padding-left: 300px;
+  width: 100%;
+}
+
+.sidebar {
+  width: 25%;
+  width: 300px;
+}
