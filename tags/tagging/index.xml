@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tagging on </title>
-    <link>http://docs.barricade.io/tags/tagging/</link>
+    <link>https://docs.barricade.io/tags/tagging/</link>
     <description>Recent content in Tagging on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://docs.barricade.io/tags/tagging/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.barricade.io/tags/tagging/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tagging &amp; Filtering</title>
-      <link>http://docs.barricade.io/using-barricade/tagging-filtering/</link>
+      <link>https://docs.barricade.io/using-barricade/tagging-filtering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/tagging-filtering/</guid>
+      <guid>https://docs.barricade.io/using-barricade/tagging-filtering/</guid>
       <description>
 
 &lt;p&gt;If you are running multiple Barricade Agents, you&amp;rsquo;ll see data pooled in the dashboard from different servers. Filters help you narrow your view to see results from specific servers.&lt;/p&gt;
