@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hc on </title>
+    <link>http://localhost:1313/hc/</link>
+    <description>Recent content in Hc on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://localhost:1313/hc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hc/en-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hc/en-us/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;link rel=&#34;canonical&#34; href=&#34;//docs.barricade.io&#34;/&gt;
+    &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html; charset=utf-8&#34;/&gt;
+    &lt;meta http-equiv=&#34;refresh&#34; content=&#34;0;url=//docs.barricade.io&#34;/&gt;
+  &lt;/head&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hc/en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hc/en/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;link rel=&#34;canonical&#34; href=&#34;//docs.barricade.io&#34;/&gt;
+    &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html; charset=utf-8&#34;/&gt;
+    &lt;meta http-equiv=&#34;refresh&#34; content=&#34;0;url=//docs.barricade.io&#34;/&gt;
+  &lt;/head&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
