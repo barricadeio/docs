@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Remove on </title>
-    <link>http://docs.barricade.io/tags/remove/</link>
+    <link>https://docs.barricade.io/tags/remove/</link>
     <description>Recent content in Remove on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://docs.barricade.io/tags/remove/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.barricade.io/tags/remove/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Stopping &amp; Removing Agents</title>
-      <link>http://docs.barricade.io/using-barricade/stopping-and-removing-agents/</link>
+      <link>https://docs.barricade.io/using-barricade/stopping-and-removing-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/stopping-and-removing-agents/</guid>
+      <guid>https://docs.barricade.io/using-barricade/stopping-and-removing-agents/</guid>
       <description>
 
 &lt;p&gt;If you wish to stop monitoring a server, you can &lt;strong&gt;pause&lt;/strong&gt; or &lt;strong&gt;retire&lt;/strong&gt; the Agent via the &lt;a href=&#34;https://app.barricade.io/dashboard/agents&#34;&gt;controls on this page&lt;/a&gt;:&lt;/p&gt;

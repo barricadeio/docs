@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Changelog on </title>
-    <link>http://docs.barricade.io/changelog/</link>
+    <link>https://docs.barricade.io/changelog/</link>
     <description>Recent content in Changelog on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 26 Aug 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://docs.barricade.io/changelog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.barricade.io/changelog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hipchat Integration</title>
-      <link>http://docs.barricade.io/changelog/added-hipchat</link>
+      <link>https://docs.barricade.io/changelog/added-hipchat</link>
       <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/added-hipchat</guid>
+      <guid>https://docs.barricade.io/changelog/added-hipchat</guid>
       <description>&lt;p&gt;You can now receive Barricade notification in HipChat!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; alt=&#34;../../src/img/changelog/09-hipchat-for-ios.png&#34; /&gt;&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>Product Demo added to Site</title>
-      <link>http://docs.barricade.io/changelog/product-demo</link>
+      <link>https://docs.barricade.io/changelog/product-demo</link>
       <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/product-demo</guid>
+      <guid>https://docs.barricade.io/changelog/product-demo</guid>
       <description>&lt;p&gt;Now there&amp;rsquo;s no need to signup or install an Agent to see how Barricade looks and feels - our new dashboard demo uses sample data to mimic insights into a live server. Try it out now at: &lt;a href=&#34;https://app.barricade.io/demo&#34;&gt;app.barricade.io/demo&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -46,10 +46,10 @@
     
     <item>
       <title>New Barricade.io Site Launched</title>
-      <link>http://docs.barricade.io/changelog/new-barricade-site-launched</link>
+      <link>https://docs.barricade.io/changelog/new-barricade-site-launched</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/new-barricade-site-launched</guid>
+      <guid>https://docs.barricade.io/changelog/new-barricade-site-launched</guid>
       <description>&lt;p&gt;Our new site is live! &lt;a href=&#34;https://barricade.io&#34;&gt;Check it out at Barricade.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../../src/img/changelog/new-site-01.png&#34; alt=&#34;../../../src/img/changelog/new-site-01.png&#34; /&gt;&lt;/p&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>Added Agent Admin Page</title>
-      <link>http://docs.barricade.io/changelog/agent-admin-page</link>
+      <link>https://docs.barricade.io/changelog/agent-admin-page</link>
       <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/agent-admin-page</guid>
+      <guid>https://docs.barricade.io/changelog/agent-admin-page</guid>
       <description>
 
 &lt;p&gt;We&amp;rsquo;ve added a new admin section to the Barricade app: &lt;a href=&#34;https://app.barricade.io/agents&#34;&gt;app.barricade.io/agents&lt;/a&gt;&lt;/p&gt;
@@ -83,10 +83,10 @@ service barricade status
     
     <item>
       <title>Updated AI Engine</title>
-      <link>http://docs.barricade.io/changelog/updated-ai-engine</link>
+      <link>https://docs.barricade.io/changelog/updated-ai-engine</link>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/updated-ai-engine</guid>
+      <guid>https://docs.barricade.io/changelog/updated-ai-engine</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re working constantly on the engine to ensure the best results for our customers. If you&amp;rsquo;re seeing any data you&amp;rsquo;re not sure about - do let us know.&lt;/p&gt;
@@ -97,10 +97,10 @@ service barricade status
     
     <item>
       <title>Added Teams - Invite &amp; Manage Users</title>
-      <link>http://docs.barricade.io/changelog/added-teams</link>
+      <link>https://docs.barricade.io/changelog/added-teams</link>
       <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/added-teams</guid>
+      <guid>https://docs.barricade.io/changelog/added-teams</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve added the ability to invite and manage users to a team account, so you can grant &lt;strong&gt;read-only access&lt;/strong&gt; to your colleagues.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/04-team-invites.gif&#34; alt=&#34;../../src/img/changelog/04-team-invites.gif&#34; /&gt;&lt;/p&gt;
@@ -111,10 +111,10 @@ service barricade status
     
     <item>
       <title>Added Slack Integration</title>
-      <link>http://docs.barricade.io/changelog/slack-integration</link>
+      <link>https://docs.barricade.io/changelog/slack-integration</link>
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/slack-integration</guid>
+      <guid>https://docs.barricade.io/changelog/slack-integration</guid>
       <description>&lt;p&gt;&lt;a href=&#34;../../using-barricade/#slack&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/05-slack-logo.png&#34; alt=&#34;../../src/img/changelog/05-slack-logo.png&#34; /&gt;&lt;/p&gt;
@@ -129,10 +129,10 @@ service barricade status
     
     <item>
       <title>Email Notification Controls</title>
-      <link>http://docs.barricade.io/changelog/email-notifications</link>
+      <link>https://docs.barricade.io/changelog/email-notifications</link>
       <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/email-notifications</guid>
+      <guid>https://docs.barricade.io/changelog/email-notifications</guid>
       <description>&lt;p&gt;You can now manage your email notification through the Barricade app settings, to opt-in and opt-out of different levels of security notifications.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/06-screen-01.png&#34; alt=&#34;../../src/img/changelog/06-screen-01.png&#34; /&gt;&lt;/p&gt;
@@ -151,10 +151,10 @@ service barricade status
     
     <item>
       <title>New Agent Detection Message</title>
-      <link>http://docs.barricade.io/changelog/new-agent-detection</link>
+      <link>https://docs.barricade.io/changelog/new-agent-detection</link>
       <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/new-agent-detection</guid>
+      <guid>https://docs.barricade.io/changelog/new-agent-detection</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve added visual feedback to the &lt;a href=&#34;https://app.barricade.io&#34;&gt;app&lt;/a&gt;, so you can see when the installation of a new Agent has completed successfully:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/07-drawer-detection.gif&#34; alt=&#34;../../src/img/changelog/07-drawer-detection.gif&#34; /&gt;&lt;/p&gt;
@@ -165,10 +165,10 @@ service barricade status
     
     <item>
       <title>Agent Performance Improvements</title>
-      <link>http://docs.barricade.io/changelog/agent-performance</link>
+      <link>https://docs.barricade.io/changelog/agent-performance</link>
       <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/agent-performance</guid>
+      <guid>https://docs.barricade.io/changelog/agent-performance</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve shipped a major update to our monitoring Agent, to improve performance and minimise the amount of server CPU the Agent requires.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Avoiding CPU Spikes&lt;/strong&gt;&lt;br /&gt;
@@ -179,7 +179,7 @@ The agent configuration has also been updated with a maximum number of packets p
 
 &lt;p&gt;When this limit is hit, the agent will begin dropping older packets to prioritise the newest information, and emit a warning to this effect in the logs (&lt;code&gt;/var/log/barricade.log&lt;/code&gt; on most systems, in journalctl for systemd based systems).&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;You must to &lt;a href=&#34;../../using-barricade/#updating-agents&#34;&gt;Update Your Agents&lt;/a&gt; to apply these changes.&lt;/strong&gt;&lt;/p&gt;
 </description>
@@ -187,10 +187,10 @@ The agent configuration has also been updated with a maximum number of packets p
     
     <item>
       <title>Universal Tags and Filters</title>
-      <link>http://docs.barricade.io/changelog/tags-and-filters</link>
+      <link>https://docs.barricade.io/changelog/tags-and-filters</link>
       <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/tags-and-filters</guid>
+      <guid>https://docs.barricade.io/changelog/tags-and-filters</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve shipped a major step towards making your data searchable and easily identifiable. Today we&amp;rsquo;re happy to announce the immediate availability of the &lt;strong&gt;Universal Tags&lt;/strong&gt; feature.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/11-filters.gif&#34; alt=&#34;../../src/img/changelog/11-filters.gif&#34; /&gt;&lt;/p&gt;
@@ -207,15 +207,15 @@ This change was directly driven by our customers&amp;rsquo; needs and feedback. 
     
     <item>
       <title>Improved Web App Attack Detection</title>
-      <link>http://docs.barricade.io/changelog/improved-engine-attack-detection</link>
+      <link>https://docs.barricade.io/changelog/improved-engine-attack-detection</link>
       <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/improved-engine-attack-detection</guid>
+      <guid>https://docs.barricade.io/changelog/improved-engine-attack-detection</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve shipped an update to our detection engine, to improve the accuracy of web app attack cases. These changes will reduce false positives, and better classify the type of web app attack (&lt;a href=&#34;../../security-guide/#web-app-attack&#34;&gt;SQL Injection&lt;/a&gt;, &lt;a href=&#34;../../security-guide/#xss&#34;&gt;Cross-Site Scripting&lt;/a&gt;, etc).&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;ve also corrected an issue where some &lt;code&gt;scripts&lt;/code&gt; were being identified as attacks.&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;These changes are already in effect - you don&amp;rsquo;t need to update your Agents .&lt;/em&gt;&lt;/p&gt;
 </description>
@@ -223,10 +223,10 @@ This change was directly driven by our customers&amp;rsquo; needs and feedback. 
     
     <item>
       <title>New Pricing &amp; Free Trial Launched</title>
-      <link>http://docs.barricade.io/changelog/new-pricing-trial</link>
+      <link>https://docs.barricade.io/changelog/new-pricing-trial</link>
       <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/new-pricing-trial</guid>
+      <guid>https://docs.barricade.io/changelog/new-pricing-trial</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/13-pricing.jpg&#34; alt=&#34;../../src/img/changelog/13-pricing.jpg&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This &lt;a href=&#34;https://blog.barricade.io/introducing-our-new-pricing/&#34;&gt;new pricing&lt;/a&gt; is more tailored to who will benefit the most from using Barricade. We’re also pretty excited to announce the immediate availability of our &lt;strong&gt;7-day trial&lt;/strong&gt; on all plans.&lt;/p&gt;
@@ -240,10 +240,10 @@ Furthermore, if you are part of an incubator or an accelerator, we will give you
     
     <item>
       <title>Deal for Incubators and Accelerators</title>
-      <link>http://docs.barricade.io/changelog/deal-incubators-accelerators</link>
+      <link>https://docs.barricade.io/changelog/deal-incubators-accelerators</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/deal-incubators-accelerators</guid>
+      <guid>https://docs.barricade.io/changelog/deal-incubators-accelerators</guid>
       <description>&lt;p&gt;We understand that startups are often cash tight and have specific constraints that do not apply to slightly more mature businesses. Your focus is 100% on launching your app and proving the need for it. We want to work with you. We will give you Barricade&amp;rsquo;s medium business plan for three months for free, you&amp;rsquo;ll be up and running within minutes.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/changelog/14-lean.png&#34; alt=&#34;../../src/img/changelog/14-lean.png&#34; /&gt;&lt;/p&gt;
@@ -254,10 +254,10 @@ Furthermore, if you are part of an incubator or an accelerator, we will give you
     
     <item>
       <title>Added AWS Web App Firewall integration</title>
-      <link>http://docs.barricade.io/changelog/aws-waf</link>
+      <link>https://docs.barricade.io/changelog/aws-waf</link>
       <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/changelog/aws-waf</guid>
+      <guid>https://docs.barricade.io/changelog/aws-waf</guid>
       <description>&lt;p&gt;Now you can use &lt;a href=&#34;https://aws.amazon.com/waf/&#34;&gt;AWS WAF&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://barricade.io/features&#34;&gt;Barricade&lt;/a&gt; together to make an &lt;strong&gt;intelligent&lt;/strong&gt; and &lt;strong&gt;learning&lt;/strong&gt; firewall.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/using-barricade/15-awswaf.png&#34; alt=&#34;../../src/img/using-barricade/15-awswaf.png&#34; /&gt;&lt;/p&gt;

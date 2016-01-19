@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Update on </title>
-    <link>http://docs.barricade.io/tags/update/</link>
+    <link>https://docs.barricade.io/tags/update/</link>
     <description>Recent content in Update on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://docs.barricade.io/tags/update/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.barricade.io/tags/update/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installing More Agents</title>
-      <link>http://docs.barricade.io/using-barricade/installing-more-agents/</link>
+      <link>https://docs.barricade.io/using-barricade/installing-more-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/installing-more-agents/</guid>
+      <guid>https://docs.barricade.io/using-barricade/installing-more-agents/</guid>
       <description>
 
-&lt;p&gt;During the &lt;a href=&#34;http://docs.barricade.io/hc/en-us/articles/205447438-Getting-Started&#34;&gt;account signup process&lt;/a&gt;, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional  Agents at any time, allowing Barricade to watch over entire clusters of servers.&lt;/p&gt;
+&lt;p&gt;During the &lt;a href=&#34;https://docs.barricade.io/hc/en-us/articles/205447438-Getting-Started&#34;&gt;account signup process&lt;/a&gt;, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional  Agents at any time, allowing Barricade to watch over entire clusters of servers.&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-install:d11bb84a6614a0a553bc4704d254e434&#34;&gt;How to Install&lt;/h2&gt;
 
@@ -40,10 +40,10 @@
     
     <item>
       <title>Updating Agents</title>
-      <link>http://docs.barricade.io/using-barricade/updating-agents/</link>
+      <link>https://docs.barricade.io/using-barricade/updating-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.barricade.io/using-barricade/updating-agents/</guid>
+      <guid>https://docs.barricade.io/using-barricade/updating-agents/</guid>
       <description>
 
 &lt;p&gt;Agents are designed with strict constraints for security and performance reasons; to send but not to receive. This means that Barricade can never modify an agent running on your server - and neither can anybody else.&lt;/p&gt;
