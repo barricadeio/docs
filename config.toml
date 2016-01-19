@@ -1,4 +1,4 @@
-baseurl = "http://docs.barricade.io/"
+baseurl = "https://docs.barricade.io/"
 theme = "barricade"
 
 publishdir = "static"
