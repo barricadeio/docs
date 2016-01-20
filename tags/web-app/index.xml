@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web App on </title>
-    <link>http://localhost:1313/tags/web-app/</link>
+    <link>https://docs.barricade.io/tags/web-app/</link>
     <description>Recent content in Web App on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://localhost:1313/tags/web-app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.barricade.io/tags/web-app/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cross-Site Scripting</title>
-      <link>http://localhost:1313/security-guide/xss/</link>
+      <link>https://docs.barricade.io/security-guide/xss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/xss/</guid>
+      <guid>https://docs.barricade.io/security-guide/xss/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for Cross-Site Scripting attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
@@ -68,10 +68,10 @@ The best way to safeguard against XSS attacks in the long term is to understand
     
     <item>
       <title>Default Username Attempts</title>
-      <link>http://localhost:1313/security-guide/login-default-username/</link>
+      <link>https://docs.barricade.io/security-guide/login-default-username/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/login-default-username/</guid>
+      <guid>https://docs.barricade.io/security-guide/login-default-username/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.&lt;/p&gt;
@@ -127,10 +127,10 @@ DBA
     
     <item>
       <title>SQL Injection</title>
-      <link>http://localhost:1313/security-guide/sql-injection/</link>
+      <link>https://docs.barricade.io/security-guide/sql-injection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/sql-injection/</guid>
+      <guid>https://docs.barricade.io/security-guide/sql-injection/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for SQL Injection attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  &lt;/p&gt;
@@ -193,10 +193,10 @@ SQL Injection is just one of many techniques that can pose a threat to you and y
     
     <item>
       <title>Suspicious Login Attempts</title>
-      <link>http://localhost:1313/security-guide/login-suspicious-username/</link>
+      <link>https://docs.barricade.io/security-guide/login-suspicious-username/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/login-suspicious-username/</guid>
+      <guid>https://docs.barricade.io/security-guide/login-suspicious-username/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.&lt;/p&gt;
@@ -250,10 +250,10 @@ username has failed activity from multiple IP addresses at once
     
     <item>
       <title>Web App Attacks</title>
-      <link>http://localhost:1313/security-guide/web-app-attack/</link>
+      <link>https://docs.barricade.io/security-guide/web-app-attack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/web-app-attack/</guid>
+      <guid>https://docs.barricade.io/security-guide/web-app-attack/</guid>
       <description>
 
 &lt;p&gt;A web application attack is any technique that&amp;rsquo;s used to target websites, web applications and web services with malicious intent.&lt;/p&gt;
