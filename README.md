@@ -11,14 +11,14 @@ New images and other media should be located in `themes/barricade/static/src`.
 
 --  
 
-# Deploying Changes
-
-The deploy script will take care of running Hugo, Gulp and the required Git magic - just run `bash deploy.sh` and the site will be pushed to the gh-pages branch.
-
-
 # Local Development
 
 * Run `hugo server --watch` to generate the site
 * In a different window, run `gulp watch` to compile assets
 * The site will be available at [localhost:1313](http://localhost:1313/)
 
+# Deploying
+
+Run `hugo` (not hugo server) to update the BaseUrl with the live url.
+
+Then run `bash deploy.sh` to run the deploy script, which will take care of running Gulp and the required Git magic. The site will be pushed to the gh-pages branch.
