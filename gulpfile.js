@@ -30,7 +30,7 @@ gulp.task('copyjson', function() {
     .pipe(notify({ message: 'Copy json task complete' }));
 });
 gulp.task('copyfonts', function() {
-  return gulp.src('bower_components/font-awesome/fonts/*')
+  return gulp.src('themes/barricade/static/src/fonts/*')
     .pipe(gulp.dest('static/src/fonts'))
     .pipe(notify({ message: 'Copy fonts task complete' }));
 });
