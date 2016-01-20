@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iptables on </title>
-    <link>http://localhost:1313/tags/iptables/</link>
+    <link>https://docs.barricade.io/tags/iptables/</link>
     <description>Recent content in Iptables on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://localhost:1313/tags/iptables/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.barricade.io/tags/iptables/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Blocking IP Addresses</title>
-      <link>http://localhost:1313/security-guide/blocking-ip-address/</link>
+      <link>https://docs.barricade.io/security-guide/blocking-ip-address/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/security-guide/blocking-ip-address/</guid>
+      <guid>https://docs.barricade.io/security-guide/blocking-ip-address/</guid>
       <description>
 
 &lt;p&gt;If you&amp;rsquo;re receiving alerts that your system is experiencing an attack, we will often recommend you take action and block the attacker to prevent them from trying again.&lt;/p&gt;
