@@ -135,9 +135,11 @@
       padding: 1.1em 12.5% 1.25em;
     }
 
-    .button {
+    .button.expand.small {
       margin: 0.333em 0;
       display: block;
+      padding-top: .5rem;
+      padding-bottom: .575rem;
 
       i {
         margin: -0.05em 0.5em 0 -0.667em;

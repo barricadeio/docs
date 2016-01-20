@@ -64,7 +64,7 @@
       @include box-shadow(0,2px,0, $light2);
       @include transition;
       background: lighten($light2, 5%) url('../img/feature-box-01.png') no-repeat 5% 52%;
-      background-size: 60px auto;
+      background-size: 50px auto;
 
       h4 {
         font-size: $scalex5;

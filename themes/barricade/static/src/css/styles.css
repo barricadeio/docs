@@ -6871,11 +6871,13 @@ body {
   background: #f4f5f8;
   padding: 1.1em 12.5% 1.25em;
 }
-.sidebar .sidebar-buttons .button {
+.sidebar .sidebar-buttons .button.expand.small {
   margin: 0.333em 0;
   display: block;
+  padding-top: .5rem;
+  padding-bottom: .575rem;
 }
-.sidebar .sidebar-buttons .button i {
+.sidebar .sidebar-buttons .button.expand.small i {
   margin: -0.05em 0.5em 0 -0.667em;
   color: #a3beca;
   font-size: 15.9992px;
@@ -7336,7 +7338,7 @@ body {
   box-shadow: 0 2px 0 #ecedf3;
   transition: all 0.3s ease-in-out;
   background: #fcfcfd url("../img/feature-box-01.png") no-repeat 5% 52%;
-  background-size: 60px auto;
+  background-size: 50px auto;
 }
 .home .feature-box a h4 {
   font-size: 20.47898px;
