@@ -50,16 +50,16 @@
           display: block;
           content: "\f00c";
           width: 2em;
-          height: 2.125em;
+          height: 2em;
           position: absolute;
           left: 0.333em;
-          top: 0.275em;
+          top: 0.3em;
           font-family: "FontAwesome";
           color: white;
           text-align: center;
           line-height: 2;
           border-radius: 50%;
-          border-bottom: 3px solid white;
+          border-bottom: none;
         }
 
         span.date {
@@ -75,38 +75,38 @@
         &.link-site:before,
         &.link-website:before {
           background-color: lighten($yellow2, 5%);
-          content: "\f0ac";
+          content: "\e814";
         }
 
         &.link-app:before {
           background-color: $green2;
-          content: "\f109";
+          content: "\e813";
         }
 
         &.link-agent:before {
           background-color: lighten(desaturate($blue2, 20%), 30%);
-          content: "\f1d8";
+          content: "\e81c";
         }
 
         &.link-engine:before {
           background-color: $red2;
-          content: "\f085";
+          content: "\e811";
         }
 
         &.link-billing:before {
           background-color: $green3;
-          content: "\f155";
+          content: "\e83a";
         }
 
         &.link-mobile:before {
           background-color: $yellow3;
-          content: "\f10b";
+          content: "\e815";
         }
 
         &.link-cloud:before,
         &.link-infra:before {
           background-color: saturate($blue3, 25%);
-          content: "\f0c2";
+          content: "\e83f";
         }
       }
     }

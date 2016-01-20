@@ -76,18 +76,19 @@
         font-size: $scalex2;
         color: $mid7;
         line-height: 1.5;
-        padding-right: 1.5em;
+        padding-right: 0.925em;
         margin: 0;
       }
 
       &:after {
-        content: "\f054";
+        content: "\e823";
         font-family: fontawesome;
         color: $light3;
+        font-size: $scalex2;
+        right: 0.725em;
         position: absolute;
-        right: 0.667em;
-        top: 2.2em;
-        font-size: 1em;
+        top: 50%;
+        transform: translateY(-50%);
       }
 
       &:hover {
