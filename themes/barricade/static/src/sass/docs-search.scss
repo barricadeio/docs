@@ -1,10 +1,11 @@
 .search-icon {
-  padding: 1.425em 1.5em;
+  padding: 1em 1.5em;
   color: $mid1;
   position: fixed;
   right: 0;
   top: 0;
   z-index: 1040;
+  line-height: 1;
   cursor: pointer;
   @include transition;
 
@@ -55,7 +56,7 @@
     height: auto;
     bottom: 0;
 
-    #algolia-wrap input#algolia-input[type=text] {
+    #search-input-wrap input.st-default-search-input {
       padding: 2.5em 5%;
       margin-top: 0px;
     }
@@ -68,6 +69,7 @@
 
     .overlay-footer {
       display: block;
+      z-index: 1150 !important;
     }
   }
 
@@ -94,7 +96,7 @@
     z-index: 1060;
   }
 
-  #algolia-wrap {
+  #search-input-wrap {
     padding: 0;
     position: fixed;
     top: 0;
@@ -102,7 +104,7 @@
     right: 0;
     width: 100%;
 
-    input#algolia-input[type=text] {
+    input.st-default-search-input {
       border: none;
       margin-top: -200px;
       outline: none;
@@ -110,56 +112,13 @@
       font-size: $scalex9;
       color: $green4;
       letter-spacing: 0.015em;
+      line-height: 2;
       padding: 1em 5%;
       text-align: center;
       border-bottom: 1px solid $light2;
       @include transition(padding, 0.2s, ease);
       @include futuraLight;
       @include box-shadow(0, 0, 0, transparent);
-    }
-    // input[type=submit] {
-    //   position: absolute;
-    //   left: -999em;
-    // }
-  }
-
-  #searchResults {
-    text-align: center;
-    margin-top: 10em;
-    @include transition;
-
-    h2 {
-      color: darken($blue3, 5%);
-      font-size: $scalex5;
-      @include futuraBold;
-      @include upperCase;
-      letter-spacing: 0.125em;
-      margin: 2.5em 0 0.875em;
-    }
-
-    ul {
-      margin: 2em 20%;
-      overflow: scroll;
-      height: 400px;
-      position: relative;
-
-      li {
-        a {
-          text-align: left;
-          display: block;
-          font-size: $scalex5;
-          padding: 0.75em 1em;
-          color: $dark1;
-          @include border-radius(0.25em,0.25em);
-          @include transition;
-
-          &:hover {
-            color: $blue4;
-            padding-left: 1.125em;
-            background: lighten($blue3, 25%);
-          }
-        }
-      }
     }
   }
 
@@ -189,6 +148,56 @@
       margin: 0 1em;
       padding: 0.25em 0.5em 1.5em 0.5em;
       @include border-radius;
+    }
+  }
+}
+
+
+// swifttype results
+.st-default-autocomplete {
+  width: 60% !important;
+  min-width: 480px !important;
+  left: 20% !important;
+  margin: 0 !important;
+  position: fixed !important;
+  top: 12.25em !important;
+  max-height: 380px !important;
+  z-index: 1120 !important;
+  overflow-y: scroll;
+
+  div.st-query-present {
+    border: none !important;
+    box-shadow: none !important;
+
+    a.st-ui-result {
+      @include futuraRegular;
+      @include border-radius(0.25em,0.25em);
+      border: none;
+      display: block;
+      font-size: $scalex5;
+      padding: 0.75em 1em;
+      color: $dark1;
+      text-align: center !important;
+      @include border-radius(0.25em,0.25em);
+      @include transition;
+
+      em {
+        font-weight: normal !important;
+        background-color: lighten($green3, 70%) !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        color: $blue4;
+        background: lighten($blue3, 35%) !important;
+      }
+      .st-ui-type-heading {
+        font-size: $scalex6 !important;
+      }
+      .st-ui-type-detail {
+        font-size: $scalex4 !important;
+      }
     }
   }
 }

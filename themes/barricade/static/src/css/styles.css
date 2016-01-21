@@ -6956,12 +6956,13 @@ body {
 }
 
 .search-icon {
-  padding: 1.425em 1.5em;
+  padding: 1em 1.5em;
   color: #bbbcc7;
   position: fixed;
   right: 0;
   top: 0;
   z-index: 1040;
+  line-height: 1;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -7008,7 +7009,7 @@ body {
   height: auto;
   bottom: 0;
 }
-#searchOverlay.active #algolia-wrap input#algolia-input[type=text] {
+#searchOverlay.active #search-input-wrap input.st-default-search-input {
   padding: 2.5em 5%;
   margin-top: 0px;
 }
@@ -7019,6 +7020,7 @@ body {
 }
 #searchOverlay.active .overlay-footer {
   display: block;
+  z-index: 1150 !important;
 }
 #searchOverlay .search-overlay-bg {
   background: rgba(255, 255, 255, 0.92);
@@ -7040,7 +7042,7 @@ body {
   position: relative;
   z-index: 1060;
 }
-#searchOverlay #algolia-wrap {
+#searchOverlay #search-input-wrap {
   padding: 0;
   position: fixed;
   top: 0;
@@ -7048,7 +7050,7 @@ body {
   right: 0;
   width: 100%;
 }
-#searchOverlay #algolia-wrap input#algolia-input[type=text] {
+#searchOverlay #search-input-wrap input.st-default-search-input {
   border: none;
   margin-top: -200px;
   outline: none;
@@ -7056,6 +7058,7 @@ body {
   font-size: 41.1408px;
   color: #06807f;
   letter-spacing: 0.015em;
+  line-height: 2;
   padding: 1em 5%;
   text-align: center;
   border-bottom: 1px solid #ecedf3;
@@ -7065,43 +7068,6 @@ body {
   letter-spacing: 0.015em;
   -webkit-font-smoothing: antialiased;
   box-shadow: 0 0 0 transparent;
-}
-#searchOverlay #searchResults {
-  text-align: center;
-  margin-top: 10em;
-  transition: all 0.3s ease-in-out;
-}
-#searchOverlay #searchResults h2 {
-  color: #93b3c1;
-  font-size: 20.47898px;
-  font-family: "futura-pt", "futura-bold", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.035em;
-  -webkit-font-smoothing: antialiased;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  letter-spacing: 0.125em;
-  margin: 2.5em 0 0.875em;
-}
-#searchOverlay #searchResults ul {
-  margin: 2em 20%;
-  overflow: scroll;
-  height: 400px;
-  position: relative;
-}
-#searchOverlay #searchResults ul li a {
-  text-align: left;
-  display: block;
-  font-size: 20.47898px;
-  padding: 0.75em 1em;
-  color: #566c70;
-  border-radius: 0.25em 0.25em 0.25em 0.25em;
-  transition: all 0.3s ease-in-out;
-}
-#searchOverlay #searchResults ul li a:hover {
-  color: #34495e;
-  padding-left: 1.125em;
-  background: #f4f7f9;
 }
 #searchOverlay .overlay-footer {
   position: fixed;
@@ -7128,6 +7094,53 @@ body {
   margin: 0 1em;
   padding: 0.25em 0.5em 1.5em 0.5em;
   border-radius: 3px 3px 3px 3px;
+}
+
+.st-default-autocomplete {
+  width: 60% !important;
+  min-width: 480px !important;
+  left: 20% !important;
+  margin: 0 !important;
+  position: fixed !important;
+  top: 12.25em !important;
+  max-height: 380px !important;
+  z-index: 1120 !important;
+  overflow-y: scroll;
+}
+.st-default-autocomplete div.st-query-present {
+  border: none !important;
+  box-shadow: none !important;
+}
+.st-default-autocomplete div.st-query-present a.st-ui-result {
+  font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.0075em;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  border: none;
+  display: block;
+  font-size: 20.47898px;
+  padding: 0.75em 1em;
+  color: #566c70;
+  text-align: center !important;
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  transition: all 0.3s ease-in-out;
+}
+.st-default-autocomplete div.st-query-present a.st-ui-result em {
+  font-weight: normal !important;
+  background-color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.st-default-autocomplete div.st-query-present a.st-ui-result:hover {
+  color: #34495e;
+  background: white !important;
+}
+.st-default-autocomplete div.st-query-present a.st-ui-result .st-ui-type-heading {
+  font-size: 22.856px !important;
+}
+.st-default-autocomplete div.st-query-present a.st-ui-result .st-ui-type-detail {
+  font-size: 17.142px !important;
 }
 
 .main {
@@ -7761,6 +7774,9 @@ a:visited:hover {
   }
   .home .feature-box a p {
     display: none;
+  }
+  .home .home-contact {
+    padding-bottom: 2em;
   }
 
   .main .content-wrap h1 {

@@ -3,45 +3,29 @@ $(document).ready(function() {
   $(document).foundation();
 
   // search modal
-  // $(document).unbind('keyup');
-  // $(document).keyup(function(e){
-  //   if (e.keyCode==27) {
-  //     $("#searchBar").click();
-  //   }
-  // });
+  $(document).unbind('keyup');
+  $(document).keyup(function(e){
+    if (e.keyCode==27) {
+      $("#searchBar").click();
+    }
+  });
 
-  // $("#searchBar, .search-overlay-bg, .search-trigger").click( function() {
-  //   if ($('#searchOverlay').hasClass('active')) {
-  //     $('#searchOverlay').removeClass("active");
-  //   } else {
-  //     $('#searchOverlay').addClass("active");
-  //     $('#searchOverlay input[type="text"]').focus();
-  //   }
-  // });
+  $("#searchBar, .search-overlay-bg, .search-trigger").click( function() {
+    if ($('#searchOverlay').hasClass('active')) {
+      $('#searchOverlay').removeClass("active");
+    } else {
+      $('#searchOverlay').addClass("active");
+      $('#searchOverlay input[type="text"]').focus();
+    }
+  });
 
-  // var client = algoliasearch('QM91V2H4QL', 'edeebf1c9a5e14c6dfb24911a629e27c');
-  // var index = client.initIndex('test_index');
-  // var $input = $('#agolia-input');
-  // $input.keyup(function() {
-  //   index.search($input.val(), {
-  //     hitsPerPage: 10,
-  //     facets: '*'
-  //   }, searchCallback);
-  // }).focus();
 
-  // function searchCallback(err, content) {
-  //   if (err) {
-  //     console.error(err);
-  //     return;
-  //   }
-
-  //   var $articles = $('#articles');
-  //   $articles.empty();
-
-  //   for (var i = 0; i < content.hits.length; i++) {
-  //     $articles.append('<li>' + content.hits[i].name + '</li>');
-  //   }
-  // };
+  // swifttype search
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+    })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+    _st('install','o82vEyRB4LfTEQXajsyq','2.0.0');
 
 
   // footer
