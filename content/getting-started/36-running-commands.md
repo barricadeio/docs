@@ -1,5 +1,5 @@
 +++
-title = "How to Run Commands"
+title = "How to Run SSH Commands"
 weight = "36"
 
 tags = ["install", "agent", "account", "quickstart"]
