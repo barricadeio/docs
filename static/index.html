@@ -108,6 +108,8 @@
           
             <li><a href="#installing-an-agent">Installing an Agent</a></li>
           
+            <li><a href="#running-commands">How to Run SSH Commands</a></li>
+          
             <li><a href="#agent-detection">Agent Detection</a></li>
           
             <li><a href="#troubleshooting">Troubleshooting</a></li>
@@ -224,7 +226,38 @@
 </nav>
 
       <aside>
-  
+  <a class="fa fa-search right search-icon search-trigger" title="Search this site"></a>
+
+  <div id="searchOverlay">
+    <span class="left prompt">Type to search:</span>
+    <a class="fa fa-times right search-icon search-trigger" title="Click to exit search"></a>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 columns" id="search-input-wrap">
+          <input type="text" class="st-default-search-input"
+            placeholder="Search..." autofocus="autofocus" autocorrect="off" autocapitalize="none" spellcheck="false" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="row" id="searchResults" class="results">
+        <div class="col-sm-2 column">&nbsp;</div>
+        <div class="col-sm-8 text-center column">
+
+          <div class="st-search-container"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 columns">
+          <span class="overlay-footer">Press <em>Esc</em> to close</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="search-overlay-bg"></div>
+  </div>
 </aside>
 
       <div id="particles-js" class="home-intro-wrap"></div>
@@ -251,7 +284,7 @@
           </div>
           <div class="row">
             <div class="large-6 medium-12 feature-box columns">
-              <a href="getting-started/#account-setup">
+              <a href="getting-started/">
                 <h4>Getting Started</h4>
                 <p>Our guide to setting up an account and installing the Barricade Agent.</p>
               </a>
@@ -263,7 +296,7 @@
               </a>
             </div>
             <div class="large-6 medium-12 feature-box columns">
-              <a href="getting-started/#overview">
+              <a href="getting-started/#how-it-works-agent">
                 <h4>How Barricade Works</h4>
                 <p>What is an Agent? What does Barricade check for? Find out.</p>
               </a>

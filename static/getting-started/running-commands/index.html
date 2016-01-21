@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>How to Run Commands</title>
+  <title>How to Run SSH Commands</title>
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -80,7 +80,7 @@
     <ul>
       
       
-      <li><a class="sidebar-nav-item" href="/getting-started/">
+      <li><a class="sidebar-nav-item active" href="/getting-started/">
           <span class="ripple">Getting Started <span></span></span>
         </a>
         
@@ -105,6 +105,8 @@
             <li><a href="#confirm-account">Confirm Account</a></li>
           
             <li><a href="#installing-an-agent">Installing an Agent</a></li>
+          
+            <li class="active"><a href="#running-commands">How to Run SSH Commands</a></li>
           
             <li><a href="#agent-detection">Agent Detection</a></li>
           
@@ -212,7 +214,7 @@
   <div class="breadcrumb">
     <a href="../">Documentation</a>
     
-      <a href="../">How to Run Commands</a>
+      <a href="../">How to Run SSH Commands</a>
     
     
   </div>
@@ -221,13 +223,44 @@
 </nav>
 
       <aside>
-  
+  <a class="fa fa-search right search-icon search-trigger" title="Search this site"></a>
+
+  <div id="searchOverlay">
+    <span class="left prompt">Type to search:</span>
+    <a class="fa fa-times right search-icon search-trigger" title="Click to exit search"></a>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 columns" id="search-input-wrap">
+          <input type="text" class="st-default-search-input"
+            placeholder="Search..." autofocus="autofocus" autocorrect="off" autocapitalize="none" spellcheck="false" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="row" id="searchResults" class="results">
+        <div class="col-sm-2 column">&nbsp;</div>
+        <div class="col-sm-8 text-center column">
+
+          <div class="st-search-container"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 columns">
+          <span class="overlay-footer">Press <em>Esc</em> to close</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="search-overlay-bg"></div>
+  </div>
 </aside>
 
       <div class="row">
         <div class="small-1 columns">&nbsp;</div>
         <div class="small-10 columns content-wrap">
-          <h3>How to Run Commands</h3>
+          <h3>How to Run SSH Commands</h3>
           <p>You&rsquo;ll need to connect to your server via <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> to run the commands - how you go about doing this depends on the type of server you&rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).</p>
 
 <p>If you&rsquo;re unsure about how to do this, you should refer to your Cloud provider&rsquo;s documentation:</p>
