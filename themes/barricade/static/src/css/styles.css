@@ -7134,7 +7134,7 @@ body {
 }
 .st-default-autocomplete div.st-query-present a.st-ui-result:hover {
   color: #34495e;
-  background: white !important;
+  background: #d4e0e6 !important;
 }
 .st-default-autocomplete div.st-query-present a.st-ui-result .st-ui-type-heading {
   font-size: 22.856px !important;
