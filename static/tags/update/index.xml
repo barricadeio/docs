@@ -48,7 +48,7 @@
 
 &lt;p&gt;Agents are designed with strict constraints for security and performance reasons; to send but not to receive. This means that Barricade can never modify an agent running on your server - and neither can anybody else.&lt;/p&gt;
 
-&lt;p&gt;From time to time, we will notify you of updates and improvements, prompting you to run an Agent update to ensure you are running the latest version. You maintain full control over the Agent - we can’t push code to your server.&lt;/p&gt;
+&lt;p&gt;From time to time, we will notify you of &lt;a href=&#34;../changelog&#34;&gt;updates and improvements&lt;/a&gt;, prompting you to run an Agent update to ensure you are running the latest version. You maintain full control over the Agent - we can’t push code to your server.&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-update-an-agent:d5151d15c54bda419149e5e798bdf0b2&#34;&gt;How to Update an Agent&lt;/h2&gt;
 

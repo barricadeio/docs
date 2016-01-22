@@ -905,7 +905,7 @@ build_link: 'https://circleci.com/gh/barricadeio/webapp/1660' // build URL
 
 <p>Agents are designed with strict constraints for security and performance reasons; to send but not to receive. This means that Barricade can never modify an agent running on your server - and neither can anybody else.</p>
 
-<p>From time to time, we will notify you of updates and improvements, prompting you to run an Agent update to ensure you are running the latest version. You maintain full control over the Agent - we can’t push code to your server.</p>
+<p>From time to time, we will notify you of <a href="../changelog">updates and improvements</a>, prompting you to run an Agent update to ensure you are running the latest version. You maintain full control over the Agent - we can’t push code to your server.</p>
 
 <h2 id="how-to-update-an-agent:d5151d15c54bda419149e5e798bdf0b2">How to Update an Agent</h2>
 
@@ -1021,7 +1021,7 @@ See <a href="#configuring-agents">Configuring Agents</a> for more information.</
 
 <p>By default, Agents are optimized to handle heavy traffic without impacting on the performance of your server - but you can always change the configuration to suit your needs.</p>
 
-<h2 id="configuration-file:4dc8be8e166f64c29db981f27c6c3661">Configuration File</h2>
+<h3 id="configuration-file:4dc8be8e166f64c29db981f27c6c3661">Configuration File</h3>
 
 <p>Config settings can be found and modified in this file on your server: </p>
 
@@ -1031,27 +1031,34 @@ See <a href="#configuring-agents">Configuring Agents</a> for more information.</
 
 <p><code>sudo restart barricade</code></p>
 
-<h2 id="configuration-options:4dc8be8e166f64c29db981f27c6c3661">Configuration Options:</h2>
+<p>--</p>
 
-<h3 id="tag:4dc8be8e166f64c29db981f27c6c3661">tag</h3>
+<h3 id="configuration-options:4dc8be8e166f64c29db981f27c6c3661">Configuration Options:</h3>
 
-<p><em>Tag</em> is an arbitrary config value which can be used to identify and organize your Agents - particularly useful for <a href="#tagging-filtering">Filtering Agents</a>. The default value is <code>production</code>.</p>
+<p><strong>tag</strong><br />
+<em>Tag</em> is an arbitrary config value which can be used to identify and organize your Agents - particularly useful for <a href="#tagging-filtering">Filtering Agents</a>. The default value is <code>production</code>.</p>
 
-<p><code>tag=production</code></p>
+<p>You can e.g. to denote <em>development, staging, production environments, &ldquo;commit&rdquo; versions</em>, for example: <code>tag=staging,development,beta</code></p>
 
-<p>You can e.g. to denote <em>development, staging, production environments, &ldquo;commit&rdquo; versions</em>, etc.</p>
+<p><strong>high_water_mark</strong><br />
+This is the maximum number of packets per second that the agent will send to Barricade. By default, the Agent uses available system memory to calculate a reasonable default.</p>
 
-<p><code>tag=staging,development,beta</code></p>
-
-<h3 id="high-water-mark:4dc8be8e166f64c29db981f27c6c3661">high_water_mark</h3>
-
-<p>This is the maximum number of packets per second that the agent will send to Barricade. Default value is 10,000 packets per second.</p>
-
-<p><code>high_water_mark=10000</code></p>
+<p>Example: <code>high_water_mark=10000</code></p>
 
 <p>After this, the Agent will begin dropping older packets to prioritize the newest information, and emit a warning to this effect in the logs (/var/log/barricade.log on most systems, in journalctl for systemd based systems).</p>
 
-<h2 id="barricade-cfg-troubleshooting:4dc8be8e166f64c29db981f27c6c3661">Barricade.cfg Troubleshooting</h2>
+<p><strong>flush_frequency</strong><br />
+Default value is <code>0.01</code> seconds.</p>
+
+<p><strong>log_level</strong><br />
+The default value is <code>warning</code>.</p>
+
+<p><strong>ssl_check_hostname</strong><br />
+Allows you to enable or disable SSL hostname verification. By default value is <code>enabled</code>.</p>
+
+<p>--</p>
+
+<h3 id="barricade-cfg-troubleshooting:4dc8be8e166f64c29db981f27c6c3661">Barricade.cfg Troubleshooting</h3>
 
 <p><strong>Some options do not appear in my barricade.cfg file.</strong><br />
 Your Agent may not be up to date - ensure you have <a href="#updating-agents">updated to the latest version</a>.</p>
