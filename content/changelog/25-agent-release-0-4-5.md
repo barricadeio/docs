@@ -7,6 +7,7 @@ url = "changelog/agent-release-0-4-5"
 section = "changelog"
 category = "app"
 weight = "25"
+draft = "true"
 
 +++
 
