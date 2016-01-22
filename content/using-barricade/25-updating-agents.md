@@ -17,7 +17,7 @@ slug = "updating-agents"
 
 Agents are designed with strict constraints for security and performance reasons; to send but not to receive. This means that Barricade can never modify an agent running on your server - and neither can anybody else.
 
-From time to time, we will notify you of updates and improvements, prompting you to run an Agent update to ensure you are running the latest version. You maintain full control over the Agent - we can’t push code to your server.
+From time to time, we will notify you of [updates and improvements](../changelog), prompting you to run an Agent update to ensure you are running the latest version. You maintain full control over the Agent - we can’t push code to your server.
 
 ## How to Update an Agent
 
