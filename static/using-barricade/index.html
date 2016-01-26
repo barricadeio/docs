@@ -1040,10 +1040,10 @@ See <a href="#configuring-agents">Configuring Agents</a> for more information.</
 
 <p>You can e.g. to denote <em>development, staging, production environments, &ldquo;commit&rdquo; versions</em>, for example: <code>tag=staging,development,beta</code></p>
 
-<p><strong>high_water_mark</strong><br />
-This is the maximum number of packets per second that the agent will send to Barricade. By default, the Agent uses available system memory to calculate a reasonable default.</p>
+<p><strong>spooler_memory</strong><br />
+This is the specific amount of memory to use for buffering packets in high traffic. By default, the Agent uses available system memory to calculate a reasonable default.</p>
 
-<p>Example: <code>high_water_mark=10000</code></p>
+<p>Example: <code>spooler_memory=10000</code></p>
 
 <p>After this, the Agent will begin dropping older packets to prioritize the newest information, and emit a warning to this effect in the logs (/var/log/barricade.log on most systems, in journalctl for systemd based systems).</p>
 
