@@ -36,10 +36,10 @@ _Tag_ is an arbitrary config value which can be used to identify and organize yo
 
 You can e.g. to denote _development, staging, production environments, "commit" versions_, for example: `tag=staging,development,beta`
 
-**high_water_mark**  
-This is the maximum number of packets per second that the agent will send to Barricade. By default, the Agent uses available system memory to calculate a reasonable default.
+**spooler_memory**  
+This is the specific amount of memory to use for buffering packets in high traffic. By default, the Agent uses available system memory to calculate a reasonable default.
 
-Example: `high_water_mark=10000`
+Example: `spooler_memory=10000`
 
 After this, the Agent will begin dropping older packets to prioritize the newest information, and emit a warning to this effect in the logs (/var/log/barricade.log on most systems, in journalctl for systemd based systems).
 
