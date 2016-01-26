@@ -7,7 +7,6 @@ url = "changelog/agent-release-0-4-5"
 section = "changelog"
 category = "app"
 weight = "25"
-draft = "true"
 
 +++
 
@@ -17,13 +16,14 @@ We’ve shipped a major update to our monitoring Agent, to improve performance a
 
 --
 
+
+
 ## Features:
 
 * Added ability to pause or disable the agent from the dashboard
 * Support for running in Docker containers
 * Include system information (Operating System, Kernel version, etc) in data being monitored by Barricade
-* SSL now uses trusted certificate
-* SSL negotiation verifies hostname before establishing connection
+* SSL now uses trusted certificate - SSL negotiation verifies hostname before establishing connection
 
 
 ## Bug Fixes:
@@ -37,7 +37,8 @@ We’ve shipped a major update to our monitoring Agent, to improve performance a
 
 Agents have advanced configuration options that you can adjust to suit your needs. See our [Agent Configuration docs](../../using-barricade/#configuring-agents) for details on how you can set these options.
 
+* `ssl_check_hostname` (new) - enable/disable SSL hostname verification (default enabled)
+* `spooler_memory` (new) - specify the amount of memory to use for buffering packets in high traffic scenarios before dropping. Has a default derived from system memory.
 * `flush_frequency` (changed) - default changed from 1 second to 0.01 seconds
 * `log_level` (changed) - default changed from error to warning
-* `ssl_check_hostname` (new) - enable/disable SSL hostname verification (default enabled)
-* `high_water_mark` (changed) - now uses available system memory to calculate a reasonable default
+* `high_water_mark` (deprecated) - deprecated in favour of `spooler_memory`
