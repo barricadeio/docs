@@ -196,6 +196,10 @@
   </url>
   
   <url>
+    <loc>https://docs.barricade.io/security-guide/package_vulnerabilities/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.barricade.io/changelog/ci-sec-tests</loc>
     <lastmod>2015-12-07T00:00:00+00:00</lastmod>
   </url>

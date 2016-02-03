@@ -73,5 +73,52 @@
 </description>
     </item>
     
+    <item>
+      <title>Vulnerable Software Detected</title>
+      <link>https://docs.barricade.io/security-guide/package_vulnerabilities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/security-guide/package_vulnerabilities/</guid>
+      <description>
+
+&lt;p&gt;Barricade keeps an eye on the software packages on your server, checking version information for any serious lapses. Running out-of-date software greatly increases the odds of an attack on your system.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:5965d07dfff0c17d8241feb78770d387&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Out-of-date typically software means more vulnerable software - a lot of web app attacks specifically seek out older packages, in order to apply targetted attacks.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:5965d07dfff0c17d8241feb78770d387&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A minor vulnerability was found - you should update old software.&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A series of vulnerabilities were found - you have multiple instances of outdated software.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A serious vulnerability was found - your software urgently needs to be updated!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:5965d07dfff0c17d8241feb78770d387&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s important to keep your software packages up-to-date - applying patches and security fixes as they are released. Staying on top of updates will reduce your vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;When Barricade detects vulnerable software, the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;in-app case&lt;/a&gt; will show you out-of-date package info.&lt;/p&gt;
+
+&lt;p&gt;If your application or website is revealing &lt;a href=&#34;#system-info-detected&#34;&gt;system information&lt;/a&gt; (i.e. the version number) in addition to running vulnerable, older software - an attacker could discover and use that information against you. We recommend you also &lt;a href=&#34;https://www.owasp.org/index.php/Information_Leakage&#34;&gt;hide version information&lt;/a&gt; away from public web traffic.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

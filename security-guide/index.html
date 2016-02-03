@@ -178,6 +178,8 @@
           
             <li><a href="#sensitive-info-detected">Sensitive Information Leaks</a></li>
           
+            <li><a href="#package_vulnerabilities">Vulnerable Software Detected</a></li>
+          
             <li><a href="#running-commands">How to Run Commands</a></li>
           
             <li><a href="#blocking-ip-address">Blocking IP Addresses</a></li>
@@ -737,6 +739,49 @@ AllowGroup sshusers
 <p>It&rsquo;s important to keep sensitive information safe online - in the wrong hands, credit card and identifying information can be used to commit fraud and identity theft. </p>
 
 <p>Barricade will help you identify any such exposed information on your systems - if someone posts credit card details to a public-facing part of your website or application, you will be alerted in real time.</p>
+</div>
+</article>
+          
+            <article id="package_vulnerabilities">
+  <h1 class="post-title">Vulnerable Software Detected</h1>
+  <div>
+
+<p>Barricade keeps an eye on the software packages on your server, checking version information for any serious lapses. Running out-of-date software greatly increases the odds of an attack on your system.</p>
+
+<h2 id="causes:5965d07dfff0c17d8241feb78770d387">Causes</h2>
+
+<p>Out-of-date typically software means more vulnerable software - a lot of web app attacks specifically seek out older packages, in order to apply targetted attacks.</p>
+
+<h2 id="risk-levels:5965d07dfff0c17d8241feb78770d387">Risk Levels</h2>
+
+<table class="risk">
+<tbody>
+<tr>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
+<td>A minor vulnerability was found - you should update old software.</td>
+<td> </td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
+<td>A series of vulnerabilities were found - you have multiple instances of outdated software.</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
+<td>A serious vulnerability was found - your software urgently needs to be updated!</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="recommendations:5965d07dfff0c17d8241feb78770d387">Recommendations</h2>
+
+<p>It&rsquo;s important to keep your software packages up-to-date - applying patches and security fixes as they are released. Staying on top of updates will reduce your vulnerabilities.</p>
+
+<p>When Barricade detects vulnerable software, the <a href="https://app.barricade.io/dashboard/overview">in-app case</a> will show you out-of-date package info.</p>
+
+<p>If your application or website is revealing <a href="#system-info-detected">system information</a> (i.e. the version number) in addition to running vulnerable, older software - an attacker could discover and use that information against you. We recommend you also <a href="https://www.owasp.org/index.php/Information_Leakage">hide version information</a> away from public web traffic.</p>
 </div>
 </article>
           
