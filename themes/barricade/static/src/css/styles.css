@@ -7062,6 +7062,8 @@ body {
   padding: 1em 5%;
   text-align: center;
   border-bottom: 1px solid #ecedf3;
+  -moz-box-sizing: border-box;
+  height: 100%;
   transition: padding 0.2s ease;
   font-family: "futura-pt", "futura-light", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -7123,18 +7125,17 @@ body {
   padding: 0.75em 1em;
   color: #566c70;
   text-align: center !important;
-  border-radius: 0.25em 0.25em 0.25em 0.25em;
   transition: all 0.3s ease-in-out;
 }
 .st-default-autocomplete div.st-query-present a.st-ui-result em {
   font-weight: normal !important;
-  background-color: white !important;
+  background-color: white;
   border: none !important;
   box-shadow: none !important;
 }
 .st-default-autocomplete div.st-query-present a.st-ui-result:hover {
   color: #34495e;
-  background: #d4e0e6 !important;
+  background: #f4f7f9 !important;
 }
 .st-default-autocomplete div.st-query-present a.st-ui-result .st-ui-type-heading {
   font-size: 22.856px !important;
@@ -7722,6 +7723,11 @@ a:visited:hover {
     padding-left: 0;
   }
 
+  .left-off-canvas-toggle .fa {
+    padding: 2em 1.125em;
+    line-height: 3.825;
+  }
+
   .sidebar {
     display: none;
   }
@@ -7730,6 +7736,9 @@ a:visited:hover {
     left: 0;
   }
 
+  .top-bar .breadcrumb {
+    left: 2.25em;
+  }
   .top-bar .breadcrumb a:first-child {
     display: none;
   }
@@ -7738,17 +7747,20 @@ a:visited:hover {
     left: 2.925em;
     top: 1.12em;
   }
+  #searchOverlay input.st-default-search-input {
+    padding: 1.75em 5% 0.667em !important;
+  }
   #searchOverlay.active form input[type=text] {
     padding: 3em 5% 2em 5%;
   }
   #searchOverlay.active .overlay-footer {
     display: none !important;
   }
-  #searchOverlay #searchResults ul {
-    margin: 1em 5%;
-  }
-  #searchOverlay #searchResults ul li a {
-    padding: 0.25em 1em;
+
+  .st-default-autocomplete {
+    width: 90% !important;
+    min-width: 320px !important;
+    left: 5% !important;
   }
 
   .home {
@@ -7766,7 +7778,8 @@ a:visited:hover {
     background-size: 35px auto;
   }
   .home .feature-box a:after {
-    top: 0.925em;
+    top: 48%;
+    right: 3%;
   }
   .home .feature-box a h4 {
     font-size: 20.47898px;

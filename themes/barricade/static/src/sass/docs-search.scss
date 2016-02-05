@@ -116,6 +116,8 @@
       padding: 1em 5%;
       text-align: center;
       border-bottom: 1px solid $light2;
+      -moz-box-sizing: border-box;
+      height: 100%;
       @include transition(padding, 0.2s, ease);
       @include futuraLight;
       @include box-shadow(0, 0, 0, transparent);
@@ -178,19 +180,18 @@
       padding: 0.75em 1em;
       color: $dark1;
       text-align: center !important;
-      @include border-radius(0.25em,0.25em);
       @include transition;
 
       em {
         font-weight: normal !important;
-        background-color: lighten($green3, 70%) !important;
+        background-color: white;
         border: none !important;
         box-shadow: none !important;
       }
 
       &:hover {
         color: $blue4;
-        background: lighten($blue3, 15%) !important;
+        background: lighten($blue3, 25%) !important;
       }
       .st-ui-type-heading {
         font-size: $scalex6 !important;
