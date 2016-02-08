@@ -15,14 +15,13 @@
       <guid>https://docs.barricade.io/getting-started/account-setup/</guid>
       <description>&lt;p&gt;To get up and running with Barricade, go to &lt;a href=&#34;https://app.barricade.io/&#34;&gt;app.barricade.io&lt;/a&gt;. First-time visitors will see this screen with account creation instructions:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/onboard-1.gif&#34; alt=&#34;../src/img/getting-started/onboard-1.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/signup-v3.png&#34; alt=&#34;../src/img/getting-started/signup-v3.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;ve previously created an account, you can login by clicking &lt;em&gt;&amp;lsquo;&lt;a href=&#34;https://app.barricade.io/login&#34;&gt;Already Signed Up&lt;/a&gt;&amp;lsquo;&lt;/em&gt;. To create a new account, you&amp;rsquo;ll be asked for:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;an email address&lt;/li&gt;
 &lt;li&gt;a password &lt;em&gt;(make it a &lt;a href=&#34;https://xkcd.com/936/&#34;&gt;good one&lt;/a&gt;!)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;a credit card&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -40,26 +39,6 @@
 &lt;p&gt;Once that&amp;rsquo;s done, you can close the form panel by clicking the &amp;lsquo;X&amp;rsquo; in the top right-hand corner, or click the &amp;lsquo;Install Another&amp;rsquo; button to start over and start additional agents.&lt;/p&gt;
 
 &lt;p&gt;Now that your Agent is running, your server is being monitored in real-time. Data will start to appear in your dashboard as activity is detected and analyzed.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Next: &lt;a href=&#34;../using-barricade/&#34;&gt;Using Barricade &amp;gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choose a Plan</title>
-      <link>https://docs.barricade.io/getting-started/choosing-plan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/getting-started/choosing-plan/</guid>
-      <description>&lt;p&gt;You can view the different plan price points by clicking the &amp;lsquo;GB size&amp;rsquo; dropdown menu:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/plans.png&#34; alt=&#34;../src/img/getting-started/plans.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Barricade is a &amp;lsquo;pay for what you use&amp;rsquo; service - you pay in terms of your GB usage (bandwidth).&lt;/p&gt;
-
-&lt;p&gt;Whatever you select here will still be &lt;strong&gt;free to use for your trial period&lt;/strong&gt; - and you can always adjust the plan if you need more or less data over time.&lt;/p&gt;
 </description>
     </item>
     
@@ -170,15 +149,17 @@
     
     <item>
       <title>Starting a Trial</title>
-      <link>https://docs.barricade.io/getting-started/credit-card/</link>
+      <link>https://docs.barricade.io/getting-started/starting-trial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/credit-card/</guid>
-      <description>&lt;p&gt;We require a credit card to verify all signups - but don&amp;rsquo;t worry - we won&amp;rsquo;t charge you anything to your card. With Barricade, &lt;strong&gt;you only pay for what you use&lt;/strong&gt;; and nothing is charged while you&amp;rsquo;re on the free trial plan.&lt;/p&gt;
+      <guid>https://docs.barricade.io/getting-started/starting-trial/</guid>
+      <description>&lt;p&gt;Once you sign up on &lt;a href=&#34;https://app.barricade.io/&#34;&gt;app.barricade.io&lt;/a&gt;, you&amp;rsquo;ll automatically start a free trial - giving you the full Barricade experience without having to pay anything!&lt;/p&gt;
 
-&lt;p&gt;We&amp;rsquo;ll notify you every step of the way about your trial and your usage, so there are no hidden charges and you can cancel your account at any time without headaches.&lt;/p&gt;
+&lt;p&gt;The length of your trial is based on data, rather than time (as is our full &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;pricing&lt;/a&gt;) - every server is different. We will monitor the network traffic in and out of your server until the &lt;strong&gt;1GB limit&lt;/strong&gt; is reached. The busier your server, the more data we collect and analyze for issues.&lt;/p&gt;
 
-&lt;p&gt;See &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;our pricing page&lt;/a&gt; for more information. If you have any questions about the trial signup or our pricing plans, &lt;a href=&#34;https://barricade.io/about/#contact-info&#34;&gt;let us know&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once your trial data is used up, your trial is finished and you will be notified by email with next steps.&lt;/p&gt;
+
+&lt;p&gt;The trial should give you an idea of how much data your servers send and receive over time, helping you determine which &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;price plan&lt;/a&gt; would best suits your needs. &lt;a href=&#34;https://barricade.io/about/#contact-info&#34;&gt;Get in touch&lt;/a&gt; if you have any questions or have special requirements - we&amp;rsquo;re happy to arrange custom plans to fit your organization.&lt;/p&gt;
 </description>
     </item>
     
@@ -197,6 +178,34 @@ If you&amp;rsquo;re experiencing problems during Agent installation, check that 
 
 &lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not sure how to run the command on a server.&lt;/strong&gt;&lt;br /&gt;
 You&amp;rsquo;ll need to connect to the server via SSH to run the command - see &lt;a href=&#34;#running-commands&#34;&gt;our guide&lt;/a&gt; here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vulnerability Scan</title>
+      <link>https://docs.barricade.io/getting-started/vulnerability-scan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/getting-started/vulnerability-scan/</guid>
+      <description>&lt;p&gt;Once the Agent is installed, a short video will appear in your dashboard while Barricade connects to your server and analyzes it for the first time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/scan-video-01.png&#34; alt=&#34;../src/img/getting-started/scan-video-01.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After the video, you will see the results of an initial vulnerability scan - a quick check over the OS and packages installed on your server.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/scan-report-01.png&#34; alt=&#34;../src/img/getting-started/scan-report-01.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re running any out-of-date software packages, the scan will let you know - highlighting things that are in need of updating or patching. Any vulnerabilities will be saved as Cases to your dashboard, so you can review them (and follow their recommendations) at a later stage.&lt;/p&gt;
+
+&lt;p&gt;The Case page will provide details on the vulnerabilities, and give recommendations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/scan-case-01.png&#34; alt=&#34;../src/img/getting-started/scan-case-01.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example screenshot from an initial vulnerability case ^&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Next: &lt;a href=&#34;../using-barricade/&#34;&gt;Using Barricade &amp;gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     

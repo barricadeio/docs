@@ -266,15 +266,11 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/getting-started/credit-card/</loc>
-  </url>
-  
-  <url>
-    <loc>https://docs.barricade.io/getting-started/choosing-plan/</loc>
-  </url>
-  
-  <url>
     <loc>https://docs.barricade.io/getting-started/confirm-account/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/getting-started/starting-trial/</loc>
   </url>
   
   <url>
@@ -287,6 +283,10 @@
   
   <url>
     <loc>https://docs.barricade.io/getting-started/agent-detection/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/getting-started/vulnerability-scan/</loc>
   </url>
   
   <url>
