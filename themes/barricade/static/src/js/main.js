@@ -2704,6 +2704,7 @@ $(document).ready(function() {
 
   $(document).foundation();
 
+
   // search modal
   $(document).unbind('keyup');
   $(document).keyup(function(e){
@@ -2720,7 +2721,6 @@ $(document).ready(function() {
       $('#searchOverlay input[type="text"]').focus();
     }
   });
-
 
   // swifttype search
   (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){

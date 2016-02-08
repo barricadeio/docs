@@ -7320,6 +7320,9 @@ body {
   background: rgba(255, 255, 255, 0.8);
   border-bottom: 0.075em solid #a3beca;
 }
+.home h1 a {
+  color: #06807f;
+}
 .home h1:hover {
   border-color: #2fb6c6;
 }

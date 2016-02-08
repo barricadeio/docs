@@ -22,5 +22,3 @@ Shortly after you run the install command, the Barricade setup screen will updat
 Once that's done, you can close the form panel by clicking the 'X' in the top right-hand corner, or click the 'Install Another' button to start over and start additional agents.
 
 Now that your Agent is running, your server is being monitored in real-time. Data will start to appear in your dashboard as activity is detected and analyzed.
-
-> Next: [Using Barricade >](../using-barricade/)

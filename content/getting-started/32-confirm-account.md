@@ -1,6 +1,6 @@
 +++
 title = "Confirm Account"
-weight = "34"
+weight = "32"
 
 tags = ["install", "agent", "account", "quickstart"]
 section = "getting-started"
