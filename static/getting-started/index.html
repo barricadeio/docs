@@ -100,17 +100,17 @@
           
             <li><a href="#account-setup">Account Setup</a></li>
           
-            <li><a href="#credit-card">Starting a Trial</a></li>
-          
-            <li><a href="#choosing-plan">Choose a Plan</a></li>
-          
             <li><a href="#confirm-account">Confirm Account</a></li>
+          
+            <li><a href="#starting-trial">Starting a Trial</a></li>
           
             <li><a href="#installing-an-agent">Installing an Agent</a></li>
           
             <li><a href="#running-commands">How to Run SSH Commands</a></li>
           
             <li><a href="#agent-detection">Agent Detection</a></li>
+          
+            <li><a href="#vulnerability-scan">Vulnerability Scan</a></li>
           
             <li><a href="#troubleshooting">Troubleshooting</a></li>
           
@@ -341,9 +341,9 @@ all transmitted information is encrypted with 2048-bit SSL</li>
   <h1 class="post-title">Our Detection Engine</h1>
   <div><p>Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.</p>
 
-<p>As new data comes in, the engine learns about different types of behaviours for your infrastructure and what seems to be normal behaviour based on the services running.</p>
+<p>As new data comes in, the engine learns about different types of behaviors for your infrastructure and what seems to be normal behavior based on the services running.</p>
 
-<p>The Engine is designed to distill complex machine learning concepts such as artificial neural networks, anomaly detection and ensemble learning into consumable and actionable information.</p>
+<p>The Engine is designed to distil complex machine learning concepts such as artificial neural networks, anomaly detection, and ensemble learning into consumable and actionable information.</p>
 
 <p>For details on the various behaviors &amp; attacks that Barricade detects - <a href="../security-guide">see the Security Guide</a>.</p>
 </div>
@@ -379,37 +379,14 @@ all transmitted information is encrypted with 2048-bit SSL</li>
   <h1 class="post-title">Account Setup</h1>
   <div><p>To get up and running with Barricade, go to <a href="https://app.barricade.io/">app.barricade.io</a>. First-time visitors will see this screen with account creation instructions:</p>
 
-<p><img src="../src/img/getting-started/onboard-1.gif" alt="../src/img/getting-started/onboard-1.gif" /></p>
+<p><img src="../src/img/getting-started/signup-v3.png" alt="../src/img/getting-started/signup-v3.png" /></p>
 
 <p>If you&rsquo;ve previously created an account, you can login by clicking <em>&lsquo;<a href="https://app.barricade.io/login">Already Signed Up</a>&lsquo;</em>. To create a new account, you&rsquo;ll be asked for:</p>
 
 <ul>
 <li>an email address</li>
 <li>a password <em>(make it a <a href="https://xkcd.com/936/">good one</a>!)</em></li>
-<li>a credit card</li>
 </ul>
-</div>
-</article>
-          
-            <article id="credit-card">
-  <h1 class="post-title">Starting a Trial</h1>
-  <div><p>We require a credit card to verify all signups - but don&rsquo;t worry - we won&rsquo;t charge you anything to your card. With Barricade, <strong>you only pay for what you use</strong>; and nothing is charged while you&rsquo;re on the free trial plan.</p>
-
-<p>We&rsquo;ll notify you every step of the way about your trial and your usage, so there are no hidden charges and you can cancel your account at any time without headaches.</p>
-
-<p>See <a href="https://barricade.io/pricing/">our pricing page</a> for more information. If you have any questions about the trial signup or our pricing plans, <a href="https://barricade.io/about/#contact-info">let us know</a>.</p>
-</div>
-</article>
-          
-            <article id="choosing-plan">
-  <h1 class="post-title">Choose a Plan</h1>
-  <div><p>You can view the different plan price points by clicking the &lsquo;GB size&rsquo; dropdown menu:</p>
-
-<p><img src="../src/img/getting-started/plans.png" alt="../src/img/getting-started/plans.png" /></p>
-
-<p>Barricade is a &lsquo;pay for what you use&rsquo; service - you pay in terms of your GB usage (bandwidth).</p>
-
-<p>Whatever you select here will still be <strong>free to use for your trial period</strong> - and you can always adjust the plan if you need more or less data over time.</p>
 </div>
 </article>
           
@@ -420,6 +397,18 @@ all transmitted information is encrypted with 2048-bit SSL</li>
 <p><img src="../src/img/getting-started/welcome.png" alt="../src/img/getting-started/welcome.png" /></p>
 
 <p>You&rsquo;re now inside the Barricade app, where you&rsquo;ll be instructed to install your first agent.</p>
+</div>
+</article>
+          
+            <article id="starting-trial">
+  <h1 class="post-title">Starting a Trial</h1>
+  <div><p>Once you sign up on <a href="https://app.barricade.io/">app.barricade.io</a>, you&rsquo;ll automatically start a free trial - giving you the full Barricade experience without having to pay anything!</p>
+
+<p>The length of your trial is based on data, rather than time (as is our full <a href="https://barricade.io/pricing/">pricing</a>) - every server is different. We will monitor the network traffic in and out of your server until the <strong>1GB limit</strong> is reached. The busier your server, the more data we collect and analyze for issues.</p>
+
+<p>Once your trial data is used up, your trial is finished and you will be notified by email with next steps.</p>
+
+<p>The trial should give you an idea of how much data your servers send and receive over time, helping you determine which <a href="https://barricade.io/pricing/">price plan</a> would best suits your needs. <a href="https://barricade.io/about/#contact-info">Get in touch</a> if you have any questions or have special requirements - we&rsquo;re happy to arrange custom plans to fit your organization.</p>
 </div>
 </article>
           
@@ -477,6 +466,26 @@ all transmitted information is encrypted with 2048-bit SSL</li>
 <p>Once that&rsquo;s done, you can close the form panel by clicking the &lsquo;X&rsquo; in the top right-hand corner, or click the &lsquo;Install Another&rsquo; button to start over and start additional agents.</p>
 
 <p>Now that your Agent is running, your server is being monitored in real-time. Data will start to appear in your dashboard as activity is detected and analyzed.</p>
+</div>
+</article>
+          
+            <article id="vulnerability-scan">
+  <h1 class="post-title">Vulnerability Scan</h1>
+  <div><p>Once the Agent is installed, a short video will appear in your dashboard while Barricade connects to your server and analyzes it for the first time.</p>
+
+<p><img src="../src/img/getting-started/scan-video-01.png" alt="../src/img/getting-started/scan-video-01.png" /></p>
+
+<p>After the video, you will see the results of an initial vulnerability scan - a quick check over the OS and packages installed on your server.</p>
+
+<p><img src="../src/img/getting-started/scan-report-01.png" alt="../src/img/getting-started/scan-report-01.png" /></p>
+
+<p>If you&rsquo;re running any out-of-date software packages, the scan will let you know - highlighting things that are in need of updating or patching. Any vulnerabilities will be saved as Cases to your dashboard, so you can review them (and follow their recommendations) at a later stage.</p>
+
+<p>The Case page will provide details on the vulnerabilities, and give recommendations.</p>
+
+<p><img src="../src/img/getting-started/scan-case-01.png" alt="../src/img/getting-started/scan-case-01.png" /></p>
+
+<p><em>Example screenshot from an initial vulnerability case ^</em></p>
 
 <blockquote>
 <p>Next: <a href="../using-barricade/">Using Barricade &gt;</a></p>
@@ -587,7 +596,6 @@ You&rsquo;ll need to connect to the server via SSH to run the command - see <a h
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://docs.barricade.io/src/js/main.min.js"></script>
   <script src="https://docs.barricade.io/src/js/analytics.min.js" async></script>
-  
 
 </body>
 </html>
