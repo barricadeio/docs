@@ -1,7 +1,7 @@
 +++
-title = "Close Account"
+title = "Closing an Account"
 description = "How to close your account"
-weight = "31"
+weight = "42"
 
 tags = ["account", "close"]
 section = "using-barricade"

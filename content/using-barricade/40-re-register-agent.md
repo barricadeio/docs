@@ -1,7 +1,7 @@
 +++
 title = "Re-registering Agents"
 description = "How to re-register Barricade Agents"
-weight = "30"
+weight = "40"
 
 tags = ["agent", "connection", "troubleshooting", "registering"]
 section = "using-barricade"
