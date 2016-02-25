@@ -857,6 +857,26 @@ You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt
     </item>
     
     <item>
+      <title>Automating with Chef</title>
+      <link>https://docs.barricade.io/using-barricade/automating-agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/using-barricade/automating-agents/</guid>
+      <description>&lt;p&gt;If you automate your infrastructure with Chef, you can use our &lt;a href=&#34;https://github.com/barricadeio/chef-barricade&#34;&gt;Barricade cookbook&lt;/a&gt; to automate the setup of Agents when you spin up servers.&lt;/p&gt;
+
+&lt;p&gt;Visit &lt;a href=&#34;https://github.com/barricadeio/chef-barricade&#34;&gt;github.com/barricadeio/chef-barricade&lt;/a&gt; for the cookbook.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gotchas:&lt;/strong&gt;&lt;br /&gt;
+To use the cookbook, you&amp;rsquo;ll need to be familiar with &lt;a href=&#34;https://chef.io/&#34;&gt;Chef&lt;/a&gt; and comfortable with installing and using cookbooks - &lt;a href=&#34;https://learn.chef.io/&#34;&gt;learn.chef.io&lt;/a&gt; is a good resource if you&amp;rsquo;re getting started.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Adding a Key:&lt;/strong&gt;&lt;br /&gt;
+To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Open and edit the &lt;code&gt;barricade_key&lt;/code&gt; attribute in the &lt;code&gt;attributes/default.rb&lt;/code&gt; file, adding in the &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/profile&#34;&gt;automation key&lt;/a&gt; from your dashboard (&lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/profile&#34;&gt;found here&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Re-registering Agents</title>
       <link>https://docs.barricade.io/using-barricade/re-register-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -878,7 +898,7 @@ $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-reg
     </item>
     
     <item>
-      <title>Close Account</title>
+      <title>Closing an Account</title>
       <link>https://docs.barricade.io/using-barricade/closing-account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

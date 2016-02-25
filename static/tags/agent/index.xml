@@ -60,6 +60,26 @@
     </item>
     
     <item>
+      <title>Automating with Chef</title>
+      <link>https://docs.barricade.io/using-barricade/automating-agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/using-barricade/automating-agents/</guid>
+      <description>&lt;p&gt;If you automate your infrastructure with Chef, you can use our &lt;a href=&#34;https://github.com/barricadeio/chef-barricade&#34;&gt;Barricade cookbook&lt;/a&gt; to automate the setup of Agents when you spin up servers.&lt;/p&gt;
+
+&lt;p&gt;Visit &lt;a href=&#34;https://github.com/barricadeio/chef-barricade&#34;&gt;github.com/barricadeio/chef-barricade&lt;/a&gt; for the cookbook.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gotchas:&lt;/strong&gt;&lt;br /&gt;
+To use the cookbook, you&amp;rsquo;ll need to be familiar with &lt;a href=&#34;https://chef.io/&#34;&gt;Chef&lt;/a&gt; and comfortable with installing and using cookbooks - &lt;a href=&#34;https://learn.chef.io/&#34;&gt;learn.chef.io&lt;/a&gt; is a good resource if you&amp;rsquo;re getting started.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Adding a Key:&lt;/strong&gt;&lt;br /&gt;
+To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Open and edit the &lt;code&gt;barricade_key&lt;/code&gt; attribute in the &lt;code&gt;attributes/default.rb&lt;/code&gt; file, adding in the &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/profile&#34;&gt;automation key&lt;/a&gt; from your dashboard (&lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/profile&#34;&gt;found here&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Configuring Agents</title>
       <link>https://docs.barricade.io/using-barricade/configuring-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -390,22 +410,6 @@ $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-reg
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Starting a Trial</title>
-      <link>https://docs.barricade.io/getting-started/starting-trial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/getting-started/starting-trial/</guid>
-      <description>&lt;p&gt;Once you sign up on &lt;a href=&#34;https://app.barricade.io/&#34;&gt;app.barricade.io&lt;/a&gt;, you&amp;rsquo;ll automatically start a free trial - giving you the full Barricade experience without having to pay anything!&lt;/p&gt;
-
-&lt;p&gt;The length of your trial is based on data, rather than time (as is our full &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;pricing&lt;/a&gt;) - every server is different. We will monitor the network traffic in and out of your server until the &lt;strong&gt;1GB limit&lt;/strong&gt; is reached. The busier your server, the more data we collect and analyze for issues.&lt;/p&gt;
-
-&lt;p&gt;Once your trial data is used up, your trial is finished and you will be notified by email with next steps.&lt;/p&gt;
-
-&lt;p&gt;The trial should give you an idea of how much data your servers send and receive over time, helping you determine which &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;price plan&lt;/a&gt; would best suits your needs. &lt;a href=&#34;https://barricade.io/about/#contact-info&#34;&gt;Get in touch&lt;/a&gt; if you have any questions or have special requirements - we&amp;rsquo;re happy to arrange custom plans to fit your organization.&lt;/p&gt;
 </description>
     </item>
     
