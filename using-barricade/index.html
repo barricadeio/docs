@@ -148,9 +148,11 @@
           
             <li><a href="#configuring-agents">Configuring Agents</a></li>
           
+            <li><a href="#automating-agents">Automating with Chef</a></li>
+          
             <li><a href="#re-register-agent">Re-registering Agents</a></li>
           
-            <li><a href="#closing-account">Close Account</a></li>
+            <li><a href="#closing-account">Closing an Account</a></li>
           
         </ul>
         
@@ -1070,6 +1072,22 @@ You&rsquo;ll need connect to the server via SSH to run the command - see <a href
 </div>
 </article>
           
+            <article id="automating-agents">
+  <h1 class="post-title">Automating with Chef</h1>
+  <div><p>If you automate your infrastructure with Chef, you can use our <a href="https://github.com/barricadeio/chef-barricade">Barricade cookbook</a> to automate the setup of Agents when you spin up servers.</p>
+
+<p>Visit <a href="https://github.com/barricadeio/chef-barricade">github.com/barricadeio/chef-barricade</a> for the cookbook.</p>
+
+<p><strong>Gotchas:</strong><br />
+To use the cookbook, you&rsquo;ll need to be familiar with <a href="https://chef.io/">Chef</a> and comfortable with installing and using cookbooks - <a href="https://learn.chef.io/">learn.chef.io</a> is a good resource if you&rsquo;re getting started.</p>
+
+<p><strong>Adding a Key:</strong><br />
+To use the cookbook, you&rsquo;ll need to add your <code>barricade_key</code>.</p>
+
+<p>Open and edit the <code>barricade_key</code> attribute in the <code>attributes/default.rb</code> file, adding in the <a href="https://app.barricade.io/dashboard/settings/team/profile">automation key</a> from your dashboard (<a href="https://app.barricade.io/dashboard/settings/team/profile">found here</a>).</p>
+</div>
+</article>
+          
             <article id="re-register-agent">
   <h1 class="post-title">Re-registering Agents</h1>
   <div><p>We recommend re-registering an Agent if any of the following issues arise during the installation process:</p>
@@ -1088,7 +1106,7 @@ $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-reg
 </article>
           
             <article id="closing-account">
-  <h1 class="post-title">Close Account</h1>
+  <h1 class="post-title">Closing an Account</h1>
   <div><p>If you&rsquo;re looking to stop using Barricade entirely, you can <a href="https://app.barricade.io/dashboard/settings/team/close">close your account through this page</a>. Only admin users can close an account, for security reasons.</p>
 
 <p>We&rsquo;re sorry to see you go - if there&rsquo;s any feedback you&rsquo;d like to leave for us, please do <a href="https://barricade.io/about#contact-info">submit a comment</a>.</p>

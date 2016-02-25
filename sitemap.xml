@@ -254,15 +254,11 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/using-barricade/re-register-agent/</loc>
+    <loc>https://docs.barricade.io/using-barricade/automating-agents/</loc>
   </url>
   
   <url>
     <loc>https://docs.barricade.io/getting-started/account-setup/</loc>
-  </url>
-  
-  <url>
-    <loc>https://docs.barricade.io/using-barricade/closing-account/</loc>
   </url>
   
   <url>
@@ -290,7 +286,15 @@
   </url>
   
   <url>
+    <loc>https://docs.barricade.io/using-barricade/re-register-agent/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.barricade.io/security-guide/blocking-ip-address/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/using-barricade/closing-account/</loc>
   </url>
   
   <url>
