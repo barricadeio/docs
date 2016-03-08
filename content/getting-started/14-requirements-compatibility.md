@@ -17,11 +17,13 @@ slug = "os-requirements-compatibility"
 
 Our Agent supports **Ubuntu** and **CentOS** based cloud servers - (common configurations on providers like AWS, Google Cloud Platform, DigitalOcean and Microsoft Azure).
 
+*   Ubuntu 12.04 LTS (64-bit)
 *   Ubuntu 14.04 LTS (64-bit)
 *   Ubuntu 14.10 (64-bit)
-*   Ubuntu 12.04 (64-bit)
-*   CentOS 6.5 (64-bit)
-*   CentOS 7.0 (64-bit)
+*   Ubuntu 15.04 (64-bit)
+*   Ubuntu 15.10 (64-bit)
+*   CentOS 6.x (64-bit)
+*   CentOS 7.x (64-bit)
 
 ### Windows Support
 
