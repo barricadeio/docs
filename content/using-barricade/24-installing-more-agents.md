@@ -1,5 +1,5 @@
 +++
-title = "Installing More Agents"
+title = "Installing Agents"
 description = "How to install additional Barricade Agents"
 weight = "14"
 
@@ -15,7 +15,7 @@ slug = "installing-more-agents"
 
 +++
 
-During the [account signup process](/hc/en-us/articles/205447438-Getting-Started), you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional  Agents at any time, allowing Barricade to watch over entire clusters of servers.
+During the [account signup process](/hc/en-us/articles/205447438-Getting-Started), you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional Agents at any time, allowing Barricade to watch over entire clusters of servers.
 
 ## How to Install
 
