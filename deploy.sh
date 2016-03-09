@@ -20,3 +20,5 @@ git commit -m "$msg"
 git push origin master
 git subtree push --prefix=static git@github.com:barricadeio/docs.git gh-pages
 
+git push origin `git subtree split --prefix=static master`:gh-pages --force
+
