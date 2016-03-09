@@ -18,5 +18,5 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-git subtree push --prefix=static git@github.com:barricadeio/docs.git gh-pages
+git subtree push -f --prefix=static git@github.com:barricadeio/docs.git gh-pages
 
