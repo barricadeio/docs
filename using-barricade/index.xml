@@ -277,14 +277,14 @@ It will look like this:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Installing More Agents</title>
+      <title>Installing Agents</title>
       <link>https://docs.barricade.io/using-barricade/installing-more-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://docs.barricade.io/using-barricade/installing-more-agents/</guid>
       <description>
 
-&lt;p&gt;During the &lt;a href=&#34;https://docs.barricade.io/hc/en-us/articles/205447438-Getting-Started&#34;&gt;account signup process&lt;/a&gt;, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional  Agents at any time, allowing Barricade to watch over entire clusters of servers.&lt;/p&gt;
+&lt;p&gt;During the &lt;a href=&#34;https://docs.barricade.io/hc/en-us/articles/205447438-Getting-Started&#34;&gt;account signup process&lt;/a&gt;, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional Agents at any time, allowing Barricade to watch over entire clusters of servers.&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-install:d11bb84a6614a0a553bc4704d254e434&#34;&gt;How to Install&lt;/h2&gt;
 
