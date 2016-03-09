@@ -27,7 +27,7 @@ Our Agent supports **Ubuntu** and **CentOS** based cloud servers - (common confi
 
 ### Windows Support
 
-We currently don't support Windows servers, but it's on our product roadmap. If you'd like to be added to our early access list for Windows, [let us know](https://barricade.io/about#contact-info) and we'll keep you informed.
+We currently don't support Windows servers, but it's on our product roadmap. If you'd like to be added to our early access list for Windows, [let us know](https://barricade.io/about#contact-info) and we'll keep you informed.  
 
 ### Running the Agent on Docker
 
