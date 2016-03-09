@@ -55,7 +55,7 @@ To remove Barricade, you can set the `barricade_state` attribute to `absent`:
 
 ```
 ---
-- name: Install Barricade
+- name: Remove Barricade Agent
   hosts: all
   sudo: yes
   roles:
