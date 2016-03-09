@@ -5,7 +5,7 @@ title = "Agent Release v0.4.5 - Update Required"
 description = "Changelog - Agent Release v0.4.5"
 url = "changelog/agent-release-0-4-5"
 section = "changelog"
-category = "app"
+category = "agent"
 weight = "25"
 
 +++
