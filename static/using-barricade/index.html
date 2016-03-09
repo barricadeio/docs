@@ -148,6 +148,8 @@
           
             <li><a href="#configuring-agents">Configuring Agents</a></li>
           
+            <li><a href="#automating-agents-ansible">Automating with Ansible</a></li>
+          
             <li><a href="#automating-agents">Automating with Chef</a></li>
           
             <li><a href="#re-register-agent">Re-registering Agents</a></li>
@@ -1069,6 +1071,60 @@ Your Agent may not be up to date - ensure you have <a href="#updating-agents">up
 
 <p><strong>I&rsquo;m not sure how to access the file on a server.</strong><br />
 You&rsquo;ll need connect to the server via SSH to run the command - see <a href="../getting-started/#running-commands">our guide</a> here.</p>
+</div>
+</article>
+          
+            <article id="automating-agents-ansible">
+  <h1 class="post-title">Automating with Ansible</h1>
+  <div>
+
+<p>If you automate your infrastructure with Ansible, you can use our <a href="https://github.com/barricadeio/ansible-barricade">Barricade Ansible Role</a> to automate the setup of Agents when you spin up servers.</p>
+
+<h3 id="installation:ea6b3f11cd6fae186d42b6f5850c03ab">Installation</h3>
+
+<p>To install the <code>ansible-barricade</code> role via the <code>ansible-galaxy</code> command:</p>
+
+<pre><code>$ ansible-galaxy install https://github.com/barricadeio/ansible-barricade
+</code></pre>
+
+<h3 id="usage:ea6b3f11cd6fae186d42b6f5850c03ab">Usage</h3>
+
+<h2 id="agent-installation:ea6b3f11cd6fae186d42b6f5850c03ab">Agent Installation</h2>
+
+<p>You&rsquo;ll need your Barricade Automation Key. This can be retrieved by visiting your <a href="https://app.barricade.io/dashboard/settings/team/profile">Team</a> page.</p>
+
+<p>Create an ansible playbook <code>barricade.yml</code>:</p>
+
+<pre><code>---
+- name: Install Barricade Agent
+  hosts: all
+  sudo: yes
+  roles:
+    - role: ansible-barricade
+      barricade_automation_key: &lt;Barricade Automation Key&gt;
+</code></pre>
+
+<p>Run the above playbook and it should setup the <code>barricade-agent</code>:</p>
+
+<pre><code>$ ansible-playbook barricade.yml
+</code></pre>
+
+<h2 id="agent-removal:ea6b3f11cd6fae186d42b6f5850c03ab">Agent Removal</h2>
+
+<p>To remove Barricade, you can set the <code>barricade_state</code> attribute to <code>absent</code>:</p>
+
+<pre><code>---
+- name: Remove Barricade Agent
+  hosts: all
+  sudo: yes
+  roles:
+    - role: ansible-barricade
+      barricade_state: absent
+</code></pre>
+
+<h2 id="agent-configuration:ea6b3f11cd6fae186d42b6f5850c03ab">Agent Configuration</h2>
+
+<p>You can completely instrument agent configuration via variables defined in <code>defaults/main.yml</code>.</p>
 </div>
 </article>
           

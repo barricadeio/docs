@@ -857,6 +857,64 @@ You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt
     </item>
     
     <item>
+      <title>Automating with Ansible</title>
+      <link>https://docs.barricade.io/using-barricade/automating-agents-ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/using-barricade/automating-agents-ansible/</guid>
+      <description>
+
+&lt;p&gt;If you automate your infrastructure with Ansible, you can use our &lt;a href=&#34;https://github.com/barricadeio/ansible-barricade&#34;&gt;Barricade Ansible Role&lt;/a&gt; to automate the setup of Agents when you spin up servers.&lt;/p&gt;
+
+&lt;h3 id=&#34;installation:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;To install the &lt;code&gt;ansible-barricade&lt;/code&gt; role via the &lt;code&gt;ansible-galaxy&lt;/code&gt; command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ansible-galaxy install https://github.com/barricadeio/ansible-barricade
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;usage:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;h2 id=&#34;agent-installation:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Agent Installation&lt;/h2&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need your Barricade Automation Key. This can be retrieved by visiting your &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/profile&#34;&gt;Team&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;Create an ansible playbook &lt;code&gt;barricade.yml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+- name: Install Barricade Agent
+  hosts: all
+  sudo: yes
+  roles:
+    - role: ansible-barricade
+      barricade_automation_key: &amp;lt;Barricade Automation Key&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run the above playbook and it should setup the &lt;code&gt;barricade-agent&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ansible-playbook barricade.yml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;agent-removal:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Agent Removal&lt;/h2&gt;
+
+&lt;p&gt;To remove Barricade, you can set the &lt;code&gt;barricade_state&lt;/code&gt; attribute to &lt;code&gt;absent&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+- name: Remove Barricade Agent
+  hosts: all
+  sudo: yes
+  roles:
+    - role: ansible-barricade
+      barricade_state: absent
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;agent-configuration:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Agent Configuration&lt;/h2&gt;
+
+&lt;p&gt;You can completely instrument agent configuration via variables defined in &lt;code&gt;defaults/main.yml&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Automating with Chef</title>
       <link>https://docs.barricade.io/using-barricade/automating-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -894,18 +952,6 @@ To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key
 &lt;pre&gt;&lt;code&gt;$ sudo su
 $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-register
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Closing an Account</title>
-      <link>https://docs.barricade.io/using-barricade/closing-account/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/closing-account/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re looking to stop using Barricade entirely, you can &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/close&#34;&gt;close your account through this page&lt;/a&gt;. Only admin users can close an account, for security reasons.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;re sorry to see you go - if there&amp;rsquo;s any feedback you&amp;rsquo;d like to leave for us, please do &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;submit a comment&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
