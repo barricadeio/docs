@@ -278,6 +278,64 @@ _&lt;/p&gt;&lt;/li&gt;
     </item>
     
     <item>
+      <title>Automating with Ansible</title>
+      <link>https://docs.barricade.io/using-barricade/automating-agents-ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/using-barricade/automating-agents-ansible/</guid>
+      <description>
+
+&lt;p&gt;If you automate your infrastructure with Ansible, you can use our &lt;a href=&#34;https://github.com/barricadeio/ansible-barricade&#34;&gt;Barricade Ansible Role&lt;/a&gt; to automate the setup of Agents when you spin up servers.&lt;/p&gt;
+
+&lt;h3 id=&#34;installation:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;To install the &lt;code&gt;ansible-barricade&lt;/code&gt; role via the &lt;code&gt;ansible-galaxy&lt;/code&gt; command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ansible-galaxy install https://github.com/barricadeio/ansible-barricade
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;usage:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;h2 id=&#34;agent-installation:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Agent Installation&lt;/h2&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need your Barricade Automation Key. This can be retrieved by visiting your &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/profile&#34;&gt;Team&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;Create an ansible playbook &lt;code&gt;barricade.yml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+- name: Install Barricade Agent
+  hosts: all
+  sudo: yes
+  roles:
+    - role: ansible-barricade
+      barricade_automation_key: &amp;lt;Barricade Automation Key&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run the above playbook and it should setup the &lt;code&gt;barricade-agent&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ansible-playbook barricade.yml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;agent-removal:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Agent Removal&lt;/h2&gt;
+
+&lt;p&gt;To remove Barricade, you can set the &lt;code&gt;barricade_state&lt;/code&gt; attribute to &lt;code&gt;absent&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+- name: Remove Barricade Agent
+  hosts: all
+  sudo: yes
+  roles:
+    - role: ansible-barricade
+      barricade_state: absent
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;agent-configuration:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Agent Configuration&lt;/h2&gt;
+
+&lt;p&gt;You can completely instrument agent configuration via variables defined in &lt;code&gt;defaults/main.yml&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Automating with Chef</title>
       <link>https://docs.barricade.io/using-barricade/automating-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -871,41 +929,6 @@ It will look like this:&lt;/p&gt;
 
 &lt;p&gt;By default, all Agents start out with one tag: &lt;code&gt;production&lt;/code&gt;.
 See &lt;a href=&#34;#configuring-agents&#34;&gt;Configuring Agents&lt;/a&gt; for more information.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Updating Agents</title>
-      <link>https://docs.barricade.io/using-barricade/updating-agents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/updating-agents/</guid>
-      <description>
-
-&lt;p&gt;Agents are designed with strict constraints for security and performance reasons; to send but not to receive. This means that Barricade can never modify an agent running on your server - and neither can anybody else.&lt;/p&gt;
-
-&lt;p&gt;From time to time, we will notify you of &lt;a href=&#34;../changelog&#34;&gt;updates and improvements&lt;/a&gt;, prompting you to run an Agent update to ensure you are running the latest version. You maintain full control over the Agent - we can’t push code to your server.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-update-an-agent:d5151d15c54bda419149e5e798bdf0b2&#34;&gt;How to Update an Agent&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply an update, re-run the install command:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-opening.gif&#34; alt=&#34;../src/img/getting-started/drawer-opening.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Click the New Agent button to open the installer section&lt;/li&gt;
-&lt;li&gt;Copy the install command&lt;/li&gt;
-&lt;li&gt;Connect to your server and run the command (&lt;a href=&#34;../getting-started/#installing-an-agent&#34;&gt;see our SSH guide&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;When the install command is finished, the new Agent will be detected automatically &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-detection.gif&#34; alt=&#34;../src/img/getting-started/drawer-detection.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;finding-out-about-updates:d5151d15c54bda419149e5e798bdf0b2&#34;&gt;Finding Out About Updates&lt;/h2&gt;
-
-&lt;p&gt;You can find details of &lt;a href=&#34;../changelog&#34;&gt;Product Changes&lt;/a&gt; and Agent updates &lt;a href=&#34;../changelog&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

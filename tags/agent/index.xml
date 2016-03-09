@@ -60,6 +60,64 @@
     </item>
     
     <item>
+      <title>Automating with Ansible</title>
+      <link>https://docs.barricade.io/using-barricade/automating-agents-ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/using-barricade/automating-agents-ansible/</guid>
+      <description>
+
+&lt;p&gt;If you automate your infrastructure with Ansible, you can use our &lt;a href=&#34;https://github.com/barricadeio/ansible-barricade&#34;&gt;Barricade Ansible Role&lt;/a&gt; to automate the setup of Agents when you spin up servers.&lt;/p&gt;
+
+&lt;h3 id=&#34;installation:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;To install the &lt;code&gt;ansible-barricade&lt;/code&gt; role via the &lt;code&gt;ansible-galaxy&lt;/code&gt; command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ansible-galaxy install https://github.com/barricadeio/ansible-barricade
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;usage:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;h2 id=&#34;agent-installation:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Agent Installation&lt;/h2&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need your Barricade Automation Key. This can be retrieved by visiting your &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/profile&#34;&gt;Team&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;Create an ansible playbook &lt;code&gt;barricade.yml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+- name: Install Barricade Agent
+  hosts: all
+  sudo: yes
+  roles:
+    - role: ansible-barricade
+      barricade_automation_key: &amp;lt;Barricade Automation Key&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run the above playbook and it should setup the &lt;code&gt;barricade-agent&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ansible-playbook barricade.yml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;agent-removal:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Agent Removal&lt;/h2&gt;
+
+&lt;p&gt;To remove Barricade, you can set the &lt;code&gt;barricade_state&lt;/code&gt; attribute to &lt;code&gt;absent&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+- name: Remove Barricade Agent
+  hosts: all
+  sudo: yes
+  roles:
+    - role: ansible-barricade
+      barricade_state: absent
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;agent-configuration:ea6b3f11cd6fae186d42b6f5850c03ab&#34;&gt;Agent Configuration&lt;/h2&gt;
+
+&lt;p&gt;You can completely instrument agent configuration via variables defined in &lt;code&gt;defaults/main.yml&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Automating with Chef</title>
       <link>https://docs.barricade.io/using-barricade/automating-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -374,44 +432,6 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
 &lt;pre&gt;&lt;code&gt;$ sudo su
 $ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-register
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Security Rating System</title>
-      <link>https://docs.barricade.io/using-barricade/security-rating-system/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/security-rating-system/</guid>
-      <description>
-
-&lt;p&gt;Our security rating system is made to be simple by design, so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.&lt;/p&gt;
-
-&lt;h2 id=&#34;ratings:159124d2da0896f1a39f7f69d4d3aeba&#34;&gt;Ratings&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/ranking.png&#34; alt=&#34;../src/img/using-barricade/ranking.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We have split security threats into Events, Attacks and Incidents. We track events, flag attacks, monitor their progress and alert you when they become incidents.&lt;/p&gt;
-
-&lt;table class=&#34;risk&#34;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Someone tried and failed to attack your app &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Someone makes multiple failed attack attempts &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;An attacker succeeds in their attack - your system is breached&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
 </description>
     </item>
     
