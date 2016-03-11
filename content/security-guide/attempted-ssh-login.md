@@ -1,5 +1,5 @@
 +++
-title = "Attempted SSH login"
+title = "SSH Login Attempts"
 weight = "14"
 
 tags = ["ssh", "login", "attacks"]

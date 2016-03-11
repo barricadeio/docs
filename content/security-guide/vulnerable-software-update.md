@@ -1,5 +1,5 @@
 +++
-title = "Vulnerable Software Detected"
+title = "Vulnerable Software"
 weight = "19"
 
 tags = ["update", "software", "version"]

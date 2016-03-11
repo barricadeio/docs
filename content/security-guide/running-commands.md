@@ -1,6 +1,6 @@
 +++
 title = "How to Run Commands"
-weight = "22"
+weight = "32"
 
 tags = ["recommendations", "agent", "account", "quickstart"]
 section = "security-guide"
