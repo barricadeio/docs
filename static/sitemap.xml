@@ -139,10 +139,6 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/attempted-ssh-login/</loc>
-  </url>
-  
-  <url>
     <loc>https://docs.barricade.io/using-barricade/hipchat-integration/</loc>
   </url>
   
@@ -155,6 +151,10 @@
   </url>
   
   <url>
+    <loc>https://docs.barricade.io/security-guide/attempted-ssh-login/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.barricade.io/changelog/aws-waf</loc>
     <lastmod>2015-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -164,12 +164,20 @@
   </url>
   
   <url>
+    <loc>https://docs.barricade.io/security-guide/user-privileges/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.barricade.io/changelog/case-grouping</loc>
     <lastmod>2015-10-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://docs.barricade.io/using-barricade/ci-sec-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/security-guide/admin-privileges/</loc>
   </url>
   
   <url>
@@ -212,10 +220,6 @@
   <url>
     <loc>https://docs.barricade.io/changelog/broader-app-detection</loc>
     <lastmod>2015-12-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://docs.barricade.io/security-guide/running-commands/</loc>
   </url>
   
   <url>
@@ -271,7 +275,19 @@
   </url>
   
   <url>
+    <loc>https://docs.barricade.io/security-guide/policy-violations/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/security-guide/trojan-infection/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.barricade.io/getting-started/confirm-account/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/security-guide/running-commands/</loc>
   </url>
   
   <url>

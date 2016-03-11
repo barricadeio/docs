@@ -337,7 +337,7 @@ username has failed activity from multiple IP addresses at once
     </item>
     
     <item>
-      <title>Attempted SSH login</title>
+      <title>SSH Login Attempts</title>
       <link>https://docs.barricade.io/security-guide/attempted-ssh-login/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -416,6 +416,88 @@ You can configure SSH to permit only certain users to log in. By default all use
 - Or -
 AllowGroup sshusers
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gaining User Privileges</title>
+      <link>https://docs.barricade.io/security-guide/user-privileges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/security-guide/user-privileges/</guid>
+      <description>
+
+&lt;p&gt;Barricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:28cbcecc764206b44f6abc2e5a78a7d6&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Attackers will sometimes try to assume the role of existing users, in order to access to restricted data. These attempts are pretty common - Barricade will observe your network for anything suspicious.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:28cbcecc764206b44f6abc2e5a78a7d6&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An attempt to gain user privileges was detected&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple attempts to gain user privileges were detected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An attacker has successfully gained user privileges - an account has been breached&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gaining Admin Privileges</title>
+      <link>https://docs.barricade.io/security-guide/admin-privileges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/security-guide/admin-privileges/</guid>
+      <description>
+
+&lt;p&gt;Barricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.&lt;/p&gt;
+
+&lt;h2 id=&#34;causes:0e76851d2bb1dce34774e78b9410940a&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Attackers will often try to assume admin user privileges, in order to try and lock you out and access restricted data. A compromised admin user is a very serious breach - attempts are common but rarely successful.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:0e76851d2bb1dce34774e78b9410940a&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An attempt to gain administrator privileges was detected&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple attempts to gain administrator privileges were detected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An attacker has successfully gained admin privileges - a serious breach&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:0e76851d2bb1dce34774e78b9410940a&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;Attempted Admin&lt;/p&gt;
 </description>
     </item>
     
@@ -513,7 +595,7 @@ AllowGroup sshusers
     </item>
     
     <item>
-      <title>Vulnerable Software Detected</title>
+      <title>Vulnerable Software</title>
       <link>https://docs.barricade.io/security-guide/package_vulnerabilities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -556,6 +638,107 @@ AllowGroup sshusers
 &lt;p&gt;When Barricade detects vulnerable software, the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;in-app case&lt;/a&gt; will show you out-of-date package info.&lt;/p&gt;
 
 &lt;p&gt;If your application or website is revealing &lt;a href=&#34;#system-info-detected&#34;&gt;system information&lt;/a&gt; (i.e. the version number) in addition to running vulnerable, older software - an attacker could discover and use that information against you. We recommend you also &lt;a href=&#34;https://www.owasp.org/index.php/Information_Leakage&#34;&gt;hide version information&lt;/a&gt; away from public web traffic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Policy Violations</title>
+      <link>https://docs.barricade.io/security-guide/policy-violations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/security-guide/policy-violations/</guid>
+      <description>
+
+&lt;p&gt;Barricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.&lt;/p&gt;
+
+&lt;h2 id=&#34;risk-levels:e6b39a1a0ec0b49c935d520b5c909811&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A policy violation was detected&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Multiple policy violation was detected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A serious policy violation was detected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trojan Infections</title>
+      <link>https://docs.barricade.io/security-guide/trojan-infection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/security-guide/trojan-infection/</guid>
+      <description>
+
+&lt;p&gt;Barricade monitors your network traffic for any signs of a Trojan Horse infection. Any suspicious activity is examined in real-time and Alerts sent if a legitimate problem is found.  &lt;/p&gt;
+
+&lt;h2 id=&#34;causes:7e84885da6ffa39ab9bf6932b35f6b96&#34;&gt;Causes&lt;/h2&gt;
+
+&lt;p&gt;Trojans&lt;/p&gt;
+
+&lt;p&gt;Unlike worms and viruses, Trojans don&amp;rsquo;t spread themselves - they usually find their way into a system through social engineering - tricking a user into installating them.&lt;/p&gt;
+
+&lt;p&gt;Trojans can effect you in a variety of ways - depending on the type of trojan:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remote access Trojans&lt;/li&gt;
+&lt;li&gt;Data-sending Trojans&lt;/li&gt;
+&lt;li&gt;Destructive Trojans&lt;/li&gt;
+&lt;li&gt;Denial of service (DoS) attack Trojans&lt;/li&gt;
+&lt;li&gt;Proxy Trojans&lt;/li&gt;
+&lt;li&gt;FTP Trojans&lt;/li&gt;
+&lt;li&gt;Security software disablers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;risk-levels:7e84885da6ffa39ab9bf6932b35f6b96&#34;&gt;Risk Levels&lt;/h2&gt;
+
+&lt;table class=&#34;risk&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Some odd low-level activity was noticed. A common occurance.&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A Trojan has been detected - you should look into this as soon as possible.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A serious Trojan has been detected - take immediate action!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;recommendations:7e84885da6ffa39ab9bf6932b35f6b96&#34;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;Your first step should be to identify the Trojan - listening to open ports and observing memory usage to help diagnosis. Scanner and Antivirus tools can help you identify the Trojan.&lt;/p&gt;
+
+&lt;p&gt;Trojans can limit your ability to access and remove the infection - depending on the type of Trojan, you may not be able to manually remove files - in which case the system may need to be restored to an earlier backup to ensure a clean recovery.&lt;/p&gt;
+
+&lt;p&gt;Related links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.symantec.com/security_response/landing/threats.jsp&#34;&gt;Security Response: Trojans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://antivirus.about.com/b/2006/05/31/whats-a-trojan-horse-virus.htm&#34;&gt;What is a Trojan Horse?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -616,30 +799,6 @@ AllowGroup sshusers
 &lt;h2 id=&#34;how-to-run-commands:ffe20ac09e209f2525f17858c38b5c25&#34;&gt;How to Run Commands&lt;/h2&gt;
 
 &lt;p&gt;If you&amp;rsquo;d not familiar with running commands on your server (using SSH), see the &lt;a href=&#34;#running-commands&#34;&gt;How to Run Commands on Your Server&lt;/a&gt;tips.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Securing Web Forms</title>
-      <link>https://docs.barricade.io/security-guide/securing-web-forms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/security-guide/securing-web-forms/</guid>
-      <description>&lt;p&gt;Many common security issues can be avoided by keeping your web forms secure from injection and cross-site scripting attacks. &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Code_injection#Preventing_code_injection&#34;&gt;Validation&lt;/a&gt; (or sanitization)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Escaping&#34;&gt;Escaping&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Parameterized_statements&#34;&gt;Parameterized Statements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/SQL_injection#Pattern_check&#34;&gt;Pattern Checking&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Related links:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#sql-injection&#34;&gt;SQL Injection Attacks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#xss&#34;&gt;Cross-Site Injection Attacks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
