@@ -7,10 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "sql-injection"
+slug = "#sql-injection"
+
+aliases = [
+    "/security-guide/sql-injection"
+]
 
 [menu.main]
-    url = "sql-injection"
+    url = "https://docs.barricade.io/security-guide/#sql-injection"
     parent = "security-guide"
 
 +++

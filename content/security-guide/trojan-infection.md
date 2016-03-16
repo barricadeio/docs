@@ -7,10 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "trojan-infection"
+slug = "#trojan-infection"
+
+aliases = [
+    "/security-guide/trojan-infection"
+]
 
 [menu.main]
-    url = "trojan-infection"
+    url = "https://docs.barricade.io/security-guide/#trojan-infection"
     parent = "security-guide"
 
 +++

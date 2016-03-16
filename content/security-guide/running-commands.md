@@ -7,10 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "running-commands"
+slug = "#running-commands"
+
+aliases = [
+    "/security-guide/running-commands"
+]
 
 [menu.main]
-    url = "running-commands"
+    url = "https://docs.barricade.io/security-guide/#running-commands"
     parent = "security-guide"
 
 +++

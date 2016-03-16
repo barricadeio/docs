@@ -7,10 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "securing-web-forms"
+slug = "#securing-web-forms"
+
+aliases = [
+    "/security-guide/securing-web-forms"
+]
 
 [menu.main]
-    url = "securing-web-forms"
+    url = "https://docs.barricade.io/security-guide/#securing-web-forms"
     parent = "security-guide"
 
 +++

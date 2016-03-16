@@ -7,10 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "login-default-username"
+slug = "#login-default-username"
+
+aliases = [
+    "/security-guide/login-default-username"
+]
 
 [menu.main]
-    url = "login-default-username"
+    url = "https://docs.barricade.io/security-guide/#login-default-username"
     parent = "security-guide"
 
 +++

@@ -7,10 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "blocking-ip-address"
+slug = "#blocking-ip-address"
+
+aliases = [
+    "/security-guide/blocking-ip-address"
+]
 
 [menu.main]
-    url = "blocking-ip-address"
+    url = "https://docs.barricade.io/security-guide/#blocking-ip-address"
     parent = "security-guide"
 
 +++

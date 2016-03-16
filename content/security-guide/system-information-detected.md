@@ -7,12 +7,15 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "system-info-detected"
+slug = "#system-info-detected"
+
+aliases = [
+    "/security-guide/system-info-detected"
+]
 
 [menu.main]
-    url = "system-info-detected"
+    url = "https://docs.barricade.io/security-guide/#system-info-detected"
     parent = "security-guide"
-
 +++
 
 Barricade helps protect your data by checking your traffic for any information leaks - if admin or  config information is output by the application in a response, you will be alerted immediately.
@@ -25,7 +28,7 @@ It's important to keep any information about your systems away from prying eyes 
 
 *   Http Header info in error messages:  
 
-    ![../src/img/security-guide/info-leak-01.png](../src/img/security-guide/info-leak-01.png)  
+    ![/src/img/security-guide/info-leak-01.png](../src/img/security-guide/info-leak-01.png)  
 
 *   Including developer comments in the page:  
 

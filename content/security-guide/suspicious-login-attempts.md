@@ -7,10 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "login-suspicious-username"
+slug = "#login-suspicious-username"
+
+aliases = [
+    "/security-guide/login-suspicious-username"
+]
 
 [menu.main]
-    url = "login-suspicious-username"
+    url = "https://docs.barricade.io/security-guide/#login-suspicious-username"
     parent = "security-guide"
 
 +++

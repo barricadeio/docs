@@ -7,10 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "package_vulnerabilities"
+slug = "#package_vulnerabilities"
+
+aliases = [
+    "/security-guide/package_vulnerabilities"
+]
 
 [menu.main]
-    url = "package_vulnerabilities"
+    url = "https://docs.barricade.io/security-guide/#package_vulnerabilities"
     parent = "security-guide"
 
 +++

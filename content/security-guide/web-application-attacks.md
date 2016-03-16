@@ -7,10 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "web-app-attack"
+slug = "#web-app-attack"
+
+aliases = [
+    "/security-guide/web-app-attack"
+]
 
 [menu.main]
-    url = "web-app-attack"
+    url = "https://docs.barricade.io/security-guide/#web-app-attack"
     parent = "security-guide"
 
 +++
