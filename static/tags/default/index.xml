@@ -9,10 +9,10 @@
     
     <item>
       <title>Default Username Attempts</title>
-      <link>https://docs.barricade.io/security-guide/</link>
+      <link>https://docs.barricade.io/security-guide/login-default-username/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/security-guide/</guid>
+      <guid>https://docs.barricade.io/security-guide/login-default-username/</guid>
       <description>
 
 &lt;p&gt;Barricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.&lt;/p&gt;

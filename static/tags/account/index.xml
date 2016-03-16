@@ -181,10 +181,10 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     
     <item>
       <title>How to Run Commands</title>
-      <link>https://docs.barricade.io/security-guide/</link>
+      <link>https://docs.barricade.io/security-guide/running-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/security-guide/</guid>
+      <guid>https://docs.barricade.io/security-guide/running-commands/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re unsure about how to do this, you should refer to your Cloud provider&amp;rsquo;s documentation:&lt;/p&gt;

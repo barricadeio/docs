@@ -36,7 +36,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/web-app-attack/</loc>
   </url>
   
   <url>
@@ -50,7 +50,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/sql-injection/</loc>
   </url>
   
   <url>
@@ -59,7 +59,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/xss/</loc>
   </url>
   
   <url>
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/login-default-username/</loc>
   </url>
   
   <url>
@@ -95,7 +95,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/login-suspicious-username/</loc>
   </url>
   
   <url>
@@ -151,7 +151,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/attempted-ssh-login/</loc>
   </url>
   
   <url>
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/user-privileges/</loc>
   </url>
   
   <url>
@@ -177,7 +177,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/admin-privileges/</loc>
   </url>
   
   <url>
@@ -186,7 +186,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/system-info-detected/</loc>
   </url>
   
   <url>
@@ -195,7 +195,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/sensitive-info-detected/</loc>
   </url>
   
   <url>
@@ -204,7 +204,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/package_vulnerabilities/</loc>
   </url>
   
   <url>
@@ -275,11 +275,11 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/policy-violations/</loc>
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/trojan-infection/</loc>
   </url>
   
   <url>
@@ -287,7 +287,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/running-commands/</loc>
   </url>
   
   <url>
@@ -315,7 +315,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/blocking-ip-address/</loc>
   </url>
   
   <url>
@@ -323,7 +323,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/security-guide/</loc>
+    <loc>https://docs.barricade.io/security-guide/securing-web-forms/</loc>
   </url>
   
   <url>

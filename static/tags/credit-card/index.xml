@@ -9,10 +9,10 @@
     
     <item>
       <title>Sensitive Information Leaks</title>
-      <link>https://docs.barricade.io/security-guide/</link>
+      <link>https://docs.barricade.io/security-guide/sensitive-info-detected/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/security-guide/</guid>
+      <guid>https://docs.barricade.io/security-guide/sensitive-info-detected/</guid>
       <description>
 
 &lt;p&gt;Barricade helps protect your data by checking for signs of sensitive information. If credit card info or content of a sensitive nature is found to be publicly visible; you will be alerted immediately.&lt;/p&gt;

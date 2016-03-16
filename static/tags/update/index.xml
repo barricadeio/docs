@@ -75,10 +75,10 @@
     
     <item>
       <title>Vulnerable Software</title>
-      <link>https://docs.barricade.io/security-guide/</link>
+      <link>https://docs.barricade.io/security-guide/package_vulnerabilities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/security-guide/</guid>
+      <guid>https://docs.barricade.io/security-guide/package_vulnerabilities/</guid>
       <description>
 
 &lt;p&gt;Barricade keeps an eye on the software packages on your server, checking version information for any serious lapses. Running out-of-date software greatly increases the odds of an attack on your system.&lt;/p&gt;
