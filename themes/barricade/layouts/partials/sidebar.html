@@ -15,7 +15,7 @@
         {{ if .HasChildren }}
         <ul>
           {{ range .Children.ByWeight }}
-            <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="#{{.URL}}">{{ .Name }}</a></li>
+            <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="https://docs.barricade.io/{{.Parent}}/#{{.URL}}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{end}}
