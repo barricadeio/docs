@@ -8,7 +8,7 @@
     <atom:link href="https://docs.barricade.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Attempted SSH login</title>
+      <title>SSH Login Attempts</title>
       <link>https://docs.barricade.io/security-guide/attempted-ssh-login/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
