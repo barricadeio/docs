@@ -176,13 +176,21 @@
           
             <li><a href="#login-suspicious-username">Suspicious Login Attempts</a></li>
           
-            <li><a href="#attempted-ssh-login">Attempted SSH login</a></li>
+            <li><a href="#attempted-ssh-login">SSH Login Attempts</a></li>
+          
+            <li><a href="#user-privileges">Gaining User Privileges</a></li>
+          
+            <li><a href="#admin-privileges">Gaining Admin Privileges</a></li>
           
             <li><a href="#system-info-detected">System Information Leaks</a></li>
           
             <li><a href="#sensitive-info-detected">Sensitive Information Leaks</a></li>
           
-            <li><a href="#package_vulnerabilities">Vulnerable Software Detected</a></li>
+            <li><a href="#package_vulnerabilities">Vulnerable Software</a></li>
+          
+            <li><a href="#policy-violations">Policy Violations</a></li>
+          
+            <li><a href="#trojan-infection">Trojan Infections</a></li>
           
             <li><a href="#running-commands">How to Run Commands</a></li>
           
@@ -583,7 +591,7 @@ username has failed activity from multiple IP addresses at once
 </article>
           
             <article id="attempted-ssh-login">
-  <h1 class="post-title">Attempted SSH login</h1>
+  <h1 class="post-title">SSH Login Attempts</h1>
   <div>
 
 <p>Barricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.</p>
@@ -658,6 +666,80 @@ You can configure SSH to permit only certain users to log in. By default all use
 - Or -
 AllowGroup sshusers
 </code></pre>
+</div>
+</article>
+          
+            <article id="user-privileges">
+  <h1 class="post-title">Gaining User Privileges</h1>
+  <div>
+
+<p>Barricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.</p>
+
+<h2 id="causes:28cbcecc764206b44f6abc2e5a78a7d6">Causes</h2>
+
+<p>Attackers will sometimes try to assume the role of existing users, in order to access to restricted data. These attempts are pretty common - Barricade will observe your network for anything suspicious.</p>
+
+<h2 id="risk-levels:28cbcecc764206b44f6abc2e5a78a7d6">Risk Levels</h2>
+
+<table class="risk">
+<tbody>
+<tr>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
+<td>An attempt to gain user privileges was detected</td>
+<td> </td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
+<td>Multiple attempts to gain user privileges were detected</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
+<td>An attacker has successfully gained user privileges - an account has been breached</td>
+</tr>
+</tbody>
+</table>
+</div>
+</article>
+          
+            <article id="admin-privileges">
+  <h1 class="post-title">Gaining Admin Privileges</h1>
+  <div>
+
+<p>Barricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.</p>
+
+<h2 id="causes:0e76851d2bb1dce34774e78b9410940a">Causes</h2>
+
+<p>Attackers will often try to assume admin user privileges, in order to try and lock you out and access restricted data. A compromised admin user is a very serious breach - attempts are common but rarely successful.</p>
+
+<h2 id="risk-levels:0e76851d2bb1dce34774e78b9410940a">Risk Levels</h2>
+
+<table class="risk">
+<tbody>
+<tr>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
+<td>An attempt to gain administrator privileges was detected</td>
+<td> </td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
+<td>Multiple attempts to gain administrator privileges were detected</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
+<td>An attacker has successfully gained admin privileges - a serious breach</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="recommendations:0e76851d2bb1dce34774e78b9410940a">Recommendations</h2>
+
+<p>Attempted Admin</p>
 </div>
 </article>
           
@@ -747,7 +829,7 @@ AllowGroup sshusers
 </article>
           
             <article id="package_vulnerabilities">
-  <h1 class="post-title">Vulnerable Software Detected</h1>
+  <h1 class="post-title">Vulnerable Software</h1>
   <div>
 
 <p>Barricade keeps an eye on the software packages on your server, checking version information for any serious lapses. Running out-of-date software greatly increases the odds of an attack on your system.</p>
@@ -786,6 +868,99 @@ AllowGroup sshusers
 <p>When Barricade detects vulnerable software, the <a href="https://app.barricade.io/dashboard/overview">in-app case</a> will show you out-of-date package info.</p>
 
 <p>If your application or website is revealing <a href="#system-info-detected">system information</a> (i.e. the version number) in addition to running vulnerable, older software - an attacker could discover and use that information against you. We recommend you also <a href="https://www.owasp.org/index.php/Information_Leakage">hide version information</a> away from public web traffic.</p>
+</div>
+</article>
+          
+            <article id="policy-violations">
+  <h1 class="post-title">Policy Violations</h1>
+  <div>
+
+<p>Barricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.</p>
+
+<h2 id="risk-levels:e6b39a1a0ec0b49c935d520b5c909811">Risk Levels</h2>
+
+<table class="risk">
+<tbody>
+<tr>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
+<td>A policy violation was detected</td>
+<td> </td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
+<td>Multiple policy violation was detected</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
+<td>A serious policy violation was detected</td>
+</tr>
+</tbody>
+</table>
+</div>
+</article>
+          
+            <article id="trojan-infection">
+  <h1 class="post-title">Trojan Infections</h1>
+  <div>
+
+<p>Barricade monitors your network traffic for any signs of a Trojan Horse infection. Any suspicious activity is examined in real-time and Alerts sent if a legitimate problem is found.  </p>
+
+<h2 id="causes:7e84885da6ffa39ab9bf6932b35f6b96">Causes</h2>
+
+<p>Trojans</p>
+
+<p>Unlike worms and viruses, Trojans don&rsquo;t spread themselves - they usually find their way into a system through social engineering - tricking a user into installating them.</p>
+
+<p>Trojans can effect you in a variety of ways - depending on the type of trojan:</p>
+
+<ul>
+<li>Remote access Trojans</li>
+<li>Data-sending Trojans</li>
+<li>Destructive Trojans</li>
+<li>Denial of service (DoS) attack Trojans</li>
+<li>Proxy Trojans</li>
+<li>FTP Trojans</li>
+<li>Security software disablers</li>
+</ul>
+
+<h2 id="risk-levels:7e84885da6ffa39ab9bf6932b35f6b96">Risk Levels</h2>
+
+<table class="risk">
+<tbody>
+<tr>
+<td><em> </em></td>
+<td><strong>Event</strong></td>
+<td>Some odd low-level activity was noticed. A common occurance.</td>
+<td> </td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Attack</strong></td>
+<td>A Trojan has been detected - you should look into this as soon as possible.</td>
+</tr>
+<tr>
+<td><em> </em></td>
+<td><strong>Incident</strong></td>
+<td>A serious Trojan has been detected - take immediate action!</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="recommendations:7e84885da6ffa39ab9bf6932b35f6b96">Recommendations</h2>
+
+<p>Your first step should be to identify the Trojan - listening to open ports and observing memory usage to help diagnosis. Scanner and Antivirus tools can help you identify the Trojan.</p>
+
+<p>Trojans can limit your ability to access and remove the infection - depending on the type of Trojan, you may not be able to manually remove files - in which case the system may need to be restored to an earlier backup to ensure a clean recovery.</p>
+
+<p>Related links:</p>
+
+<ul>
+<li><a href="http://www.symantec.com/security_response/landing/threats.jsp">Security Response: Trojans</a></li>
+<li><a href="http://antivirus.about.com/b/2006/05/31/whats-a-trojan-horse-virus.htm">What is a Trojan Horse?</a></li>
+</ul>
 </div>
 </article>
           
