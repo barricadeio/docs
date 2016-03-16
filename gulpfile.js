@@ -65,6 +65,7 @@ gulp.task('scriptconcat', function() {
       'themes/barricade/static/src/js/custom/foundation.slider.js',
       'themes/barricade/static/src/js/custom/foundation.tooltip.js',
       'themes/barricade/static/src/js/custom/particles.min.js',
+      'themes/barricade/static/src/js/custom/anchor.min.js',
       'themes/barricade/static/src/js/custom/headroom.min.js',
       'themes/barricade/static/src/js/custom/init.js'
     ])

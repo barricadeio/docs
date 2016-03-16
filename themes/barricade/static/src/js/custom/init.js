@@ -34,6 +34,10 @@ $(document).ready(function() {
     $(".container-full").toggleClass("footer-expanded");
   });
 
+
+  // add anchor links to markdown titles
+  anchors.add('h1.post-title, article h2, article h3');
+
   // change contact us links to intercom chat triggers
     // (workaround as no ids/classes allowed inside markdown)
   $("article a").each(function() {

@@ -7466,6 +7466,30 @@ body {
   color: #566c70;
   margin: 1.25em 0 1.825em;
 }
+.main .content-wrap h1, .main .content-wrap h2, .main .content-wrap h3 {
+  position: relative;
+}
+.main .content-wrap h1 a.anchorjs-link, .main .content-wrap h2 a.anchorjs-link, .main .content-wrap h3 a.anchorjs-link {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  font-family: fontawesome;
+  font-size: 1.5rem;
+  content: "\e823";
+  color: #cccccc;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.main .content-wrap h1:hover, .main .content-wrap h2:hover, .main .content-wrap h3:hover {
+  margin-left: -2rem;
+  padding-left: 2rem;
+}
+.main .content-wrap h1:hover a.anchorjs-link, .main .content-wrap h2:hover a.anchorjs-link, .main .content-wrap h3:hover a.anchorjs-link {
+  opacity: 1;
+  border: none;
+}
 .main .content-wrap p {
   color: #566c70;
   line-height: 1.725;

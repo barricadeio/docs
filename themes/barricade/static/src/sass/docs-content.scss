@@ -41,6 +41,33 @@
     margin: 1.25em 0 1.825em;
   }
 
+  h1, h2, h3 {
+    position: relative;
+
+    a.anchorjs-link {
+        @include transition;
+        opacity: 0;
+        left: 0;
+        position: absolute;
+        top: 50%;
+        font-family: fontawesome;
+        font-size: 1.5rem;
+        content: "\e823";
+        color: darken($light3, 7.5%);
+        transform: translateY(-50%);
+    }
+
+    &:hover {
+        margin-left: -2rem;
+        padding-left: 2rem;
+
+        a.anchorjs-link {
+            opacity: 1;
+            border: none;
+        }
+    }
+  }
+
   p {
     color: $dark1;
     line-height: 1.725;
