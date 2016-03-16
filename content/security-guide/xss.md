@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "#xss"
+slug = "xss"
 
 aliases = [
     "/security-guide/xss"
 ]
 
 [menu.main]
-    url = "https://docs.barricade.io/security-guide/#xss"
+    url = "xss"
     parent = "security-guide"
 
 +++

@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "#system-info-detected"
+slug = "system-info-detected"
 
 aliases = [
     "/security-guide/system-info-detected"
 ]
 
 [menu.main]
-    url = "https://docs.barricade.io/security-guide/#system-info-detected"
+    url = "system-info-detected"
     parent = "security-guide"
 +++
 

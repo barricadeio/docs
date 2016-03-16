@@ -4,7 +4,7 @@ theme = "barricade"
 publishdir = "static"
 destination = "static"
 
-canonifyURLs = "false"
+canonifyURLs = "true"
 relativeURLs = "false"
 pluralizeListTitles = "false"
 plainIdAnchors = "true"
@@ -15,17 +15,17 @@ plainIdAnchors = "true"
 
 [[menu.main]]
     name = "Getting Started"
-    url = "https://docs.barricade.io/getting-started/"
+    url = "/getting-started/"
     identifier = "getting-started"
     weight = -100
 [[menu.main]]
     name = "Using Barricade"
-    url = "https://docs.barricade.io/using-barricade/"
+    url = "/using-barricade/"
     identifier = "using-barricade"
     weight = -80
 [[menu.main]]
     name = "Security Guides"
-    url = "https://docs.barricade.io/security-guide/"
+    url = "/security-guide/"
     identifier = "security-guide"
     weight = -70
 [[menu.main]]
@@ -34,6 +34,6 @@ plainIdAnchors = "true"
     weight = -60
 [[menu.main]]
     name = "Changelog"
-    url = "https://docs.barricade.io/changelog/"
+    url = "/changelog/"
     identifier = "changelog"
     weight = -50

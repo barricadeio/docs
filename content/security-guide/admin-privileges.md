@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "#admin-privileges"
+slug = "admin-privileges"
 
 aliases = [
     "/security-guide/admin-privileges"
 ]
 
 [menu.main]
-    url = "https://docs.barricade.io/security-guide/#admin-privileges"
+    url = "admin-privileges"
     parent = "security-guide"
 
 +++
