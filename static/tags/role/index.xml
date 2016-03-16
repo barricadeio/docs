@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Role on </title>
-    <link>https://docs.barricade.io/tags/role/</link>
+    <link>http://localhost:1313/tags/role/</link>
     <description>Recent content in Role on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/role/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/role/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Automating with Ansible</title>
-      <link>https://docs.barricade.io/using-barricade/automating-agents-ansible/</link>
+      <link>http://localhost:1313/using-barricade/automating-agents-ansible/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/using-barricade/automating-agents-ansible/</guid>
+      <guid>http://localhost:1313/using-barricade/automating-agents-ansible/</guid>
       <description>
 
 &lt;p&gt;If you automate your infrastructure with Ansible, you can use our &lt;a href=&#34;https://github.com/barricadeio/ansible-barricade&#34;&gt;Barricade Ansible Role&lt;/a&gt; to automate the setup of Agents when you spin up servers.&lt;/p&gt;

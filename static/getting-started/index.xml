@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Getting-started on </title>
-    <link>https://docs.barricade.io/getting-started/</link>
+    <link>http://localhost:1313/getting-started/</link>
     <description>Recent content in Getting-started on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Overview</title>
-      <link>https://docs.barricade.io/getting-started/overview/</link>
+      <link>http://localhost:1313/getting-started/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/overview/</guid>
+      <guid>http://localhost:1313/getting-started/overview/</guid>
       <description>&lt;div class=&#34;video-container&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;100%&#34; height=&#34;auto&#34; src=&#34;https://www.youtube.com/embed/ukTAg2ecO8g&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
@@ -31,10 +31,10 @@
     
     <item>
       <title>How Agents Work</title>
-      <link>https://docs.barricade.io/getting-started/how-it-works-agent/</link>
+      <link>http://localhost:1313/getting-started/how-it-works-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/how-it-works-agent/</guid>
+      <guid>http://localhost:1313/getting-started/how-it-works-agent/</guid>
       <description>
 
 &lt;p&gt;Agents quietly monitor, without getting in the way or impacting on your server resources. There is no need for any code or configuration changes to your app.&lt;/p&gt;
@@ -68,10 +68,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>What Can Agents see?</title>
-      <link>https://docs.barricade.io/getting-started/what-agent-sees/</link>
+      <link>http://localhost:1313/getting-started/what-agent-sees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/what-agent-sees/</guid>
+      <guid>http://localhost:1313/getting-started/what-agent-sees/</guid>
       <description>&lt;p&gt;The agent gathers data about activity on your servers, and transmits it securely to our engine for real-time analysis.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -89,10 +89,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Our Detection Engine</title>
-      <link>https://docs.barricade.io/getting-started/detection-engine/</link>
+      <link>http://localhost:1313/getting-started/detection-engine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/detection-engine/</guid>
+      <guid>http://localhost:1313/getting-started/detection-engine/</guid>
       <description>&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
 
 &lt;p&gt;As new data comes in, the engine learns about different types of behaviors for your infrastructure and what seems to be normal behavior based on the services running.&lt;/p&gt;
@@ -105,10 +105,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>OS Compatibility</title>
-      <link>https://docs.barricade.io/getting-started/os-requirements-compatibility/</link>
+      <link>http://localhost:1313/getting-started/os-requirements-compatibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/os-requirements-compatibility/</guid>
+      <guid>http://localhost:1313/getting-started/os-requirements-compatibility/</guid>
       <description>
 
 &lt;p&gt;Our Agent supports &lt;strong&gt;Ubuntu&lt;/strong&gt; and &lt;strong&gt;CentOS&lt;/strong&gt; based cloud servers - (common configurations on providers like AWS, Google Cloud Platform, DigitalOcean and Microsoft Azure).&lt;/p&gt;
@@ -137,10 +137,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Account Setup</title>
-      <link>https://docs.barricade.io/getting-started/account-setup/</link>
+      <link>http://localhost:1313/getting-started/account-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/account-setup/</guid>
+      <guid>http://localhost:1313/getting-started/account-setup/</guid>
       <description>&lt;p&gt;To get up and running with Barricade, go to &lt;a href=&#34;https://app.barricade.io/&#34;&gt;app.barricade.io&lt;/a&gt;. First-time visitors will see this screen with account creation instructions:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/signup-v3.png&#34; alt=&#34;../src/img/getting-started/signup-v3.png&#34; /&gt;&lt;/p&gt;
@@ -156,10 +156,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Confirm Account</title>
-      <link>https://docs.barricade.io/getting-started/confirm-account/</link>
+      <link>http://localhost:1313/getting-started/confirm-account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/confirm-account/</guid>
+      <guid>http://localhost:1313/getting-started/confirm-account/</guid>
       <description>&lt;p&gt;Once you&amp;rsquo;ve completed the account setup, you&amp;rsquo;ll get a confirmation email from us, and you&amp;rsquo;ll see this screen:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/welcome.png&#34; alt=&#34;../src/img/getting-started/welcome.png&#34; /&gt;&lt;/p&gt;
@@ -170,10 +170,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Starting a Trial</title>
-      <link>https://docs.barricade.io/getting-started/starting-trial/</link>
+      <link>http://localhost:1313/getting-started/starting-trial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/starting-trial/</guid>
+      <guid>http://localhost:1313/getting-started/starting-trial/</guid>
       <description>&lt;p&gt;Once you sign up on &lt;a href=&#34;https://app.barricade.io/&#34;&gt;app.barricade.io&lt;/a&gt;, you&amp;rsquo;ll automatically start a free trial - giving you the full Barricade experience without having to pay anything!&lt;/p&gt;
 
 &lt;p&gt;The length of your trial is based on data, rather than time (as is our full &lt;a href=&#34;https://barricade.io/pricing/&#34;&gt;pricing&lt;/a&gt;) - every server is different. We will monitor the network traffic in and out of your server until the &lt;strong&gt;1GB limit&lt;/strong&gt; is reached. The busier your server, the more data we collect and analyze for issues.&lt;/p&gt;
@@ -186,10 +186,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Installing an Agent</title>
-      <link>https://docs.barricade.io/getting-started/installing-an-agent/</link>
+      <link>http://localhost:1313/getting-started/installing-an-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/installing-an-agent/</guid>
+      <guid>http://localhost:1313/getting-started/installing-an-agent/</guid>
       <description>
 
 &lt;p&gt;You&amp;rsquo;ll find the installation command in the top panel of the Barricade app - click the New Agent button to reveal the install code, which you will need to &lt;strong&gt;copy&lt;/strong&gt;, then &lt;strong&gt;paste and run&lt;/strong&gt; on your server.&lt;/p&gt;
@@ -208,10 +208,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>How to Run SSH Commands</title>
-      <link>https://docs.barricade.io/getting-started/running-commands/</link>
+      <link>http://localhost:1313/getting-started/running-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/running-commands/</guid>
+      <guid>http://localhost:1313/getting-started/running-commands/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re unsure about how to do this, you should refer to your Cloud provider&amp;rsquo;s documentation:&lt;/p&gt;
@@ -239,10 +239,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Agent Detection</title>
-      <link>https://docs.barricade.io/getting-started/agent-detection/</link>
+      <link>http://localhost:1313/getting-started/agent-detection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/agent-detection/</guid>
+      <guid>http://localhost:1313/getting-started/agent-detection/</guid>
       <description>&lt;p&gt;Shortly after you run the install command, the Barricade setup screen will update automatically to confirm that the Agent has been detected:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-detection.gif&#34; alt=&#34;../src/img/getting-started/drawer-detection.gif&#34; /&gt;&lt;/p&gt;
@@ -255,10 +255,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Vulnerability Scan</title>
-      <link>https://docs.barricade.io/getting-started/vulnerability-scan/</link>
+      <link>http://localhost:1313/getting-started/vulnerability-scan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/vulnerability-scan/</guid>
+      <guid>http://localhost:1313/getting-started/vulnerability-scan/</guid>
       <description>&lt;p&gt;Once the Agent is installed, a short video will appear in your dashboard while Barricade connects to your server and analyzes it for the first time.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../src/img/getting-started/scan-video-01.png&#34; alt=&#34;../src/img/getting-started/scan-video-01.png&#34; /&gt;&lt;/p&gt;
@@ -283,10 +283,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Troubleshooting</title>
-      <link>https://docs.barricade.io/getting-started/troubleshooting/</link>
+      <link>http://localhost:1313/getting-started/troubleshooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/troubleshooting/</guid>
+      <guid>http://localhost:1313/getting-started/troubleshooting/</guid>
       <description>&lt;p&gt;For more details on the Agent and how it works, see the &lt;a href=&#34;#overview&#34;&gt;Agent Overview&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The Agent is not detected.&lt;/strong&gt;&lt;br /&gt;

@@ -15,17 +15,17 @@ plainIdAnchors = "true"
 
 [[menu.main]]
     name = "Getting Started"
-    url = "/getting-started/"
+    url = "https://docs.barricade.io/getting-started/"
     identifier = "getting-started"
     weight = -100
 [[menu.main]]
     name = "Using Barricade"
-    url = "/using-barricade/"
+    url = "https://docs.barricade.io/using-barricade/"
     identifier = "using-barricade"
     weight = -80
 [[menu.main]]
     name = "Security Guides"
-    url = "/security-guide/"
+    url = "https://docs.barricade.io/security-guide/"
     identifier = "security-guide"
     weight = -70
 [[menu.main]]
@@ -34,9 +34,6 @@ plainIdAnchors = "true"
     weight = -60
 [[menu.main]]
     name = "Changelog"
-    url = "/changelog/"
+    url = "https://docs.barricade.io/changelog/"
     identifier = "changelog"
     weight = -50
-
-
-

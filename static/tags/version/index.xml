@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Version on </title>
-    <link>https://docs.barricade.io/tags/version/</link>
+    <link>http://localhost:1313/tags/version/</link>
     <description>Recent content in Version on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/version/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/version/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>System Information Leaks</title>
-      <link>https://docs.barricade.io/security-guide/system-info-detected/</link>
+      <link>http://localhost:1313/security-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/security-guide/system-info-detected/</guid>
+      <guid>http://localhost:1313/security-guide/</guid>
       <description>
 
 &lt;p&gt;Barricade helps protect your data by checking your traffic for any information leaks - if admin or  config information is output by the application in a response, you will be alerted immediately.&lt;/p&gt;
@@ -26,7 +26,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Http Header info in error messages:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/info-leak-01.png&#34; alt=&#34;../src/img/security-guide/info-leak-01.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/info-leak-01.png&#34; alt=&#34;/src/img/security-guide/info-leak-01.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Including developer comments in the page:&lt;/p&gt;
 
@@ -84,10 +84,10 @@
     
     <item>
       <title>Vulnerable Software</title>
-      <link>https://docs.barricade.io/security-guide/package_vulnerabilities/</link>
+      <link>http://localhost:1313/security-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/security-guide/package_vulnerabilities/</guid>
+      <guid>http://localhost:1313/security-guide/</guid>
       <description>
 
 &lt;p&gt;Barricade keeps an eye on the software packages on your server, checking version information for any serious lapses. Running out-of-date software greatly increases the odds of an attack on your system.&lt;/p&gt;

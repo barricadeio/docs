@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How It Works on </title>
-    <link>https://docs.barricade.io/tags/how-it-works/</link>
+    <link>http://localhost:1313/tags/how-it-works/</link>
     <description>Recent content in How It Works on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/how-it-works/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/how-it-works/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How Agents Work</title>
-      <link>https://docs.barricade.io/getting-started/how-it-works-agent/</link>
+      <link>http://localhost:1313/getting-started/how-it-works-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/how-it-works-agent/</guid>
+      <guid>http://localhost:1313/getting-started/how-it-works-agent/</guid>
       <description>
 
 &lt;p&gt;Agents quietly monitor, without getting in the way or impacting on your server resources. There is no need for any code or configuration changes to your app.&lt;/p&gt;
@@ -46,10 +46,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>OS Compatibility</title>
-      <link>https://docs.barricade.io/getting-started/os-requirements-compatibility/</link>
+      <link>http://localhost:1313/getting-started/os-requirements-compatibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/os-requirements-compatibility/</guid>
+      <guid>http://localhost:1313/getting-started/os-requirements-compatibility/</guid>
       <description>
 
 &lt;p&gt;Our Agent supports &lt;strong&gt;Ubuntu&lt;/strong&gt; and &lt;strong&gt;CentOS&lt;/strong&gt; based cloud servers - (common configurations on providers like AWS, Google Cloud Platform, DigitalOcean and Microsoft Azure).&lt;/p&gt;
@@ -78,10 +78,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Our Detection Engine</title>
-      <link>https://docs.barricade.io/getting-started/detection-engine/</link>
+      <link>http://localhost:1313/getting-started/detection-engine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/detection-engine/</guid>
+      <guid>http://localhost:1313/getting-started/detection-engine/</guid>
       <description>&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
 
 &lt;p&gt;As new data comes in, the engine learns about different types of behaviors for your infrastructure and what seems to be normal behavior based on the services running.&lt;/p&gt;
@@ -94,10 +94,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>Overview</title>
-      <link>https://docs.barricade.io/getting-started/overview/</link>
+      <link>http://localhost:1313/getting-started/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/overview/</guid>
+      <guid>http://localhost:1313/getting-started/overview/</guid>
       <description>&lt;div class=&#34;video-container&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;100%&#34; height=&#34;auto&#34; src=&#34;https://www.youtube.com/embed/ukTAg2ecO8g&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
@@ -116,10 +116,10 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     
     <item>
       <title>What Can Agents see?</title>
-      <link>https://docs.barricade.io/getting-started/what-agent-sees/</link>
+      <link>http://localhost:1313/getting-started/what-agent-sees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.barricade.io/getting-started/what-agent-sees/</guid>
+      <guid>http://localhost:1313/getting-started/what-agent-sees/</guid>
       <description>&lt;p&gt;The agent gathers data about activity on your servers, and transmits it securely to our engine for real-time analysis.&lt;/p&gt;
 
 &lt;ul&gt;
