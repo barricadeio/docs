@@ -27,8 +27,6 @@ Once updated, a restart is **required** for any changes to take effect:
 
 `sudo restart barricade`
 
---
-
 ### Configuration Options:
 
 **tag**  
@@ -52,7 +50,10 @@ The default value is `warning`.
 **ssl_check_hostname**  
 Allows you to enable or disable SSL hostname verification. By default value is `enabled`.
 
---
+**filter**
+Configures agent to stop capturing certain network traffic.
+
+Example: `filter=port not 22 and port not 53` will prevent the agent from capturing network traffic on SSH and DNS ports.
 
 ### Barricade.cfg Troubleshooting
 
