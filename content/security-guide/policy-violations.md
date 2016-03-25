@@ -15,7 +15,7 @@ slug = "policy-violations"
 
 +++
 
-Barricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.
+Barricade watches for network traffic which may be in violation of your corporate privacy policy. This includes traffic related to torrent and certain restricted websites.
 
 ## Risk Levels
 
