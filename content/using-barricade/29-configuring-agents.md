@@ -37,7 +37,7 @@ _Tag_ is an arbitrary config value which can be used to identify and organize yo
 You can e.g. to denote _development, staging, production environments, "commit" versions_, for example: `tag=staging,development,beta`
 
 **spooler_memory**  
-This is the specific amount of memory to use for buffering packets in high traffic. By default, the Agent uses available system memory to calculate a reasonable default.
+This is the specific amount of memory (in MB) to use for buffering packets in high traffic. By default, the Agent uses available system memory to calculate a reasonable default.
 
 Example: `spooler_memory=10000`
 
