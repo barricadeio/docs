@@ -215,7 +215,7 @@ DBA
       <guid>https://docs.barricade.io/security-guide/policy-violations/</guid>
       <description>
 
-&lt;p&gt;Barricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.&lt;/p&gt;
+&lt;p&gt;Barricade watches for network traffic which may be in violation of your corporate privacy policy. This includes traffic related to torrent and certain restricted websites.&lt;/p&gt;
 
 &lt;h2 id=&#34;risk-levels:e6b39a1a0ec0b49c935d520b5c909811&#34;&gt;Risk Levels&lt;/h2&gt;
 

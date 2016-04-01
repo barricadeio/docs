@@ -615,7 +615,7 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 &lt;p&gt;You can e.g. to denote &lt;em&gt;development, staging, production environments, &amp;ldquo;commit&amp;rdquo; versions&lt;/em&gt;, for example: &lt;code&gt;tag=staging,development,beta&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;spooler_memory&lt;/strong&gt;&lt;br /&gt;
-This is the specific amount of memory to use for buffering packets in high traffic. By default, the Agent uses available system memory to calculate a reasonable default.&lt;/p&gt;
+This is the specific amount of memory (in MB) to use for buffering packets in high traffic. By default, the Agent uses available system memory to calculate a reasonable default.&lt;/p&gt;
 
 &lt;p&gt;Example: &lt;code&gt;spooler_memory=10000&lt;/code&gt;&lt;/p&gt;
 
