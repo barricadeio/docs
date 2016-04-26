@@ -1,0 +1,19 @@
++++
+
+date = "2016-04-20"
+title = "Added Live Traffic Reports"
+description = "Changelog - Traffic Reports"
+url = "changelog/added-traffic-report"
+section = "changelog"
+category = "app"
+weight = "29"
+
++++
+
+We've noticed that a lot of our users that deploy our agent on their servers discover traffic sources they didn't even know about. This became a repetitive question week after week so we're happy to announce our immediate availability of **live traffic reports**.
+
+The live traffic report give you a usage report for your account based on incoming traffic and outgoing traffic per service (port). Interestingly, sometimes you might find out that you're still using a service that you thought had stopped using. Here's what the report looks like
+
+![../../src/img/changelog/29-live-traffic-report.gif](../../src/img/changelog/29-live-traffic-report.gif)
+
+To see your traffic report, go to [app.barricade.io/dashboard/stats](https://app.barricade.io/dashboard/stats)
