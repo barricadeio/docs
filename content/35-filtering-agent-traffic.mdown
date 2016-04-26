@@ -1,0 +1,59 @@
++++
+title = "Filtering Agent Traffic"
+description = "How to filter traffic from your Agent"
+weight = "35"
+
+tags = ["agent", "filter", "port", "ports"]
+section = ""
+categories = [""]
+type = "page"
+slug = "how-to-filter-agent-traffic"
+
++++
+
+Some servers see a lot of inbound and outbound traffic - be it database activity, connections to external services or the serving of large media files.
+
+By design, the Barricade Agent observes everything - all traffic is carefully examined for unusual or malicious behaviour. However, should you want to narrow its' scope to omit certain types of traffic, you can do so by activating port **filters** in the Agent configuration.
+
+![../../src/img/using-barricade/agent-data.png](../../src/img/using-barricade/agent-data.png)
+
+## Be Careful
+
+**Filtering traffic is risky - by choosing to exclude data, you could be turning a blind eye to possible points of attack. Please tread carefully - we're happy to guide you through the process if you'd like to [discuss things with us](https://barricade.io/about#contact-info).**
+
+## Traffic Ports
+
+You can see a breakdown of the data being transferred in and out of your server via the app's [Traffic Report](https://app.barricade.io/dashboard/stats).
+
+Filtering allows you to exclude certain ports - the traffic report presents server usage by port so you can easily identify different types of connections.
+
+![../../src/img/using-barricade/traffic.png](../../src/img/using-barricade/traffic.png)
+
+## The Agent Configuration file
+
+To filter and exclude traffic from the Barricade Agent, you'll need to edit the config file on your server. You'll need to [SSH](https://docs.barricade.io/getting-started/running-commands/) into the server and navigate to the file at:
+
+`/etc/barricade/barricade.cfg`
+
+<hr>  
+
+### How to Add Filters
+
+By default, no filters are set. You can add port numbers in the `barricade.cfg` file like so:
+
+`filter=  `
+
+
+Example:  
+
+`filter=port not 22 and port not 53`
+
+This would prevent the agent from capturing network traffic on SSH (22) and DNS (53) ports, limiting what the Agent has access to.
+
+Once updated, a restart is required for any changes to take effect:
+
+`sudo restart barricade`
+
+--
+
+See here for [other possible Agent configuration options](https://docs.barricade.io/using-barricade/#configuring-agents).
