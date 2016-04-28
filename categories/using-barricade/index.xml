@@ -605,7 +605,7 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 
 &lt;p&gt;&lt;code&gt;sudo restart barricade&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;h3 id=&#34;configuration-options:4dc8be8e166f64c29db981f27c6c3661&#34;&gt;Configuration Options:&lt;/h3&gt;
 
@@ -630,7 +630,7 @@ The default value is &lt;code&gt;warning&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ssl_check_hostname&lt;/strong&gt;&lt;br /&gt;
 Allows you to enable or disable SSL hostname verification. By default value is &lt;code&gt;enabled&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;h3 id=&#34;barricade-cfg-troubleshooting:4dc8be8e166f64c29db981f27c6c3661&#34;&gt;Barricade.cfg Troubleshooting&lt;/h3&gt;
 
@@ -694,7 +694,7 @@ You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt
 &lt;li&gt;&lt;p&gt;You can customize the integration to choose what items get posted to HipChat, by checking the boxes on the right to activate more notifications.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;p&gt;By default, only Incidents &lt;em&gt;(our most serious classification)&lt;/em&gt; are sent as notifications.&lt;/p&gt;
 

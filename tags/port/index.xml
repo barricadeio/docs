@@ -57,7 +57,7 @@
 
 &lt;p&gt;&lt;code&gt;sudo restart barricade&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;p&gt;See here for &lt;a href=&#34;https://docs.barricade.io/using-barricade/#configuring-agents&#34;&gt;other possible Agent configuration options&lt;/a&gt;.&lt;/p&gt;
 </description>
