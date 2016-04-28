@@ -29,14 +29,18 @@ plainIdAnchors = "true"
     identifier = "security-guide"
     weight = -70
 [[menu.main]]
+    name = "Barricade API"
+    url = "/api/"
+    weight = -60
+[[menu.main]]
     name = "Design Style Guide"
     url = "https://styleguide.barricade.io/"
-    weight = -60
+    weight = -50
 [[menu.main]]
     name = "Changelog"
     url = "/changelog/"
     identifier = "changelog"
-    weight = -50
+    weight = -40
 
 
 
