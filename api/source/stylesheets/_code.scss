@@ -1,0 +1,37 @@
+body .page-wrapper {
+
+  > .dark-box,
+  .content pre,
+  .content blockquote,
+  .highlight,
+  .highlight .w,
+  .lang-selector,
+  .lang-selector a {
+    background-color: $dark3;
+    border-color: $dark3;
+  }
+
+  .lang-selector {
+    border-bottom: 1px solid $dark1;
+  }
+
+  .content pre,
+  .content code {
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 1281px) {
+  .content pre,
+  .content code {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1401px) {
+  .content pre,
+  .content code {
+    font-size: 18px;
+  }
+}

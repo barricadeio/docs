@@ -1,0 +1,192 @@
+body .tocify-wrapper {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: $light1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 18px;
+
+  a.logo {
+    display: block;
+    width: 100%;
+    padding: 1.425em 18.5% 1.425em 11.5%;
+
+    img,
+    svg {
+      fill: currentColor;
+      color: $dark2;
+      @include transition;
+      max-width: 70%;
+    }
+
+    &:hover {
+      background: lighten($green2, 12.5%);
+    }
+
+    svg {
+      color: white !important;
+    }
+  }
+
+  > .search {
+    margin: 1em 8.5% 1.5em 8.5%;
+
+    &:before {
+      left: 12px;
+      top: 8px;
+    }
+
+    #input-search {
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding-left: 38px;
+      border-bottom: 1px solid lighten($blue3, 12.5%);;
+      @include transition;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: lighten($blue3, 22.5%);
+      }
+    }
+  }
+
+  .tocify-item > a {
+    @include transition;
+    margin: auto 0;
+    display: inline-block;
+    position: relative;
+
+    &:after {
+      display: block;
+      content: " ";
+      margin: 0 auto 0;
+      background: $green3;
+      width: 10%;
+      opacity: 0;
+      height: 3px;
+      bottom: 0px;
+      position: relative;
+      @include transition;
+    }
+
+    &:hover:after {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+
+  div#toc {
+    margin: 2em auto 2em;
+    padding: 0 0 100px;
+
+    ul.tocify-header {
+      margin: 0;
+
+      a {
+        padding: 0.5em 13.25% 0em;
+        color: $dark1;
+        letter-spacing: 0.025em;
+        line-height: 1.2;
+        text-transform: capitalize;
+        @include transition(all, 0.3s, cubic-bezier(0.25,0.1,0.25,1));
+      }
+
+      &:hover {
+        color: $green4;
+        background: lighten($blue3, 22.5%);
+      }
+
+      ul {
+        margin: 0;
+        padding: 0.333em 0 0.5em;
+        background: lighten($light2, 1.75%);
+        display: none;
+
+        li {
+          a {
+            padding: 0.2em 0 0 17.5%;
+            line-height: 1.2;
+            font-size: $scalex3;
+            border-right: 4px solid transparent;
+            color: $blue4;
+            @include transition;
+
+            &:after {
+              display: none;
+            }
+
+            &:hover {
+              color: $blue1;
+            }
+          }
+
+          &.active a {
+            color: $blue4;
+            border-right: 4px solid $green1;
+          }
+        }
+      }
+    }
+  }
+
+  .search-results.visible {
+    li {
+      margin: 0;
+
+      a {
+        padding: .5em 13.25%;
+        display: inline-block;
+        color: $blue1;
+      }
+    }
+  }
+
+  .toc-footer {
+    border-top: none;
+    width: 300px;
+    position: fixed;
+    bottom: 0;
+    background-color: $light1;
+    z-index: 100;
+    padding: 0;
+
+    li {
+      padding: 0;
+      opacity: 1;
+    }
+
+    .link {
+      display: block;
+      padding: .75rem 1.5rem;
+      color: $blue4;
+      background-color: $light2;
+      font-size: 0.75rem !important;
+
+      &:before {
+        margin: 0 0.75em -0.2em 0;
+        font-family: "FontAwesome";
+        font-size: 0.8rem;
+        width: 2em;
+      }
+
+      &.button-key:before {
+        content: "\f055";
+        color: $blue3;
+      }
+
+      &.button-back:before {
+        content: "\f137";
+        color: $green1;
+      }
+
+      &:hover {
+        color: $blue4;
+        background-color: darken($light2, 5%);
+        text-decoration: none;
+      }
+    }
+  }
+}

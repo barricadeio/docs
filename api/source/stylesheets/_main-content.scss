@@ -1,0 +1,79 @@
+.page-wrapper {
+  .content {
+
+    h1:first-child,
+    div:first-child + h1 {
+      padding-top: 2.5em;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 16px;
+      color: $mid5;
+      font-weight: bold;
+      letter-spacing: 0.25em;
+      margin-top: 3em;
+      padding-top: 2em;
+    }
+
+    h2 {
+      color: $dark1;
+      margin: 0;
+      font-size: 1.333em;
+    }
+
+    h3 {
+      letter-spacing: 0.2em;
+    }
+
+    h1,
+    h2 {
+      border-top: 1px solid lighten(rgba(255,255,255,0.3), 1.5%);
+    }
+
+    p,
+    pre {
+      max-width: 680px;
+    }
+
+    #introduction {
+      opacity: 0;
+      margin-bottom: 2.5em;
+
+      & + p {
+        font-size: 1.125rem !important;
+        margin-bottom: 2em;
+      }
+    }
+
+    table {
+      font-size: 0.825em;
+      margin-bottom: 1.5em;
+
+      th,
+      td {
+        padding: 5px 18px 5px 0;
+      }
+
+      th {
+        font-size: 0.925em;
+      }
+    }
+
+  }
+}
+
+@media (min-width: 1281px) {
+  .content {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1401px) {
+  .content {
+    font-size: 18px;
+  }
+}
