@@ -17,7 +17,7 @@
 
 &lt;p&gt;Some servers see a lot of inbound and outbound traffic - be it database activity, connections to external services or the serving of large media files.&lt;/p&gt;
 
-&lt;p&gt;By design, the Barricade Agent observes everything - all traffic is carefully examined for unusual or malicious behaviour. However, should you want to narrow its&amp;rsquo; scope to omit certain types of traffic, you can do so by activating port &lt;strong&gt;filters&lt;/strong&gt; in the Agent configuration.&lt;/p&gt;
+&lt;p&gt;By design, the Barricade Agent observes everything - all traffic is carefully examined for unusual or malicious behaviour. However, should you want to narrow its scope to omit certain types of traffic, you can do so by activating port &lt;strong&gt;filters&lt;/strong&gt; in the Agent configuration.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../src/img/using-barricade/agent-data.png&#34; alt=&#34;../../src/img/using-barricade/agent-data.png&#34; /&gt;&lt;/p&gt;
 
@@ -57,7 +57,7 @@
 
 &lt;p&gt;&lt;code&gt;sudo restart barricade&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
 
 &lt;p&gt;See here for &lt;a href=&#34;https://docs.barricade.io/using-barricade/#configuring-agents&#34;&gt;other possible Agent configuration options&lt;/a&gt;.&lt;/p&gt;
 </description>

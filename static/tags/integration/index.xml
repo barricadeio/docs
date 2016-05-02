@@ -201,7 +201,7 @@ _&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;You can customize the integration to choose what items get posted to HipChat, by checking the boxes on the right to activate more notifications.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
 
 &lt;p&gt;By default, only Incidents &lt;em&gt;(our most serious classification)&lt;/em&gt; are sent as notifications.&lt;/p&gt;
 
