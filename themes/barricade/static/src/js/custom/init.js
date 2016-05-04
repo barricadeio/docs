@@ -20,6 +20,7 @@ $(document).ready(function() {
     }
   });
 
+
   // swifttype search
   (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
     (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
@@ -36,7 +37,7 @@ $(document).ready(function() {
 
 
   // add anchor links to markdown titles
-  anchors.add('h1.post-title, article h2, article h3');
+  // anchors.add('h1.post-title, article h2, article h3');
 
   // change contact us links to intercom chat triggers
     // (workaround as no ids/classes allowed inside markdown)
@@ -45,7 +46,25 @@ $(document).ready(function() {
       $(this).attr("href", "");
       $(this).attr("class", "intercom-trigger");
     };
-  })
+  });
+
+  // smooth scroll
+    $('a[href*=\\#]:not([href=\\#])').click(function() {
+      // event.preventDefault();
+      var anchor = this;
+
+      setTimeout( function() {
+        $.smoothScroll({
+          scrollElement: $(anchor.hash)
+        });
+        return false;
+
+        // $('html, body').animate({
+        //   scrollTop: $(anchor.hash).offset().top
+        // }, 500);
+      }, 500 );
+
+    });
 
 }); // document ready
 
@@ -89,23 +108,8 @@ menuItems.click(function(f){
   }, 300);
 });
 
-// smooth scroll
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 400);
-        // return false;
-      }
-    }
-  });
-});
 
-  // Bind to scroll
+// bind to scroll
 $(window).scroll(function(){
    // Get container scroll position
    var fromTop = $(this).scrollTop()+topMenuHeight;

@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "xss"
+slug = "\u0023xss"
 
 aliases = [
     "/security-guide/xss"
 ]
 
 [menu.main]
-    url = "xss"
+    url = "#xss"
     parent = "security-guide"
 
 +++

@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "user-privileges"
+slug = "\u0023user-privileges"
 
 aliases = [
     "/security-guide/user-privileges"
 ]
 
 [menu.main]
-    url = "user-privileges"
+    url = "#user-privileges"
     parent = "security-guide"
 
 +++

@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "trojan-infection"
+slug = "\u0023trojan-infection"
 
 aliases = [
     "/security-guide/trojan-infection"
 ]
 
 [menu.main]
-    url = "trojan-infection"
+    url = "#trojan-infection"
     parent = "security-guide"
 
 +++

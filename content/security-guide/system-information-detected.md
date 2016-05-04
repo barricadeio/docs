@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "system-info-detected"
+slug = "\u0023system-info-detected"
 
 aliases = [
     "/security-guide/system-info-detected"
 ]
 
 [menu.main]
-    url = "system-info-detected"
+    url = "#system-info-detected"
     parent = "security-guide"
 +++
 

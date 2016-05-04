@@ -7,15 +7,14 @@
 
   <nav class="sidebar-nav">
     <ul>
-      {{ $currentNode := . }}
       {{ range .Site.Menus.main }}
-      <li><a class="sidebar-nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">
+      <li><a class="sidebar-nav-item{{if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">
           <span class="ripple">{{ .Name }} <span></span></span>
         </a>
         {{ if .HasChildren }}
         <ul>
           {{ range .Children.ByWeight }}
-            <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="https://docs.barricade.io/{{.Parent}}/#{{.URL}}">{{ .Name }}</a></li>
+            <li{{if $.IsMenuCurrent "main" . }} class="active"{{end}}><a href="http://localhost:1313/{{.Parent}}/{{.URL}}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{end}}

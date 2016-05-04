@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "package_vulnerabilities"
+slug = "\u0023package_vulnerabilities"
 
 aliases = [
     "/security-guide/package_vulnerabilities"
 ]
 
 [menu.main]
-    url = "package_vulnerabilities"
+    url = "#package_vulnerabilities"
     parent = "security-guide"
 
 +++

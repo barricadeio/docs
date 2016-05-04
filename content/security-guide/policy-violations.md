@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "policy-violations"
+slug = "\u0023policy-violations"
 
 aliases = [
     "/security-guide/policy-violations"
 ]
 
 [menu.main]
-    url = "policy-violations"
+    url = "#policy-violations"
     parent = "security-guide"
 
 +++

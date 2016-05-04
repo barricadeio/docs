@@ -6,16 +6,14 @@ tags = ["security", "cases", "attacks", "recommendations", "web app"]
 section = "security-guide"
 categories = ["security-guide"]
 type = "page"
-
-slug = "web-app-attack"
+slug = "\u0023web-app-attacks"
 
 aliases = [
-    "/security-guide/web-app-attack",
-    "/web-app-attack"
+    "/security-guide/web-app-attacks"
 ]
 
 [menu.main]
-    url = "web-app-attack"
+    url = "#web-app-attacks"
     parent = "security-guide"
 
 +++

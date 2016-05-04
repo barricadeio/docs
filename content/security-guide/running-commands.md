@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "running-commands"
+slug = "\u0023running-commands"
 
 aliases = [
     "/security-guide/running-commands"
 ]
 
 [menu.main]
-    url = "running-commands"
+    url = "#running-commands"
     parent = "security-guide"
 
 +++

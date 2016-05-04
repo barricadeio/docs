@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "attempted-ssh-login"
+slug = "\u0023attempted-ssh-login"
 
 aliases = [
     "/security-guide/attempted-ssh-login"
 ]
 
 [menu.main]
-    url = "attempted-ssh-login"
+    url = "#attempted-ssh-login"
     parent = "security-guide"
 
 +++

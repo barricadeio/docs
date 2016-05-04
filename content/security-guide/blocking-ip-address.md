@@ -7,14 +7,14 @@ section = "security-guide"
 categories = ["security-guide"]
 type = "page"
 
-slug = "blocking-ip-address"
+slug = "\u0023blocking-ip-address"
 
 aliases = [
     "/security-guide/blocking-ip-address"
 ]
 
 [menu.main]
-    url = "blocking-ip-address"
+    url = "#blocking-ip-address"
     parent = "security-guide"
 
 +++
