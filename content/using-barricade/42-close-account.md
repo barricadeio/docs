@@ -3,7 +3,7 @@ title = "Closing an Account"
 description = "How to close your account"
 weight = "42"
 
-tags = ["account", "close"]
+tags = ["account", "close, "remove", "uninstall", "delete"]
 section = "using-barricade"
 categories = ["using-barricade"]
 type = "page"
