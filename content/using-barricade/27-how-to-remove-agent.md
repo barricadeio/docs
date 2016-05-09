@@ -3,7 +3,7 @@ title = "Stopping & Removing Agents"
 description = "How to pause and retire Barricade Agents"
 weight = "27"
 
-tags = ["account", "close, "remove", "uninstall", "delete"]
+tags = ["account", "close", "remove", "uninstall", "delete"]
 section = "using-barricade"
 categories = ["using-barricade"]
 type = "page"
