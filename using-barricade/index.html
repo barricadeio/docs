@@ -137,6 +137,8 @@
           
             <li><a href="#aws-waf-integration">Amazon WAF Integration</a></li>
           
+            <li><a href="#cloudflare-integration">CloudFlare Integration</a></li>
+          
             <li><a href="#ci-sec-testing">C.I. Security Tests</a></li>
           
             <li><a href="#updating-agents">Updating Agents</a></li>
@@ -707,6 +709,48 @@ _</p></li>
 </div>
 </article>
           
+            <article id="cloudflare-integration">
+  <h1 class="post-title">CloudFlare Integration</h1>
+  <div>
+
+<p><img src="../src/img/changelog/31-cloudflare.png" alt="../src/img/changelog/31-cloudflare.png" /></p>
+
+<p><a href="https://cloudflare.com/">CloudFlare</a> makes DNS secure, fast and simple, as well as providing some really great DDoS protection and security features. You can integrate CloudFlare with Barricade to make an intelligent, learning firewall that can protect your infrastructure from things like DDoS and brute force attacks.</p>
+
+<h3 id="gotchas:f647eb5d518fb3851d585ccce9a324b4">Gotchas</h3>
+
+<p>You&rsquo;ll need to be using both Barricade and <a href="https://cloudflare.com/">CloudFlare</a> in order to integrate them - if you don&rsquo;t already have a Barricade account, you can <a href="https://app.barricade.io/">sign up for free here</a>.</p>
+
+<h3 id="setting-up-the-integration:f647eb5d518fb3851d585ccce9a324b4">Setting up the Integration</h3>
+
+<ol>
+<li><p>Login to Barricade and go to the Settings &gt; Integrations &gt; <a href="https://app.barricade.io/dashboard/settings/integration/cloudflare">CloudFlare Firewall</a></p></li>
+
+<li><p>Click on the switch to <strong>Enable</strong> the integration.</p></li>
+
+<li><p>Login to CloudFlare.com and open the <a href="https://www.cloudflare.com/a/account/my-account">My Account</a> page. You&rsquo;ll need to retrieve your Global API key:</p>
+
+<p><img src="../src/img/using-barricade/16-cloudflare-api.gif" alt="../src/img/using-barricade/16-cloudflare-api.gif" /></p>
+
+<p>Just so you know, <strong>we encrypt your key</strong>, it is not stored in plaintext for security reasons.</p></li>
+
+<li><p>Copy and paste your API key and your email address into the form on the CloudFlare Integration page in the Barricade app. Click the &lsquo;Enable&rsquo; button.</p></li>
+</ol>
+
+<p>That&rsquo;s it - now you can quickly utilize the CloudFlare firewall from within Barricade.</p>
+
+<h3 id="using-the-integration:f647eb5d518fb3851d585ccce9a324b4">Using the Integration</h3>
+
+<p>You&rsquo;ll see a new &lsquo;Add To Firewall&rsquo; button alongside attack details, allowing you simple one-click blocking of attackers:</p>
+
+<p><img src="../src/img/using-barricade/16-cloudflare-button.gif" alt="../src/img/using-barricade/16-cloudflare-button.gif" /></p>
+
+<p>--</p>
+
+<p>Read our <a href="https://blog.barricade.io/cloudflare-meet-barricade/">blog announcement</a> for more background on this super useful integration!</p>
+</div>
+</article>
+          
             <article id="ci-sec-testing">
   <h1 class="post-title">C.I. Security Tests</h1>
   <div>
@@ -717,7 +761,7 @@ _</p></li>
 
 <p><img src="../src/img/using-barricade/16-sectests.png" alt="../src/img/using-barricade/16-sectests.png" /></p>
 
-<h3 id="what-do-security-tests-check-for:aa03e65d913f6c4e10d8d1bc45e346ff">What do Security Tests check for?</h3>
+<h3 id="what-do-security-tests-check-for:c0891e45c7fb507d69e692f267d874f9">What do Security Tests check for?</h3>
 
 <p>The test will check your application network for a series of common vulnerabilities, based on the <a href="http://wapiti.sourceforge.net/">Wapiti</a> scanner:</p>
 
@@ -735,11 +779,11 @@ _</p></li>
 
 <p>Note: <em>These checks are to help you identify any security bugs in your app, before they are shipped - but they do not guarantee that your app is fully secure from potential attacks.</em></p>
 
-<h3 id="security-tests-with-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff">Security Tests with Webhooks</h3>
+<h3 id="security-tests-with-webhooks:c0891e45c7fb507d69e692f267d874f9">Security Tests with Webhooks</h3>
 
 <p> <img src="../src/img/using-barricade/16-sectest-settings.gif" alt="../src/img/using-barricade/16-sectest-settings.gif" /></p>
 
-<h2 id="enabling-the-integration:aa03e65d913f6c4e10d8d1bc45e346ff">Enabling the Integration:</h2>
+<h2 id="enabling-the-integration:c0891e45c7fb507d69e692f267d874f9">Enabling the Integration:</h2>
 
 <ol>
 <li>Visit the Settings &gt; Integrations &gt; <a href="https://app.barricade.io/dashboard/settings/integration/csi">C.I. Security Testing</a> page.</li>
@@ -747,7 +791,7 @@ _</p></li>
 <li><strong>Copy</strong> the webhook url that is generated.</li>
 </ol>
 
-<h2 id="submitting-tests:aa03e65d913f6c4e10d8d1bc45e346ff">Submitting Tests:</h2>
+<h2 id="submitting-tests:c0891e45c7fb507d69e692f267d874f9">Submitting Tests:</h2>
 
 <p>To submit a report, you&rsquo;ll need to make a HTTP post request to the webhook URL. Webhooks are user-defined HTTP callbacks - triggered by some an, such as pushing code to a repository.</p>
 
@@ -766,7 +810,7 @@ build_number: '1660', // build number
 build_link: 'https://circleci.com/gh/barricadeio/webapp/1660' // build URL
 </code></pre>
 
-<h2 id="example-request:aa03e65d913f6c4e10d8d1bc45e346ff">Example Request</h2>
+<h2 id="example-request:c0891e45c7fb507d69e692f267d874f9">Example Request</h2>
 
 <p>The following example reads a test result from <code>wapiti.json</code>, builds a request body and submits it to the webhook.</p>
 
@@ -913,7 +957,7 @@ build_link: 'https://circleci.com/gh/barricadeio/webapp/1660' // build URL
 }
 </code></pre>
 
-<h3 id="troubleshooting-c-i-test-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff">Troubleshooting C.I. Test Webhooks</h3>
+<h3 id="troubleshooting-c-i-test-webhooks:c0891e45c7fb507d69e692f267d874f9">Troubleshooting C.I. Test Webhooks</h3>
 
 <p>If you&rsquo;re experiencing issues submitting a test, try generating a new webhook URL on the settings page:</p>
 

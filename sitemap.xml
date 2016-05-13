@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/using-barricade/ci-sec-testing/</loc>
+    <loc>https://docs.barricade.io/using-barricade/cloudflare-integration/</loc>
   </url>
   
   <url>
@@ -183,6 +183,10 @@
   <url>
     <loc>https://docs.barricade.io/changelog/replace-websockets</loc>
     <lastmod>2015-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/using-barricade/ci-sec-testing/</loc>
   </url>
   
   <url>
