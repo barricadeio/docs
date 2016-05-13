@@ -1,6 +1,6 @@
 +++
 title = "C.I. Security Tests"
-weight = "17"
+weight = "20"
 
 tags = ["continuous integration", "testing", "sectests", "wapiti"]
 section = "using-barricade"
