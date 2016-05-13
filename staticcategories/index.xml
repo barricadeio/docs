@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://docs.barricade.io/categories/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="https://docs.barricade.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Filtering Agent Traffic</title>
+      <link>https://docs.barricade.io/how-to-filter-agent-traffic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/how-to-filter-agent-traffic/</guid>
+      <description>
+
+&lt;p&gt;Some servers see a lot of inbound and outbound traffic - be it database activity, connections to external services or the serving of large media files.&lt;/p&gt;
+
+&lt;p&gt;By design, the Barricade Agent observes everything - all traffic is carefully examined for unusual or malicious behaviour. However, should you want to narrow its scope to omit certain types of traffic, you can do so by activating port &lt;strong&gt;filters&lt;/strong&gt; in the Agent configuration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/using-barricade/agent-data.png&#34; alt=&#34;../../src/img/using-barricade/agent-data.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;be-careful:68cf814826d6be76988934006fe69732&#34;&gt;Be Careful&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Filtering traffic is risky - by choosing to exclude data, you could be turning a blind eye to possible points of attack. Please tread carefully - we&amp;rsquo;re happy to guide you through the process if you&amp;rsquo;d like to &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;discuss things with us&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;traffic-ports:68cf814826d6be76988934006fe69732&#34;&gt;Traffic Ports&lt;/h2&gt;
+
+&lt;p&gt;You can see a breakdown of the data being transferred in and out of your server via the app&amp;rsquo;s &lt;a href=&#34;https://app.barricade.io/dashboard/stats&#34;&gt;Traffic Report&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Filtering allows you to exclude certain ports - the traffic report presents server usage by port so you can easily identify different types of connections.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../src/img/using-barricade/traffic.png&#34; alt=&#34;../../src/img/using-barricade/traffic.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-agent-configuration-file:68cf814826d6be76988934006fe69732&#34;&gt;The Agent Configuration file&lt;/h2&gt;
+
+&lt;p&gt;To filter and exclude traffic from the Barricade Agent, you&amp;rsquo;ll need to edit the config file on your server. You&amp;rsquo;ll need to &lt;a href=&#34;https://docs.barricade.io/getting-started/running-commands/&#34;&gt;SSH&lt;/a&gt; into the server and navigate to the file at:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/etc/barricade/barricade.cfg&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;  
+
+&lt;h3 id=&#34;how-to-add-filters:68cf814826d6be76988934006fe69732&#34;&gt;How to Add Filters&lt;/h3&gt;
+
+&lt;p&gt;By default, no filters are set. You can add port numbers in the &lt;code&gt;barricade.cfg&lt;/code&gt; file like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;filter=&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;filter=port not 22 and port not 53&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This would prevent the agent from capturing network traffic on SSH (22) and DNS (53) ports, limiting what the Agent has access to.&lt;/p&gt;
+
+&lt;p&gt;Once updated, a restart is required for any changes to take effect:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo restart barricade&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;--&lt;/p&gt;
+
+&lt;p&gt;See here for &lt;a href=&#34;https://docs.barricade.io/using-barricade/#configuring-agents&#34;&gt;other possible Agent configuration options&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
