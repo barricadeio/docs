@@ -6845,19 +6845,24 @@ body {
 }
 .sidebar ul li ul {
   margin: 0;
-  padding: 0.333em 0 0.75em;
+  padding: 0.5em 0 1em;
   background: #f1f2f6;
   display: none;
 }
+.sidebar ul li ul li {
+  margin: 0;
+}
 .sidebar ul li ul li a {
-  padding: 0.2em 0 0.2em 17.5%;
-  line-height: 1.2;
-  font-size: 15.9992px;
+  padding: 0.425em 0 0.425em 20%;
+  line-height: 1.125;
+  font-size: 14.8564px;
   border-right: 4px solid transparent;
+  color: #617a7e;
   transition: all 0.3s ease-in-out;
 }
 .sidebar ul li ul li a:hover {
   color: #34495e;
+  background: #dce6eb;
 }
 .sidebar ul li ul li.active a {
   color: #34495e;

@@ -100,20 +100,24 @@
 
       ul {
         margin: 0;
-        padding: 0.333em 0 0.75em;
+        padding: 0.5em 0 1em;
         background: lighten($light2, 1.75%);
         display: none;
 
         li {
+          margin: 0;
+
           a {
-            padding: 0.2em 0 0.2em 17.5%;
-            line-height: 1.2;
-            font-size: $scalex3;
+            padding: 0.425em 0 0.425em 20%;
+            line-height: 1.125;
+            font-size: $scalex2;
             border-right: 4px solid transparent;
+            color: lighten($dark1, 5%);
             @include transition;
 
             &:hover {
               color: $blue4;
+              background: lighten($blue3, 17.5%);
             }
           }
 
