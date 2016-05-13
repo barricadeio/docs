@@ -278,6 +278,16 @@
   </url>
   
   <url>
+    <loc>https://docs.barricade.io/changelog/webhooks</loc>
+    <lastmod>2016-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/changelog/cloudflare</loc>
+    <lastmod>2016-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://docs.barricade.io/using-barricade/automating-agents-ansible/</loc>
   </url>
   
