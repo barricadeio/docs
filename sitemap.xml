@@ -186,7 +186,7 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/using-barricade/ci-sec-testing/</loc>
+    <loc>https://docs.barricade.io/using-barricade/custom-webhooks/</loc>
   </url>
   
   <url>
@@ -214,6 +214,10 @@
   <url>
     <loc>https://docs.barricade.io/changelog/ci-sec-tests</loc>
     <lastmod>2015-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/using-barricade/ci-sec-testing/</loc>
   </url>
   
   <url>

@@ -137,6 +137,8 @@
           
             <li><a href="#cloudflare-integration">CloudFlare Integration</a></li>
           
+            <li><a href="#custom-webhooks">Custom Webhooks</a></li>
+          
             <li class="active"><a href="#ci-sec-testing">C.I. Security Tests</a></li>
           
             <li><a href="#updating-agents">Updating Agents</a></li>
@@ -293,7 +295,7 @@
 
 <p><img src="../src/img/using-barricade/16-sectests.png" alt="../src/img/using-barricade/16-sectests.png" /></p>
 
-<h3 id="what-do-security-tests-check-for:c0891e45c7fb507d69e692f267d874f9">What do Security Tests check for?</h3>
+<h3 id="what-do-security-tests-check-for:7392f22a00640c36ba214df8def7b81e">What do Security Tests check for?</h3>
 
 <p>The test will check your application network for a series of common vulnerabilities, based on the <a href="http://wapiti.sourceforge.net/">Wapiti</a> scanner:</p>
 
@@ -311,11 +313,11 @@
 
 <p>Note: <em>These checks are to help you identify any security bugs in your app, before they are shipped - but they do not guarantee that your app is fully secure from potential attacks.</em></p>
 
-<h3 id="security-tests-with-webhooks:c0891e45c7fb507d69e692f267d874f9">Security Tests with Webhooks</h3>
+<h3 id="security-tests-with-webhooks:7392f22a00640c36ba214df8def7b81e">Security Tests with Webhooks</h3>
 
 <p> <img src="../src/img/using-barricade/16-sectest-settings.gif" alt="../src/img/using-barricade/16-sectest-settings.gif" /></p>
 
-<h2 id="enabling-the-integration:c0891e45c7fb507d69e692f267d874f9">Enabling the Integration:</h2>
+<h2 id="enabling-the-integration:7392f22a00640c36ba214df8def7b81e">Enabling the Integration:</h2>
 
 <ol>
 <li>Visit the Settings &gt; Integrations &gt; <a href="https://app.barricade.io/dashboard/settings/integration/csi">C.I. Security Testing</a> page.</li>
@@ -323,7 +325,7 @@
 <li><strong>Copy</strong> the webhook url that is generated.</li>
 </ol>
 
-<h2 id="submitting-tests:c0891e45c7fb507d69e692f267d874f9">Submitting Tests:</h2>
+<h2 id="submitting-tests:7392f22a00640c36ba214df8def7b81e">Submitting Tests:</h2>
 
 <p>To submit a report, you&rsquo;ll need to make a HTTP post request to the webhook URL. Webhooks are user-defined HTTP callbacks - triggered by some an, such as pushing code to a repository.</p>
 
@@ -342,7 +344,7 @@ build_number: '1660', // build number
 build_link: 'https://circleci.com/gh/barricadeio/webapp/1660' // build URL
 </code></pre>
 
-<h2 id="example-request:c0891e45c7fb507d69e692f267d874f9">Example Request</h2>
+<h2 id="example-request:7392f22a00640c36ba214df8def7b81e">Example Request</h2>
 
 <p>The following example reads a test result from <code>wapiti.json</code>, builds a request body and submits it to the webhook.</p>
 
@@ -489,7 +491,7 @@ build_link: 'https://circleci.com/gh/barricadeio/webapp/1660' // build URL
 }
 </code></pre>
 
-<h3 id="troubleshooting-c-i-test-webhooks:c0891e45c7fb507d69e692f267d874f9">Troubleshooting C.I. Test Webhooks</h3>
+<h3 id="troubleshooting-c-i-test-webhooks:7392f22a00640c36ba214df8def7b81e">Troubleshooting C.I. Test Webhooks</h3>
 
 <p>If you&rsquo;re experiencing issues submitting a test, try generating a new webhook URL on the settings page:</p>
 
