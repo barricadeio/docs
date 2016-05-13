@@ -369,7 +369,7 @@ To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key
 
 &lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-sectests.png&#34; alt=&#34;../src/img/using-barricade/16-sectests.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;what-do-security-tests-check-for:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;What do Security Tests check for?&lt;/h3&gt;
+&lt;h3 id=&#34;what-do-security-tests-check-for:c0891e45c7fb507d69e692f267d874f9&#34;&gt;What do Security Tests check for?&lt;/h3&gt;
 
 &lt;p&gt;The test will check your application network for a series of common vulnerabilities, based on the &lt;a href=&#34;http://wapiti.sourceforge.net/&#34;&gt;Wapiti&lt;/a&gt; scanner:&lt;/p&gt;
 
@@ -387,11 +387,11 @@ To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key
 
 &lt;p&gt;Note: &lt;em&gt;These checks are to help you identify any security bugs in your app, before they are shipped - but they do not guarantee that your app is fully secure from potential attacks.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;security-tests-with-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Security Tests with Webhooks&lt;/h3&gt;
+&lt;h3 id=&#34;security-tests-with-webhooks:c0891e45c7fb507d69e692f267d874f9&#34;&gt;Security Tests with Webhooks&lt;/h3&gt;
 
 &lt;p&gt; &lt;img src=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; alt=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;enabling-the-integration:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Enabling the Integration:&lt;/h2&gt;
+&lt;h2 id=&#34;enabling-the-integration:c0891e45c7fb507d69e692f267d874f9&#34;&gt;Enabling the Integration:&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Visit the Settings &amp;gt; Integrations &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/csi&#34;&gt;C.I. Security Testing&lt;/a&gt; page.&lt;/li&gt;
@@ -399,7 +399,7 @@ To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key
 &lt;li&gt;&lt;strong&gt;Copy&lt;/strong&gt; the webhook url that is generated.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;submitting-tests:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Submitting Tests:&lt;/h2&gt;
+&lt;h2 id=&#34;submitting-tests:c0891e45c7fb507d69e692f267d874f9&#34;&gt;Submitting Tests:&lt;/h2&gt;
 
 &lt;p&gt;To submit a report, you&amp;rsquo;ll need to make a HTTP post request to the webhook URL. Webhooks are user-defined HTTP callbacks - triggered by some an, such as pushing code to a repository.&lt;/p&gt;
 
@@ -418,7 +418,7 @@ build_number: &#39;1660&#39;, // build number
 build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build URL
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;example-request:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Example Request&lt;/h2&gt;
+&lt;h2 id=&#34;example-request:c0891e45c7fb507d69e692f267d874f9&#34;&gt;Example Request&lt;/h2&gt;
 
 &lt;p&gt;The following example reads a test result from &lt;code&gt;wapiti.json&lt;/code&gt;, builds a request body and submits it to the webhook.&lt;/p&gt;
 
@@ -565,7 +565,7 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;troubleshooting-c-i-test-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Troubleshooting C.I. Test Webhooks&lt;/h3&gt;
+&lt;h3 id=&#34;troubleshooting-c-i-test-webhooks:c0891e45c7fb507d69e692f267d874f9&#34;&gt;Troubleshooting C.I. Test Webhooks&lt;/h3&gt;
 
 &lt;p&gt;If you&amp;rsquo;re experiencing issues submitting a test, try generating a new webhook URL on the settings page:&lt;/p&gt;
 
@@ -582,6 +582,52 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
       <description>&lt;p&gt;If you&amp;rsquo;re looking to stop using Barricade entirely, you can &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/close&#34;&gt;close your account through this page&lt;/a&gt;. Only admin users can close an account, for security reasons.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re sorry to see you go - if there&amp;rsquo;s any feedback you&amp;rsquo;d like to leave for us, please do &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;submit a comment&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CloudFlare Integration</title>
+      <link>https://docs.barricade.io/using-barricade/cloudflare-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.barricade.io/using-barricade/cloudflare-integration/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;../src/img/changelog/31-cloudflare.png&#34; alt=&#34;../src/img/changelog/31-cloudflare.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; makes DNS secure, fast and simple, as well as providing some really great DDoS protection and security features. You can integrate CloudFlare with Barricade to make an intelligent, learning firewall that can protect your infrastructure from things like DDoS and brute force attacks.&lt;/p&gt;
+
+&lt;h3 id=&#34;gotchas:f647eb5d518fb3851d585ccce9a324b4&#34;&gt;Gotchas&lt;/h3&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need to be using both Barricade and &lt;a href=&#34;https://cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; in order to integrate them - if you don&amp;rsquo;t already have a Barricade account, you can &lt;a href=&#34;https://app.barricade.io/&#34;&gt;sign up for free here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-up-the-integration:f647eb5d518fb3851d585ccce9a324b4&#34;&gt;Setting up the Integration&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Login to Barricade and go to the Settings &amp;gt; Integrations &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/cloudflare&#34;&gt;CloudFlare Firewall&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on the switch to &lt;strong&gt;Enable&lt;/strong&gt; the integration.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Login to CloudFlare.com and open the &lt;a href=&#34;https://www.cloudflare.com/a/account/my-account&#34;&gt;My Account&lt;/a&gt; page. You&amp;rsquo;ll need to retrieve your Global API key:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-cloudflare-api.gif&#34; alt=&#34;../src/img/using-barricade/16-cloudflare-api.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just so you know, &lt;strong&gt;we encrypt your key&lt;/strong&gt;, it is not stored in plaintext for security reasons.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Copy and paste your API key and your email address into the form on the CloudFlare Integration page in the Barricade app. Click the &amp;lsquo;Enable&amp;rsquo; button.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That&amp;rsquo;s it - now you can quickly utilize the CloudFlare firewall from within Barricade.&lt;/p&gt;
+
+&lt;h3 id=&#34;using-the-integration:f647eb5d518fb3851d585ccce9a324b4&#34;&gt;Using the Integration&lt;/h3&gt;
+
+&lt;p&gt;You&amp;rsquo;ll see a new &amp;lsquo;Add To Firewall&amp;rsquo; button alongside attack details, allowing you simple one-click blocking of attackers:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-cloudflare-button.gif&#34; alt=&#34;../src/img/using-barricade/16-cloudflare-button.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;--&lt;/p&gt;
+
+&lt;p&gt;Read our &lt;a href=&#34;https://blog.barricade.io/cloudflare-meet-barricade/&#34;&gt;blog announcement&lt;/a&gt; for more background on this super useful integration!&lt;/p&gt;
 </description>
     </item>
     
@@ -883,52 +929,6 @@ It will look like this:&lt;/p&gt;
 &lt;p&gt;Clicking &amp;lsquo;pause&amp;rsquo; or retire&amp;rsquo; will prompt Barricade to signal a change in behavior to the Agent through the status API - it can&amp;rsquo;t directly write to or alter the Agent directly (&lt;a href=&#34;../getting-started/#how-it-works-agent&#34;&gt;by design&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;When the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tagging &amp; Filtering</title>
-      <link>https://docs.barricade.io/using-barricade/tagging-filtering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/tagging-filtering/</guid>
-      <description>
-
-&lt;p&gt;If you are running multiple Barricade Agents, you&amp;rsquo;ll see data pooled in the dashboard from different servers. Filters help you narrow your view to see results from specific servers.&lt;/p&gt;
-
-&lt;h3 id=&#34;where-to-find-filters:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Where to find Filters&lt;/h3&gt;
-
-&lt;p&gt;You can filter Case data in the app by accessing the Filter option at the top of the &lt;code&gt;Dashboard -&amp;gt; Overview&lt;/code&gt; navigation:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-01.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-01.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When you have active Filters, the menu will look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-02.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-02.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;using-filters:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Using Filters&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Click the Filter button in the top right of the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;Overview&lt;/a&gt; screen.&lt;/li&gt;
-&lt;li&gt;A new panel will appear from the right, displaying a list of &lt;strong&gt;Agent Tags&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Remove the check marks from any Agent tags you wish to filter out. The form auto-saves your selection.&lt;/li&gt;
-&lt;li&gt;To close the Filter panel, click to the left outside of the panel.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-filters.gif&#34; alt=&#34;../src/img/using-barricade/28-filters.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;editing-agent-tags:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Editing Agent Tags&lt;/h3&gt;
-
-&lt;p&gt;An agent&amp;rsquo;s tag can be edited in two ways. Either through the &lt;code&gt;Dashboard -&amp;gt; Agents&lt;/code&gt; page which can be found on the left-hand side menu, or through an automated configuration file described below the animation.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; alt=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can change the Tags associated with your Agents in the configuration file, located on your server at &lt;code&gt;/service/barricade/barricade.cfg &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;By default, all Agents start out with one tag: &lt;code&gt;production&lt;/code&gt;.
-See &lt;a href=&#34;#configuring-agents&#34;&gt;Configuring Agents&lt;/a&gt; for more information.&lt;/p&gt;
 </description>
     </item>
     
