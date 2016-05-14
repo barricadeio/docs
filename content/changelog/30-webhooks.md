@@ -1,7 +1,7 @@
 +++
 
 date = "2016-05-12"
-title = "Added Webhooks"
+title = "Added Custom Webhooks"
 description = "Changelog - Webhooks"
 url = "changelog/webhooks"
 section = "changelog"
