@@ -46,17 +46,17 @@
   <ul class="off-canvas-list">
       <li><a href="https://docs.barricade.io">Docs Home</a></li>
       
-      <li><a href="/getting-started/">Getting Started</a></li>
+      <li><a href="https://docs.barricade.io/getting-started/">Getting Started</a></li>
       
-      <li><a href="/using-barricade/">Using Barricade</a></li>
+      <li><a href="https://docs.barricade.io/using-barricade/">Using Barricade</a></li>
       
-      <li><a href="/security-guide/">Security Guides</a></li>
+      <li><a href="https://docs.barricade.io/security-guide/">Security Guides</a></li>
       
-      <li><a href="/api/">Barricade API</a></li>
+      <li><a href="https://docs.barricade.io/api/">Barricade API</a></li>
       
       <li><a href="https://styleguide.barricade.io/">Design Style Guide</a></li>
       
-      <li><a href="/changelog/">Changelog</a></li>
+      <li><a href="https://docs.barricade.io/changelog/">Changelog</a></li>
       
     </ul>
 
@@ -81,7 +81,7 @@
   <nav class="sidebar-nav">
     <ul>
       
-      <li><a class="sidebar-nav-item" href="/getting-started/">
+      <li><a class="sidebar-nav-item" href="https://docs.barricade.io/getting-started/">
           <span class="ripple">Getting Started <span></span></span>
         </a>
         
@@ -117,7 +117,7 @@
         
       </li>
       
-      <li><a class="sidebar-nav-item active" href="/using-barricade/">
+      <li><a class="sidebar-nav-item active" href="https://docs.barricade.io/using-barricade/">
           <span class="ripple">Using Barricade <span></span></span>
         </a>
         
@@ -136,8 +136,6 @@
             <li><a href="#aws-waf-integration">Amazon WAF Integration</a></li>
           
             <li><a href="#cloudflare-integration">CloudFlare Integration</a></li>
-          
-            <li><a href="#custom-webhooks">Custom Webhooks</a></li>
           
             <li><a href="#ci-sec-testing">C.I. Security Tests</a></li>
           
@@ -163,7 +161,7 @@
         
       </li>
       
-      <li><a class="sidebar-nav-item" href="/security-guide/">
+      <li><a class="sidebar-nav-item" href="https://docs.barricade.io/security-guide/">
           <span class="ripple">Security Guides <span></span></span>
         </a>
         
@@ -205,7 +203,7 @@
         
       </li>
       
-      <li><a class="sidebar-nav-item" href="/api/">
+      <li><a class="sidebar-nav-item" href="https://docs.barricade.io/api/">
           <span class="ripple">Barricade API <span></span></span>
         </a>
         
@@ -217,7 +215,7 @@
         
       </li>
       
-      <li><a class="sidebar-nav-item" href="/changelog/">
+      <li><a class="sidebar-nav-item" href="https://docs.barricade.io/changelog/">
           <span class="ripple">Changelog <span></span></span>
         </a>
         
@@ -291,15 +289,15 @@
 
 <p>If you wish to stop monitoring a server, you can <strong>pause</strong> or <strong>retire</strong> the Agent via the <a href="https://app.barricade.io/dashboard/agents">controls on this page</a>:</p>
 
-<p><img src="../../src/img/changelog/24-controls.gif" alt="../../src/img/changelog/24-controls.gif" /></p>
+<p><img src="https://docs.barricade.io/src/img/changelog/24-controls.gif" alt="https://docs.barricade.io/src/img/changelog/24-controls.gif" /></p>
 
 <p>Agents that are paused can be restarted later - whereas you cannot &lsquo;undo&rsquo; a retired Agent through the web interface - a <a href="#installing-more-agents">reinstall</a> would be required to restore the Agent.</p>
 
-<h2 id="pausing-agents:172444a8f3e05633c6caacec2e0f907c">Pausing Agents</h2>
+<h2 id="pausing-agents:dd4ea0775fdfa248a9b2a0da91801165">Pausing Agents</h2>
 
 <p>Older Agent versions do not support pausing and restarting. You should <a href="#updating-agents">update the Agent</a> to the latest version.</p>
 
-<h2 id="retiring-and-removing-agents:172444a8f3e05633c6caacec2e0f907c">Retiring and Removing Agents</h2>
+<h2 id="retiring-and-removing-agents:dd4ea0775fdfa248a9b2a0da91801165">Retiring and Removing Agents</h2>
 
 <p>Retiring an Agent will stop the tranmission of data from your server, but it doesn&rsquo;t remove the Agent files. If you want to fully remove all traces of the Agent, you will need to manually do so by running a command on your server:</p>
 
@@ -307,9 +305,9 @@
 
 <p>To remove from a CentOS server: <code>rpm -e barricade</code></p>
 
-<h2 id="one-way-agents:172444a8f3e05633c6caacec2e0f907c">One-way Agents</h2>
+<h2 id="one-way-agents:dd4ea0775fdfa248a9b2a0da91801165">One-way Agents</h2>
 
-<p>Clicking &lsquo;pause&rsquo; or retire&rsquo; will prompt Barricade to signal a change in behavior to the Agent through the status API - it can&rsquo;t directly write to or alter the Agent directly (<a href="../getting-started/#how-it-works-agent">by design</a>).</p>
+<p>Clicking &lsquo;pause&rsquo; or retire&rsquo; will prompt Barricade to signal a change in behavior to the Agent through the status API - it can&rsquo;t directly write to or alter the Agent directly (<a href="https://docs.barricade.io/getting-started/#how-it-works-agent">by design</a>).</p>
 
 <p>When the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.</p>
 

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Security-guide on </title>
+      <title>Security-guide</title>
     <link>https://docs.barricade.io/security-guide/</link>
-    <description>Recent content in Security-guide on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/security-guide/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Web App Attacks</title>
       <link>https://docs.barricade.io/security-guide/web-app-attack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/web-app-attack/</guid>
       <description>
 
@@ -98,8 +96,7 @@ The best way to safeguard against these types of attacks in the longer term is t
     <item>
       <title>SQL Injection</title>
       <link>https://docs.barricade.io/security-guide/sql-injection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/sql-injection/</guid>
       <description>
 
@@ -111,7 +108,7 @@ The best way to safeguard against these types of attacks in the longer term is t
 
 &lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;See our infographic for a visual explanation of SQL Injection attacks &amp;gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;&lt;img src=&#34;../src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; alt=&#34;../src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; alt=&#34;https://docs.barricade.io/src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;These attacks are common, and can be quite destructive - if successful, an attacker can interact with your database and steal or even erase sensitive data.&lt;/p&gt;
 
@@ -164,8 +161,7 @@ SQL Injection is just one of many techniques that can pose a threat to you and y
     <item>
       <title>Cross-Site Scripting</title>
       <link>https://docs.barricade.io/security-guide/xss/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/xss/</guid>
       <description>
 
@@ -223,8 +219,7 @@ The best way to safeguard against XSS attacks in the long term is to understand
     <item>
       <title>Default Username Attempts</title>
       <link>https://docs.barricade.io/security-guide/login-default-username/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/login-default-username/</guid>
       <description>
 
@@ -282,8 +277,7 @@ DBA
     <item>
       <title>Suspicious Login Attempts</title>
       <link>https://docs.barricade.io/security-guide/login-suspicious-username/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/login-suspicious-username/</guid>
       <description>
 
@@ -339,8 +333,7 @@ username has failed activity from multiple IP addresses at once
     <item>
       <title>SSH Login Attempts</title>
       <link>https://docs.barricade.io/security-guide/attempted-ssh-login/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/attempted-ssh-login/</guid>
       <description>
 
@@ -422,8 +415,7 @@ AllowGroup sshusers
     <item>
       <title>Gaining User Privileges</title>
       <link>https://docs.barricade.io/security-guide/user-privileges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/user-privileges/</guid>
       <description>
 
@@ -461,8 +453,7 @@ AllowGroup sshusers
     <item>
       <title>Gaining Admin Privileges</title>
       <link>https://docs.barricade.io/security-guide/admin-privileges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/admin-privileges/</guid>
       <description>
 
@@ -504,8 +495,7 @@ AllowGroup sshusers
     <item>
       <title>System Information Leaks</title>
       <link>https://docs.barricade.io/security-guide/system-info-detected/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/system-info-detected/</guid>
       <description>
 
@@ -520,7 +510,7 @@ AllowGroup sshusers
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Http Header info in error messages:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/info-leak-01.png&#34; alt=&#34;../src/img/security-guide/info-leak-01.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/security-guide/info-leak-01.png&#34; alt=&#34;https://docs.barricade.io/src/img/security-guide/info-leak-01.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Including developer comments in the page:&lt;/p&gt;
 
@@ -528,7 +518,7 @@ AllowGroup sshusers
 
 &lt;li&gt;&lt;p&gt;Exposing directories:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/info-leak-02.png&#34; alt=&#34;../src/img/security-guide/info-leak-02.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/security-guide/info-leak-02.png&#34; alt=&#34;https://docs.barricade.io/src/img/security-guide/info-leak-02.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Information leaks can occur in a variety of ways, depending on what language your app is written in, what software it connects to, etc. Barricade provides a layer of visibility into any weak points you may be presenting to web traffic.&lt;/p&gt;
@@ -579,8 +569,7 @@ AllowGroup sshusers
     <item>
       <title>Sensitive Information Leaks</title>
       <link>https://docs.barricade.io/security-guide/sensitive-info-detected/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/sensitive-info-detected/</guid>
       <description>
 
@@ -591,214 +580,6 @@ AllowGroup sshusers
 &lt;p&gt;It&amp;rsquo;s important to keep sensitive information safe online - in the wrong hands, credit card and identifying information can be used to commit fraud and identity theft. &lt;/p&gt;
 
 &lt;p&gt;Barricade will help you identify any such exposed information on your systems - if someone posts credit card details to a public-facing part of your website or application, you will be alerted in real time.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Vulnerable Software</title>
-      <link>https://docs.barricade.io/security-guide/package_vulnerabilities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/security-guide/package_vulnerabilities/</guid>
-      <description>
-
-&lt;p&gt;Barricade keeps an eye on the software packages on your server, checking version information for any serious lapses. Running out-of-date software greatly increases the odds of an attack on your system.&lt;/p&gt;
-
-&lt;h2 id=&#34;causes:5965d07dfff0c17d8241feb78770d387&#34;&gt;Causes&lt;/h2&gt;
-
-&lt;p&gt;Out-of-date typically software means more vulnerable software - a lot of web app attacks specifically seek out older packages, in order to apply targetted attacks.&lt;/p&gt;
-
-&lt;h2 id=&#34;risk-levels:5965d07dfff0c17d8241feb78770d387&#34;&gt;Risk Levels&lt;/h2&gt;
-
-&lt;table class=&#34;risk&#34;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;A minor vulnerability was found - you should update old software.&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;A series of vulnerabilities were found - you have multiple instances of outdated software.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;A serious vulnerability was found - your software urgently needs to be updated!&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;recommendations:5965d07dfff0c17d8241feb78770d387&#34;&gt;Recommendations&lt;/h2&gt;
-
-&lt;p&gt;It&amp;rsquo;s important to keep your software packages up-to-date - applying patches and security fixes as they are released. Staying on top of updates will reduce your vulnerabilities.&lt;/p&gt;
-
-&lt;p&gt;When Barricade detects vulnerable software, the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;in-app case&lt;/a&gt; will show you out-of-date package info.&lt;/p&gt;
-
-&lt;p&gt;If your application or website is revealing &lt;a href=&#34;#system-info-detected&#34;&gt;system information&lt;/a&gt; (i.e. the version number) in addition to running vulnerable, older software - an attacker could discover and use that information against you. We recommend you also &lt;a href=&#34;https://www.owasp.org/index.php/Information_Leakage&#34;&gt;hide version information&lt;/a&gt; away from public web traffic.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Policy Violations</title>
-      <link>https://docs.barricade.io/security-guide/policy-violations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/security-guide/policy-violations/</guid>
-      <description>
-
-&lt;p&gt;Barricade watches for network traffic which may be in violation of your corporate privacy policy. This includes traffic related to torrent and certain restricted websites.&lt;/p&gt;
-
-&lt;h2 id=&#34;risk-levels:e6b39a1a0ec0b49c935d520b5c909811&#34;&gt;Risk Levels&lt;/h2&gt;
-
-&lt;table class=&#34;risk&#34;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;A policy violation was detected&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Multiple policy violation was detected&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;A serious policy violation was detected&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trojan Infections</title>
-      <link>https://docs.barricade.io/security-guide/trojan-infection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/security-guide/trojan-infection/</guid>
-      <description>
-
-&lt;p&gt;Barricade monitors your network traffic for any signs of a Trojan Horse infection. Any suspicious activity is examined in real-time and Alerts sent if a legitimate problem is found.  &lt;/p&gt;
-
-&lt;h2 id=&#34;causes:7e84885da6ffa39ab9bf6932b35f6b96&#34;&gt;Causes&lt;/h2&gt;
-
-&lt;p&gt;Trojans&lt;/p&gt;
-
-&lt;p&gt;Unlike worms and viruses, Trojans don&amp;rsquo;t spread themselves - they usually find their way into a system through social engineering - tricking a user into installating them.&lt;/p&gt;
-
-&lt;p&gt;Trojans can effect you in a variety of ways - depending on the type of trojan:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Remote access Trojans&lt;/li&gt;
-&lt;li&gt;Data-sending Trojans&lt;/li&gt;
-&lt;li&gt;Destructive Trojans&lt;/li&gt;
-&lt;li&gt;Denial of service (DoS) attack Trojans&lt;/li&gt;
-&lt;li&gt;Proxy Trojans&lt;/li&gt;
-&lt;li&gt;FTP Trojans&lt;/li&gt;
-&lt;li&gt;Security software disablers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;risk-levels:7e84885da6ffa39ab9bf6932b35f6b96&#34;&gt;Risk Levels&lt;/h2&gt;
-
-&lt;table class=&#34;risk&#34;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Some odd low-level activity was noticed. A common occurance.&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;A Trojan has been detected - you should look into this as soon as possible.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;A serious Trojan has been detected - take immediate action!&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;recommendations:7e84885da6ffa39ab9bf6932b35f6b96&#34;&gt;Recommendations&lt;/h2&gt;
-
-&lt;p&gt;Your first step should be to identify the Trojan - listening to open ports and observing memory usage to help diagnosis. Scanner and Antivirus tools can help you identify the Trojan.&lt;/p&gt;
-
-&lt;p&gt;Trojans can limit your ability to access and remove the infection - depending on the type of Trojan, you may not be able to manually remove files - in which case the system may need to be restored to an earlier backup to ensure a clean recovery.&lt;/p&gt;
-
-&lt;p&gt;Related links:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.symantec.com/security_response/landing/threats.jsp&#34;&gt;Security Response: Trojans&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://antivirus.about.com/b/2006/05/31/whats-a-trojan-horse-virus.htm&#34;&gt;What is a Trojan Horse?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to Run Commands</title>
-      <link>https://docs.barricade.io/security-guide/running-commands/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/security-guide/running-commands/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re unsure about how to do this, you should refer to your Cloud provider&amp;rsquo;s documentation:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html&#34;&gt;Amazon Web Services - Using SSH&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/compute/docs/ssh-in-browser&#34;&gt;Google Cloud Platform - SSH from the Browser&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh&#34;&gt;Digital Ocean - Connect to Your Droplet with SSH&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To make an SSH connection, you&amp;rsquo;ll need the following:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;An SSH client or Command Line Tool&lt;/li&gt;
-&lt;li&gt;Username (usually &lt;em&gt;root&lt;/em&gt; on Linux)&lt;/li&gt;
-&lt;li&gt;Password and/or SSH Key&lt;/li&gt;
-&lt;li&gt;The IP address of your Server&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;em&gt;An example of the DigitalOcean&amp;rsquo;s in-browser SSH tool, where you would run the command:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/do-ssh.jpeg&#34; alt=&#34;../src/img/getting-started/do-ssh.jpeg&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Blocking IP Addresses</title>
-      <link>https://docs.barricade.io/security-guide/blocking-ip-address/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/security-guide/blocking-ip-address/</guid>
-      <description>
-
-&lt;p&gt;If you&amp;rsquo;re receiving alerts that your system is experiencing an attack, we will often recommend you take action and block the attacker to prevent them from trying again.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-block-an-ip-address:ffe20ac09e209f2525f17858c38b5c25&#34;&gt;How to Block an IP Address&lt;/h2&gt;
-
-&lt;p&gt;To block an IP address, you&amp;rsquo;ll need to run an &lt;code&gt;IPTABLES&lt;/code&gt; command on your server - our Alert messages present this command for you to copy:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/block-ip-01.png&#34; alt=&#34;../src/img/security-guide/block-ip-01.png&#34; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Click the button on the right to copy the command to your clipboard.&lt;/li&gt;
-&lt;li&gt;Paste and run the command on your server.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Iptables is a tool for configuring firewall rules in Linux servers - see the &lt;a href=&#34;http://ipset.netfilter.org/iptables.man.html&#34;&gt;iptables main page&lt;/a&gt; for the full list of supported commands.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-run-commands:ffe20ac09e209f2525f17858c38b5c25&#34;&gt;How to Run Commands&lt;/h2&gt;
-
-&lt;p&gt;If you&amp;rsquo;d not familiar with running commands on your server (using SSH), see the &lt;a href=&#34;#running-commands&#34;&gt;How to Run Commands on Your Server&lt;/a&gt;tips.&lt;/p&gt;
 </description>
     </item>
     

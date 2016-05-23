@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aws Waf on </title>
+      <title>Aws Waf</title>
     <link>https://docs.barricade.io/tags/aws-waf/</link>
-    <description>Recent content in Aws Waf on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/aws-waf/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Amazon WAF Integration</title>
       <link>https://docs.barricade.io/using-barricade/aws-waf-integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/aws-waf-integration/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://aws.amazon.com/waf/&#34;&gt;AWS Web Application Firewall (WAF)&lt;/a&gt; helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources. You can integrate AWS WAF with Barricade to make an intelligent and learning firewall.&lt;/p&gt;
 
@@ -45,7 +43,7 @@ _&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Once you&amp;rsquo;ve enabled the WAF, you will need to go to your &lt;a href=&#34;https://aws.amazon.com/cloudfront/&#34;&gt;CloudFront&lt;/a&gt; distribution settings, and set the AWS WAF Web ACL to &lt;code&gt;BARRICADE-WAF&lt;/code&gt; like such:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-02.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-02.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-02.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-02.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;giving-barricade-access-security-groups:b34a4a33b05843c6b2f999d8866d725e&#34;&gt;Giving Barricade Access (Security Groups)&lt;/h3&gt;
@@ -57,17 +55,17 @@ _&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Create a new user named &lt;strong&gt;barricade-waf &lt;/strong&gt;and make sure to check the &lt;em&gt;&amp;ldquo;Generate an access key for each user&amp;rdquo;&lt;/em&gt;. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-03.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-03.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-03.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-03.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;On the next step, after the user is created, copy the &lt;strong&gt;access id&lt;/strong&gt; and &lt;strong&gt;secret key&lt;/strong&gt; that&amp;rsquo;s presented to you under &lt;em&gt;Show User Security Credentials:&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-04.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-04.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-04.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-04.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;You will now need to create a &lt;strong&gt;Policy&lt;/strong&gt;. We&amp;rsquo;ll give you the policy, don&amp;rsquo;t worry.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Go to the &lt;a href=&#34;https://console.aws.amazon.com/iam/home#policies&#34;&gt;AWS policy page&lt;/a&gt;, and click on &lt;strong&gt;Create Policy&lt;/strong&gt;, then &lt;strong&gt;Create Your Own Policy&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-05.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-05.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-05.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-05.png&#34; /&gt;
  &lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;The next steps are tricky but we&amp;rsquo;ll give them to you here. You will need to name your policy, give it a description and set the policy. &lt;/p&gt;
@@ -120,11 +118,11 @@ _&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Once you are on your CloudFront Distribution&amp;rsquo;s page, click on the &lt;strong&gt;Edit&lt;/strong&gt; button. Then look for the &lt;strong&gt;AWS WAF Web ACL&lt;/strong&gt; option - yes, it&amp;rsquo;s quite the mouthful!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-06.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-06.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-06.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-06.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;BARRICADE-WAF &lt;/strong&gt;in the dropdown:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-07.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-07.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-07.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-07.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Click on &lt;strong&gt;Yes, Edit&lt;/strong&gt; confirmation button and wait until the &lt;em&gt;Distribution Status&lt;/em&gt; says &lt;strong&gt;Deployed&lt;/strong&gt;. &lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -135,7 +133,7 @@ _&lt;/p&gt;&lt;/li&gt;
 
 &lt;p&gt;Once the Integration is enabled, you can block a query with one click:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-08.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-08.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-08.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-08.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Go to the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;overview page&lt;/a&gt; in the Barricade app, and open a security case - you should see &amp;lsquo;AWS Firewall&amp;rsquo; as an option in cases where blocking an attacker IP address is part of the recommendation.&lt;/p&gt;
 
