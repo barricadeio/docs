@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dns on </title>
+      <title>Dns</title>
     <link>https://docs.barricade.io/tags/dns/</link>
-    <description>Recent content in Dns on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>CloudFlare Integration</title>
       <link>https://docs.barricade.io/using-barricade/cloudflare-integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/cloudflare-integration/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;../src/img/changelog/31-cloudflare.png&#34; alt=&#34;../src/img/changelog/31-cloudflare.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/changelog/31-cloudflare.png&#34; alt=&#34;https://docs.barricade.io/src/img/changelog/31-cloudflare.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; makes DNS secure, fast and simple, as well as providing some really great DDoS protection and security features. You can integrate CloudFlare with Barricade to make an intelligent, learning firewall that can protect your infrastructure from things like DDoS and brute force attacks.&lt;/p&gt;
 
@@ -32,7 +30,7 @@
 
 &lt;li&gt;&lt;p&gt;Login to CloudFlare.com and open the &lt;a href=&#34;https://www.cloudflare.com/a/account/my-account&#34;&gt;My Account&lt;/a&gt; page. You&amp;rsquo;ll need to retrieve your Global API key:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-cloudflare-api.gif&#34; alt=&#34;../src/img/using-barricade/16-cloudflare-api.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-cloudflare-api.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-cloudflare-api.gif&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Just so you know, &lt;strong&gt;we encrypt your key&lt;/strong&gt;, it is not stored in plaintext for security reasons.&lt;/p&gt;&lt;/li&gt;
 
@@ -45,7 +43,7 @@
 
 &lt;p&gt;You&amp;rsquo;ll see a new &amp;lsquo;Add To Firewall&amp;rsquo; button alongside attack details, allowing you simple one-click blocking of attackers:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-cloudflare-button.gif&#34; alt=&#34;../src/img/using-barricade/16-cloudflare-button.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-cloudflare-button.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-cloudflare-button.gif&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;--&lt;/p&gt;
 

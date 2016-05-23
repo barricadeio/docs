@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blocking on </title>
+      <title>Blocking</title>
     <link>https://docs.barricade.io/tags/blocking/</link>
-    <description>Recent content in Blocking on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/blocking/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Blocking IP Addresses</title>
       <link>https://docs.barricade.io/security-guide/blocking-ip-address/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/blocking-ip-address/</guid>
       <description>
 
@@ -21,7 +19,7 @@
 
 &lt;p&gt;To block an IP address, you&amp;rsquo;ll need to run an &lt;code&gt;IPTABLES&lt;/code&gt; command on your server - our Alert messages present this command for you to copy:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/block-ip-01.png&#34; alt=&#34;../src/img/security-guide/block-ip-01.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/security-guide/block-ip-01.png&#34; alt=&#34;https://docs.barricade.io/src/img/security-guide/block-ip-01.png&#34; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Click the button on the right to copy the command to your clipboard.&lt;/li&gt;

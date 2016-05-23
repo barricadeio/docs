@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hipchat on </title>
+      <title>Hipchat</title>
     <link>https://docs.barricade.io/tags/hipchat/</link>
-    <description>Recent content in Hipchat on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/hipchat/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Hipchat Integration</title>
       <link>https://docs.barricade.io/using-barricade/hipchat-integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/hipchat-integration/</guid>
       <description>
 
@@ -19,7 +17,7 @@
 
 &lt;p&gt;You can integrate HipChat with Barricade to share security notifications with your team:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-01.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-01.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-01.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-01.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;setting-up-the-integration:dca5d5bd8580eafd280a3fc4c35e98a6&#34;&gt;Setting up the Integration&lt;/h3&gt;
 
@@ -28,31 +26,31 @@
 
 &lt;li&gt;&lt;p&gt;Click on the switch to &lt;strong&gt;Enable&lt;/strong&gt; the integration:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-enable.gif&#34; alt=&#34;../src/img/using-barricade/14-hipchat-enable.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-enable.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-enable.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Follow the Integration Instructions that appear onscreen -&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Open your Hipchat window, and navigate to the channel you want to send notifications to. We recommend creating a new room named &lt;em&gt;Barricade.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Open the Room options and select &lt;strong&gt;Integrations&lt;/strong&gt;.
-&lt;img src=&#34;../src/img/using-barricade/14-hipchat-select.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-select.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-select.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-select.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;From the Integrations page click on &lt;strong&gt;Tokens&lt;/strong&gt; in the menu on the right, and you&amp;rsquo;ll see a &lt;strong&gt;Create new token&lt;/strong&gt; form appear at the bottom of the page:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-set-label.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-set-label.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-set-label.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-set-label.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Set a descriptive label in the text field at the bottom of the page. In the second field, select &lt;em&gt;Send Notification&lt;/em&gt; and click &lt;em&gt;Create&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-tokens.gif&#34; alt=&#34;../src/img/using-barricade/14-tokens.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-tokens.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-tokens.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;The page will display a Room Notification Token, a string that looks something like this: &lt;code&gt;9KFell1q8yZpcZTIWwUaDohs4gNfw7C2LHCyHWCT&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-copy-token.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-copy-token.png&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-copy-token.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-copy-token.png&#34; /&gt;&lt;br /&gt;
 &lt;strong&gt;Copy the Token&lt;/strong&gt;, and return to the &lt;a href=&#34;https://app.barricade.io/dashboard/settings/notification/hipchat&#34;&gt;HipChat page&lt;/a&gt; in the Barricade app.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Paste the token into the form, under the Instructions, and add a label for the HipChat channel you wish to post notifications to:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-save.gif&#34; alt=&#34;../src/img/using-barricade/14-hipchat-save.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-save.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-save.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Click &lt;em&gt;Save Integration&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
 
@@ -65,7 +63,7 @@
 
 &lt;h3 id=&#34;troubleshooting-integrations-isn-t-available-in-hipchat:dca5d5bd8580eafd280a3fc4c35e98a6&#34;&gt;Troubleshooting: Integrations isn&amp;rsquo;t available in HipChat&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-no-integration.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-no-integration.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-no-integration.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-no-integration.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In HipChat, accounts can be configured to restrict access to Integration and Token settings. If Integrations appears as a greyed-out, disabled option; you&amp;rsquo;ll need to contact theHipChat account owner.&lt;/p&gt;
 </description>

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Version on </title>
+      <title>Version</title>
     <link>https://docs.barricade.io/tags/version/</link>
-    <description>Recent content in Version on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/version/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>System Information Leaks</title>
       <link>https://docs.barricade.io/security-guide/system-info-detected/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/system-info-detected/</guid>
       <description>
 
@@ -26,7 +24,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Http Header info in error messages:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/info-leak-01.png&#34; alt=&#34;../src/img/security-guide/info-leak-01.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/security-guide/info-leak-01.png&#34; alt=&#34;https://docs.barricade.io/src/img/security-guide/info-leak-01.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Including developer comments in the page:&lt;/p&gt;
 
@@ -34,7 +32,7 @@
 
 &lt;li&gt;&lt;p&gt;Exposing directories:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/security-guide/info-leak-02.png&#34; alt=&#34;../src/img/security-guide/info-leak-02.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/security-guide/info-leak-02.png&#34; alt=&#34;https://docs.barricade.io/src/img/security-guide/info-leak-02.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Information leaks can occur in a variety of ways, depending on what language your app is written in, what software it connects to, etc. Barricade provides a layer of visibility into any weak points you may be presenting to web traffic.&lt;/p&gt;
@@ -85,8 +83,7 @@
     <item>
       <title>Vulnerable Software</title>
       <link>https://docs.barricade.io/security-guide/package_vulnerabilities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/package_vulnerabilities/</guid>
       <description>
 

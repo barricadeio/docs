@@ -5,7 +5,7 @@ description = "Resources for using and developing with Barricade"
 publishdir = "static"
 destination = "static"
 
-canonifyURLs = "false"
+canonifyURLs = "true"
 relativeURLs = "false"
 pluralizeListTitles = "false"
 plainIdAnchors = "true"

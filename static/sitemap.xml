@@ -186,10 +186,6 @@
   </url>
   
   <url>
-    <loc>https://docs.barricade.io/using-barricade/custom-webhooks/</loc>
-  </url>
-  
-  <url>
     <loc>https://docs.barricade.io/security-guide/system-info-detected/</loc>
   </url>
   
@@ -261,6 +257,10 @@
   <url>
     <loc>https://docs.barricade.io/changelog/azure-support</loc>
     <lastmod>2016-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.barricade.io/using-barricade/stopping-and-removing-agents/</loc>
   </url>
   
   <url>

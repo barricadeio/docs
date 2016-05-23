@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Continuous Integration on </title>
+      <title>Continuous Integration</title>
     <link>https://docs.barricade.io/tags/continuous-integration/</link>
-    <description>Recent content in Continuous Integration on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>C.I. Security Tests</title>
       <link>https://docs.barricade.io/using-barricade/ci-sec-testing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/ci-sec-testing/</guid>
       <description>
 
@@ -19,7 +17,7 @@
 
 &lt;p&gt;We&amp;rsquo;re big believers in &lt;a href=&#34;https://blog.barricade.io/continuous-security/&#34;&gt;continuous security&lt;/a&gt;, and want to help you incorporate security into the development lifecycle. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-sectests.png&#34; alt=&#34;../src/img/using-barricade/16-sectests.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectests.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectests.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;what-do-security-tests-check-for:7392f22a00640c36ba214df8def7b81e&#34;&gt;What do Security Tests check for?&lt;/h3&gt;
 
@@ -41,7 +39,7 @@
 
 &lt;h3 id=&#34;security-tests-with-webhooks:7392f22a00640c36ba214df8def7b81e&#34;&gt;Security Tests with Webhooks&lt;/h3&gt;
 
-&lt;p&gt; &lt;img src=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; alt=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectest-settings.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectest-settings.gif&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;enabling-the-integration:7392f22a00640c36ba214df8def7b81e&#34;&gt;Enabling the Integration:&lt;/h2&gt;
 
@@ -221,7 +219,7 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 
 &lt;p&gt;If you&amp;rsquo;re experiencing issues submitting a test, try generating a new webhook URL on the settings page:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-regen.gif&#34; alt=&#34;../src/img/using-barricade/16-regen.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-regen.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-regen.gif&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
