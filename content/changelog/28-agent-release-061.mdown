@@ -12,7 +12,7 @@ weight = "28"
 
 We’ve shipped an update to our monitoring Agent, to improve performance and minimise the amount of server resources used by the Agent.
 
-To apply these changes, [update your Agents now](../../using-barricade/#updating-agents).
+To apply these changes, [update your Agents now](https://docs.barricade.io/using-barricade/#updating-agents).
 
 ## Improvements:
 

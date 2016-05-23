@@ -82,27 +82,27 @@ Here's a breakdown of the permissions per role:
 
 The [team profile page](https://app.barricade.io/dashboard/settings/team/profile) allows you to edit your team name. Only the admin can change the name of a team.
 
-![../src/img/using-barricade/11-team-01.png](../src/img/using-barricade/11-team-01.png)
+![https://docs.barricade.io/src/img/using-barricade/11-team-01.png](https://docs.barricade.io/src/img/using-barricade/11-team-01.png)
 
 ### How to Invite Members
 
 The [invitations](https://app.barricade.io/dashboard/settings/team/invitations) page lets you add new members via email address: 
 
-![../src/img/using-barricade/11-team-02.gif](../src/img/using-barricade/11-team-02.gif)
+![https://docs.barricade.io/src/img/using-barricade/11-team-02.gif](https://docs.barricade.io/src/img/using-barricade/11-team-02.gif)
 
 1.  Enter the email address and click the Invite button.
 2.  The page will show that an email invite has been issued.
     You can revoke any unaccepted invitations by clicking the 'X' on the right:
 
-    ![../src/img/using-barricade/11-team-03.png](../src/img/using-barricade/11-team-03.png)
+    ![https://docs.barricade.io/src/img/using-barricade/11-team-03.png](https://docs.barricade.io/src/img/using-barricade/11-team-03.png)
 3.  The new member will receive a confirmation email with an activation link:
 
-    ![../src/img/using-barricade/11-team-04.png](../src/img/using-barricade/11-team-04.png)
+    ![https://docs.barricade.io/src/img/using-barricade/11-team-04.png](https://docs.barricade.io/src/img/using-barricade/11-team-04.png)
 4.  Once activated, they can login and will have read-access to information from your Agents
 
 ### How to Remove Members
 
-![../src/img/using-barricade/11-team-05.gif](../src/img/using-barricade/11-team-05.gif)
+![https://docs.barricade.io/src/img/using-barricade/11-team-05.gif](https://docs.barricade.io/src/img/using-barricade/11-team-05.gif)
 
 1.  To remove members you must be logged in as the Team Admin
 2.  Visit the app [Team page](https://app.barricade.io/dashboard/settings/team/members) 

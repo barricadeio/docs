@@ -9,12 +9,12 @@ weight = "05"
 
 +++
 
-[Slack](../../using-barricade/#slack) is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!
+[Slack](https://docs.barricade.io/using-barricade/#slack) is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!
 
-![../../src/img/changelog/05-slack-logo.png](../../src/img/changelog/05-slack-logo.png)
+![https://docs.barricade.io/src/img/changelog/05-slack-logo.png](https://docs.barricade.io/src/img/changelog/05-slack-logo.png)
 
 You can integrate Slack with Barricade to share security notifications with you team:
 
-![../../src/img/changelog/05-slack-message.png](../../src/img/changelog/05-slack-message.png)
+![https://docs.barricade.io/src/img/changelog/05-slack-message.png](https://docs.barricade.io/src/img/changelog/05-slack-message.png)
 
-For more information on using this feature, see our guide to [Integrating with Slack](../../using-barricade/#slack).
+For more information on using this feature, see our guide to [Integrating with Slack](https://docs.barricade.io/using-barricade/#slack).

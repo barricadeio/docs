@@ -13,4 +13,4 @@ We've shipped an update to our A.I. engine, to improve the detection accuracy an
 
 We're working constantly on the engine to ensure the best results for our customers. If you're seeing any data you're not sure about - do let us know.
 
-![../../src/img/changelog/03-screen.png](../../src/img/changelog/03-screen.png)
+![https://docs.barricade.io/src/img/changelog/03-screen.png](https://docs.barricade.io/src/img/changelog/03-screen.png)

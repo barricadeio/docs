@@ -18,6 +18,6 @@ We did this because we're tired of security products trying to change how you wo
 
 You can read more about using custom webhooks in our [blog announcement](https://blog.barricade.io/barricade-welcomes-webhooks).
 
-![../../src/img/changelog/30-webhooks.gif](../../src/img/changelog/30-webhooks.gif)
+![https://docs.barricade.io/src/img/changelog/30-webhooks.gif](https://docs.barricade.io/src/img/changelog/30-webhooks.gif)
 
 To go ahead and create your own webhooks, go to [app.barricade.io/dashboard/settings/notification/webhook](https://app.barricade.io/dashboard/settings/notification/webhook)

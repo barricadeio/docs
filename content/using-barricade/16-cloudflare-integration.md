@@ -15,7 +15,7 @@ slug = "cloudflare-integration"
 
 +++
 
-![../src/img/changelog/31-cloudflare.png](../src/img/changelog/31-cloudflare.png)
+![https://docs.barricade.io/src/img/changelog/31-cloudflare.png](https://docs.barricade.io/src/img/changelog/31-cloudflare.png)
 
 [CloudFlare](https://cloudflare.com/) makes DNS secure, fast and simple, as well as providing some really great DDoS protection and security features. You can integrate CloudFlare with Barricade to make an intelligent, learning firewall that can protect your infrastructure from things like DDoS and brute force attacks.
 
@@ -31,7 +31,7 @@ You'll need to be using both Barricade and [CloudFlare](https://cloudflare.com/)
 
 3. Login to CloudFlare.com and open the [My Account](https://www.cloudflare.com/a/account/my-account) page. You'll need to retrieve your Global API key:
 
-    ![../src/img/using-barricade/16-cloudflare-api.gif](../src/img/using-barricade/16-cloudflare-api.gif)
+    ![https://docs.barricade.io/src/img/using-barricade/16-cloudflare-api.gif](https://docs.barricade.io/src/img/using-barricade/16-cloudflare-api.gif)
 
     Just so you know, **we encrypt your key**, it is not stored in plaintext for security reasons.
 
@@ -44,7 +44,7 @@ That's it - now you can quickly utilize the CloudFlare firewall from within Barr
 
 You'll see a new 'Add To Firewall' button alongside attack details, allowing you simple one-click blocking of attackers:
 
-![../src/img/using-barricade/16-cloudflare-button.gif](../src/img/using-barricade/16-cloudflare-button.gif)
+![https://docs.barricade.io/src/img/using-barricade/16-cloudflare-button.gif](https://docs.barricade.io/src/img/using-barricade/16-cloudflare-button.gif)
 
 --
 

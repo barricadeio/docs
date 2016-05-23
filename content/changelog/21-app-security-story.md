@@ -11,7 +11,7 @@ weight = "21"
 
 We're very happy to reveal a big change to how we present details of events, attacks and incidents; the **Security Story** - designed to improve your visibility into your Application Security.
 
-[![../../src/img/changelog/21-appsec.png](../../src/img/changelog/21-appsec.png)](../../src/img/changelog/21-appsec.png)
+[![https://docs.barricade.io/src/img/changelog/21-appsec.png](https://docs.barricade.io/src/img/changelog/21-appsec.png)](https://docs.barricade.io/src/img/changelog/21-appsec.png)
 
 ### The Session Timeline
 
@@ -25,7 +25,7 @@ This information is presented alongside the case details and recommendations, to
 
 Now you can see wider **activity** and the **route** that that attacker has taken through your system - so you can spend less time digging through server logs, and get more visibility into issues, to better understand where a particular vulnerability originated in your app.
 
-![../../src/img/changelog/21-timeline.png](../../src/img/changelog/21-timeline.png)
+![https://docs.barricade.io/src/img/changelog/21-timeline.png](https://docs.barricade.io/src/img/changelog/21-timeline.png)
 
 ### Attacker Profile
 
@@ -33,7 +33,7 @@ We've also added information to help you **profile** the behavior of attackers o
 
 _We're excited about this - we will continue to bring new user-friendly features to help you organize, filter and browse insights into your application security._  
 
-![../../src/img/changelog/21-details.png](../../src/img/changelog/21-details.png)
+![https://docs.barricade.io/src/img/changelog/21-details.png](https://docs.barricade.io/src/img/changelog/21-details.png)
 
 --
 

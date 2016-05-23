@@ -21,7 +21,7 @@ If you're receiving alerts that your system is experiencing an attack, we will
 
 To block an IP address, you'll need to run an `IPTABLES` command on your server - our Alert messages present this command for you to copy:
 
-![../src/img/security-guide/block-ip-01.png](../src/img/security-guide/block-ip-01.png)
+![https://docs.barricade.io/src/img/security-guide/block-ip-01.png](https://docs.barricade.io/src/img/security-guide/block-ip-01.png)
 
 1.  Click the button on the right to copy the command to your clipboard.
 2.  Paste and run the command on your server.

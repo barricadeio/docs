@@ -21,11 +21,11 @@ If you are running multiple Barricade Agents, you'll see data pooled in the dash
 
 You can filter Case data in the app by accessing the Filter option at the top of the `Dashboard -> Overview` navigation:
 
-![../src/img/using-barricade/28-tagging-01.png](../src/img/using-barricade/28-tagging-01.png)
+![https://docs.barricade.io/src/img/using-barricade/28-tagging-01.png](https://docs.barricade.io/src/img/using-barricade/28-tagging-01.png)
 
 When you have active Filters, the menu will look like this:
 
-![../src/img/using-barricade/28-tagging-02.png](../src/img/using-barricade/28-tagging-02.png)
+![https://docs.barricade.io/src/img/using-barricade/28-tagging-02.png](https://docs.barricade.io/src/img/using-barricade/28-tagging-02.png)
 
 ### Using Filters
 
@@ -36,13 +36,13 @@ When you have active Filters, the menu will look like this:
 
 _Example:_
 
-![../src/img/using-barricade/28-filters.gif](../src/img/using-barricade/28-filters.gif)
+![https://docs.barricade.io/src/img/using-barricade/28-filters.gif](https://docs.barricade.io/src/img/using-barricade/28-filters.gif)
 
 ### Editing Agent Tags
 
 An agent's tag can be edited in two ways. Either through the `Dashboard -> Agents` page which can be found on the left-hand side menu, or through an automated configuration file described below the animation.
 
-![../src/img/using-barricade/28-Agent-Tags-Edit.gif](../src/img/using-barricade/28-Agent-Tags-Edit.gif)
+![https://docs.barricade.io/src/img/using-barricade/28-Agent-Tags-Edit.gif](https://docs.barricade.io/src/img/using-barricade/28-Agent-Tags-Edit.gif)
 
 You can change the Tags associated with your Agents in the configuration file, located on your server at `/service/barricade/barricade.cfg `
 

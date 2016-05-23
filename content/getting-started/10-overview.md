@@ -22,6 +22,6 @@ Barricade collects data from your server with an **Agent** - a simple, lightweig
 This data is encrypted and processed through Barricades' central detection **Engine**, and findings are displayed in real-time in your dashboard and notification channels.
 
 
-![../src/img/getting-started/agent-chart-sm.png](../src/img/getting-started/agent-chart-sm.png)
+![https://docs.barricade.io/src/img/getting-started/agent-chart-sm.png](https://docs.barricade.io/src/img/getting-started/agent-chart-sm.png)
 
-_Barricade's Collection Workflow - gathering, processing and alerting ([open in full-size](../src/img/getting-started/agent-chart-lg.png))._
+_Barricade's Collection Workflow - gathering, processing and alerting ([open full-size image](https://docs.barricade.io/src/img/getting-started/agent-chart-lg.png))._

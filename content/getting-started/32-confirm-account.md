@@ -17,6 +17,6 @@ slug = "confirm-account"
 
 Once you've completed the account setup, you'll get a confirmation email from us, and you'll see this screen:
 
-![../src/img/getting-started/welcome.png](../src/img/getting-started/welcome.png)
+![https://docs.barricade.io/src/img/getting-started/welcome.png](https://docs.barricade.io/src/img/getting-started/welcome.png)
 
 You're now inside the Barricade app, where you'll be instructed to install your first agent.

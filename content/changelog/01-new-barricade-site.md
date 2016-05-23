@@ -11,4 +11,4 @@ weight = "01"
 
 Our new site is live! [Check it out at Barricade.io](https://barricade.io)
 
-![../../../src/img/changelog/new-site-01.png](../../../src/img/changelog/new-site-01.png)
+![https://docs.barricade.io/src/img/changelog/new-site-01.png](https://docs.barricade.io/src/img/changelog/new-site-01.png)

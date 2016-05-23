@@ -9,7 +9,7 @@ weight = "12"
 
 +++
 
-We've shipped an update to our detection engine, to improve the accuracy of web app attack cases. These changes will reduce false positives, and better classify the type of web app attack ([SQL Injection](../../security-guide/#web-app-attack), [Cross-Site Scripting](../../security-guide/#xss), etc).
+We've shipped an update to our detection engine, to improve the accuracy of web app attack cases. These changes will reduce false positives, and better classify the type of web app attack ([SQL Injection](https://docs.barricade.io/security-guide/#web-app-attack), [Cross-Site Scripting](https://docs.barricade.io/security-guide/#xss), etc).
 
 We've also corrected an issue where some `scripts` were being identified as attacks.
 

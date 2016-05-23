@@ -10,8 +10,8 @@ weight = "23"
 
 +++
 
-We've shipped an improvement to our new '[Security Story](../#app-security-story)' App Sec feature, which breaks down the details of the attackers behavior in terms of HTTP requests:
+We've shipped an improvement to our new '[Security Story](https://docs.barricade.io/#app-security-story)' App Sec feature, which breaks down the details of the attackers behavior in terms of HTTP requests:
 
-![../../src/img/changelog/23-app-sec-details.png](../../src/img/changelog/23-app-sec-details.png)
+![https://docs.barricade.io/src/img/changelog/23-app-sec-details.png](https://docs.barricade.io/src/img/changelog/23-app-sec-details.png)
 
 This change is [now live in the app](https://app.barricade.io/dashboard/overview) - you should see the **'Reveal Details'** option appearing for different types of cases.

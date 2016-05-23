@@ -17,7 +17,7 @@ slug = "installing-an-agent"
 
 You'll find the installation command in the top panel of the Barricade app - click the New Agent button to reveal the install code, which you will need to **copy**, then **paste and run** on your server.
 
-![../src/img/getting-started/drawer-opening.gif](../src/img/getting-started/drawer-opening.gif)
+![https://docs.barricade.io/src/img/getting-started/drawer-opening.gif](https://docs.barricade.io/src/img/getting-started/drawer-opening.gif)
 
 ## What is Installed?
 

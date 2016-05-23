@@ -17,7 +17,7 @@ slug = "stopping-and-removing-agents"
 
 If you wish to stop monitoring a server, you can **pause** or **retire** the Agent via the [controls on this page](https://app.barricade.io/dashboard/agents):
 
-![../../src/img/changelog/24-controls.gif](../../src/img/changelog/24-controls.gif)
+![https://docs.barricade.io/src/img/changelog/24-controls.gif](https://docs.barricade.io/src/img/changelog/24-controls.gif)
 
 Agents that are paused can be restarted later - whereas you cannot 'undo' a retired Agent through the web interface - a [reinstall](#installing-more-agents) would be required to restore the Agent.
 
@@ -38,6 +38,6 @@ To remove from a CentOS server: `rpm -e barricade`
 
 ## One-way Agents
 
-Clicking 'pause' or retire' will prompt Barricade to signal a change in behavior to the Agent through the status API - it can't directly write to or alter the Agent directly ([by design](../getting-started/#how-it-works-agent)).
+Clicking 'pause' or retire' will prompt Barricade to signal a change in behavior to the Agent through the status API - it can't directly write to or alter the Agent directly ([by design](https://docs.barricade.io/getting-started/#how-it-works-agent)).
 
 When the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.

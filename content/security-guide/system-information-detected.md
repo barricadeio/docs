@@ -25,7 +25,7 @@ It's important to keep any information about your systems away from prying eyes 
 
 *   Http Header info in error messages:  
 
-    ![../src/img/security-guide/info-leak-01.png](../src/img/security-guide/info-leak-01.png)  
+    ![https://docs.barricade.io/src/img/security-guide/info-leak-01.png](https://docs.barricade.io/src/img/security-guide/info-leak-01.png)  
 
 *   Including developer comments in the page:  
 
@@ -33,7 +33,7 @@ It's important to keep any information about your systems away from prying eyes 
 
 *   Exposing directories:  
 
-    ![../src/img/security-guide/info-leak-02.png](../src/img/security-guide/info-leak-02.png)
+    ![https://docs.barricade.io/src/img/security-guide/info-leak-02.png](https://docs.barricade.io/src/img/security-guide/info-leak-02.png)
 
 Information leaks can occur in a variety of ways, depending on what language your app is written in, what software it connects to, etc. Barricade provides a layer of visibility into any weak points you may be presenting to web traffic.
 

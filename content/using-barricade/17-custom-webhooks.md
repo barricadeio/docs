@@ -1,69 +1,43 @@
 +++
-title = "Custom Webhooks"
-weight = "17"
+title = "Stopping & Removing Agents"
+description = "How to pause and retire Barricade Agents"
+weight = "27"
 
-tags = ["notifications", "webhooks", "api", "webhook", "web", "hooks", "zapier", "pagerduty", "post", "json"]
+tags = ["account", "close", "remove", "uninstall", "delete"]
 section = "using-barricade"
 categories = ["using-barricade"]
 type = "page"
-
-slug = "custom-webhooks"
+slug = "stopping-and-removing-agents"
 
 [menu.main]
-    url = "custom-webhooks"
+    url = "stopping-and-removing-agents"
     parent = "using-barricade"
 
 +++
 
-Webhooks are a simple way to post messages from Barricade to external sources to compliment our [public API](https://docs.barricade.io/api) which allows developers to programatically access any information in their Barricade account.
+If you wish to stop monitoring a server, you can **pause** or **retire** the Agent via the [controls on this page](https://app.barricade.io/dashboard/agents):
 
-To make the process of security response even easier, we’ve also created a Webhook mechanism that uses HTTP to proactively POST a JSON payload of new security cases to your URL of choice.
+![https://docs.barricade.io/src/img/changelog/24-controls.gif](https://docs.barricade.io/src/img/changelog/24-controls.gif)
 
-Webhook settings page: [app.barricade.io/dashboard/settings/notification/webhook](https://app.barricade.io/dashboard/settings/notification/webhook)
-
-
-### Example Use
-To demonstrate the usefulness of webhooks, here's an example which uses creates a webhook to automatically log security cases in [PagerDuty](https://www.pagerduty.com/), through [Zapier](https://zapier.com/).
-
-_PagerDuty is your fastest path to incident resolution, helping IT Operations and DevOps teams deliver on the promise of agility, performance, and uptime._
-
-_Zapier makes automation easy for busy people. Zapier moves info between your web apps automatically, so you can focus on your most important work. It automates your workflows._
-
-### Setting Up a Webhook
-
-1.  Login to Barricade and go to Settings > Notifications> [Custom Notifications](https://app.barricade.io/dashboard/settings/notification/webhook)
-
-2. Click on the switch to **Enable** webhooks.
-
-3. Once you’ve enabled the integration, head on over to your Zapier account and create a new [Webhook Zap](https://zapier.com/zapbook/webhook/) catch hook:
-
-    ![../src/img/changelog/using-barricade/17-webhook-paste.gif](../src/img/using-barricade/17-webhook-paste.gif)
-
-    After having created your Zapier Webhook, go back to your Barricade dashboard and paste the URL of your Webhook. 
-
-    As soon as your first attack comes through the Zap will be validated.
-
-    ![../src/img/changelog/using-barricade/17-zapier-complete.gif](../src/img/using-barricade/17-zapier-complete.gif)
-
-4. Nearly there.
-
-    Now setup the action on Zapier. This is what happens when Barricade catches an attack and sends data to the webhook URL.
-
-    ![../src/img/changelog/using-barricade/17-pagerduty-1.gif](../src/img/using-barricade/17-pagerduty-1.gif)
-
-    We’re big fans of PagerDuty for helping out with incident resolution so we select PagerDuty, choose **Add Trigger Event**, connect to our account and voila!
-
-    ![../src/img/changelog/using-barricade/17-pagerduty-2.gif](../src/img/using-barricade/17-pagerduty-2.gif)
-
-    Barricade sends security cases to Zapier which then sends it to PagerDuty, without needing any developer interaction.
-
-5. Finally, you name your Zap and you’re done.
-
-    ![../src/img/changelog/using-barricade/17-pagerduty-3.png](../src/img/using-barricade/17-pagerduty-3.png)
+Agents that are paused can be restarted later - whereas you cannot 'undo' a retired Agent through the web interface - a [reinstall](#installing-more-agents) would be required to restore the Agent.
 
 
-That's it! Workflow automated.
+## Pausing Agents
 
---
+Older Agent versions do not support pausing and restarting. You should [update the Agent](#updating-agents) to the latest version.
 
-Read our [blog announcement](https://blog.barricade.io/barricade-welcomes-webhooks/) for more on webhooks.
+
+## Retiring and Removing Agents
+
+Retiring an Agent will stop the tranmission of data from your server, but it doesn't remove the Agent files. If you want to fully remove all traces of the Agent, you will need to manually do so by running a command on your server:
+
+To remove from an Ubuntu server: `dpkg -r barricade`
+
+To remove from a CentOS server: `rpm -e barricade`
+
+
+## One-way Agents
+
+Clicking 'pause' or retire' will prompt Barricade to signal a change in behavior to the Agent through the status API - it can't directly write to or alter the Agent directly ([by design](https://docs.barricade.io/getting-started/#how-it-works-agent)).
+
+When the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.

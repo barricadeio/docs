@@ -66,4 +66,4 @@ Here's a breakdown of the permissions per role:
 </tbody>
 </table>
 
-Check out our docs on [Team and User Management here](../../using-barricade/#adding-team-members).
+Check out our docs on [Team and User Management here](https://docs.barricade.io/using-barricade/#adding-team-members).

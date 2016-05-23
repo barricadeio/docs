@@ -21,5 +21,5 @@ When this limit is hit, the agent will begin dropping older packets to prioritis
 
 --  
 
-**You must to [Update Your Agents](../../using-barricade/#updating-agents) to apply these changes.**
+**You must to [Update Your Agents](https://docs.barricade.io/using-barricade/#updating-agents) to apply these changes.**
 
