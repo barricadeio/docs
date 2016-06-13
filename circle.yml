@@ -7,6 +7,8 @@ machine:
     - mkdir -p $CIRCLE_BUILD_DIR/bin
   node:
     version: 0.12
+  ruby:
+    version: 2.2
 
 dependencies:
   override:
