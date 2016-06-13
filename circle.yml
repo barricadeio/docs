@@ -7,12 +7,16 @@ machine:
     - mkdir -p $CIRCLE_BUILD_DIR/bin
   node:
     version: 0.12
+  ruby:
+    version: 2.2
 
 dependencies:
   override:
     - bash ./ci-install-hugo.sh
     - npm install -g gulp
     - npm install
+    - gem install bundler
+    - cd api && bundle install
   cache_directories:
     - bin
 
@@ -21,6 +25,7 @@ test:
     - hugo -v
     - hugo -t barricade
     - gulp
+    - cd api && bundle exec middleman build --clean && gulp
 
 # deployment:
 #   master:
