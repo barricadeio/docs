@@ -6768,6 +6768,7 @@ body {
   background: #f4f5f8;
   z-index: 700;
   position: fixed;
+  overflow-y: scroll;
 }
 .sidebar a {
   transition: all 0.3s ease-in-out;
@@ -6885,6 +6886,23 @@ body {
   margin: -0.05em 0.5em 0 -0.667em;
   color: #a3beca;
   font-size: 15.9992px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0 transparent;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 0 0 transparent;
+  background-color: transparent;
 }
 
 .top-bar {

@@ -21,7 +21,6 @@ body .page-wrapper {
   }
 }
 
-
 @media (min-width: 1281px) {
   .content pre,
   .content code {
@@ -34,4 +33,21 @@ body .page-wrapper {
   .content code {
     font-size: 18px;
   }
+}
+
+.highlight::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0 transparent;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.highlight::-webkit-scrollbar {
+  height: 0;
+  background-color: transparent;
+}
+
+.highlight::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 0 0 transparent;
+  background-color: transparent;
 }
