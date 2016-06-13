@@ -1,0 +1,155 @@
+.sidebar {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  background: $light1;
+  z-index: 700;
+  position: fixed;
+  overflow-y: scroll;
+
+  a {
+    @include transition;
+
+    .ripple {
+      margin: auto 0;
+      display: inline-block;
+
+      span {
+        display: block;
+        margin: 0 auto 0;
+        background: $green3;
+        width: 10%;
+        opacity: 0;
+        height: 3px;
+        @include transition;
+      }
+    }
+
+    &:hover .ripple span {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+
+    a {
+      display: block;
+      width: 100%;
+      padding: 0.525em 18.5% 0.5em 11.5%;
+
+      svg {
+        display: block;
+        fill: currentColor;
+        color: $dark2;
+        @include transition;
+      }
+
+      &:hover {
+        background: $green2;
+
+        svg {
+          color: white !important;
+        }
+      }
+    }
+  }
+
+  ul {
+    margin: 3.667em auto 2em;
+    padding: 0;
+
+    li {
+      a {
+        display: block;
+        padding: 0.5em 15% 0.75em;
+        color: $dark1;
+        letter-spacing: 0.025em;
+        line-height: 1.4;
+        text-transform: capitalize;
+        @include transition(all, 0.3s, cubic-bezier(0.25,0.1,0.25,1));
+
+        &:hover {
+          color: $green4;
+          background: lighten($blue3, 22.5%);
+        }
+
+        &.active {
+          color: $green4;
+          background: lighten($light2, 1.75%);
+
+          .ripple span {
+            width: 100%;
+            opacity: 1;
+            background: lighten($blue3, 12.5%);
+          }
+
+          &:hover .ripple span {
+            background: $green3;
+          }
+
+          & + ul {
+            display: block;
+          }
+        }
+      }
+
+      ul {
+        margin: 0;
+        padding: 0.5em 0 1em;
+        background: lighten($light2, 1.75%);
+        display: none;
+
+        li {
+          margin: 0;
+
+          a {
+            padding: 0.425em 0 0.425em 20%;
+            line-height: 1.125;
+            font-size: $scalex2;
+            border-right: 4px solid transparent;
+            color: lighten($dark1, 5%);
+            @include transition;
+
+            &:hover {
+              color: $blue4;
+              background: lighten($blue3, 17.5%);
+            }
+          }
+
+          &.active a {
+            color: $blue4;
+            border-right: 4px solid $green1;
+          }
+        }
+      }
+    }
+  }
+
+  .sidebar-buttons {
+    border-top: 1px solid $light3;
+
+    .button-wrap {
+      width: 300px;
+      background: $light1;
+      padding: 1.1em 12.5% 1.25em;
+    }
+
+    .button.expand.small {
+      margin: 0.333em 0;
+      display: block;
+      padding-top: .5rem;
+      padding-bottom: .575rem;
+
+      i {
+        margin: -0.05em 0.5em 0 -0.667em;
+        color: $blue3;
+        font-size: $scalex3;
+      }
+    }
+  }
+}

@@ -150,7 +150,7 @@ To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key
 
 &lt;p&gt;&lt;code&gt;sudo restart barricade&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;h3 id=&#34;configuration-options:4dc8be8e166f64c29db981f27c6c3661&#34;&gt;Configuration Options:&lt;/h3&gt;
 
@@ -175,7 +175,7 @@ The default value is &lt;code&gt;warning&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ssl_check_hostname&lt;/strong&gt;&lt;br /&gt;
 Allows you to enable or disable SSL hostname verification. By default value is &lt;code&gt;enabled&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;h3 id=&#34;barricade-cfg-troubleshooting:4dc8be8e166f64c29db981f27c6c3661&#34;&gt;Barricade.cfg Troubleshooting&lt;/h3&gt;
 
@@ -249,7 +249,7 @@ You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt
 
 &lt;p&gt;&lt;code&gt;sudo restart barricade&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;p&gt;See here for &lt;a href=&#34;https://docs.barricade.io/using-barricade/#configuring-agents&#34;&gt;other possible Agent configuration options&lt;/a&gt;.&lt;/p&gt;
 </description>
