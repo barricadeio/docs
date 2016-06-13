@@ -25,7 +25,7 @@ $(document).ready(function() {
     (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
     e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
     })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-    _st('install','o82vEyRB4LfTEQXajsyq','2.0.0');
+    _st('install','TR_E45vJzMBPPAyG4QU7','2.0.0');
 
 
   // footer
