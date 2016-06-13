@@ -7,7 +7,7 @@
   background: $light1;
   z-index: 700;
   position: fixed;
-  overflow-y: scroll;
+  //overflow-y: scroll;
 
   a {
     @include transition;

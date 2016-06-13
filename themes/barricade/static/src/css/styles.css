@@ -6768,7 +6768,6 @@ body {
   background: #f4f5f8;
   z-index: 700;
   position: fixed;
-  overflow-y: scroll;
 }
 .sidebar a {
   transition: all 0.3s ease-in-out;
