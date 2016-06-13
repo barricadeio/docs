@@ -24,8 +24,8 @@ test:
   override:
     - hugo -v
     - hugo -t barricade
+    - cd api && bundle exec middleman build --clean
     - gulp
-    - cd api && bundle exec middleman build --clean && gulp
 
 # deployment:
 #   master:
