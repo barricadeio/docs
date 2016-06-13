@@ -9,7 +9,7 @@ dependencies:
   override:
     - bash ./ci-install-hugo.sh
     - npm install -g gulp
-    - npm install gulp
+    - npm install
   cache_directories:
     - bin
 
