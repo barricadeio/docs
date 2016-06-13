@@ -13,6 +13,8 @@ dependencies:
     - bash ./ci-install-hugo.sh
     - npm install -g gulp
     - npm install
+    - gem install bundler
+    - cd api && bundle install
   cache_directories:
     - bin
 
@@ -21,6 +23,7 @@ test:
     - hugo -v
     - hugo -t barricade
     - gulp
+    - cd api && bundle exec middleman build --clean && gulp
 
 # deployment:
 #   master:
