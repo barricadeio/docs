@@ -2,6 +2,7 @@ machine:
   environment:
     CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
     PATH: $PATH:$CIRCLE_BUILD_DIR/bin
+    DISABLE_NOTIFIER: true
   post:
     - mkdir -p $CIRCLE_BUILD_DIR/bin
   node:
