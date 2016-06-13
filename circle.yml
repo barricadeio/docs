@@ -1,0 +1,26 @@
+machine:
+  environment:
+    CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
+    PATH: $PATH:$CIRCLE_BUILD_DIR/bin
+  post:
+    - mkdir -p $CIRCLE_BUILD_DIR/bin
+
+dependencies:
+  override:
+    - bash ./ci-install-hugo.sh
+    - npm install -g gulp
+    - npm install
+  cache_directories:
+    - bin
+
+test:
+  override:
+    - hugo -v
+    - hugo -t barricade
+    - gulp
+
+# deployment:
+#   master:
+#     branch: master
+#     commands:
+#       - bash ./deploy.sh
