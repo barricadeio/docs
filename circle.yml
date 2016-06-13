@@ -1,10 +1,9 @@
 machine:
   environment:
-    CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
-    PATH: $PATH:$CIRCLE_BUILD_DIR/bin
+    PATH: $PATH:~/bin
     DISABLE_NOTIFIER: true
   post:
-    - mkdir -p $CIRCLE_BUILD_DIR/bin
+    - mkdir -p ~/bin
   node:
     version: 0.12
   ruby:
@@ -18,13 +17,13 @@ dependencies:
     - gem install bundler
     - cd api && bundle install
   cache_directories:
-    - bin
+    - ~/bin
 
 test:
   override:
     - hugo -v
-    - hugo -t barricade
-    - cd api && bundle exec middleman build --clean
+    - hugo -t barricade -d $CIRCLE_ARTIFACTS
+    - cd api && bundle exec middleman build --clean --build_dir $CIRCLE_ARTIFACTS/api
     - gulp
 
 # deployment:
