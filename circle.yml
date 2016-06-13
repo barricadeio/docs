@@ -6,7 +6,7 @@ machine:
     - mkdir -p $CIRCLE_BUILD_DIR/bin
 
 dependencies:
-  pre:
+  override:
     - bash ./ci-install-hugo.sh
     - npm install -g gulp
   cache_directories:
