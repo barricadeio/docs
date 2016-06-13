@@ -22,6 +22,7 @@ Our Agent supports **Ubuntu** and **CentOS** based cloud servers - (common confi
 *   Ubuntu 14.10 (64-bit)
 *   Ubuntu 15.04 (64-bit)
 *   Ubuntu 15.10 (64-bit)
+*   Ubuntu 16.04 (64-bit) - **Note:** our vulnerability checks do not currently check Snap packages
 *   CentOS 6.x (64-bit)
 *   CentOS 7.x (64-bit)
 
