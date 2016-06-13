@@ -21,6 +21,7 @@
 &lt;li&gt;Ubuntu 14.10 (64-bit)&lt;/li&gt;
 &lt;li&gt;Ubuntu 15.04 (64-bit)&lt;/li&gt;
 &lt;li&gt;Ubuntu 15.10 (64-bit)&lt;/li&gt;
+&lt;li&gt;Ubuntu 16.04 (64-bit) - &lt;strong&gt;Note:&lt;/strong&gt; our vulnerability checks do not currently check Snap packages&lt;/li&gt;
 &lt;li&gt;CentOS 6.x (64-bit)&lt;/li&gt;
 &lt;li&gt;CentOS 7.x (64-bit)&lt;/li&gt;
 &lt;/ul&gt;
