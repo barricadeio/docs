@@ -21,6 +21,7 @@ New images and other media should be located in `themes/barricade/static/src`.
 # Deploying
 
 Run `bundle exec middleman build --clean` in api directory
+Run `gulp` to minify etc...
 Run `hugo` (not hugo server) to update the BaseUrl with the live url.
 
 Then run `bash deploy.sh` to run the deploy script, which will take care of running Gulp and the required Git magic. The site will be pushed to the gh-pages branch.
