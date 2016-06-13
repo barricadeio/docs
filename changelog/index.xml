@@ -167,7 +167,7 @@ The agent configuration has also been updated with a maximum number of packets p
 
 &lt;p&gt;When this limit is hit, the agent will begin dropping older packets to prioritise the newest information, and emit a warning to this effect in the logs (&lt;code&gt;/var/log/barricade.log&lt;/code&gt; on most systems, in journalctl for systemd based systems).&lt;/p&gt;
 
-&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;You must to &lt;a href=&#34;https://docs.barricade.io/using-barricade/#updating-agents&#34;&gt;Update Your Agents&lt;/a&gt; to apply these changes.&lt;/strong&gt;&lt;/p&gt;
 </description>
