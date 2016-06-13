@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sectests on </title>
+      <title>Sectests</title>
     <link>https://docs.barricade.io/tags/sectests/</link>
-    <description>Recent content in Sectests on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/sectests/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>C.I. Security Tests</title>
       <link>https://docs.barricade.io/using-barricade/ci-sec-testing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/ci-sec-testing/</guid>
       <description>
 
@@ -19,9 +17,9 @@
 
 &lt;p&gt;We&amp;rsquo;re big believers in &lt;a href=&#34;https://blog.barricade.io/continuous-security/&#34;&gt;continuous security&lt;/a&gt;, and want to help you incorporate security into the development lifecycle. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-sectests.png&#34; alt=&#34;../src/img/using-barricade/16-sectests.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectests.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectests.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;what-do-security-tests-check-for:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;What do Security Tests check for?&lt;/h3&gt;
+&lt;h3 id=&#34;what-do-security-tests-check-for:7392f22a00640c36ba214df8def7b81e&#34;&gt;What do Security Tests check for?&lt;/h3&gt;
 
 &lt;p&gt;The test will check your application network for a series of common vulnerabilities, based on the &lt;a href=&#34;http://wapiti.sourceforge.net/&#34;&gt;Wapiti&lt;/a&gt; scanner:&lt;/p&gt;
 
@@ -39,11 +37,11 @@
 
 &lt;p&gt;Note: &lt;em&gt;These checks are to help you identify any security bugs in your app, before they are shipped - but they do not guarantee that your app is fully secure from potential attacks.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;security-tests-with-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Security Tests with Webhooks&lt;/h3&gt;
+&lt;h3 id=&#34;security-tests-with-webhooks:7392f22a00640c36ba214df8def7b81e&#34;&gt;Security Tests with Webhooks&lt;/h3&gt;
 
-&lt;p&gt; &lt;img src=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; alt=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectest-settings.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectest-settings.gif&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;enabling-the-integration:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Enabling the Integration:&lt;/h2&gt;
+&lt;h2 id=&#34;enabling-the-integration:7392f22a00640c36ba214df8def7b81e&#34;&gt;Enabling the Integration:&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Visit the Settings &amp;gt; Integrations &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/csi&#34;&gt;C.I. Security Testing&lt;/a&gt; page.&lt;/li&gt;
@@ -51,7 +49,7 @@
 &lt;li&gt;&lt;strong&gt;Copy&lt;/strong&gt; the webhook url that is generated.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;submitting-tests:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Submitting Tests:&lt;/h2&gt;
+&lt;h2 id=&#34;submitting-tests:7392f22a00640c36ba214df8def7b81e&#34;&gt;Submitting Tests:&lt;/h2&gt;
 
 &lt;p&gt;To submit a report, you&amp;rsquo;ll need to make a HTTP post request to the webhook URL. Webhooks are user-defined HTTP callbacks - triggered by some an, such as pushing code to a repository.&lt;/p&gt;
 
@@ -70,7 +68,7 @@ build_number: &#39;1660&#39;, // build number
 build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build URL
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;example-request:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Example Request&lt;/h2&gt;
+&lt;h2 id=&#34;example-request:7392f22a00640c36ba214df8def7b81e&#34;&gt;Example Request&lt;/h2&gt;
 
 &lt;p&gt;The following example reads a test result from &lt;code&gt;wapiti.json&lt;/code&gt;, builds a request body and submits it to the webhook.&lt;/p&gt;
 
@@ -217,11 +215,11 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;troubleshooting-c-i-test-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Troubleshooting C.I. Test Webhooks&lt;/h3&gt;
+&lt;h3 id=&#34;troubleshooting-c-i-test-webhooks:7392f22a00640c36ba214df8def7b81e&#34;&gt;Troubleshooting C.I. Test Webhooks&lt;/h3&gt;
 
 &lt;p&gt;If you&amp;rsquo;re experiencing issues submitting a test, try generating a new webhook URL on the settings page:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-regen.gif&#34; alt=&#34;../src/img/using-barricade/16-regen.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-regen.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-regen.gif&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

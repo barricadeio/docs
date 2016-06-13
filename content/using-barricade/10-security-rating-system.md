@@ -19,7 +19,7 @@ Our security rating system is made to be simple by design, so that anyone can un
 
 ## Ratings
 
-![../src/img/using-barricade/ranking.png](../src/img/using-barricade/ranking.png)
+![https://docs.barricade.io/src/img/using-barricade/ranking.png](https://docs.barricade.io/src/img/using-barricade/ranking.png)
 
 We have split security threats into Events, Attacks and Incidents. We track events, flag attacks, monitor their progress and alert you when they become incidents.
 

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>How It Works on </title>
+      <title>How It Works</title>
     <link>https://docs.barricade.io/tags/how-it-works/</link>
-    <description>Recent content in How It Works on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/how-it-works/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>How Agents Work</title>
       <link>https://docs.barricade.io/getting-started/how-it-works-agent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/getting-started/how-it-works-agent/</guid>
       <description>
 
@@ -47,8 +45,7 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     <item>
       <title>OS Compatibility</title>
       <link>https://docs.barricade.io/getting-started/os-requirements-compatibility/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/getting-started/os-requirements-compatibility/</guid>
       <description>
 
@@ -79,8 +76,7 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
     <item>
       <title>Our Detection Engine</title>
       <link>https://docs.barricade.io/getting-started/detection-engine/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/getting-started/detection-engine/</guid>
       <description>&lt;p&gt;Our platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.&lt;/p&gt;
 
@@ -88,15 +84,14 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
 
 &lt;p&gt;The Engine is designed to distil complex machine learning concepts such as artificial neural networks, anomaly detection, and ensemble learning into consumable and actionable information.&lt;/p&gt;
 
-&lt;p&gt;For details on the various behaviors &amp;amp; attacks that Barricade detects - &lt;a href=&#34;../security-guide&#34;&gt;see the Security Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For details on the various behaviors &amp;amp; attacks that Barricade detects - &lt;a href=&#34;https://docs.barricade.io/security-guide&#34;&gt;see the Security Guide&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Overview</title>
       <link>https://docs.barricade.io/getting-started/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/getting-started/overview/</guid>
       <description>&lt;div class=&#34;video-container&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;100%&#34; height=&#34;auto&#34; src=&#34;https://www.youtube.com/embed/ukTAg2ecO8g&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
@@ -108,17 +103,16 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
 
 &lt;p&gt;This data is encrypted and processed through Barricades&amp;rsquo; central detection &lt;strong&gt;Engine&lt;/strong&gt;, and findings are displayed in real-time in your dashboard and notification channels.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/agent-chart-sm.png&#34; alt=&#34;../src/img/getting-started/agent-chart-sm.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/getting-started/agent-chart-sm.png&#34; alt=&#34;https://docs.barricade.io/src/img/getting-started/agent-chart-sm.png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting (&lt;a href=&#34;../src/img/getting-started/agent-chart-lg.png&#34;&gt;open in full-size&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Barricade&amp;rsquo;s Collection Workflow - gathering, processing and alerting (&lt;a href=&#34;https://docs.barricade.io/src/img/getting-started/agent-chart-lg.png&#34;&gt;open full-size image&lt;/a&gt;).&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>What Can Agents see?</title>
       <link>https://docs.barricade.io/getting-started/what-agent-sees/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/getting-started/what-agent-sees/</guid>
       <description>&lt;p&gt;The agent gathers data about activity on your servers, and transmits it securely to our engine for real-time analysis.&lt;/p&gt;
 

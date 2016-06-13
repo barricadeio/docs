@@ -1,23 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Remove on </title>
+      <title>Remove</title>
     <link>https://docs.barricade.io/tags/remove/</link>
-    <description>Recent content in Remove on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/remove/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Closing an Account</title>
+      <link>https://docs.barricade.io/using-barricade/closing-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <guid>https://docs.barricade.io/using-barricade/closing-account/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re looking to stop using Barricade entirely, you can &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/close&#34;&gt;close your account through this page&lt;/a&gt;. Only admin users can close an account, for security reasons.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re sorry to see you go - if there&amp;rsquo;s any feedback you&amp;rsquo;d like to leave for us, please do &lt;a href=&#34;https://barricade.io/about#contact-info&#34;&gt;submit a comment&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Stopping &amp; Removing Agents</title>
       <link>https://docs.barricade.io/using-barricade/stopping-and-removing-agents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/stopping-and-removing-agents/</guid>
       <description>
 
 &lt;p&gt;If you wish to stop monitoring a server, you can &lt;strong&gt;pause&lt;/strong&gt; or &lt;strong&gt;retire&lt;/strong&gt; the Agent via the &lt;a href=&#34;https://app.barricade.io/dashboard/agents&#34;&gt;controls on this page&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/24-controls.gif&#34; alt=&#34;../../src/img/changelog/24-controls.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/changelog/24-controls.gif&#34; alt=&#34;https://docs.barricade.io/src/img/changelog/24-controls.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Agents that are paused can be restarted later - whereas you cannot &amp;lsquo;undo&amp;rsquo; a retired Agent through the web interface - a &lt;a href=&#34;#installing-more-agents&#34;&gt;reinstall&lt;/a&gt; would be required to restore the Agent.&lt;/p&gt;
+
+&lt;h2 id=&#34;pausing-agents:dd4ea0775fdfa248a9b2a0da91801165&#34;&gt;Pausing Agents&lt;/h2&gt;
+
+&lt;p&gt;Older Agent versions do not support pausing and restarting. You should &lt;a href=&#34;#updating-agents&#34;&gt;update the Agent&lt;/a&gt; to the latest version.&lt;/p&gt;
+
+&lt;h2 id=&#34;retiring-and-removing-agents:dd4ea0775fdfa248a9b2a0da91801165&#34;&gt;Retiring and Removing Agents&lt;/h2&gt;
+
+&lt;p&gt;Retiring an Agent will stop the tranmission of data from your server, but it doesn&amp;rsquo;t remove the Agent files. If you want to fully remove all traces of the Agent, you will need to manually do so by running a command on your server:&lt;/p&gt;
+
+&lt;p&gt;To remove from an Ubuntu server: &lt;code&gt;dpkg -r barricade&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To remove from a CentOS server: &lt;code&gt;rpm -e barricade&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;one-way-agents:dd4ea0775fdfa248a9b2a0da91801165&#34;&gt;One-way Agents&lt;/h2&gt;
+
+&lt;p&gt;Clicking &amp;lsquo;pause&amp;rsquo; or retire&amp;rsquo; will prompt Barricade to signal a change in behavior to the Agent through the status API - it can&amp;rsquo;t directly write to or alter the Agent directly (&lt;a href=&#34;https://docs.barricade.io/getting-started/#how-it-works-agent&#34;&gt;by design&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;When the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stopping &amp; Removing Agents</title>
+      <link>https://docs.barricade.io/using-barricade/stopping-and-removing-agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <guid>https://docs.barricade.io/using-barricade/stopping-and-removing-agents/</guid>
+      <description>
+
+&lt;p&gt;If you wish to stop monitoring a server, you can &lt;strong&gt;pause&lt;/strong&gt; or &lt;strong&gt;retire&lt;/strong&gt; the Agent via the &lt;a href=&#34;https://app.barricade.io/dashboard/agents&#34;&gt;controls on this page&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/changelog/24-controls.gif&#34; alt=&#34;https://docs.barricade.io/src/img/changelog/24-controls.gif&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Agents that are paused can be restarted later - whereas you cannot &amp;lsquo;undo&amp;rsquo; a retired Agent through the web interface - a &lt;a href=&#34;#installing-more-agents&#34;&gt;reinstall&lt;/a&gt; would be required to restore the Agent.&lt;/p&gt;
 
@@ -35,7 +77,7 @@
 
 &lt;h2 id=&#34;one-way-agents:172444a8f3e05633c6caacec2e0f907c&#34;&gt;One-way Agents&lt;/h2&gt;
 
-&lt;p&gt;Clicking &amp;lsquo;pause&amp;rsquo; or retire&amp;rsquo; will prompt Barricade to signal a change in behavior to the Agent through the status API - it can&amp;rsquo;t directly write to or alter the Agent directly (&lt;a href=&#34;../getting-started/#how-it-works-agent&#34;&gt;by design&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Clicking &amp;lsquo;pause&amp;rsquo; or retire&amp;rsquo; will prompt Barricade to signal a change in behavior to the Agent through the status API - it can&amp;rsquo;t directly write to or alter the Agent directly (&lt;a href=&#34;https://docs.barricade.io/getting-started/#how-it-works-agent&#34;&gt;by design&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;When the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.&lt;/p&gt;
 </description>

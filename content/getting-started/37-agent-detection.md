@@ -17,7 +17,7 @@ slug = "agent-detection"
 
 Shortly after you run the install command, the Barricade setup screen will update automatically to confirm that the Agent has been detected:
 
-![../src/img/getting-started/drawer-detection.gif](../src/img/getting-started/drawer-detection.gif)
+![https://docs.barricade.io/src/img/getting-started/drawer-detection.gif](https://docs.barricade.io/src/img/getting-started/drawer-detection.gif)
 
 Once that's done, you can close the form panel by clicking the 'X' in the top right-hand corner, or click the 'Install Another' button to start over and start additional agents.
 

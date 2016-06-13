@@ -1,6 +1,6 @@
 +++
 title = "C.I. Security Tests"
-weight = "16"
+weight = "20"
 
 tags = ["continuous integration", "testing", "sectests", "wapiti"]
 section = "using-barricade"
@@ -19,7 +19,7 @@ Continuous Integration Security Testing can be used alongside other test suites
 
 We're big believers in [continuous security](https://blog.barricade.io/continuous-security/), and want to help you incorporate security into the development lifecycle. 
 
-![../src/img/using-barricade/16-sectests.png](../src/img/using-barricade/16-sectests.png)
+![https://docs.barricade.io/src/img/using-barricade/16-sectests.png](https://docs.barricade.io/src/img/using-barricade/16-sectests.png)
 
 ### What do Security Tests check for?
 
@@ -39,7 +39,7 @@ Note: _These checks are to help you identify any security bugs in your app, befo
 
 ### Security Tests with Webhooks
 
- ![../src/img/using-barricade/16-sectest-settings.gif](../src/img/using-barricade/16-sectest-settings.gif)
+ ![https://docs.barricade.io/src/img/using-barricade/16-sectest-settings.gif](https://docs.barricade.io/src/img/using-barricade/16-sectest-settings.gif)
 
 ## Enabling the Integration:
 
@@ -221,4 +221,4 @@ jq -r '{type:"wapiti", "data": tostring}' wapiti.json | curl -X POST -H "Content
 
 If you're experiencing issues submitting a test, try generating a new webhook URL on the settings page:
 
-![../src/img/using-barricade/16-regen.gif](../src/img/using-barricade/16-regen.gif)
+![https://docs.barricade.io/src/img/using-barricade/16-regen.gif](https://docs.barricade.io/src/img/using-barricade/16-regen.gif)

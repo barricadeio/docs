@@ -15,7 +15,7 @@ slug = "aws-waf-integration"
 
 +++
 
-![../src/img/using-barricade/15-awswaf.png](../src/img/using-barricade/15-awswaf.png)  
+![https://docs.barricade.io/src/img/using-barricade/15-awswaf.png](https://docs.barricade.io/src/img/using-barricade/15-awswaf.png)  
 
 [AWS Web Application Firewall (WAF)](http://aws.amazon.com/waf/) helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources. You can integrate AWS WAF with Barricade to make an intelligent and learning firewall.
 
@@ -43,7 +43,7 @@ Barricade does not charge you for using AWS WAF, but rules you add through the B
     _
 5.  Once you've enabled the WAF, you will need to go to your [CloudFront](https://aws.amazon.com/cloudfront/) distribution settings, and set the AWS WAF Web ACL to `BARRICADE-WAF` like such:  
 
-    ![../src/img/using-barricade/15-awswaf-02.png](../src/img/using-barricade/15-awswaf-02.png)
+    ![https://docs.barricade.io/src/img/using-barricade/15-awswaf-02.png](https://docs.barricade.io/src/img/using-barricade/15-awswaf-02.png)
 
 ### Giving Barricade Access (Security Groups)
 
@@ -53,17 +53,17 @@ We don't want access to your servers. In fact, we want **as little** access as p
 
 2.  Create a new user named **barricade-waf **and make sure to check the _"Generate an access key for each user"_.   
 
-    ![../src/img/using-barricade/15-awswaf-03.png](../src/img/using-barricade/15-awswaf-03.png)  
+    ![https://docs.barricade.io/src/img/using-barricade/15-awswaf-03.png](https://docs.barricade.io/src/img/using-barricade/15-awswaf-03.png)  
 
 3.  On the next step, after the user is created, copy the **access id** and **secret key** that's presented to you under _Show User Security Credentials:_
 
-    ![../src/img/using-barricade/15-awswaf-04.png](../src/img/using-barricade/15-awswaf-04.png)  
+    ![https://docs.barricade.io/src/img/using-barricade/15-awswaf-04.png](https://docs.barricade.io/src/img/using-barricade/15-awswaf-04.png)  
 
 4.  You will now need to create a **Policy**. We'll give you the policy, don't worry.  
 
 5.  Go to the [AWS policy page](https://console.aws.amazon.com/iam/home#policies), and click on **Create Policy**, then **Create Your Own Policy**:
 
-    ![../src/img/using-barricade/15-awswaf-05.png](../src/img/using-barricade/15-awswaf-05.png)
+    ![https://docs.barricade.io/src/img/using-barricade/15-awswaf-05.png](https://docs.barricade.io/src/img/using-barricade/15-awswaf-05.png)
      
 6.  The next steps are tricky but we'll give them to you here. You will need to name your policy, give it a description and set the policy.   
 
@@ -112,11 +112,11 @@ The only way to currently use the Amazon AWS WAF is by connecting a created WAF 
 
 3.  Once you are on your CloudFront Distribution's page, click on the **Edit** button. Then look for the **AWS WAF Web ACL** option - yes, it's quite the mouthful!
 
-    ![../src/img/using-barricade/15-awswaf-06.png](../src/img/using-barricade/15-awswaf-06.png)
+    ![https://docs.barricade.io/src/img/using-barricade/15-awswaf-06.png](https://docs.barricade.io/src/img/using-barricade/15-awswaf-06.png)
 
 4.  Select the **BARRICADE-WAF **in the dropdown:
 
-    ![../src/img/using-barricade/15-awswaf-07.png](../src/img/using-barricade/15-awswaf-07.png)
+    ![https://docs.barricade.io/src/img/using-barricade/15-awswaf-07.png](https://docs.barricade.io/src/img/using-barricade/15-awswaf-07.png)
 
 5.  Click on **Yes, Edit** confirmation button and wait until the _Distribution Status_ says **Deployed**. 
 
@@ -126,7 +126,7 @@ That's it, you now have a fully integrated detection system that learns from beh
 
 Once the Integration is enabled, you can block a query with one click:
 
-![../src/img/using-barricade/15-awswaf-08.png](../src/img/using-barricade/15-awswaf-08.png)
+![https://docs.barricade.io/src/img/using-barricade/15-awswaf-08.png](https://docs.barricade.io/src/img/using-barricade/15-awswaf-08.png)
 
 Go to the [overview page](https://app.barricade.io/dashboard/overview) in the Barricade app, and open a security case - you should see 'AWS Firewall' as an option in cases where blocking an attacker IP address is part of the recommendation.
 

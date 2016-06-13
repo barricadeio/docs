@@ -15,4 +15,4 @@ Now there's no need to signup or install an Agent to see how Barricade looks an
 *   Trigger simulations of Events, Attacks and Incidents
 *   View simulated app responses - alerts and recommendations
 
-![../../src/img/changelog/08-demo.gif](../../src/img/changelog/08-demo.gif)
+![https://docs.barricade.io/src/img/changelog/08-demo.gif](https://docs.barricade.io/src/img/changelog/08-demo.gif)

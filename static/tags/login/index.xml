@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Login on </title>
+      <title>Login</title>
     <link>https://docs.barricade.io/tags/login/</link>
-    <description>Recent content in Login on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/login/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Default Username Attempts</title>
       <link>https://docs.barricade.io/security-guide/login-default-username/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/login-default-username/</guid>
       <description>
 
@@ -69,8 +67,7 @@ DBA
     <item>
       <title>SSH Login Attempts</title>
       <link>https://docs.barricade.io/security-guide/attempted-ssh-login/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/attempted-ssh-login/</guid>
       <description>
 
@@ -152,8 +149,7 @@ AllowGroup sshusers
     <item>
       <title>Suspicious Login Attempts</title>
       <link>https://docs.barricade.io/security-guide/login-suspicious-username/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/login-suspicious-username/</guid>
       <description>
 

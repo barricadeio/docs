@@ -12,7 +12,7 @@ weight = "25"
 
 We’ve shipped a major update to our monitoring Agent, to improve performance and minimise the amount of server CPU the Agent requires.
 
-**You must to [Update Your Agents](../../using-barricade/#updating-agents) to apply these changes.**
+**You must to [Update Your Agents](https://docs.barricade.io/using-barricade/#updating-agents) to apply these changes.**
 
 --
 
@@ -35,7 +35,7 @@ We’ve shipped a major update to our monitoring Agent, to improve performance a
 
 ## Agent Configuration:
 
-Agents have advanced configuration options that you can adjust to suit your needs. See our [Agent Configuration docs](../../using-barricade/#configuring-agents) for details on how you can set these options.
+Agents have advanced configuration options that you can adjust to suit your needs. See our [Agent Configuration docs](https://docs.barricade.io/using-barricade/#configuring-agents) for details on how you can set these options.
 
 * `ssl_check_hostname` (new) - enable/disable SSL hostname verification, enabled by default
 * `spooler_memory` (new) - specify the amount of memory to use for buffering packets in high traffic scenarios before dropping. Has a default derived from system memory.

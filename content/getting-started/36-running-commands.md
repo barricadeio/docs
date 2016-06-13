@@ -32,4 +32,4 @@ To make an SSH connection, you'll need the following:
 
 _An example of the DigitalOcean's in-browser SSH tool, where you would run the command:_
 
-![../src/img/getting-started/do-ssh.jpeg](../src/img/getting-started/do-ssh.jpeg)
+![https://docs.barricade.io/src/img/getting-started/do-ssh.jpeg](https://docs.barricade.io/src/img/getting-started/do-ssh.jpeg)

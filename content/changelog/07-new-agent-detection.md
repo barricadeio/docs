@@ -11,6 +11,6 @@ weight = "07"
 
 We've added visual feedback to the [app](https://app.barricade.io), so you can see when the installation of a new Agent has completed successfully:
 
-![../../src/img/changelog/07-drawer-detection.gif](../../src/img/changelog/07-drawer-detection.gif)
+![https://docs.barricade.io/src/img/changelog/07-drawer-detection.gif](https://docs.barricade.io/src/img/changelog/07-drawer-detection.gif)
 
-For more information on [Installing Additional Agents](../../using-barricade/#installing-more-agents).
+For more information on [Installing Additional Agents](https://docs.barricade.io/using-barricade/#installing-more-agents).

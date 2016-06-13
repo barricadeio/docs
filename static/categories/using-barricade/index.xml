@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Using Barricade on </title>
+      <title>Using Barricade</title>
     <link>https://docs.barricade.io/categories/using-barricade/</link>
-    <description>Recent content in Using Barricade on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/categories/using-barricade/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Adding Team Members</title>
       <link>https://docs.barricade.io/using-barricade/adding-team-members/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/adding-team-members/</guid>
       <description>
 
@@ -82,13 +80,13 @@
 
 &lt;p&gt;The &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/profile&#34;&gt;team profile page&lt;/a&gt; allows you to edit your team name. Only the admin can change the name of a team.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-01.png&#34; alt=&#34;../src/img/using-barricade/11-team-01.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-01.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-01.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;how-to-invite-members:639f3153471e5042a626a354e5707952&#34;&gt;How to Invite Members&lt;/h3&gt;
 
 &lt;p&gt;The &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/invitations&#34;&gt;invitations&lt;/a&gt; page lets you add new members via email address: &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-02.gif&#34; alt=&#34;../src/img/using-barricade/11-team-02.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-02.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-02.gif&#34; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Enter the email address and click the Invite button.&lt;/li&gt;
@@ -96,18 +94,18 @@
 &lt;li&gt;&lt;p&gt;The page will show that an email invite has been issued.
 You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo; on the right:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-03.png&#34; alt=&#34;../src/img/using-barricade/11-team-03.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-03.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-03.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;The new member will receive a confirmation email with an activation link:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-04.png&#34; alt=&#34;../src/img/using-barricade/11-team-04.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-04.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-04.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Once activated, they can login and will have read-access to information from your Agents&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;how-to-remove-members:639f3153471e5042a626a354e5707952&#34;&gt;How to Remove Members&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/11-team-05.gif&#34; alt=&#34;../src/img/using-barricade/11-team-05.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-05.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/11-team-05.gif&#34; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;To remove members you must be logged in as the Team Admin&lt;/li&gt;
@@ -121,8 +119,7 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     <item>
       <title>Agent Controls</title>
       <link>https://docs.barricade.io/using-barricade/pausing-retiring-agents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/pausing-retiring-agents/</guid>
       <description>&lt;p&gt;The Agents section of the app interface provides a breakdown of the Agents you have running:&lt;/p&gt;
 
@@ -138,12 +135,11 @@ You can revoke any unaccepted invitations by clicking the &amp;lsquo;X&amp;rsquo
     <item>
       <title>Amazon WAF Integration</title>
       <link>https://docs.barricade.io/using-barricade/aws-waf-integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/aws-waf-integration/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://aws.amazon.com/waf/&#34;&gt;AWS Web Application Firewall (WAF)&lt;/a&gt; helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources. You can integrate AWS WAF with Barricade to make an intelligent and learning firewall.&lt;/p&gt;
 
@@ -173,7 +169,7 @@ _&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Once you&amp;rsquo;ve enabled the WAF, you will need to go to your &lt;a href=&#34;https://aws.amazon.com/cloudfront/&#34;&gt;CloudFront&lt;/a&gt; distribution settings, and set the AWS WAF Web ACL to &lt;code&gt;BARRICADE-WAF&lt;/code&gt; like such:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-02.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-02.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-02.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-02.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;giving-barricade-access-security-groups:b34a4a33b05843c6b2f999d8866d725e&#34;&gt;Giving Barricade Access (Security Groups)&lt;/h3&gt;
@@ -185,17 +181,17 @@ _&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Create a new user named &lt;strong&gt;barricade-waf &lt;/strong&gt;and make sure to check the &lt;em&gt;&amp;ldquo;Generate an access key for each user&amp;rdquo;&lt;/em&gt;. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-03.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-03.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-03.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-03.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;On the next step, after the user is created, copy the &lt;strong&gt;access id&lt;/strong&gt; and &lt;strong&gt;secret key&lt;/strong&gt; that&amp;rsquo;s presented to you under &lt;em&gt;Show User Security Credentials:&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-04.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-04.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-04.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-04.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;You will now need to create a &lt;strong&gt;Policy&lt;/strong&gt;. We&amp;rsquo;ll give you the policy, don&amp;rsquo;t worry.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Go to the &lt;a href=&#34;https://console.aws.amazon.com/iam/home#policies&#34;&gt;AWS policy page&lt;/a&gt;, and click on &lt;strong&gt;Create Policy&lt;/strong&gt;, then &lt;strong&gt;Create Your Own Policy&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-05.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-05.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-05.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-05.png&#34; /&gt;
  &lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;The next steps are tricky but we&amp;rsquo;ll give them to you here. You will need to name your policy, give it a description and set the policy. &lt;/p&gt;
@@ -248,11 +244,11 @@ _&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Once you are on your CloudFront Distribution&amp;rsquo;s page, click on the &lt;strong&gt;Edit&lt;/strong&gt; button. Then look for the &lt;strong&gt;AWS WAF Web ACL&lt;/strong&gt; option - yes, it&amp;rsquo;s quite the mouthful!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-06.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-06.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-06.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-06.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;BARRICADE-WAF &lt;/strong&gt;in the dropdown:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-07.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-07.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-07.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-07.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Click on &lt;strong&gt;Yes, Edit&lt;/strong&gt; confirmation button and wait until the &lt;em&gt;Distribution Status&lt;/em&gt; says &lt;strong&gt;Deployed&lt;/strong&gt;. &lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -263,7 +259,7 @@ _&lt;/p&gt;&lt;/li&gt;
 
 &lt;p&gt;Once the Integration is enabled, you can block a query with one click:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/15-awswaf-08.png&#34; alt=&#34;../src/img/using-barricade/15-awswaf-08.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-08.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/15-awswaf-08.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Go to the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;overview page&lt;/a&gt; in the Barricade app, and open a security case - you should see &amp;lsquo;AWS Firewall&amp;rsquo; as an option in cases where blocking an attacker IP address is part of the recommendation.&lt;/p&gt;
 
@@ -280,8 +276,7 @@ _&lt;/p&gt;&lt;/li&gt;
     <item>
       <title>Automating with Ansible</title>
       <link>https://docs.barricade.io/using-barricade/automating-agents-ansible/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/automating-agents-ansible/</guid>
       <description>
 
@@ -338,8 +333,7 @@ _&lt;/p&gt;&lt;/li&gt;
     <item>
       <title>Automating with Chef</title>
       <link>https://docs.barricade.io/using-barricade/automating-agents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/automating-agents/</guid>
       <description>&lt;p&gt;If you automate your infrastructure with Chef, you can use our &lt;a href=&#34;https://github.com/barricadeio/chef-barricade&#34;&gt;Barricade cookbook&lt;/a&gt; to automate the setup of Agents when you spin up servers.&lt;/p&gt;
 
@@ -358,8 +352,7 @@ To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key
     <item>
       <title>C.I. Security Tests</title>
       <link>https://docs.barricade.io/using-barricade/ci-sec-testing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/ci-sec-testing/</guid>
       <description>
 
@@ -367,9 +360,9 @@ To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key
 
 &lt;p&gt;We&amp;rsquo;re big believers in &lt;a href=&#34;https://blog.barricade.io/continuous-security/&#34;&gt;continuous security&lt;/a&gt;, and want to help you incorporate security into the development lifecycle. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-sectests.png&#34; alt=&#34;../src/img/using-barricade/16-sectests.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectests.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectests.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;what-do-security-tests-check-for:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;What do Security Tests check for?&lt;/h3&gt;
+&lt;h3 id=&#34;what-do-security-tests-check-for:7392f22a00640c36ba214df8def7b81e&#34;&gt;What do Security Tests check for?&lt;/h3&gt;
 
 &lt;p&gt;The test will check your application network for a series of common vulnerabilities, based on the &lt;a href=&#34;http://wapiti.sourceforge.net/&#34;&gt;Wapiti&lt;/a&gt; scanner:&lt;/p&gt;
 
@@ -387,11 +380,11 @@ To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key
 
 &lt;p&gt;Note: &lt;em&gt;These checks are to help you identify any security bugs in your app, before they are shipped - but they do not guarantee that your app is fully secure from potential attacks.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;security-tests-with-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Security Tests with Webhooks&lt;/h3&gt;
+&lt;h3 id=&#34;security-tests-with-webhooks:7392f22a00640c36ba214df8def7b81e&#34;&gt;Security Tests with Webhooks&lt;/h3&gt;
 
-&lt;p&gt; &lt;img src=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; alt=&#34;../src/img/using-barricade/16-sectest-settings.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectest-settings.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-sectest-settings.gif&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;enabling-the-integration:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Enabling the Integration:&lt;/h2&gt;
+&lt;h2 id=&#34;enabling-the-integration:7392f22a00640c36ba214df8def7b81e&#34;&gt;Enabling the Integration:&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Visit the Settings &amp;gt; Integrations &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/csi&#34;&gt;C.I. Security Testing&lt;/a&gt; page.&lt;/li&gt;
@@ -399,7 +392,7 @@ To use the cookbook, you&amp;rsquo;ll need to add your &lt;code&gt;barricade_key
 &lt;li&gt;&lt;strong&gt;Copy&lt;/strong&gt; the webhook url that is generated.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;submitting-tests:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Submitting Tests:&lt;/h2&gt;
+&lt;h2 id=&#34;submitting-tests:7392f22a00640c36ba214df8def7b81e&#34;&gt;Submitting Tests:&lt;/h2&gt;
 
 &lt;p&gt;To submit a report, you&amp;rsquo;ll need to make a HTTP post request to the webhook URL. Webhooks are user-defined HTTP callbacks - triggered by some an, such as pushing code to a repository.&lt;/p&gt;
 
@@ -418,7 +411,7 @@ build_number: &#39;1660&#39;, // build number
 build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build URL
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;example-request:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Example Request&lt;/h2&gt;
+&lt;h2 id=&#34;example-request:7392f22a00640c36ba214df8def7b81e&#34;&gt;Example Request&lt;/h2&gt;
 
 &lt;p&gt;The following example reads a test result from &lt;code&gt;wapiti.json&lt;/code&gt;, builds a request body and submits it to the webhook.&lt;/p&gt;
 
@@ -565,19 +558,18 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;troubleshooting-c-i-test-webhooks:aa03e65d913f6c4e10d8d1bc45e346ff&#34;&gt;Troubleshooting C.I. Test Webhooks&lt;/h3&gt;
+&lt;h3 id=&#34;troubleshooting-c-i-test-webhooks:7392f22a00640c36ba214df8def7b81e&#34;&gt;Troubleshooting C.I. Test Webhooks&lt;/h3&gt;
 
 &lt;p&gt;If you&amp;rsquo;re experiencing issues submitting a test, try generating a new webhook URL on the settings page:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/16-regen.gif&#34; alt=&#34;../src/img/using-barricade/16-regen.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-regen.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-regen.gif&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Closing an Account</title>
       <link>https://docs.barricade.io/using-barricade/closing-account/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/closing-account/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re looking to stop using Barricade entirely, you can &lt;a href=&#34;https://app.barricade.io/dashboard/settings/team/close&#34;&gt;close your account through this page&lt;/a&gt;. Only admin users can close an account, for security reasons.&lt;/p&gt;
 
@@ -586,10 +578,54 @@ build_link: &#39;https://circleci.com/gh/barricadeio/webapp/1660&#39; // build U
     </item>
     
     <item>
+      <title>CloudFlare Integration</title>
+      <link>https://docs.barricade.io/using-barricade/cloudflare-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <guid>https://docs.barricade.io/using-barricade/cloudflare-integration/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/changelog/31-cloudflare.png&#34; alt=&#34;https://docs.barricade.io/src/img/changelog/31-cloudflare.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; makes DNS secure, fast and simple, as well as providing some really great DDoS protection and security features. You can integrate CloudFlare with Barricade to make an intelligent, learning firewall that can protect your infrastructure from things like DDoS and brute force attacks.&lt;/p&gt;
+
+&lt;h3 id=&#34;gotchas:f647eb5d518fb3851d585ccce9a324b4&#34;&gt;Gotchas&lt;/h3&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need to be using both Barricade and &lt;a href=&#34;https://cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; in order to integrate them - if you don&amp;rsquo;t already have a Barricade account, you can &lt;a href=&#34;https://app.barricade.io/&#34;&gt;sign up for free here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-up-the-integration:f647eb5d518fb3851d585ccce9a324b4&#34;&gt;Setting up the Integration&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Login to Barricade and go to the Settings &amp;gt; Integrations &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/integration/cloudflare&#34;&gt;CloudFlare Firewall&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on the switch to &lt;strong&gt;Enable&lt;/strong&gt; the integration.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Login to CloudFlare.com and open the &lt;a href=&#34;https://www.cloudflare.com/a/account/my-account&#34;&gt;My Account&lt;/a&gt; page. You&amp;rsquo;ll need to retrieve your Global API key:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-cloudflare-api.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-cloudflare-api.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just so you know, &lt;strong&gt;we encrypt your key&lt;/strong&gt;, it is not stored in plaintext for security reasons.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Copy and paste your API key and your email address into the form on the CloudFlare Integration page in the Barricade app. Click the &amp;lsquo;Enable&amp;rsquo; button.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That&amp;rsquo;s it - now you can quickly utilize the CloudFlare firewall from within Barricade.&lt;/p&gt;
+
+&lt;h3 id=&#34;using-the-integration:f647eb5d518fb3851d585ccce9a324b4&#34;&gt;Using the Integration&lt;/h3&gt;
+
+&lt;p&gt;You&amp;rsquo;ll see a new &amp;lsquo;Add To Firewall&amp;rsquo; button alongside attack details, allowing you simple one-click blocking of attackers:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/16-cloudflare-button.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/16-cloudflare-button.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;--&lt;/p&gt;
+
+&lt;p&gt;Read our &lt;a href=&#34;https://blog.barricade.io/cloudflare-meet-barricade/&#34;&gt;blog announcement&lt;/a&gt; for more background on this super useful integration!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Configuring Agents</title>
       <link>https://docs.barricade.io/using-barricade/configuring-agents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/configuring-agents/</guid>
       <description>
 
@@ -638,15 +674,14 @@ Allows you to enable or disable SSL hostname verification. By default value is &
 Your Agent may not be up to date - ensure you have &lt;a href=&#34;#updating-agents&#34;&gt;updated to the latest version&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not sure how to access the file on a server.&lt;/strong&gt;&lt;br /&gt;
-You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt;a href=&#34;../getting-started/#running-commands&#34;&gt;our guide&lt;/a&gt; here.&lt;/p&gt;
+You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt;a href=&#34;https://docs.barricade.io/getting-started/#running-commands&#34;&gt;our guide&lt;/a&gt; here.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Hipchat Integration</title>
       <link>https://docs.barricade.io/using-barricade/hipchat-integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/hipchat-integration/</guid>
       <description>
 
@@ -654,7 +689,7 @@ You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt
 
 &lt;p&gt;You can integrate HipChat with Barricade to share security notifications with your team:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-01.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-01.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-01.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-01.png&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;setting-up-the-integration:dca5d5bd8580eafd280a3fc4c35e98a6&#34;&gt;Setting up the Integration&lt;/h3&gt;
 
@@ -663,31 +698,31 @@ You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt
 
 &lt;li&gt;&lt;p&gt;Click on the switch to &lt;strong&gt;Enable&lt;/strong&gt; the integration:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-enable.gif&#34; alt=&#34;../src/img/using-barricade/14-hipchat-enable.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-enable.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-enable.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Follow the Integration Instructions that appear onscreen -&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Open your Hipchat window, and navigate to the channel you want to send notifications to. We recommend creating a new room named &lt;em&gt;Barricade.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Open the Room options and select &lt;strong&gt;Integrations&lt;/strong&gt;.
-&lt;img src=&#34;../src/img/using-barricade/14-hipchat-select.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-select.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-select.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-select.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;From the Integrations page click on &lt;strong&gt;Tokens&lt;/strong&gt; in the menu on the right, and you&amp;rsquo;ll see a &lt;strong&gt;Create new token&lt;/strong&gt; form appear at the bottom of the page:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-set-label.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-set-label.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-set-label.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-set-label.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Set a descriptive label in the text field at the bottom of the page. In the second field, select &lt;em&gt;Send Notification&lt;/em&gt; and click &lt;em&gt;Create&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-tokens.gif&#34; alt=&#34;../src/img/using-barricade/14-tokens.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-tokens.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-tokens.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;The page will display a Room Notification Token, a string that looks something like this: &lt;code&gt;9KFell1q8yZpcZTIWwUaDohs4gNfw7C2LHCyHWCT&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-copy-token.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-copy-token.png&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-copy-token.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-copy-token.png&#34; /&gt;&lt;br /&gt;
 &lt;strong&gt;Copy the Token&lt;/strong&gt;, and return to the &lt;a href=&#34;https://app.barricade.io/dashboard/settings/notification/hipchat&#34;&gt;HipChat page&lt;/a&gt; in the Barricade app.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Paste the token into the form, under the Instructions, and add a label for the HipChat channel you wish to post notifications to:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-save.gif&#34; alt=&#34;../src/img/using-barricade/14-hipchat-save.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-save.gif&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-save.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Click &lt;em&gt;Save Integration&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
 
@@ -700,235 +735,9 @@ You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt
 
 &lt;h3 id=&#34;troubleshooting-integrations-isn-t-available-in-hipchat:dca5d5bd8580eafd280a3fc4c35e98a6&#34;&gt;Troubleshooting: Integrations isn&amp;rsquo;t available in HipChat&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/14-hipchat-no-integration.png&#34; alt=&#34;../src/img/using-barricade/14-hipchat-no-integration.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-no-integration.png&#34; alt=&#34;https://docs.barricade.io/src/img/using-barricade/14-hipchat-no-integration.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In HipChat, accounts can be configured to restrict access to Integration and Token settings. If Integrations appears as a greyed-out, disabled option; you&amp;rsquo;ll need to contact theHipChat account owner.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Installing Agents</title>
-      <link>https://docs.barricade.io/using-barricade/installing-more-agents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/installing-more-agents/</guid>
-      <description>
-
-&lt;p&gt;During the &lt;a href=&#34;https://docs.barricade.io/hc/en-us/articles/205447438-Getting-Started&#34;&gt;account signup process&lt;/a&gt;, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional Agents at any time, allowing Barricade to watch over entire clusters of servers.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-install:d11bb84a6614a0a553bc4704d254e434&#34;&gt;How to Install&lt;/h2&gt;
-
-&lt;p&gt;Inside the Barricade &lt;a href=&#34;https://app.barricade.io&#34;&gt;app&lt;/a&gt;, you&amp;rsquo;ll see a New Agent button in the top-right-hand corner:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-opening.gif&#34; alt=&#34;../src/img/getting-started/drawer-opening.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Click the New Agent button to open the installer section&lt;/li&gt;
-&lt;li&gt;Copy the install command&lt;/li&gt;
-&lt;li&gt;Connect to your server and run the command (&lt;a href=&#34;../getting-started/#running-commands&#34;&gt;see our SSH guide&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;When the install command is finished, the new Agent will be detected automatically &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/drawer-detection.gif&#34; alt=&#34;../src/img/getting-started/drawer-detection.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once detected, you can close the panel by clicking the &amp;lsquo;X&amp;rsquo; icon in the top-right corner, or choose to Install Another.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Re-registering Agents</title>
-      <link>https://docs.barricade.io/using-barricade/re-register-agent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/re-register-agent/</guid>
-      <description>&lt;p&gt;We recommend re-registering an Agent if any of the following issues arise during the installation process:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Agent is not registered after installation&lt;/li&gt;
-&lt;li&gt;Agent was registered, but has stopped connecting / sending data&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Run this command on your server to re-register the agent:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ sudo su
-$ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-register
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Security Rating System</title>
-      <link>https://docs.barricade.io/using-barricade/security-rating-system/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/security-rating-system/</guid>
-      <description>
-
-&lt;p&gt;Our security rating system is made to be simple by design, so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.&lt;/p&gt;
-
-&lt;h2 id=&#34;ratings:159124d2da0896f1a39f7f69d4d3aeba&#34;&gt;Ratings&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/ranking.png&#34; alt=&#34;../src/img/using-barricade/ranking.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We have split security threats into Events, Attacks and Incidents. We track events, flag attacks, monitor their progress and alert you when they become incidents.&lt;/p&gt;
-
-&lt;table class=&#34;risk&#34;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Event&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Someone tried and failed to attack your app &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Attack&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Someone makes multiple failed attack attempts &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;em&gt; &lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Incident&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;An attacker succeeds in their attack - your system is breached&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Slack Integration</title>
-      <link>https://docs.barricade.io/using-barricade/slack-integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/slack-integration/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-logo.png&#34; alt=&#34;../src/img/using-barricade/13-slack-logo.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://slack.com&#34;&gt;Slack&lt;/a&gt; is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications. &lt;/p&gt;
-
-&lt;p&gt;You can integrate Slack with Barricade to notify your team when serious security incidents occur:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-message.png&#34; alt=&#34;../src/img/using-barricade/13-slack-message.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;setting-up-the-integration:39b09a0fb6bc114f8cde3db8390945c8&#34;&gt;Setting up the Integration&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Login to Barricade and go to the Settings &amp;gt; Notifications &amp;gt; &lt;a href=&#34;https://app.barricade.io/dashboard/settings/notification/slack&#34;&gt;Slack Notifications&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click on the switch to &lt;strong&gt;Enable&lt;/strong&gt; the integration:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-enable.gif&#34; alt=&#34;../src/img/using-barricade/13-slack-enable.gif&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Follow the Integration Instructions that appear onscreen.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click the &lt;a href=&#34;https://my.slack.com/services/new/incoming-webhook&#34;&gt;link to create a new Incoming Webhook&lt;/a&gt; on slack.com&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Set a channel for Barricade to post to:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-select-channel.png&#34; alt=&#34;../src/img/using-barricade/13-slack-select-channel.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click the Add button.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Copy&lt;/strong&gt; the Webhook URL that appears under &amp;lsquo;Setup Instructions&amp;rsquo;&lt;br /&gt;
-It will look like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;https://hooks.slack.com/services/A01BCDE23/A01B2CDEF/aB0c1DefGH23iJKl45M6nO7P
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Return to the &lt;a href=&#34;https://app.barricade.io/dashboard/settings/notification/slack&#34;&gt;Slack integration page&lt;/a&gt; in the Barricade app.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Paste the Webhook URL into the form:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/13-slack-paste.gif&#34; alt=&#34;../src/img/using-barricade/13-slack-paste.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click &lt;strong&gt;Save Integration&lt;/strong&gt;. &lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You can customize the integration to choose what items get posted to Slack, by checking the boxes on the right to activate more notifications.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;By default, only Incidents &lt;em&gt;(our most serious classification)&lt;/em&gt; are sent as notifications.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Stopping &amp; Removing Agents</title>
-      <link>https://docs.barricade.io/using-barricade/stopping-and-removing-agents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/stopping-and-removing-agents/</guid>
-      <description>
-
-&lt;p&gt;If you wish to stop monitoring a server, you can &lt;strong&gt;pause&lt;/strong&gt; or &lt;strong&gt;retire&lt;/strong&gt; the Agent via the &lt;a href=&#34;https://app.barricade.io/dashboard/agents&#34;&gt;controls on this page&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../src/img/changelog/24-controls.gif&#34; alt=&#34;../../src/img/changelog/24-controls.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Agents that are paused can be restarted later - whereas you cannot &amp;lsquo;undo&amp;rsquo; a retired Agent through the web interface - a &lt;a href=&#34;#installing-more-agents&#34;&gt;reinstall&lt;/a&gt; would be required to restore the Agent.&lt;/p&gt;
-
-&lt;h2 id=&#34;pausing-agents:172444a8f3e05633c6caacec2e0f907c&#34;&gt;Pausing Agents&lt;/h2&gt;
-
-&lt;p&gt;Older Agent versions do not support pausing and restarting. You should &lt;a href=&#34;#updating-agents&#34;&gt;update the Agent&lt;/a&gt; to the latest version.&lt;/p&gt;
-
-&lt;h2 id=&#34;retiring-and-removing-agents:172444a8f3e05633c6caacec2e0f907c&#34;&gt;Retiring and Removing Agents&lt;/h2&gt;
-
-&lt;p&gt;Retiring an Agent will stop the tranmission of data from your server, but it doesn&amp;rsquo;t remove the Agent files. If you want to fully remove all traces of the Agent, you will need to manually do so by running a command on your server:&lt;/p&gt;
-
-&lt;p&gt;To remove from an Ubuntu server: &lt;code&gt;dpkg -r barricade&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To remove from a CentOS server: &lt;code&gt;rpm -e barricade&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;one-way-agents:172444a8f3e05633c6caacec2e0f907c&#34;&gt;One-way Agents&lt;/h2&gt;
-
-&lt;p&gt;Clicking &amp;lsquo;pause&amp;rsquo; or retire&amp;rsquo; will prompt Barricade to signal a change in behavior to the Agent through the status API - it can&amp;rsquo;t directly write to or alter the Agent directly (&lt;a href=&#34;../getting-started/#how-it-works-agent&#34;&gt;by design&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;When the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tagging &amp; Filtering</title>
-      <link>https://docs.barricade.io/using-barricade/tagging-filtering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.barricade.io/using-barricade/tagging-filtering/</guid>
-      <description>
-
-&lt;p&gt;If you are running multiple Barricade Agents, you&amp;rsquo;ll see data pooled in the dashboard from different servers. Filters help you narrow your view to see results from specific servers.&lt;/p&gt;
-
-&lt;h3 id=&#34;where-to-find-filters:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Where to find Filters&lt;/h3&gt;
-
-&lt;p&gt;You can filter Case data in the app by accessing the Filter option at the top of the &lt;code&gt;Dashboard -&amp;gt; Overview&lt;/code&gt; navigation:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-01.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-01.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When you have active Filters, the menu will look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-tagging-02.png&#34; alt=&#34;../src/img/using-barricade/28-tagging-02.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;using-filters:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Using Filters&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Click the Filter button in the top right of the &lt;a href=&#34;https://app.barricade.io/dashboard/overview&#34;&gt;Overview&lt;/a&gt; screen.&lt;/li&gt;
-&lt;li&gt;A new panel will appear from the right, displaying a list of &lt;strong&gt;Agent Tags&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Remove the check marks from any Agent tags you wish to filter out. The form auto-saves your selection.&lt;/li&gt;
-&lt;li&gt;To close the Filter panel, click to the left outside of the panel.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-filters.gif&#34; alt=&#34;../src/img/using-barricade/28-filters.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;editing-agent-tags:4bf906d4e08e394c13258dde4bb8cad0&#34;&gt;Editing Agent Tags&lt;/h3&gt;
-
-&lt;p&gt;An agent&amp;rsquo;s tag can be edited in two ways. Either through the &lt;code&gt;Dashboard -&amp;gt; Agents&lt;/code&gt; page which can be found on the left-hand side menu, or through an automated configuration file described below the animation.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; alt=&#34;../src/img/using-barricade/28-Agent-Tags-Edit.gif&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can change the Tags associated with your Agents in the configuration file, located on your server at &lt;code&gt;/service/barricade/barricade.cfg &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;By default, all Agents start out with one tag: &lt;code&gt;production&lt;/code&gt;.
-See &lt;a href=&#34;#configuring-agents&#34;&gt;Configuring Agents&lt;/a&gt; for more information.&lt;/p&gt;
 </description>
     </item>
     

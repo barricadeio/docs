@@ -9,7 +9,7 @@ weight = "13"
 
 +++
 
-![../../src/img/changelog/13-pricing.jpg](../../src/img/changelog/13-pricing.jpg)
+![https://docs.barricade.io/src/img/changelog/13-pricing.jpg](https://docs.barricade.io/src/img/changelog/13-pricing.jpg)
 
 This [new pricing](https://blog.barricade.io/introducing-our-new-pricing/) is more tailored to who will benefit the most from using Barricade. We’re also pretty excited to announce the immediate availability of our **7-day trial** on all plans.
 

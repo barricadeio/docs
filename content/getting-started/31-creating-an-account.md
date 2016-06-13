@@ -17,7 +17,7 @@ slug = "account-setup"
 
 To get up and running with Barricade, go to [app.barricade.io](https://app.barricade.io/). First-time visitors will see this screen with account creation instructions:
 
-![../src/img/getting-started/signup-v3.png](../src/img/getting-started/signup-v3.png)
+![https://docs.barricade.io/src/img/getting-started/signup-v3.png](https://docs.barricade.io/src/img/getting-started/signup-v3.png)
 
 If you've previously created an account, you can login by clicking _'[Already Signed Up](https://app.barricade.io/login)'_. To create a new account, you'll be asked for:
 

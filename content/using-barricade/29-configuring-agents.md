@@ -60,4 +60,4 @@ Allows you to enable or disable SSL hostname verification. By default value is `
 Your Agent may not be up to date - ensure you have [updated to the latest version](#updating-agents).  
 
 **I'm not sure how to access the file on a server.**  
-You'll need connect to the server via SSH to run the command - see [our guide](../getting-started/#running-commands) here.
+You'll need connect to the server via SSH to run the command - see [our guide](https://docs.barricade.io/getting-started/#running-commands) here.

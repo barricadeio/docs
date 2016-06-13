@@ -15,7 +15,7 @@ Some servers see a lot of inbound and outbound traffic - be it database activity
 
 By design, the Barricade Agent observes everything - all traffic is carefully examined for unusual or malicious behaviour. However, should you want to narrow its scope to omit certain types of traffic, you can do so by activating port **filters** in the Agent configuration.
 
-![../../src/img/using-barricade/agent-data.png](../../src/img/using-barricade/agent-data.png)
+![https://docs.barricade.io/src/img/using-barricade/agent-data.png](https://docs.barricade.io/src/img/using-barricade/agent-data.png)
 
 ## Be Careful
 
@@ -27,7 +27,7 @@ You can see a breakdown of the data being transferred in and out of your server 
 
 Filtering allows you to exclude certain ports - the traffic report presents server usage by port so you can easily identify different types of connections.
 
-![../../src/img/using-barricade/traffic.png](../../src/img/using-barricade/traffic.png)
+![https://docs.barricade.io/src/img/using-barricade/traffic.png](https://docs.barricade.io/src/img/using-barricade/traffic.png)
 
 ## The Agent Configuration file
 

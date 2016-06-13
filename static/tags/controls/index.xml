@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Controls on </title>
+      <title>Controls</title>
     <link>https://docs.barricade.io/tags/controls/</link>
-    <description>Recent content in Controls on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/controls/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Agent Controls</title>
       <link>https://docs.barricade.io/using-barricade/pausing-retiring-agents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/using-barricade/pausing-retiring-agents/</guid>
       <description>&lt;p&gt;The Agents section of the app interface provides a breakdown of the Agents you have running:&lt;/p&gt;
 

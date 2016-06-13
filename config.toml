@@ -1,10 +1,11 @@
 baseurl = "https://docs.barricade.io/"
 theme = "barricade"
+description = "Resources for using and developing with Barricade"
 
 publishdir = "static"
 destination = "static"
 
-canonifyURLs = "false"
+canonifyURLs = "true"
 relativeURLs = "false"
 pluralizeListTitles = "false"
 plainIdAnchors = "true"
@@ -12,6 +13,7 @@ plainIdAnchors = "true"
 [params]
     title = "Barricade Docs"
     author = "Team Barricade"
+    description = "Resources for using and developing with Barricade"
 
 [[menu.main]]
     name = "Getting Started"

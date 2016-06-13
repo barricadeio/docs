@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recommendations on </title>
+      <title>Recommendations</title>
     <link>https://docs.barricade.io/tags/recommendations/</link>
-    <description>Recent content in Recommendations on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://docs.barricade.io/tags/recommendations/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Cross-Site Scripting</title>
       <link>https://docs.barricade.io/security-guide/xss/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/xss/</guid>
       <description>
 
@@ -69,8 +67,7 @@ The best way to safeguard against XSS attacks in the long term is to understand
     <item>
       <title>Default Username Attempts</title>
       <link>https://docs.barricade.io/security-guide/login-default-username/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/login-default-username/</guid>
       <description>
 
@@ -128,8 +125,7 @@ DBA
     <item>
       <title>Gaining Admin Privileges</title>
       <link>https://docs.barricade.io/security-guide/admin-privileges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/admin-privileges/</guid>
       <description>
 
@@ -171,8 +167,7 @@ DBA
     <item>
       <title>Gaining User Privileges</title>
       <link>https://docs.barricade.io/security-guide/user-privileges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/user-privileges/</guid>
       <description>
 
@@ -210,8 +205,7 @@ DBA
     <item>
       <title>How to Run Commands</title>
       <link>https://docs.barricade.io/security-guide/running-commands/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/running-commands/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ll need to connect to your server via &lt;a href=&#34;https://en.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH&lt;/a&gt; to run the commands - how you go about doing this depends on the type of server you&amp;rsquo;re using (AWS, DigitalOcean, Microsoft Azure, etc).&lt;/p&gt;
 
@@ -234,15 +228,14 @@ DBA
 
 &lt;p&gt;&lt;em&gt;An example of the DigitalOcean&amp;rsquo;s in-browser SSH tool, where you would run the command:&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../src/img/getting-started/do-ssh.jpeg&#34; alt=&#34;../src/img/getting-started/do-ssh.jpeg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/getting-started/do-ssh.jpeg&#34; alt=&#34;https://docs.barricade.io/src/img/getting-started/do-ssh.jpeg&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Policy Violations</title>
       <link>https://docs.barricade.io/security-guide/policy-violations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/policy-violations/</guid>
       <description>
 
@@ -276,8 +269,7 @@ DBA
     <item>
       <title>SQL Injection</title>
       <link>https://docs.barricade.io/security-guide/sql-injection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/sql-injection/</guid>
       <description>
 
@@ -289,7 +281,7 @@ DBA
 
 &lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;See our infographic for a visual explanation of SQL Injection attacks &amp;gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;&lt;img src=&#34;../src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; alt=&#34;../src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.barricade.io/sql-injection-attacks-visually-explained/&#34;&gt;&lt;img src=&#34;https://docs.barricade.io/src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; alt=&#34;https://docs.barricade.io/src/img/security-guide/sqlinjection-thumbnail-home-750.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;These attacks are common, and can be quite destructive - if successful, an attacker can interact with your database and steal or even erase sensitive data.&lt;/p&gt;
 
@@ -342,8 +334,7 @@ SQL Injection is just one of many techniques that can pose a threat to you and y
     <item>
       <title>Suspicious Login Attempts</title>
       <link>https://docs.barricade.io/security-guide/login-suspicious-username/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/login-suspicious-username/</guid>
       <description>
 
@@ -399,8 +390,7 @@ username has failed activity from multiple IP addresses at once
     <item>
       <title>Trojan Infections</title>
       <link>https://docs.barricade.io/security-guide/trojan-infection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/trojan-infection/</guid>
       <description>
 
@@ -465,8 +455,7 @@ username has failed activity from multiple IP addresses at once
     <item>
       <title>Web App Attacks</title>
       <link>https://docs.barricade.io/security-guide/web-app-attack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <guid>https://docs.barricade.io/security-guide/web-app-attack/</guid>
       <description>
 

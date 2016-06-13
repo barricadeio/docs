@@ -21,4 +21,4 @@ As new data comes in, the engine learns about different types of behaviors for y
 
 The Engine is designed to distil complex machine learning concepts such as artificial neural networks, anomaly detection, and ensemble learning into consumable and actionable information.
 
-For details on the various behaviors & attacks that Barricade detects - [see the Security Guide](../security-guide).
+For details on the various behaviors & attacks that Barricade detects - [see the Security Guide](https://docs.barricade.io/security-guide).

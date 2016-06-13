@@ -12,7 +12,7 @@ weight = "26"
 
 We’ve released a new update to our monitoring Agents - adding greater Ubuntu support and continuing to improve the performance of Agents.
 
-To apply these changes, [update your Agents now](../../using-barricade/#updating-agents).
+To apply these changes, [update your Agents now](https://docs.barricade.io/using-barricade/#updating-agents).
 
 ## Improvements:
 
@@ -24,4 +24,4 @@ To apply these changes, [update your Agents now](../../using-barricade/#updating
 
 _Example of an installation error message:_
 
-![../../src/img/changelog/26-cli.gif](../../src/img/changelog/26-cli.gif)
+![https://docs.barricade.io/src/img/changelog/26-cli.gif](https://docs.barricade.io/src/img/changelog/26-cli.gif)

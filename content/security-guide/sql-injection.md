@@ -23,7 +23,7 @@ Web forms are often targetted by attackers as they seek out vulnerable systems t
 
 [See our infographic for a visual explanation of SQL Injection attacks >](https://blog.barricade.io/sql-injection-attacks-visually-explained/)
 
-[![../src/img/security-guide/sqlinjection-thumbnail-home-750.png](../src/img/security-guide/sqlinjection-thumbnail-home-750.png)](https://blog.barricade.io/sql-injection-attacks-visually-explained/)
+[![https://docs.barricade.io/src/img/security-guide/sqlinjection-thumbnail-home-750.png](https://docs.barricade.io/src/img/security-guide/sqlinjection-thumbnail-home-750.png)](https://blog.barricade.io/sql-injection-attacks-visually-explained/)
 
 These attacks are common, and can be quite destructive - if successful, an attacker can interact with your database and steal or even erase sensitive data.
 
