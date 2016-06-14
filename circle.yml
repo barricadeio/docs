@@ -4,6 +4,7 @@ machine:
     DISABLE_NOTIFIER: true
     PAGES_BRANCH: pages-test
     GULP_DESTINATION: $CIRCLE_ARTIFACTS
+    BUNDLE_PATH: ~/.bundle
   post:
     - mkdir -p ~/bin
   node:
