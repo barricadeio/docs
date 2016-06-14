@@ -23,7 +23,7 @@ dependencies:
     - npm install -g gulp
     - npm install
     - gem install bundler
-    - cd api && bundle install
+    - cd api && bundle check --path=~/.bundle || bundle install --path=~/.bundle --jobs=4 --retry=3
     - git config user.name "barricade-machine"
     - git config user.email "engineering@barricade.io"
   cache_directories:
