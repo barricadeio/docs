@@ -46,5 +46,5 @@ deployment:
       - find . -not -path "./.git*" -delete
       - cp -r $CIRCLE_ARTIFACTS/* .
       - git add -A
-      - git commit -am "Build $CIRCLE_BUILD_NUM of $CIRCLE_SHA1 for $CIRCLE_USERNAME on `date`"
+      - git commit --allow-empty -am "Build $CIRCLE_BUILD_NUM of $CIRCLE_SHA1 for $CIRCLE_USERNAME on `date`"
       - git push -f origin $PAGES_BRANCH
