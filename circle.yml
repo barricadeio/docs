@@ -2,7 +2,7 @@ machine:
   environment:
     PATH: $PATH:~/bin
     DISABLE_NOTIFIER: true
-    PAGES_BRANCH: pages-test
+    PAGES_BRANCH: gh-pages
     GULP_DESTINATION: $CIRCLE_ARTIFACTS
     BUNDLE_PATH: ~/.bundle
   post:
@@ -41,5 +41,5 @@ deployment:
       - find . -not -path "./.git*" -delete
       - cp -r $CIRCLE_ARTIFACTS/* .
       - git add -A
-      - git commit -am "Build $CIRCLE_BUILD_NUM for $CIRCLE_SHA1"
+      - git commit -am "Build $CIRCLE_BUILD_NUM of $CIRCLE_SHA1 for $CIRCLE_USERNAME on `date`"
       - git push -f origin $PAGES_BRANCH
