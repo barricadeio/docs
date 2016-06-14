@@ -37,6 +37,7 @@ test:
     - gulp
     - cp CNAME $CIRCLE_ARTIFACTS/
     - cp humans.txt $CIRCLE_ARTIFACTS/
+    - cp circle.yml $CIRCLE_ARTIFACTS/
 
 deployment:
   master:
