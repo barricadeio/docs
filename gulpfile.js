@@ -44,6 +44,7 @@ gulp.task('copy', function() {
 gulp.task('styles', function() {
   return sass('themes/barricade/static/src/sass/styles.scss', { style: 'expanded' })
     .pipe(autoprefixer('last 2 version'))
+    .pipe(gulp.dest('themes/barricade/static/src/css'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(minifycss())
     .pipe(sourcemaps.init())
