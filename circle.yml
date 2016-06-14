@@ -36,7 +36,7 @@ deployment:
   master:
     branch: master
     commands:
-      - git checkout $PAGES_BRANCH
+      - git checkout -f $PAGES_BRANCH
       - find . -delete
       - cp -r $CIRCLE_ARTIFACTS/* .
       - git add -A
