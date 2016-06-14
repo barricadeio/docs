@@ -17,6 +17,8 @@ dependencies:
     - npm install
     - gem install bundler
     - cd api && bundle install
+    - git config user.name "barricade-machine"
+    - git config user.email "engineering+$CIRCLE_USERNAME@barricade.io"
   cache_directories:
     - ~/bin
 
