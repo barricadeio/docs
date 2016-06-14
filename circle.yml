@@ -2,6 +2,7 @@ machine:
   environment:
     PATH: $PATH:~/bin
     DISABLE_NOTIFIER: true
+    PAGES_BRANCH: pages-test
   post:
     - mkdir -p ~/bin
   node:
@@ -25,9 +26,15 @@ test:
     - hugo -t barricade -d $CIRCLE_ARTIFACTS
     - cd api && bundle exec middleman build --clean --build_dir $CIRCLE_ARTIFACTS/api
     - gulp
+    - cp CNAME $CIRCLE_ARTIFACTS/
 
-# deployment:
-#   master:
-#     branch: master
-#     commands:
-#       - bash ./deploy.sh
+deployment:
+  master:
+    branch: master
+    commands:
+      - git checkout $PAGES_TEST
+      - git rm -rf .
+      - cp -r $CIRCLE_ARTIFACTS/* .
+      - git add -A
+      - git commit -am "Build $CIRCLE_BUILD_NUM for $CIRCLE_SHA1"
+      - git push -f origin $PAGES_TEST
