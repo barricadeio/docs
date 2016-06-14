@@ -36,8 +36,9 @@ deployment:
   master:
     branch: master
     commands:
+      - git reset --hard HEAD
       - git checkout -f $PAGES_BRANCH
-      - find . -delete
+      - find . -not -path "./.git*" -delete
       - cp -r $CIRCLE_ARTIFACTS/* .
       - git add -A
       - git commit -am "Build $CIRCLE_BUILD_NUM for $CIRCLE_SHA1"
