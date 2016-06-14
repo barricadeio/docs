@@ -34,9 +34,9 @@ deployment:
   master:
     branch: master
     commands:
-      - git checkout $PAGES_TEST
+      - git checkout $PAGES_BRANCH
       - git rm -rf .
       - cp -r $CIRCLE_ARTIFACTS/* .
       - git add -A
       - git commit -am "Build $CIRCLE_BUILD_NUM for $CIRCLE_SHA1"
-      - git push -f origin $PAGES_TEST
+      - git push -f origin $PAGES_BRANCH
