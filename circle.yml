@@ -7,7 +7,7 @@ machine:
   post:
     - mkdir -p ~/bin
   node:
-    version: 0.12
+    version: "v6.1.0"
   ruby:
     version: "ruby-2.2.5"
 
