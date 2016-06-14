@@ -1,0 +1,52 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
+
+machine:
+  environment:
+    PATH: $PATH:~/bin
+    DISABLE_NOTIFIER: true
+    PAGES_BRANCH: gh-pages
+    GULP_DESTINATION: $CIRCLE_ARTIFACTS
+    BUNDLE_PATH: ~/.bundle
+  post:
+    - mkdir -p ~/bin
+  node:
+    version: "v6.1.0"
+  ruby:
+    version: "ruby-2.2.5"
+
+dependencies:
+  override:
+    - bash ./ci-install-hugo.sh
+    - npm install -g gulp
+    - npm install
+    - gem install bundler
+    - cd api && bundle check --path=~/.bundle || bundle install --path=~/.bundle --jobs=4 --retry=3
+    - git config user.name "barricade-machine"
+    - git config user.email "engineering@barricade.io"
+  cache_directories:
+    - ~/bin
+
+test:
+  override:
+    - hugo -v
+    - hugo -t barricade -d $CIRCLE_ARTIFACTS
+    - cd api && bundle exec middleman build --clean --build_dir $CIRCLE_ARTIFACTS/api
+    - gulp
+    - cp CNAME $CIRCLE_ARTIFACTS/
+    - cp humans.txt $CIRCLE_ARTIFACTS/
+    - cp circle.yml $CIRCLE_ARTIFACTS/
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - git reset --hard HEAD
+      - git checkout -f $PAGES_BRANCH
+      - find . -not -path "./.git*" -delete
+      - cp -r $CIRCLE_ARTIFACTS/* .
+      - git add -A
+      - git commit --allow-empty -am "Build $CIRCLE_BUILD_NUM of $CIRCLE_SHA1 for $CIRCLE_USERNAME on `date`"
+      - git push -f origin $PAGES_BRANCH
