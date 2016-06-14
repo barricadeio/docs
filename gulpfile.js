@@ -22,16 +22,17 @@ var gulp = require('gulp'),
     cssnano = require('gulp-cssnano');
     sourcemaps = require('gulp-sourcemaps');
 
+var destination = process.env.GULP_DESTINATION || 'static';
 
 // Copy
 gulp.task('copyjson', function() {
   return gulp.src('themes/barricade/static/src/particlesjs-config.json')
-    .pipe(gulp.dest('static/src/'))
+    .pipe(gulp.dest(destination + '/src/'))
     .pipe(notify({ message: 'Copy json task complete' }));
 });
 gulp.task('copyfonts', function() {
   return gulp.src('themes/barricade/static/src/fonts/*')
-    .pipe(gulp.dest('static/src/fonts'))
+    .pipe(gulp.dest(destination + '/src/fonts'))
     .pipe(notify({ message: 'Copy fonts task complete' }));
 });
 gulp.task('copy', function() {
@@ -43,13 +44,13 @@ gulp.task('copy', function() {
 gulp.task('styles', function() {
   return sass('themes/barricade/static/src/sass/styles.scss', { style: 'expanded' })
     .pipe(autoprefixer('last 2 version'))
-    .pipe(gulp.dest('themes/barricade/static/src/css'))
+    .pipe(gulp.dest('/tmp/'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(minifycss())
     .pipe(sourcemaps.init())
     .pipe(cssnano())
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('static/src/css'))
+    .pipe(gulp.dest(destination + '/src/css'))
     .pipe(notify({ message: 'Styles task complete' }));
 });
 
@@ -82,7 +83,7 @@ gulp.task('scriptminify', function() {
     // .pipe(concat())
     .pipe(rename({ suffix: '.min' }))
     .pipe(uglify())
-    .pipe(gulp.dest('static/src/js'))
+    .pipe(gulp.dest(destination + '/src/js'))
     .pipe(notify({ message: 'Script minify task complete' }));
 });
 gulp.task('scripts', function() {
@@ -97,22 +98,22 @@ gulp.task('images', function() {
     .pipe(notify({ message: 'Images minifed' })),
     gulp.src('themes/barricade/static/src/img/**/*')
     .pipe(notify({ message: 'Images task complete' }))
-    .pipe(gulp.dest('static/src/img'))
+    .pipe(gulp.dest(destination + '/src/img'))
   )
 });
 
 // JSON
 gulp.task('json', function () {
-  return gulp.src('static/index.xml')
+  return gulp.src(destination + '/index.xml')
     .pipe(xml2json())
     .pipe(rename({extname: '.json'}))
-    .pipe(gulp.dest('static/'))
+    .pipe(gulp.dest(destination + '/'))
     .pipe(notify({ message: 'JSON updated' }));
 });
 
 // Clean
 gulp.task('clean', function() {
-  return del('static/src/**/*');
+  return del(destination + '/src/**/*');
 });
 
 
@@ -137,6 +138,6 @@ gulp.task('watch', function() {
   livereload.listen();
 
   // Watch any files in static/, reload on change
-  gulp.watch(['static/**', 'static/src/**']).on('change', livereload.changed);
+  gulp.watch([destination + '/**', destination + '/src/**']).on('change', livereload.changed);
 
 });

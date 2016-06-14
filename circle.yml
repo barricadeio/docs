@@ -3,6 +3,7 @@ machine:
     PATH: $PATH:~/bin
     DISABLE_NOTIFIER: true
     PAGES_BRANCH: pages-test
+    GULP_DESTINATION: $CIRCLE_ARTIFACTS
   post:
     - mkdir -p ~/bin
   node:
