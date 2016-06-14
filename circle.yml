@@ -36,6 +36,7 @@ test:
     - cd api && bundle exec middleman build --clean --build_dir $CIRCLE_ARTIFACTS/api
     - gulp
     - cp CNAME $CIRCLE_ARTIFACTS/
+    - cp humans.txt $CIRCLE_ARTIFACTS/
 
 deployment:
   master:
