@@ -112,7 +112,7 @@ gulp.task('json', function () {
 
 // Clean
 gulp.task('clean', function() {
-  return del(destination + '/src/**/*');
+  return del(destination + '/src/**/*',  {force: true});
 });
 
 
