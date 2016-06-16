@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Stopping &amp; Removing Agents</title>
+  <title>Agent Release v0.6.6 - Debian Support</title>
 
   <meta name="description" content="Resources for using and developing with Barricade">
   <meta name="author" content="">
@@ -117,7 +117,7 @@
         
       </li>
       
-      <li><a class="sidebar-nav-item active" href="https://docs.barricade.io/using-barricade/">
+      <li><a class="sidebar-nav-item" href="https://docs.barricade.io/using-barricade/">
           <span class="ripple">Using Barricade <span></span></span>
         </a>
         
@@ -143,7 +143,7 @@
           
             <li><a href="#pausing-retiring-agents">Agent Controls</a></li>
           
-            <li class="active"><a href="#stopping-and-removing-agents">Stopping &amp; Removing Agents</a></li>
+            <li><a href="#stopping-and-removing-agents">Stopping &amp; Removing Agents</a></li>
           
             <li><a href="#tagging-filtering">Tagging &amp; Filtering</a></li>
           
@@ -238,8 +238,10 @@
   <div class="breadcrumb">
     <a href="../">Documentation</a>
     
-      <a href="../">Stopping &amp; Removing Agents</a>
+      <a href="../">changelog</a>
     
+    
+      <a href="../">Agent Release v0.6.6 - Debian Support</a>
     
   </div>
 
@@ -284,32 +286,10 @@
       <div class="row">
         <div class="small-1 columns">&nbsp;</div>
         <div class="small-10 columns content-wrap">
-          <h3>Stopping &amp; Removing Agents</h3>
-          
+          <h3>Agent Release v0.6.6 - Debian Support</h3>
+          <p>We’ve shipped an update to our monitoring Agent to support Debian (wheezy, jessie).</p>
 
-<p>If you wish to stop monitoring a server, you can <strong>pause</strong> or <strong>retire</strong> the Agent via the <a href="https://app.barricade.io/dashboard/agents">controls on this page</a>:</p>
-
-<p><img src="https://docs.barricade.io/src/img/changelog/24-controls.gif" alt="https://docs.barricade.io/src/img/changelog/24-controls.gif" /></p>
-
-<p>Agents that are paused can be restarted later - whereas you cannot &lsquo;undo&rsquo; a retired Agent through the web interface - a <a href="#installing-more-agents">reinstall</a> would be required to restore the Agent.</p>
-
-<h2 id="pausing-agents:172444a8f3e05633c6caacec2e0f907c">Pausing Agents</h2>
-
-<p>Older Agent versions do not support pausing and restarting. You should <a href="#updating-agents">update the Agent</a> to the latest version.</p>
-
-<h2 id="retiring-and-removing-agents:172444a8f3e05633c6caacec2e0f907c">Retiring and Removing Agents</h2>
-
-<p>Retiring an Agent will stop the tranmission of data from your server, but it doesn&rsquo;t remove the Agent files. If you want to fully remove all traces of the Agent, you will need to manually do so by running a command on your server:</p>
-
-<p>To remove from an Ubuntu server: <code>dpkg -r barricade</code></p>
-
-<p>To remove from a CentOS server: <code>rpm -e barricade</code></p>
-
-<h2 id="one-way-agents:172444a8f3e05633c6caacec2e0f907c">One-way Agents</h2>
-
-<p>Clicking &lsquo;pause&rsquo; or retire&rsquo; will prompt Barricade to signal a change in behavior to the Agent through the status API - it can&rsquo;t directly write to or alter the Agent directly (<a href="https://docs.barricade.io/getting-started/#how-it-works-agent">by design</a>).</p>
-
-<p>When the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.</p>
+<p>To apply these changes, <a href="https://docs.barricade.io/using-barricade/#updating-agents">update your Agents now</a>.</p>
 
         </div>
         <div class="small-1 columns">&nbsp;</div>
