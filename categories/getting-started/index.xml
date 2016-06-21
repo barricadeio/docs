@@ -163,7 +163,7 @@ all transmitted information is encrypted with 2048-bit SSL&lt;/li&gt;
 &lt;li&gt;Debian 8.x (64-bit)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;**Note: ** We currently do not check packages particular to EUS and AUS versions of Red Hat Enterprise Linux or those in the Red Hat extras channel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; We currently do not check packages particular to EUS and AUS versions of Red Hat Enterprise Linux or those in the Red Hat extras channel.&lt;/p&gt;
 
 &lt;h3 id=&#34;windows-support:a4289c93faaa8e5b7b34d56ee7e26c25&#34;&gt;Windows Support&lt;/h3&gt;
 
