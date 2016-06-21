@@ -3,7 +3,7 @@ title = "OS Compatibility"
 description = "Agent Requirements and compatibility"
 weight = "14"
 
-tags = ["agent", "how it works", "os", "operating system", "centos", "ubuntu", "debian", "windows", "aws", "azure", "linux"]
+tags = ["agent", "how it works", "os", "operating system", "centos", "ubuntu", "debian", "redhat", "red hat", "rhel", windows", "aws", "azure", "linux"]
 section = "getting-started"
 categories = ["getting-started"]
 type = "page"
@@ -15,8 +15,10 @@ slug = "os-requirements-compatibility"
 
 +++
 
-Our Agent supports **Ubuntu**, **CentOS** and **Debian** based cloud servers - (common configurations on providers like AWS, Google Cloud Platform, DigitalOcean and Microsoft Azure).
+Our Agent supports **Ubuntu**, **CentOS**, **Debian** and **Red Hat** based cloud servers - (common configurations on providers like AWS, Google Cloud Platform, DigitalOcean and Microsoft Azure).
 
+*   Red Hat Enterprise Linux 6.x (64-bit)
+*   Red Hat Enterprise Linux 7.x (64-bit)
 *   Ubuntu 12.04 LTS (64-bit)
 *   Ubuntu 14.04 LTS (64-bit)
 *   Ubuntu 14.10 (64-bit)
@@ -25,8 +27,10 @@ Our Agent supports **Ubuntu**, **CentOS** and **Debian** based cloud servers - (
 *   Ubuntu 16.04 (64-bit) - **Note:** our vulnerability checks do not currently check Snap packages
 *   CentOS 6.x (64-bit)
 *   CentOS 7.x (64-bit)
-*   Debian 7.0 (64-bit)
-*   Debian 8.0 (64-bit)
+*   Debian 7.x (64-bit)
+*   Debian 8.x (64-bit)
+
+**Note: ** We currently do not check packages particular to EUS and AUS versions of Red Hat Enterprise Linux or those in the Red Hat extras channel.
 
 ### Windows Support
 
