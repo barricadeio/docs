@@ -3,7 +3,7 @@ title = "OS Compatibility"
 description = "Agent Requirements and compatibility"
 weight = "14"
 
-tags = ["agent", "how it works", "os", "operating system", "centos", "ubuntu", "debian", "redhat", "red hat", "rhel", windows", "aws", "azure", "linux"]
+tags = ["agent", "how it works", "os", "operating system", "centos", "ubuntu", "debian", "redhat", "red hat", "rhel", "windows", "aws", "azure", "linux"]
 section = "getting-started"
 categories = ["getting-started"]
 type = "page"
