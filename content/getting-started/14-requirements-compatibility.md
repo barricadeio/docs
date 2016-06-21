@@ -30,7 +30,7 @@ Our Agent supports **Ubuntu**, **CentOS**, **Debian** and **Red Hat** based clou
 *   Debian 7.x (64-bit)
 *   Debian 8.x (64-bit)
 
-**Note: ** We currently do not check packages particular to EUS and AUS versions of Red Hat Enterprise Linux or those in the Red Hat extras channel.
+**Note:** We currently do not check packages particular to EUS and AUS versions of Red Hat Enterprise Linux or those in the Red Hat extras channel.
 
 ### Windows Support
 
