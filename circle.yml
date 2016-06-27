@@ -31,13 +31,12 @@ dependencies:
 
 test:
   override:
-    - ls -ltr
     - hugo -v
     - hugo -t barricade -d $CIRCLE_ARTIFACTS
     - cd api && bundle exec middleman build --clean --build_dir $CIRCLE_ARTIFACTS/api
     - gulp
     - ls -ltr $CIRCLE_ARTIFACTS
-    - cat $CIRCLE_ARTIFACTS/index.json
+    - cat $CIRCLE_ARTIFACTS/src/index.json
     - cp CNAME $CIRCLE_ARTIFACTS/
     - cp humans.txt $CIRCLE_ARTIFACTS/
     - cp circle.yml $CIRCLE_ARTIFACTS/

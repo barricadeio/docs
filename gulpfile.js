@@ -119,7 +119,7 @@ gulp.task('index', function () {
 	var outputDir = process.env.GULP_DESTINATION || 'static';
 	var h = new hugolunr();
 	h.setInput(inputDir);
-	h.setOutput(outputDir + '/index.json');
+	h.setOutput(outputDir + '/src/index.json');
 	h.index();
 });
 

@@ -6,7 +6,7 @@
 
 	function init() {
 		// First retrieve the index file
-		$.getJSON("/index.json")
+		$.getJSON("/src/index.json")
 			.done(function (index) {
 				pagesIndex = index;
 				//console.log("index:", pagesIndex);
