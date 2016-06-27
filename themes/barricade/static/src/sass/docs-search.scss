@@ -10,7 +10,6 @@
   @include transition;
 
   &.fa-times {
-    background: $light1;
     z-index: 1080;
 
     &:hover {
@@ -57,8 +56,8 @@
     bottom: 0;
 
     #search-input-wrap input.st-default-search-input {
-      padding: 2.5em 5%;
-      margin-top: 0px;
+      padding: 2em 5%;
+      margin-top: 0;
     }
 
     .fa-times,
@@ -74,7 +73,7 @@
   }
 
   .search-overlay-bg {
-    background: rgba(255,255,255,0.92);
+    background: rgba(255, 255, 255, 0.92);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -94,11 +93,12 @@
   .container {
     position: relative;
     z-index: 1060;
+    overflow-y: scroll;
+    height: 100%;
   }
 
   #search-input-wrap {
     padding: 0;
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -113,7 +113,7 @@
       color: $green4;
       letter-spacing: 0.015em;
       line-height: 2;
-      padding: 1em 5%;
+      padding: 2em 1em;
       text-align: center;
       border-bottom: 1px solid $light2;
       -moz-box-sizing: border-box;
@@ -122,6 +122,32 @@
       @include futuraLight;
       @include box-shadow(0, 0, 0, transparent);
     }
+  }
+
+  #searchResults {
+    padding: 40px 20px;
+
+    .st-search-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+
+      .item {
+
+        .title {
+          font-size: 24px;
+        }
+
+        .content {
+          font-size: 20px;
+          color: #888;
+          margin-bottom: 30px;
+        }
+
+      }
+
+    }
+
   }
 
   .overlay-footer {
@@ -152,8 +178,8 @@
       @include border-radius;
     }
   }
-}
 
+}
 
 // swifttype results
 .st-default-autocomplete {
@@ -173,7 +199,7 @@
 
     a.st-ui-result {
       @include futuraRegular;
-      @include border-radius(0.25em,0.25em);
+      @include border-radius(0.25em, 0.25em);
       border: none;
       display: block;
       font-size: $scalex5;

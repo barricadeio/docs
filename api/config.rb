@@ -1,6 +1,3 @@
-# Build Directory
-set :build_dir, '../static/api'
-
 # Markdown
 set :markdown_engine, :redcarpet
 set :markdown,

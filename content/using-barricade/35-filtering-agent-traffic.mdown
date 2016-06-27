@@ -4,10 +4,14 @@ description = "How to filter traffic from your Agent"
 weight = "35"
 
 tags = ["agent", "filter", "port", "ports"]
-section = ""
-categories = [""]
+section = "using-barricade"
+categories = ["using-barricade"]
 type = "page"
 slug = "how-to-filter-agent-traffic"
+
+[menu.main]
+    url = "how-to-filter-agent-traffic"
+    parent = "using-barricade"
 
 +++
 

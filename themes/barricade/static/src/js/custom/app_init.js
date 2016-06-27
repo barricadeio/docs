@@ -2,32 +2,6 @@ $(document).ready(function() {
 
   $(document).foundation();
 
-
-  // search modal
-  $(document).unbind('keyup');
-  $(document).keyup(function(e){
-    if (e.keyCode==27) {
-      $("#searchBar").click();
-    }
-  });
-
-  $("#searchBar, .search-overlay-bg, .search-trigger").click( function() {
-    if ($('#searchOverlay').hasClass('active')) {
-      $('#searchOverlay').removeClass("active");
-    } else {
-      $('#searchOverlay').addClass("active");
-      $('#searchOverlay input[type="text"]').focus();
-    }
-  });
-
-  // swifttype search
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-    })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-    _st('install','TR_E45vJzMBPPAyG4QU7','2.0.0');
-
-
   // footer
   $(".footer-reveal").click( function() {
     $(".styleguide-footer").toggleClass("footer-expanded");
@@ -45,7 +19,6 @@ $(document).ready(function() {
 
 }); // document ready
 
-
 // headroom
 (function() {
   var searchBar = document.querySelector(".top-bar");
@@ -60,7 +33,6 @@ $(document).ready(function() {
     }
   }).init();
 }());
-
 
 // scrollspy, as per https://jsfiddle.net/mekwall/up4nu/
 // Cache selectors

@@ -7,7 +7,7 @@ app/public
 app/.DS_Store
 app/.sass-cache
 
-static
+/static
 
 # Ignore native extensions in the node_modules folder (things changed by npm rebuild)
 node_modules
