@@ -202,9 +202,9 @@ You&amp;rsquo;ll need connect to the server via SSH to run the command - see &lt
     
     <item>
       <title>Filtering Agent Traffic</title>
-      <link>https://docs.barricade.io/how-to-filter-agent-traffic/</link>
+      <link>https://docs.barricade.io/using-barricade/how-to-filter-agent-traffic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      <guid>https://docs.barricade.io/how-to-filter-agent-traffic/</guid>
+      <guid>https://docs.barricade.io/using-barricade/how-to-filter-agent-traffic/</guid>
       <description>
 
 &lt;p&gt;Some servers see a lot of inbound and outbound traffic - be it database activity, connections to external services or the serving of large media files.&lt;/p&gt;

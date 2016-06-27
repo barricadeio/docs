@@ -153,6 +153,8 @@
           
             <li><a href="#automating-agents">Automating with Chef</a></li>
           
+            <li><a href="#how-to-filter-agent-traffic">Filtering Agent Traffic</a></li>
+          
             <li><a href="#re-register-agent">Re-registering Agents</a></li>
           
             <li><a href="#closing-account">Closing an Account</a></li>
@@ -247,38 +249,22 @@
 </nav>
 
       <aside>
-  <a class="fa fa-search right search-icon search-trigger" title="Search this site"></a>
-
-  <div id="searchOverlay">
-    <span class="left prompt">Type to search:</span>
-    <a class="fa fa-times right search-icon search-trigger" title="Click to exit search"></a>
-    <div class="container">
-
-      <div class="row">
-        <div class="col-sm-12 columns" id="search-input-wrap">
-          <input type="text" class="st-default-search-input"
-            placeholder="Search...." autofocus="autofocus" autocorrect="off" autocapitalize="none" spellcheck="false" autocomplete="off">
+    <a class="fa fa-search right search-icon search-trigger" title="Search this site"></a>
+    <div id="searchOverlay">
+        <span class="left prompt">Type to search:</span>
+        <a class="fa fa-times right search-icon search-trigger" title="Click to exit search"></a>
+        <div class="container">
+            <div id="search-input-wrap">
+                <input type="text" id="search-input" class="st-default-search-input"
+                       placeholder="Search...." autofocus="autofocus" autocorrect="off" autocapitalize="none"
+                       spellcheck="false" autocomplete="off">
+            </div>
+            <div id="searchResults">
+                <div class="st-search-container"></div>
+            </div>
         </div>
-      </div>
-
-      <div class="row" id="searchResults" class="results">
-        <div class="col-sm-2 column">&nbsp;</div>
-        <div class="col-sm-8 text-center column">
-
-          <div class="st-search-container"></div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-12 columns">
-          <span class="overlay-footer">Press <em>Esc</em> to close</span>
-        </div>
-      </div>
-
+        <div class="search-overlay-bg"></div>
     </div>
-
-    <div class="search-overlay-bg"></div>
-  </div>
 </aside>
 
       <div class="row">
@@ -301,75 +287,75 @@ You&rsquo;ll need to connect to the server via SSH to run the command - see <a h
     </div>
 
     
-      <div class="styleguide-footer">
-        <footer class="row">
-          <div class="small-12 small-centered column">
+      
+        
+          
 
-            <div class="row">
-              <div class="large-1 column">&nbsp;</div>
-              <div class="large-8 medium-8 show-for-large-up column">
-                <ul class="medium-3 large-2">
-                  <li><strong><a class="footer-reveal">Product</a></strong></li>
-                </ul>
+            
+              
+              
+                
+                  
+                
 
-                <ul class="medium-3 large-2">
-                  <li><strong><a class="footer-reveal">Company</a></strong></li>
-                </ul>
+                
+                  
+                
 
-                <ul class="medium-3 large-2">
-                  <li><strong><a class="footer-reveal">Resources</a></strong></li>
-                </ul>
+                
+                  
+                
 
-                <a class="footer-reveal fa fa-angle-up"></a>
-              </div>
+                
+              
 
-              <div class="large-3 medium-4 small-12 column">
-                <p class="text-right clearfix">
-                  <a href="http://barricade.io" title="Barricade - the security product modern companies have been waiting for">
-                    <img src="https://docs.barricade.io/src/img/logo-strip-white.svg" width="220px" class="pull-right">
-                  </a>
-                </p>
-              </div>
-            </div>
+              
+                
+                  
+                    
+                  
+                
+              
+            
 
-            <div class="row footer-extra">
-              <div class="large-1 column">&nbsp;</div>
-              <div class="large-8 medium-8 show-for-large-up column">
-                <ul class="medium-3 large-2">
-                  <li><a href="https://barricade.io/features.html" title="See how Barricade make security approachable">Features</a></li>
-                  <li><a href="https://app.barricade.io/demo" title="Launch a Demo of Barricade">Launch Demo</a></li>
-                  <li><a href="https://barricade.statuspage.io" title="Status">Status</a></li>
-                  <li><a href="https://app.barricade.io/tac" title="Terms &amp; Conditions">Terms</a></li>
-                </ul>
+            
+              
+              
+                
+                  
+                  
+                  
+                  
+                
 
-                <ul class="medium-3 large-2">
-                  <li><a href="https://barricade.io/about.html" title="Who we are and what we do">About Us</a></li>
-                  <li><a href="https://blog.barricade.io" title="Read our blog">Blog</a></li>
-                  <li><a href="https://barricade.io/jobs.html" title="Interested in working at Barricade?">Jobs</a></li>
-                  <li><a href="https://barricade.io/about.html#contact-info" title="Get in touch with our team">Contact</a></li>
-                </ul>
+                
+                  
+                  
+                  
+                  
+                
 
-                <ul class="medium-3 large-2">
-                  <li><a href="https://docs.barricade.io" title="View our documentation">Documentation</a></li>
-                  <li><a href="https://docs.barricade.io/hc/en-us/sections/201144088" title="Product Changelog">Product Changes</a></li>
-                  <li><a href="https://styleguide.barricade.io" title="Visit the Barricade Style Guide">Style Guide</a></li>
-                  <li><a href="mailto:support@barricade.io?subject=Support Issue" title="Get in touch with our support team">Support</a></li>
-                </ul>
-              </div>
+                
+                  
+                  
+                  
+                  
+                
+              
 
-              <div class="large-2 medium-4 small-12 column">
-                <ul class="text-right inline-list sub-nav-social clearfix">
-                  <li><a class="fa fa-twitter" href="https://twitter.com/barricadeio"></a></li>
-                  <li><a class="fa fa-facebook" href="https://www.facebook.com/barricadeio"></a></li>
-                  <li><a class="fa fa-linkedin" href="https://www.linkedin.com/company/barricade-io"></a></li>
-                </ul>
-              </div>
+              
+                
+                  
+                  
+                  
+                
+              
 
-            </div>
+            
 
-          </div>
-        </footer>
-      </div>
+          
+        
+      
 
     </div> 
 
