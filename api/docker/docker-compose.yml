@@ -1,5 +1,0 @@
-# Initialiser
-dev:
-  build: .
-  ports:
-    - "4567:4567"
