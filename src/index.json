@@ -1,0 +1,746 @@
+[
+    {
+        "uri": "/404/",
+        "title": "404 - Page not found",
+        "content": "",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/new-barricade-site-launched",
+        "title": "New Barricade.io Site Launched",
+        "content": "\nOur new site is live! Check it out at Barricade.io\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/agent-admin-page",
+        "title": "Added Agent Admin Page",
+        "content": "\nWe've added a new admin section to the Barricade app: app.barricade.io/agents\n\nThis section allows you to see what Agents are running, how busy they are and how to control them (stop, start, etc).\n\nAgent Controls\n\nYou can stop and start the agent by running commands on your server - this new Agent section provides instructions on how to do this - see our Agent documentation for more details.\n\nservice barricade start  \nservice barricade stop  \nservice barricade status  \n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/updated-ai-engine",
+        "title": "Updated AI Engine",
+        "content": "\nWe've shipped an update to our A.I. engine, to improve the detection accuracy and reduce noise - so you should see less, but more relevant data than before.\n\nWe're working constantly on the engine to ensure the best results for our customers. If you're seeing any data you're not sure about - do let us know.\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/added-teams",
+        "title": "Added Teams - Invite & Manage Users",
+        "content": "\nWe've added the ability to invite and manage users to a team account, so you can grant read-only access to your colleagues.\n\nFor more information on using this feature, see our guide to Adding Team Members.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/slack-integration",
+        "title": "Added Slack Integration",
+        "content": "\nSlack is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications - and now you can too!\n\nYou can integrate Slack with Barricade to share security notifications with you team:\n\nFor more information on using this feature, see our guide to Integrating with Slack.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/email-notifications",
+        "title": "Email Notification Controls",
+        "content": "\nYou can now manage your email notification through the Barricade app settings, to opt-in and opt-out of different levels of security notifications.\n\nBy default, you will receive notifications for Incidents - our most serious security classification. For more insight into the things Barricade observes, you can enable Alerts and Events - but doing so will typically result in a lot more notifications from common, low-level issues.\n\nWe do not recommend you opt-out of Incident notifications!\n\nYou'll find the new controls in the app: Settings  Notifications  Email Notifications\n\nNote that the ability to manage notifications is limited to account admins - if you have been added to a team, your account is read-only. You'll need to contact the account owner.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/new-agent-detection",
+        "title": "New Agent Detection Message",
+        "content": "\nWe've added visual feedback to the app, so you can see when the installation of a new Agent has completed successfully:\n\nFor more information on Installing Additional Agents.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/product-demo",
+        "title": "Product Demo added to Site",
+        "content": "\nNow there's no need to signup or install an Agent to see how Barricade looks and feels - our new dashboard demo uses sample data to mimic insights into a live server. Try it out now at: app.barricade.io/demo\n\nExplore the Barricade webapp\nTrigger simulations of Events, Attacks and Incidents\nView simulated app responses - alerts and recommendations\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/added-hipchat",
+        "title": "Hipchat Integration",
+        "content": "\nYou can now receive Barricade notification in HipChat!\n\nHipChat is team chat that's actually built for business - a centralized place for group and private chat, file sharing, and integrations.\n\nFor more information on using this Integration, see our guide to Integrating with HipChat.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/agent-performance",
+        "title": "Agent Performance Improvements",
+        "content": "\nWe've shipped a major update to our monitoring Agent, to improve performance and minimise the amount of server CPU the Agent requires.\n\nAvoiding CPU Spikes  \nAll data preprocessing is now handled server side - meaning the agent has been simplified to consume less server resources. This results in better performance under load, and allows us to scale and upgrade our analysis without requiring an update of the agent.\n\nPackets Per Second  \nThe agent configuration has also been updated with a maximum number of packets per second that will be sent to Barricade - this is to help prevent the agent becoming a problem itself during a high traffic event, such as a DoS attack. By default, this is 10,000 packets per second, and this figure can be modified to suit the environment and traffic profile.\n\nWhen this limit is hit, the agent will begin dropping older packets to prioritise the newest information, and emit a warning to this effect in the logs (/var/log/barricade.log on most systems, in journalctl for systemd based systems).\n\n--  \n\nYou must to Update Your Agents to apply these changes.\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/tags-and-filters",
+        "title": "Universal Tags and Filters",
+        "content": "\nWe've shipped a major step towards making your data searchable and easily identifiable. Today we're happy to announce the immediate availability of the Universal Tags feature.\n\nSee what matters to you  \nAllowing our customers to find information faster than ever before is something we're very excited about. Using this new feature,  you can easily tag your deployments, environments, etc. to gain rapid insight into your security, development status and general operations standpoint.\n\nCustomer-Driven Feedback  \nThis change was directly driven by our customers' needs and feedback. It comes in a series of coming changes that reflect how our customers use and want to use the product. \n\nSee the Tagging and Filtering documentation for more information.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/improved-engine-attack-detection",
+        "title": "Improved Web App Attack Detection",
+        "content": "\nWe've shipped an update to our detection engine, to improve the accuracy of web app attack cases. These changes will reduce false positives, and better classify the type of web app attack (SQL Injection, Cross-Site Scripting, etc).\n\nWe've also corrected an issue where some scripts were being identified as attacks.\n\n--  \n\nThese changes are already in effect - you don't need to update your Agents .",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/new-pricing-trial",
+        "title": "New Pricing & Free Trial Launched",
+        "content": "\n\nThis new pricing is more tailored to who will benefit the most from using Barricade. We’re also pretty excited to announce the immediate availability of our 7-day trial on all plans.\n\nSee our Pricing page for details on the new plans, or read \"Introducing Our New Pricing\" on our blog.\n\nIncubators & Accelerators Deal  \nFurthermore, if you are part of an incubator or an accelerator, we will give you three months free on the medium plan. Click here for more details.\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/deal-incubators-accelerators",
+        "title": "Deal for Incubators and Accelerators",
+        "content": "\nWe understand that startups are often cash tight and have specific constraints that do not apply to slightly more mature businesses. Your focus is 100% on launching your app and proving the need for it. We want to work with you. We will give you Barricade's medium business plan for three months for free, you'll be up and running within minutes.\n\nVisit our Incubators and Accelerators page for more information.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/aws-waf",
+        "title": "Added AWS Web App Firewall integration",
+        "content": "\nNow you can use AWS WAF & Barricade together to make an intelligent and learning firewall.\n\nYou'll find a new section in the app to add the integration here, which will add a simple 'Add to Firewall' button to security cases that we detect. \n\nFor more details on using the integration, see our documentation, or check out our blog announcement - or just go ahead and try it out for yourself.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/case-grouping",
+        "title": "Case Grouping",
+        "content": "\nWe've shipped some changes in response to customer requests, to improve the organization of Cases in the app.\n\nNow similar, repetitive cases will be combined into groups so they can be viewed, assessed and resolved in batches, to reduce the amount of noise (and clicks) a user is presented with as new cases are detected.\n\nThese changes have been rolled out on app.barricade.io - login to see them in action!\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/replace-websockets",
+        "title": "Replace Websockets with SEE",
+        "content": "\nWe've updated app.barricade.io to use Server Side Events instead of Websockets (socket.io), to address issues with Websocket + CloudFlare.\n\nOur application doesn't require duplex communication between clients and server, so we switched to a simpler solution - one which means no more errors appearing in the console.\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/site-performance",
+        "title": "Site Performance Improvements",
+        "content": "\nOur site has been ported over to Hugo, and optimized for a faster load time - you should see improved performance on www.barricade.io!\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/changes-to-teams",
+        "title": "Changes to Team Permissions",
+        "content": "\nFollowing requests from customers, we've revised the user permissions for Teams, so that members (non-admin users) have broader access to features.\n\nHere's a breakdown of the permissions per role:\n\ntable class=\"compare\"\nthead\ntrth /ththstrongAdmin/strong/ththstrongMember/strong/th/tr\n/thead\ntbody\ntr\ntdInstall Agents:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdEdit Agents:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdView Cases:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdMark Cases as Resolved:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdInvite Team Members:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdRemove Team Members:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-close\" /em/td\n/tr\ntr\ntdManage Team Notifcations:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdManage Team Integrations:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdView &amp; Edit Billing Details:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-close\" /em /td\n/tr\n/tbody\n/table\n\nCheck out our docs on Team and User Management here.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/ci-sec-tests",
+        "title": "Continuous Integration Security Test Logs",
+        "content": "\nWe've added a new feature that lets you log automated C.I. security tests inside the Barricade app interface.\n\nWe're big believers in Continuous Integration - this change lets you log details from penetration tests (through a special Barricade webhook url) that you run alongside other test suites that you run as part of your development cycle.  \n\nSee our docs on C.I. Security Testing for more info.\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/app-security-story",
+        "title": "Introducing the App Security Story",
+        "content": "\nWe're very happy to reveal a big change to how we present details of events, attacks and incidents; the Security Story - designed to improve your visibility into your Application Security.\n\nThe Session Timeline\n\nCase details will now include a timeline of the attacker's behavior, including:\n\npage requests\nendpoint requests\napplication errors\n\nThis information is presented alongside the case details and recommendations, to provide greater context to you and your team\n\nNow you can see wider activity and the route that that attacker has taken through your system - so you can spend less time digging through server logs, and get more visibility into issues, to better understand where a particular vulnerability originated in your app.\n\n Attacker Profile\n\nWe've also added information to help you profile the behavior of attackers over time, so that you're not just seeing the requests they make; but also patterns in their behavior.\n\nWe're excited about this - we will continue to bring new user-friendly features to help you organize, filter and browse insights into your application security.  \n\n--\n\nThe changes are now live in the app - view a Case page to see it in action.\n\nFeedback\nWe're hoping you'll find this information as useful as we do; let us know if you've got any feedback on this new approach we'd love to hear from you.",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/broader-app-detection",
+        "title": "Broader Detection of Attacks",
+        "content": "\nWe've shipped a big update to our detection engine, to improve the criteria for detecting events, attacks and incidents. This will ensure greater coverage for systems being monitored by Barricade.\n\nThese changes will result in improved behavior of our detection engine:\n\nadds new, wider and smarter criteria for detection\nimproved detection of SSH login attacks\nbetter classify different types of web app attack\nreduces false positives\n\nThese changes are now live in our central engine - **no action is required on your part.**",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/request-insights",
+        "title": "HTTP Request Insights",
+        "content": "\nWe've shipped an improvement to our new 'Security Story' App Sec feature, which breaks down the details of the attackers behavior in terms of HTTP requests:\n\nThis change is now live in the app - you should see the 'Reveal Details' option appearing for different types of cases.\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/agent-controls",
+        "title": "Improved Agent Management",
+        "content": "\nWe've updated the Agents page in our app, adding simple one-click  controls to our interface, which make it easier to manage your Agents:\n\nPausing, Restarting & Retiring Agents\n\nUntil now, Agents were controlled by running stop and start commands directly on your server (via SSH) - now a one-click button let's you manage Agents with ease.\n\n--\n\nOlder Agent versions will need to be updated to the latest version in order to use this feature. See here for further documentation on pausing and removing agents\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/agent-release-0-4-5",
+        "title": "Agent Release v0.4.5 - Update Required",
+        "content": "\nWe’ve shipped a major update to our monitoring Agent, to improve performance and minimise the amount of server CPU the Agent requires.\n\nYou must to Update Your Agents to apply these changes.\n\n--\n\nFeatures:\n\nAdded ability to pause or disable the agent from the dashboard\nSupport for running in Docker containers\nInclude system information (Operating System, Kernel version, etc) in data being monitored by Barricade\nSSL now uses trusted certificate - SSL negotiation verifies hostname before establishing connection\n\n Bug Fixes:\n\nAdd a more robust external IP resolver (solves issue where occasionally public IP would not be registered correctly)\nFixes for some memory exhaustion scenarios in low resource environments\nAutomatically restarts interface captures that have failed\n\nAgent Configuration:\n\nAgents have advanced configuration options that you can adjust to suit your needs. See our Agent Configuration docs for details on how you can set these options.\n\nsslcheckhostname (new) - enable/disable SSL hostname verification, enabled by default\nspooler_memory (new) - specify the amount of memory to use for buffering packets in high traffic scenarios before dropping. Has a default derived from system memory.\nflush_frequency (changed) - default changed from 1 second to 0.01 seconds\nlog_level (changed) - default changed from error to warning\nhighwatermark (deprecated) - deprecated in favour of spooler_memory",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/agent-release-0-5-0",
+        "title": "Agent Release v0.5.0 - Ubuntu Support",
+        "content": "\nWe’ve released a new update to our monitoring Agents - adding greater Ubuntu support and continuing to improve the performance of Agents.\n\nTo apply these changes, update your Agents now.\n\nImprovements:\n\nBetter feedback and error messaging during installation\nAdds support for the latest versions of Ubuntu (15.04, 15.10)\nOptimized performance for higher bandwidth servers\n\n--\n\nExample of an installation error message:\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/azure-support",
+        "title": "Added Support for Microsoft Azure",
+        "content": "\nWe’re excited to announce support for Microsoft Azure. As of today, Barricade Agents can be installed and used to keep an eye on Azure VMs.\n\n\"The reason we decided to invest in Microsoft Azure’s platform is simply because of the amount of work they’ve put into the security of their platform over the past few years, and the last few months. In December 2015, the Azure team released the Azure Security Center which is an amazing step towards a stronger and more responsible security stance. Whilst Microsoft might not have been synonymous with responsible security practices in the past the Microsoft Azure team has been working hard to turn this image around. So far, they’ve been doing great work.\"\n\nRead the full announcement on our blog.\n\niframe src=\"https://player.vimeo.com/video/160382983\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen/iframe\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/agent-release-0-6-1",
+        "title": "Agent Release v0.6.1 - Added Cache Busting",
+        "content": "\nWe’ve shipped an update to our monitoring Agent, to improve performance and minimise the amount of server resources used by the Agent.\n\nTo apply these changes, update your Agents now.\n\nImprovements:\n\nOptimized performance for higher bandwidth servers\nPool connections to Barricade's streaming API\nMore informative debug logs, including file and line number\nExperimental support for Docker containers\nReduced default flush_frequency from 0.1s to 0.5s for better performance.\nAdd warnings for when libpcap is dropping packets\n(bugfix) registration no longer fails when machine hostname unavailable\n(bugfix) cache now enforces owner only r/w permissions\n(bugfix) cache now purged regularly even when no connection\n  can be established to Barricade (prevents disk space being exhausted)\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/added-traffic-report",
+        "title": "Added Live Traffic Reports",
+        "content": "\nWe've noticed that a lot of our users that deploy our agent on their servers discover traffic sources they didn't even know about. This became a repetitive question week after week so we're happy to announce our immediate availability of live traffic reports.\n\nThe live traffic report give you a usage report for your account based on incoming traffic and outgoing traffic per service (port). Interestingly, sometimes you might find out that you're still using a service that you thought had stopped using. Here's what the report looks like\n\nTo see your traffic report, go to app.barricade.io/dashboard/stats\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/webhooks",
+        "title": "Added Custom Webhooks",
+        "content": "\nWebhooks are a simple way to post messages from Barricade to external sources. A few weeks ago we released the beta version of our public API which allows developers to programatically access any information in their Barricade account.\n\nTo make the process of security response even easier, we've also implemented a Webhook mechanism that uses HTTP to proactively POST a JSON payload of new security cases to your URL of choice.\n\nWe did this because we're tired of security products trying to change how you work and what your workflow should look like. We are firm believers that for security to really succeed, it needs to be as seamless and as little disruptive as possible.\n\nYou can read more about using custom webhooks in our blog announcement.\n\nTo go ahead and create your own webhooks, go to app.barricade.io/dashboard/settings/notification/webhook\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/cloudflare",
+        "title": "Added CloudFlare Integration",
+        "content": "\n\nPutting CloudFlare and Barricade together allows companies to get enterprise-grade security, including detection of new attack vectors and protect against them. We’ve made this “one-click trivial” in-fact. You can read more about it on the blog here.\n\nTo go ahead and start using the integration, go to app.barricade.io/dashboard/settings/integration/cloudflare\n",
+        "tags": []
+    },
+    {
+        "uri": "/changelog/agent-release-0-6-6",
+        "title": "Agent Release v0.6.6 - Debian Support",
+        "content": "\nWe’ve shipped an update to our monitoring Agent to support Debian (wheezy, jessie).\n\nTo apply these changes, update your Agents now.\n",
+        "tags": []
+    },
+    {
+        "uri": "/getting-started#getting-started-intro",
+        "title": "Getting Started Intro",
+        "content": "\nWelcome!\n",
+        "tags": []
+    },
+    {
+        "uri": "/getting-started#overview",
+        "title": "Overview",
+        "content": "\n{{% youtube ukTAg2ecO8g %}}\n\nBarricade collects data from your server with an Agent - a simple, lightweight package that watches all network activity on your cloud server.\n\nThis data is encrypted and processed through Barricades' central detection Engine, and findings are displayed in real-time in your dashboard and notification channels.\n\nBarricade's Collection Workflow - gathering, processing and alerting (open full-size image).\n",
+        "tags": [
+            "agent",
+            "how it works"
+        ]
+    },
+    {
+        "uri": "/getting-started#how-it-works-agent",
+        "title": "How Agents Work",
+        "content": "\nAgents quietly monitor, without getting in the way or impacting on your server resources. There is no need for any code or configuration changes to your app.\n\nData is gathered, encrypted and sent from the agent to the Barricade platform engine; where it’s immediately analyzed for any suspicious activity - detecting web app attacks, data breaches or intrusion attempts on your server.\n\nLightweight Agent\n\nThe agent sits quietly on your server and keeps an eye on things - the heavy data analysis processes are carried out by our platform’s engine - to ensure your performance isn’t affected.\n\nOur design ensures that the agent does not -\n\nGet in the way:  \n    the agent monitors and collects data, it will not block any traffic on your application\nSlow down your server:  \n    the agent focuses on lightweight tasks; formatting and transmitting data to our engine.\nExpose your data:  \n    all transmitted information is encrypted with 2048-bit SSL\n\n One-Way Agent\n\nDon’t worry - Barricade can’t connect to your server and execute commands. By design, the agent communicates out but Barricade can never communicate in.\n\nInstallation\n\nThe Agent is installed via a one touch command, which fetches the code, verifies the package signature and installs the agent on your server. For step-by-step installation instructions see the Installing an Agent guide.\n",
+        "tags": [
+            "agent",
+            "how it works"
+        ]
+    },
+    {
+        "uri": "/getting-started#what-agent-sees",
+        "title": "What Can Agents see?",
+        "content": "\nThe agent gathers data about activity on your servers, and transmits it securely to our engine for real-time analysis.\n\nNames and versions of software packages\nNetwork traffic that goes in and out of your server from the network layer all the way up to the application layer\nConfiguration files for applications like Nginx and SSH\nAll transmitted data is encrypted with 2048-bit SSL, and promptly analyzed by our engine to check for any security issues.\n\nWhatever DevOps tools you run, Barricade will detect and observe but not interfere - be it Chef, Puppet, Ansible, docker-composer, Beanstalk, etc.\n\nUsing this information, Barricade tells you immediately if someone is trying to break in, if data is leaving your network when it shouldn't, if your server software is affected by known exploits and much more.\n",
+        "tags": [
+            "agent",
+            "how it works"
+        ]
+    },
+    {
+        "uri": "/getting-started#detection-engine",
+        "title": "Our Detection Engine",
+        "content": "\nOur platform engine makes decisions in real-time. Data is received from the agent and processed through statistical (machine learning) models to make decisions. When an attack is detected, the engine triggers an alert and we notify you immediately through our app and integration channels.\n\nAs new data comes in, the engine learns about different types of behaviors for your infrastructure and what seems to be normal behavior based on the services running.\n\nThe Engine is designed to distil complex machine learning concepts such as artificial neural networks, anomaly detection, and ensemble learning into consumable and actionable information.\n\nFor details on the various behaviors & attacks that Barricade detects - see the Security Guide.",
+        "tags": [
+            "engine",
+            "how it works"
+        ]
+    },
+    {
+        "uri": "/getting-started#os-requirements-compatibility",
+        "title": "OS Compatibility",
+        "content": "\nOur Agent supports Ubuntu, CentOS, Debian and Red Hat based cloud servers - (common configurations on providers like AWS, Google Cloud Platform, DigitalOcean and Microsoft Azure).\n\nRed Hat Enterprise Linux 6.x (64-bit)\nRed Hat Enterprise Linux 7.x (64-bit)\nUbuntu 12.04 LTS (64-bit)\nUbuntu 14.04 LTS (64-bit)\nUbuntu 14.10 (64-bit)\nUbuntu 15.04 (64-bit)\nUbuntu 15.10 (64-bit)\nUbuntu 16.04 (64-bit) - Note: our vulnerability checks do not currently check Snap packages\nCentOS 6.x (64-bit)\nCentOS 7.x (64-bit)\nDebian 7.x (64-bit)\nDebian 8.x (64-bit)\n\nNote: We currently do not check packages particular to EUS and AUS versions of Red Hat Enterprise Linux or those in the Red Hat extras channel.\n\nWindows Support\n\nWe currently don't support Windows servers, but it's on our product roadmap. If you'd like to be added to our early access list for Windows, let us know and we'll keep you informed.  \n\n Running the Agent on Docker\n\nWe are currently testing a new version of our agent that runs natively on Docker.\n\nWe'll be shipping Docker support in early 2016 - get in touch if you'd like to get early access!\n",
+        "tags": [
+            "agent",
+            "how it works",
+            "os",
+            "operating system",
+            "centos",
+            "ubuntu",
+            "debian",
+            "redhat",
+            "red hat",
+            "rhel",
+            "windows",
+            "aws",
+            "azure",
+            "linux"
+        ]
+    },
+    {
+        "uri": "/getting-started#account-setup",
+        "title": "Account Setup",
+        "content": "\nTo get up and running with Barricade, go to app.barricade.io. First-time visitors will see this screen with account creation instructions:\n\nIf you've previously created an account, you can login by clicking 'Already Signed Up'. To create a new account, you'll be asked for:\n\nan email address\na password (make it a good one!)\n",
+        "tags": [
+            "install",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/getting-started#confirm-account",
+        "title": "Confirm Account",
+        "content": "\nOnce you've completed the account setup, you'll get a confirmation email from us, and you'll see this screen:\n\nYou're now inside the Barricade app, where you'll be instructed to install your first agent.\n",
+        "tags": [
+            "install",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/getting-started#starting-trial",
+        "title": "Starting a Trial",
+        "content": "\nOnce you sign up on app.barricade.io, you'll automatically start a free trial - giving you the full Barricade experience without having to pay anything!\n\nThe length of your trial is based on data, rather than time (as is our full pricing) - every server is different. We will monitor the network traffic in and out of your server until the 1GB limit is reached. The busier your server, the more data we collect and analyze for issues.\n\nOnce your trial data is used up, your trial is finished and you will be notified by email with next steps. \n\nThe trial should give you an idea of how much data your servers send and receive over time, helping you determine which price plan would best suits your needs. Get in touch if you have any questions or have special requirements - we're happy to arrange custom plans to fit your organization.\n",
+        "tags": [
+            "install",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/getting-started#installing-an-agent",
+        "title": "Installing an Agent",
+        "content": "\nYou'll find the installation command in the top panel of the Barricade app - click the New Agent button to reveal the install code, which you will need to copy, then paste and run on your server.\n\nWhat is Installed?\n\nThe install command sets up a Barricade Agent on your server - a simple, lightweight package that is used to monitor activity on your server. See What is an Agent? for more details.\n\n We will be open sourcing the Agent code on our Github page in the coming weeks.\n",
+        "tags": [
+            "install",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/getting-started#running-commands",
+        "title": "How to Run SSH Commands",
+        "content": "\nYou'll need to connect to your server via SSH to run the commands - how you go about doing this depends on the type of server you're using (AWS, DigitalOcean, Microsoft Azure, etc).\n\nIf you're unsure about how to do this, you should refer to your Cloud provider's documentation:\n\nAmazon Web Services - Using SSH  \nGoogle Cloud Platform - SSH from the Browser  \nDigital Ocean - Connect to Your Droplet with SSH\n\nTo make an SSH connection, you'll need the following:\n\nAn SSH client or Command Line Tool\nUsername (usually root on Linux)\nPassword and/or SSH Key\nThe IP address of your Server\n\nAn example of the DigitalOcean's in-browser SSH tool, where you would run the command:\n\n",
+        "tags": [
+            "install",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/getting-started#agent-detection",
+        "title": "Agent Detection",
+        "content": "\nShortly after you run the install command, the Barricade setup screen will update automatically to confirm that the Agent has been detected:\n\nOnce that's done, you can close the form panel by clicking the 'X' in the top right-hand corner, or click the 'Install Another' button to start over and start additional agents.\n\nNow that your Agent is running, your server is being monitored in real-time. Data will start to appear in your dashboard as activity is detected and analyzed.",
+        "tags": [
+            "install",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/getting-started#vulnerability-scan",
+        "title": "Vulnerability Scan",
+        "content": "\nOnce the Agent is installed, a short video will appear in your dashboard while Barricade connects to your server and analyzes it for the first time.\n\nAfter the video, you will see the results of an initial vulnerability scan - a quick check over the OS and packages installed on your server.\n\nIf you're running any out-of-date software packages, the scan will let you know - highlighting things that are in need of updating or patching. Any vulnerabilities will be saved as Cases to your dashboard, so you can review them (and follow their recommendations) at a later stage.\n\nThe Case page will provide details on the vulnerabilities, and give recommendations.\n\nExample screenshot from an initial vulnerability case ^\n\n Next: Using Barricade ",
+        "tags": [
+            "install",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/getting-started#troubleshooting",
+        "title": "Troubleshooting",
+        "content": "\nFor more details on the Agent and how it works, see the Agent Overview.\n\nThe Agent is not detected.  \nIf you're experiencing problems during Agent installation, check that your server is compatible - server OS requirements.\n\nIf your server is compatible, try re-registering the agent or contact us for help.\n\nI'm not sure how to run the command on a server.  \nYou'll need to connect to the server via SSH to run the command - see our guide here.\n",
+        "tags": [
+            "install",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/hc/en-us/index",
+        "content": "!DOCTYPE html\nhtml\n  head\n    link rel=\"canonical\" href=\"//docs.barricade.io\"/\n    meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/\n    meta http-equiv=\"refresh\" content=\"0;url=//docs.barricade.io\"/\n  /head\n/html",
+        "tags": []
+    },
+    {
+        "uri": "/hc/en/index",
+        "content": "!DOCTYPE html\nhtml\n  head\n    link rel=\"canonical\" href=\"//docs.barricade.io\"/\n    meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/\n    meta http-equiv=\"refresh\" content=\"0;url=//docs.barricade.io\"/\n  /head\n/html",
+        "tags": []
+    },
+    {
+        "uri": "/security-guide#admin-privileges",
+        "title": "Gaining Admin Privileges",
+        "content": "\nBarricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.\n\nCauses\n\nAttackers will often try to assume admin user privileges, in order to try and lock you out and access restricted data. A compromised admin user is a very serious breach - attempts are common but rarely successful.\n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdAn attempt to gain administrator privileges was detected/td\ntd /td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdMultiple attempts to gain administrator privileges were detected/td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdAn attacker has successfully gained admin privileges - a serious breach/td\n/tr\n/tbody\n/table\n\nRecommendations\n\nAttempted Admin\n\n",
+        "tags": [
+            "security",
+            "cases",
+            "attacks",
+            "recommendations",
+            "web app"
+        ]
+    },
+    {
+        "uri": "/security-guide#attempted-ssh-login",
+        "title": "SSH Login Attempts",
+        "content": "\nBarricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.\n\nCauses\n\nSSH servers are commonly targeted by automated bots, as they seek out ways to access vulnerable and badly configured servers. When certain behavioural patterns are observed, our engine will treat a login attempt as suspicious and create the activity will be reported as a new case.\n\nAn SSH login attempt is considered suspicious when a login failure is seen multiple times. Furthermore, if an unknown address makes fewer requests Barricade will also consider this suspicious and inform you.\n\nThese are ususally repeated login (brute force) attempts, using common usernames:\n\nroot\ntest\nadmin\noracle\nguest\nmysql\npostgres\nbackup\n-etc\n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdSingle failed SSH login attempt/td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdMultiple failed SSH login attempts/td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdSuccessful SSH login preceded by multiple failed attempts - possible security breach/td\n/tr\n/tbody\n/table\n\nRecommendations\n\nIf a suspicious SSH login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the Alert instructions.\n\nIn the longer term, here are some tips on strengthening your SSH security:  \n\nUse SSH Keys instead of Passwords  \n    It's a good idea to use SSH keys to authenticate users, rather than passwords.  \n\n    PasswordAuthentication no\n\n    If you're doing this, be sure you have your keys set properly - you should make sure you're not locking yourself out!  \n\nIncrease Strength  \n    Keys default to a key strength of 768 bits - we recommend that use are using at least 1024 or 2048 bit strength.  \n\n    ServerKeyBits 1024\n\n    If you change this; you will subsequently need to remove your host keys and SSH will regenerate them when it restarts.  \n\nRestrict Users  \n    You can configure SSH to permit only certain users to log in. By default all users can access SSH. By using the AllowUsers directive, you can restrict access. I like using this as it provides another layer of security. There is also an AllowGroup directive. Using the group option, you can put all approved SSH users into a group and then allow this group.  \n\nAllowUsers root admin webmaster\nOr -\nAllowGroup sshusers\n`",
+        "tags": [
+            "ssh",
+            "login",
+            "attacks"
+        ]
+    },
+    {
+        "uri": "/security-guide#blocking-ip-address",
+        "title": "Blocking IP Addresses",
+        "content": "\nIf you're receiving alerts that your system is experiencing an attack, we will often recommend you take action and block the attacker to prevent them from trying again.\n\nHow to Block an IP Address\n\nTo block an IP address, you'll need to run an IPTABLES command on your server - our Alert messages present this command for you to copy:\n\nClick the button on the right to copy the command to your clipboard.\nPaste and run the command on your server.\n\nIptables is a tool for configuring firewall rules in Linux servers - see the iptables main page for the full list of supported commands.\n\n How to Run Commands\n\nIf you'd not familiar with running commands on your server (using SSH), see the How to Run Commands on Your Servertips.\n",
+        "tags": [
+            "ip",
+            "blocking",
+            "iptables",
+            "recommendation"
+        ]
+    },
+    {
+        "uri": "/security-guide#login-default-username",
+        "title": "Default Username Attempts",
+        "content": "\nBarricade monitors for suspicious login attempts on your servers, including attacks that attempt to gain access through common, default credentials.\n\nCauses\n\nLogin forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. Default, out-of-the-box usernames like ‘administrator’ make it much easier for attackers to hone in on your login information, and reduce the time needed to run Brute Force password attacks.\n\nadmin  \nadministrator  \nroot  \ntemp  \nUser  \nDBA\n\nSome examples from defaultpassword.com\n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdSingle failed login attempt using default credentials/td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdMultiple failed login attempts using default credentials/td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdSuccessful login using default credentials - possible security breach/td\n/tr\n/tbody\n/table\n\nRecommendations\n\nIf a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the Alert instructions.\n\nIn the longer term, you can safeguard against these types of attacks by following best practices:\n\nRemove 'Default' Logins from your app\nCreate and implementing a strong password policy\n",
+        "tags": [
+            "login",
+            "default",
+            "attacks",
+            "recommendations",
+            "web app"
+        ]
+    },
+    {
+        "uri": "/security-guide#policy-violations",
+        "title": "Policy Violations",
+        "content": "\nBarricade watches for network traffic which may be in violation of your corporate privacy policy. This includes traffic related to torrent and certain restricted websites.\n\nRisk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdA policy violation was detected/td\ntd /td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdMultiple policy violation was detected/td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdA serious policy violation was detected/td\n/tr\n/tbody\n/table\n",
+        "tags": [
+            "security",
+            "cases",
+            "attacks",
+            "recommendations",
+            "web app"
+        ]
+    },
+    {
+        "uri": "/security-guide#running-commands",
+        "title": "How to Run Commands",
+        "content": "\nYou'll need to connect to your server via SSH to run the commands - how you go about doing this depends on the type of server you're using (AWS, DigitalOcean, Microsoft Azure, etc).\n\nIf you're unsure about how to do this, you should refer to your Cloud provider's documentation:\n\nAmazon Web Services - Using SSH  \nGoogle Cloud Platform - SSH from the Browser  \nDigital Ocean - Connect to Your Droplet with SSH\n\nTo make an SSH connection, you'll need the following:\n\nAn SSH client or Command Line Tool\nUsername (usually root on Linux)\nPassword and/or SSH Key\nThe IP address of your Server\n\nAn example of the DigitalOcean's in-browser SSH tool, where you would run the command:\n\n",
+        "tags": [
+            "recommendations",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/security-guide#securing-web-forms",
+        "title": "Securing Web Forms",
+        "content": "\nMany common security issues can be avoided by keeping your web forms secure from injection and cross-site scripting attacks. \n\nValidation (or sanitization)\nEscaping\nParameterized Statements\nPattern Checking\n\nRelated links:\n\nSQL Injection Attacks\nCross-Site Injection Attacks",
+        "tags": [
+            "forms",
+            "webapp",
+            "recommendation"
+        ]
+    },
+    {
+        "uri": "/security-guide#sensitive-info-detected",
+        "title": "Sensitive Information Leaks",
+        "content": "\nBarricade helps protect your data by checking for signs of sensitive information. If credit card info or content of a sensitive nature is found to be publicly visible; you will be alerted immediately.\n\nCauses\n\nIt's important to keep sensitive information safe online - in the wrong hands, credit card and identifying information can be used to commit fraud and identity theft. \n\nBarricade will help you identify any such exposed information on your systems - if someone posts credit card details to a public-facing part of your website or application, you will be alerted in real time.\n",
+        "tags": [
+            "data",
+            "sensitive",
+            "credit card"
+        ]
+    },
+    {
+        "uri": "/security-guide#sql-injection",
+        "title": "SQL Injection",
+        "content": "\nBarricade monitors for SQL Injection attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  \n\nCauses\n\nWeb forms are often targetted by attackers as they seek out vulnerable systems to access. The most common technique used in such attacks is SQL Injection - where someone submits SQL commands through a pages' form fields, attempting to perform admin-level actions to the connected database.\n\nSee our infographic for a visual explanation of SQL Injection attacks \n\nThese attacks are common, and can be quite destructive - if successful, an attacker can interact with your database and steal or even erase sensitive data.\n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdA failed SQL Injection attack was detected/td\ntd /td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdMultiple failed injection attacks were detected/td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdA successful SQL Injection attack occurred - possible security breach/td\n/tr\n/tbody\n/table\n\nRecommendations\n\nIf SQL Injection attacks are detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. \n\nIn the longer term, it's important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilites that an injection attack could exploit. \n\nSecure Your Forms  \nThe best way to safeguard against SQL Injection attacks in the longer term is to understand how these attacks work, and take preventative measures to ensure your code doesn't offer any vulnerable attack points to would-be-attackers.\n\nDevelopers should use validation techniques such as parameterized statements, escaping and pattern checking to build forms that cannot be exploited through SQL Injection.\n\nDatabase Backups  \nSQL Injection is just one of many techniques that can pose a threat to you and your data. It's important to capture and securely store database backups to reduce the potential risk of a successful attack. \n\nRelated links:\n\nBlocking Attacker IP Addresses\nRemoving Vulnerabilities in Forms",
+        "tags": [
+            "security",
+            "cases",
+            "attacks",
+            "recommendations",
+            "web app"
+        ]
+    },
+    {
+        "uri": "/security-guide#login-suspicious-username",
+        "title": "Suspicious Login Attempts",
+        "content": "\nBarricade monitors for suspicious login attempts on your servers, including any activity where non-existent or blocked usernames are used to try and gain access.\n\nCauses\n\nLogin forms are commonly targeted by automated bots, as they seek out ways to access vulnerable servers. When certain behavioural patterns are observed, our engine will treat a username as suspicious and create the activity will be reported as a new case.\n\nA username is treated as suspicious when: \n\nusername does not exist  \nusername has been blocked/locked out  \nusername has made many failed login attempts  \nusername has failed activity from multiple IP addresses at once\n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdSingle failed login attempt using suspicious credentials/td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdMultiple failed login attempts using suspicious credentials/td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdSuccessful login using suspicious credentials - possible security breach/td\n/tr\n/tbody\n/table\n\nRecommendations\n\nIf a suspicious login attempt is detected, it’s likely that additional attempts will follow. We advise blocking the attacker’s IP address, via the Alert instructions.\n\nIn the longer term, you can safeguard against these types of attacks by following best practices:\n\nRemove 'Default' Logins from your app\nCreate and implementing a strong password policy\n",
+        "tags": [
+            "login",
+            "suspicious",
+            "attacks",
+            "recommendations",
+            "web app"
+        ]
+    },
+    {
+        "uri": "/security-guide#system-info-detected",
+        "title": "System Information Leaks",
+        "content": "\nBarricade helps protect your data by checking your traffic for any information leaks - if admin or  config information is output by the application in a response, you will be alerted immediately.\n\nCauses\n\nIt's important to keep any information about your systems away from prying eyes - software versions, server information, http headers - anything that could help a hacker learn about your application and the stack it's running has the potential to uncover vulnerabilities that could be exploited.\n\nExamples:\n\nHttp Header info in error messages:  \n\n      \n\nIncluding developer comments in the page:  \n\n    e.g. !-- if image files fails load check 192.168.0.110 --   \n\nExposing directories:  \n\n    \n\nInformation leaks can occur in a variety of ways, depending on what language your app is written in, what software it connects to, etc. Barricade provides a layer of visibility into any weak points you may be presenting to web traffic.\n\nIn addition to system information, Barricade also monitors content on your application for any Sensitive Information (e.g. credit card or social security numbers). \n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdAn attempted information leak was detected - nothing to worry about./td\ntd /td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdLow-level information was leaked - review the revealed info./td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdA serious information leak was detected - a security breach has occurred!/td\n/tr\n/tbody\n/table\n\nRecommendations\n\nIf an Incident or Attack level Information Leak is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. \n\nBlocking an IP is a short-term fix; you should immediately follow up by evaluating the issue and taking steps to ensure you pinpoint and strengthen the vulnerability that resulted in the information leak. The case page in the Barricade app will tell you the path at which the leak occurred - you should review that page and the metadata associated with the leak.\n\nVery often, the source of the leak will be a form that returns debug information as part of the feedback that is returned to the user - perhaps some development code made it into production that shouldn't have - you should test your app's responses and look for any detail that would help a hacker learn about how your app is structured. \n\nRelated links:\n\nOWASP: Information Leakage\nCWE Information Exposure Through an Error Message\nWASC Classification: Information Leakage",
+        "tags": [
+            "data",
+            "sensitive",
+            "app",
+            "version"
+        ]
+    },
+    {
+        "uri": "/security-guide#trojan-infection",
+        "title": "Trojan Infections",
+        "content": "\nBarricade monitors your network traffic for any signs of a Trojan Horse infection. Any suspicious activity is examined in real-time and Alerts sent if a legitimate problem is found.  \n\nCauses\n\nTrojans\n\nUnlike worms and viruses, Trojans don't spread themselves - they usually find their way into a system through social engineering - tricking a user into installating them.\n\nTrojans can effect you in a variety of ways - depending on the type of trojan:\n\nRemote access Trojans\nData-sending Trojans\nDestructive Trojans\nDenial of service (DoS) attack Trojans\nProxy Trojans\nFTP Trojans\nSecurity software disablers\n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdSome odd low-level activity was noticed. A common occurance./td\ntd /td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdA Trojan has been detected - you should look into this as soon as possible./td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdA serious Trojan has been detected - take immediate action!/td\n/tr\n/tbody\n/table\n\nRecommendations\n\nYour first step should be to identify the Trojan - listening to open ports and observing memory usage to help diagnosis. Scanner and Antivirus tools can help you identify the Trojan.\n\nTrojans can limit your ability to access and remove the infection - depending on the type of Trojan, you may not be able to manually remove files - in which case the system may need to be restored to an earlier backup to ensure a clean recovery.\n\nRelated links:\n\nSecurity Response: Trojans\nWhat is a Trojan Horse?\n",
+        "tags": [
+            "security",
+            "cases",
+            "attacks",
+            "recommendations",
+            "web app"
+        ]
+    },
+    {
+        "uri": "/security-guide#user-privileges",
+        "title": "Gaining User Privileges",
+        "content": "\nBarricade watches your network activity for any unusual behavior - including attempts to access and impersonate user accounts.\n\nCauses\n\nAttackers will sometimes try to assume the role of existing users, in order to access to restricted data. These attempts are pretty common - Barricade will observe your network for anything suspicious.\n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdAn attempt to gain user privileges was detected/td\ntd /td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdMultiple attempts to gain user privileges were detected/td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdAn attacker has successfully gained user privileges - an account has been breached/td\n/tr\n/tbody\n/table\n",
+        "tags": [
+            "security",
+            "cases",
+            "attacks",
+            "recommendations",
+            "web app"
+        ]
+    },
+    {
+        "uri": "/security-guide#package_vulnerabilities",
+        "title": "Vulnerable Software",
+        "content": "\nBarricade keeps an eye on the software packages on your server, checking version information for any serious lapses. Running out-of-date software greatly increases the odds of an attack on your system.\n\nCauses\n\nOut-of-date typically software means more vulnerable software - a lot of web app attacks specifically seek out older packages, in order to apply targetted attacks.\n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdA minor vulnerability was found - you should update old software./td\ntd /td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdA series of vulnerabilities were found - you have multiple instances of outdated software./td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdA serious vulnerability was found - your software urgently needs to be updated!/td\n/tr\n/tbody\n/table\n\nRecommendations\n\nIt's important to keep your software packages up-to-date - applying patches and security fixes as they are released. Staying on top of updates will reduce your vulnerabilities.\n\nWhen Barricade detects vulnerable software, the in-app case will show you out-of-date package info.\n\nIf your application or website is revealing system information (i.e. the version number) in addition to running vulnerable, older software - an attacker could discover and use that information against you. We recommend you also hide version information away from public web traffic.\n",
+        "tags": [
+            "update",
+            "software",
+            "version"
+        ]
+    },
+    {
+        "uri": "/security-guide#web-app-attack",
+        "title": "Web App Attacks",
+        "content": "\nA web application attack is any technique that's used to target websites, web applications and web services with malicious intent.\n\nBarricade monitors for a variety of Web Application Attacks on your app server - suspicious activity is examined in real-time and Alerts are sent if a legitimate attack is detected.\n\nCauses\n\nMost web application attacks are form-based; attackers will often evaluate web forms as potential gateways as they seek out vulnerable systems to access. Barricade monitors this type of network traffic closely for any suspicious behavioural patterns.\n\nOur engine can detect many different types of web application attack, and notifies you if a serious threat is found. Types of web application attacks can include:\n\nSQL Injection\nCross Site Scripting (XSS)\nBroken Authentication and Session ManagementInsecure Direct Object References\nSecurity Misconfiguration\nSensitive Data Exposure\nMissing Function Level Access Control\nCross-Site Request Forgeries\nUsing Components With Known Vulnerabilities\nUnvalidated Redirects and Forwards\n\nThe most common type of web application attack is SQL Injection - where someone submits SQL commands through a pages' form fields, attempting to perform admin-level actions to the connected database.\n\nThese attacks are common, but can be quite destructive if successful, resulting in data breaches or embedding malicious scripts in your website that can attack users who visit it.\n\n Risk Levels\n\ntable class=\"risk\"\n\ntbody\n\ntr\ntdem /em/td\ntdstrongEvent/strong/td\n\ntdA failed attack was detected - normally bot activity on your server/td\n\n/tr\n\ntr\ntdem /em/td\ntdstrongAttack/strong/td\n\ntdA series of failed attacks failed injection attacks were detected/td\n\n/tr\n\ntr\ntdem /em/td\ntdstrongIncident/strong/td\n\ntdA successful attack was detected - a security breach has occurred!/td\n\n/tr\n\n/tbody\n\n/table\n\nRecommendations\n\nIf an Incident or Attack level web app attack is detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. \n\nIn the longer term, it's important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilities that an attacker could exploit (e.g. forms that are open to Cross-Site Scripting or SQL Injection techniques). \n\nSecure Your Forms  \nThe best way to safeguard against these types of attacks in the longer term is to understand how these attacks operate, and take preventative measures to ensure your code doesn't offer any vulnerable attack points to would-be-attackers.\n\nDevelopers should use validation techniques such as parameterized statements, escaping and pattern checking to build forms that cannot be exploited through SQL Injection.\n\nRelated links:\n\nSQL Injection Attack\nCross-Site Scripting Attacks (XSS)\n",
+        "tags": [
+            "security",
+            "cases",
+            "attacks",
+            "recommendations",
+            "web app"
+        ]
+    },
+    {
+        "uri": "/security-guide#xss",
+        "title": "Cross-Site Scripting",
+        "content": "\nBarricade monitors for Cross-Site Scripting attacks on your application - suspicious web form activity is examined in real-time and Alerts sent if an attack is detected.  \n\nCauses\n\nCross-Site Scripting is a common method used by attackers as they seek vulnerable systems to access. These 'XSS' attacks involve submitting web forms with scripts and commands inserted into the input fields; in an effort to upload and embed scripts into someone's website or app.\n\nWhen successful, these scripts can be used to attack other visitors, who unknowingly load the script when they visit the infected webpage or app. Comment forms and media uploaders are often targetted by these kinds of attacks - the scripts used range in size and purpose, but have the potential to be quite destructive if successful.\n\n Risk Levels\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdA failed XSS attack was detected/td\ntd /td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdMultiple failed XSS attacks were detected/td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdA successful XSS attack occurred - possible security breach/td\n/tr\n/tbody\n/table\n\nRecommendations\n\nIf Cross-Site Scripting attacks are detected, we recommend you take immediate action to block the source of the attack, as per the in-app Alert instructions. \n\nIn the longer term, it's important to be aware of the risks and prepare accordingly - testing your app for any vulnerabilites that an injection attack could exploit. \n\nSecuring Your Forms  \nThe best way to safeguard against XSS attacks in the long term is to understand how these attacks work, and take preventative measures to ensure your code doesn't offer any vulnerable attack points to would-be-attackers.\n\nDevelopers should ensure to properly escape and validate form field inputs to remove the possibility of exploits. It's also a good idea to testing your app for vulnerabilities on a regular basis, to find and reinforce any points of weakness.\n\nRelated links:\n\nBlocking Attacker IP Addresses\nRemoving Vulnerabilities in Forms",
+        "tags": [
+            "security",
+            "cases",
+            "attacks",
+            "recommendations",
+            "web app"
+        ]
+    },
+    {
+        "uri": "/using-barricade#security-rating-system",
+        "title": "Security Rating System",
+        "content": "\nOur security rating system is made to be simple by design, so that anyone can understand what is happening on their infrastructure regardless of their level of security knowledge or position.\n\nRatings\n\nWe have split security threats into Events, Attacks and Incidents. We track events, flag attacks, monitor their progress and alert you when they become incidents.\n\ntable class=\"risk\"\ntbody\ntr\ntdem /em/td\ntdstrongEvent/strong/td\ntdSomeone tried and failed to attack your app /td\n/tr\ntr\ntdem /em/td\ntdstrongAttack/strong/td\ntdSomeone makes multiple failed attack attempts /td\n/tr\ntr\ntdem /em/td\ntdstrongIncident/strong/td\ntdAn attacker succeeds in their attack - your system is breached/td\n/tr\n/tbody\n/table\n",
+        "tags": [
+            "install",
+            "agent",
+            "account",
+            "quickstart"
+        ]
+    },
+    {
+        "uri": "/using-barricade#adding-team-members",
+        "title": "Adding Team Members",
+        "content": "\nYou can invite colleagues to join your Barricade team account, granting access to your Agents and their findings from your servers.\n\nYou'll find the Team controls in the Settings  Team  Members page.\n\nTeam Permissions\n\nTeams are comprised of a single Admin user (the person who originally created the account) and Members, who have most of the same permissions - except when it comes to billing and being able to remove other users from the account.\n\nHere's a breakdown of the permissions per role:\n\ntable class=\"compare\"\nthead\ntrth /ththstrongAdmin/strong/ththstrongMember/strong/th/tr\n/thead\ntbody\ntr\ntdInstall Agents:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdEdit Agents:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdView Cases:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdMark Cases as Resolved:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdInvite Team Members:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdRemove Team Members:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-close\" /em/td\n/tr\ntr\ntdManage Team Notifcations:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdManage Team Integrations:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-check\" /em/td\n/tr\ntr\ntdView &amp; Edit Billing Details:/td\ntdem class=\"fa fa-check\" /em/td\ntdem class=\"fa fa-close\" /em /td\n/tr\n/tbody\n/table\n\n Your Team\n\nThe team profile page allows you to edit your team name. Only the admin can change the name of a team.\n\nHow to Invite Members\n\nThe invitations page lets you add new members via email address: \n\nEnter the email address and click the Invite button.\nThe page will show that an email invite has been issued.\n    You can revoke any unaccepted invitations by clicking the 'X' on the right:\n\n    \nThe new member will receive a confirmation email with an activation link:\n\n    \nOnce activated, they can login and will have read-access to information from your Agents\n\n How to Remove Members\n\nTo remove members you must be logged in as the Team Admin\nVisit the app Team page \nClick the 'X' icon to the right of the member name \nConfirm removal of that member\n\n",
+        "tags": [
+            "account",
+            "team",
+            "invite",
+            "users"
+        ]
+    },
+    {
+        "uri": "/using-barricade#slack-integration",
+        "title": "Slack Integration",
+        "content": "\n  \n\nSlack is a real-time messaging app for teams that allows you to communicate quickly and easily. We use Slack everyday at Barricade; to communicate and to share security notifications. \n\nYou can integrate Slack with Barricade to notify your team when serious security incidents occur:\n\n  \n\nSetting up the Integration\n\nLogin to Barricade and go to the Settings  Notifications  Slack Notifications\nClick on the switch to Enable the integration:  \n\n      \n\nFollow the Integration Instructions that appear onscreen.  \n\nClick the link to create a new Incoming Webhook on slack.com  \n\nSet a channel for Barricade to post to:  \n\n      \n\n    Click the Add button.\nCopy the Webhook URL that appears under 'Setup Instructions'  \n    It will look like this:\n\n        https://hooks.slack.com/services/A01BCDE23/A01B2CDEF/aB0c1DefGH23iJKl45M6nO7P\n    Return to the Slack integration page in the Barricade app.\nPaste the Webhook URL into the form:  \n\n      \n\n    Click Save Integration.   \n\nYou can customize the integration to choose what items get posted to Slack, by checking the boxes on the right to activate more notifications.\n\nBy default, only Incidents (our most serious classification) are sent as notifications.  \n",
+        "tags": [
+            "slack",
+            "notification",
+            "integration",
+            "alerts"
+        ]
+    },
+    {
+        "uri": "/using-barricade#hipchat-integration",
+        "title": "Hipchat Integration",
+        "content": "\nHipChat is team chat that's actually built for business - a centralized place for group and private chat, file sharing, and integrations.\n\nYou can integrate HipChat with Barricade to share security notifications with your team:\n\nSetting up the Integration\n\nLogin to Barricade and go to the Settings  Notifications  HipChat Notifications\nClick on the switch to Enable the integration:  \n\n      \n\nFollow the Integration Instructions that appear onscreen -  \n\nOpen your Hipchat window, and navigate to the channel you want to send notifications to. We recommend creating a new room named Barricade.\nOpen the Room options and select Integrations.\n      \n\nFrom the Integrations page click on Tokens in the menu on the right, and you'll see a Create new token form appear at the bottom of the page:  \n\n    \n\n    Set a descriptive label in the text field at the bottom of the page. In the second field, select Send Notification and click Create.  \n\n      \n\nThe page will display a Room Notification Token, a string that looks something like this: 9KFell1q8yZpcZTIWwUaDohs4gNfw7C2LHCyHWCT  \n\n      \n    Copy the Token, and return to the HipChat page in the Barricade app.\nPaste the token into the form, under the Instructions, and add a label for the HipChat channel you wish to post notifications to:  \n\n      \n\nClick Save Integration.\n\n10.  You can customize the integration to choose what items get posted to HipChat, by checking the boxes on the right to activate more notifications.\n\n--\n\nBy default, only Incidents (our most serious classification) are sent as notifications.\n\n Troubleshooting: Integrations isn't available in HipChat\n\nIn HipChat, accounts can be configured to restrict access to Integration and Token settings. If Integrations appears as a greyed-out, disabled option; you'll need to contact theHipChat account owner.\n",
+        "tags": [
+            "hipchat",
+            "notification",
+            "integration",
+            "alerts"
+        ]
+    },
+    {
+        "uri": "/using-barricade#aws-waf-integration",
+        "title": "Amazon WAF Integration",
+        "content": "\n  \n\nAWS Web Application Firewall (WAF) helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources. You can integrate AWS WAF with Barricade to make an intelligent and learning firewall.\n\nGotchas\n\nTo use WAF; you must be using Amazon Web Services EC2 and CloudFront.\n\nAWS WAF is not available on an individual-instance basis but is available if you are using Elastic Load Balancers (ELBs).\n\nMake sure that you read the AWS WAF pricing thoroughly.\n\nBarricade does not charge you for using AWS WAF, but rules you add through the Barricade integration will incurr charges on your AWS account.\n\n Setting up the Integration\n\nLogin to Barricade and go to the Settings  Integrations  Amazon AWS WAF Integration\n\nClick on the switch to Enable the integration  \n\nFollow the Security Group and Integration Instructions that appear onscreen for the AWS Console.  \n\nOnce you've created the required security groups as described below, copy the access id and secret key which have been created with very limited access and enter them Click Save Integration\n\n    After saving the integration, a new WAF will be created in your AWS account with the name BARRICADE-WAF. This is where we will add behaviours to block attackers from within Barricade. Added behaviours will incurr costs on your AWS account - see their pricing.\n    _\nOnce you've enabled the WAF, you will need to go to your CloudFront distribution settings, and set the AWS WAF Web ACL to BARRICADE-WAF like such:  \n\n    \n\nGiving Barricade Access (Security Groups)\n\nWe don't want access to your servers. In fact, we want as little access as possible to your account. We've broken down the steps you'll need to follow in Amazon IAM to give us minimum access so we can manage your firewall, but nothing else.\n\nFrom the Amazon IAM section of your Amazon account, you will need to create a new user for Barricade. Follow this create a new user link - it'll bring you right there.  \n\nCreate a new user named *barricade-waf *and make sure to check the \"Generate an access key for each user\".   \n\n      \n\nOn the next step, after the user is created, copy the access id and secret key that's presented to you under Show User Security Credentials:\n\n      \n\nYou will now need to create a Policy. We'll give you the policy, don't worry.  \n\nGo to the AWS policy page, and click on Create Policy, then Create Your Own Policy:\n\n    \n     \nThe next steps are tricky but we'll give them to you here. You will need to name your policy, give it a description and set the policy.   \n\n    The Name is pretty straightforward, we like descriptive names so we recommend: barricade-waf-integration  \n\n    The Description is up to you. We use a textual description so that in 6 months when new employees learn the platform they understand what this does.  \n\n    The Policy Document now is slightly tricker. Just copy the following into the textarea and click on the \"Create Policy\" button at the bottom right:\n\n    div class=\"code-box\" style=\"margin: 0px; width: 100%; height: 160px; overflow: scroll;\"\n\n    pre{\n       \"Version\":\"2012-10-17\",\n       \"Statement\": [\n          {\n             \"Action\": [\n                \"waf:*\",\n                \"cloudfront:GetDistribution\",\n                \"cloudfront:GetDistributionConfig\",\n                \"cloudfront:UpdateDistribution\",\n                \"cloudfront:ListDistributions\"\n             ],\n             \"Effect\": \"Allow\",\n             \"Resource\": \"*\"\n          }\n       ]\n    }\n    /pre\n    /div\n\nAlmost there! The last step is to assign this policy to your newly created user - barricade-waf.  \n\nOn the new user's IAM page you will see an Attach Policy button, click it and select the barricade-waf-integration policy you created in Step 6. \n\nThat's it. Now we can add firewall rules, but we don't have to have access to your servers!\n\n Linking CloudFront to AWS WAF\n\nThe only way to currently use the Amazon AWS WAF is by connecting a created WAF to a CloudFront distribution. \n\nYou will only have to do this once (with Barricade)\n\nFirst, go to your CloudFront page.\n\nSelect the distribution you are interested in linking the AWS WAF to.\n\nOnce you are on your CloudFront Distribution's page, click on the Edit button. Then look for the AWS WAF Web ACL option - yes, it's quite the mouthful!\n\n    \n\nSelect the *BARRICADE-WAF *in the dropdown:\n\n    \n\nClick on Yes, Edit confirmation button and wait until the Distribution Status says Deployed. \n\nThat's it, you now have a fully integrated detection system that learns from behaviour and can tell your firewall about new threats to block.\n\nAdding Rules\n\nOnce the Integration is enabled, you can block a query with one click:\n\nGo to the overview page in the Barricade app, and open a security case - you should see 'AWS Firewall' as an option in cases where blocking an attacker IP address is part of the recommendation.\n\nNote: this option will only appear when the Agent has been identified as running on AWS EC2\\. For non AWS servers, only the default iptables option will be visible.\n\n Removing Rules\n\nAt the current time, you will need delete the rules and firewall from your AWS account directly, via their console. We are planning on adding much more evolved AWS WAF integration and management after having measured the interest.\n\nCheck out our blog post Introducing Our New Amazon Web Application Firewall Integration for more background on this feature.\n",
+        "tags": [
+            "aws waf",
+            "firewall",
+            "integration"
+        ]
+    },
+    {
+        "uri": "/using-barricade#cloudflare-integration",
+        "title": "CloudFlare Integration",
+        "content": "\n\nCloudFlare makes DNS secure, fast and simple, as well as providing some really great DDoS protection and security features. You can integrate CloudFlare with Barricade to make an intelligent, learning firewall that can protect your infrastructure from things like DDoS and brute force attacks.\n\nGotchas\nYou'll need to be using both Barricade and CloudFlare in order to integrate them - if you don't already have a Barricade account, you can sign up for free here.\n\n Setting up the Integration\n\nLogin to Barricade and go to the Settings  Integrations  CloudFlare Firewall\n\nClick on the switch to Enable the integration.\n\nLogin to CloudFlare.com and open the My Account page. You'll need to retrieve your Global API key:\n\n    \n\n    Just so you know, we encrypt your key, it is not stored in plaintext for security reasons.\n\nCopy and paste your API key and your email address into the form on the CloudFlare Integration page in the Barricade app. Click the 'Enable' button.\n\nThat's it - now you can quickly utilize the CloudFlare firewall from within Barricade.\n\nUsing the Integration\n\nYou'll see a new 'Add To Firewall' button alongside attack details, allowing you simple one-click blocking of attackers:\n\n--\n\nRead our blog announcement for more background on this super useful integration!\n",
+        "tags": [
+            "cloudflare",
+            "dns",
+            "ddos",
+            "firewall",
+            "integration"
+        ]
+    },
+    {
+        "uri": "/using-barricade#stopping-and-removing-agents",
+        "title": "Stopping & Removing Agents",
+        "content": "\nIf you wish to stop monitoring a server, you can pause or retire the Agent via the controls on this page:\n\nAgents that are paused can be restarted later - whereas you cannot 'undo' a retired Agent through the web interface - a reinstall would be required to restore the Agent.\n\nPausing Agents\n\nOlder Agent versions do not support pausing and restarting. You should update the Agent to the latest version.\n\n Retiring and Removing Agents\n\nRetiring an Agent will stop the tranmission of data from your server, but it doesn't remove the Agent files. If you want to fully remove all traces of the Agent, you will need to manually do so by running a command on your server:\n\nTo remove from an Ubuntu server: dpkg -r barricade\n\nTo remove from a CentOS server: rpm -e barricade\n\nOne-way Agents\n\nClicking 'pause' or retire' will prompt Barricade to signal a change in behavior to the Agent through the status API - it can't directly write to or alter the Agent directly (by design).\n\nWhen the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.",
+        "tags": [
+            "account",
+            "close",
+            "remove",
+            "uninstall",
+            "delete"
+        ]
+    },
+    {
+        "uri": "/using-barricade#ci-sec-testing",
+        "title": "C.I. Security Tests",
+        "content": "\nContinuous Integration Security Testing can be used alongside other test suites as you are developing - to better understand which parts of your application network might be at risk.\n\nWe're big believers in continuous security, and want to help you incorporate security into the development lifecycle. \n\nWhat do Security Tests check for?\n\nThe test will check your application network for a series of common vulnerabilities, based on the Wapiti scanner:\n\nSQL Injection\nCross Site Scripting (XSS)\nHtaccess Bypass\nBackup File\nFile Disclosure\nPotentially Dangerous File\nCRLF Injection\nFile Handling \nCommands Execution\n\nNote: These checks are to help you identify any security bugs in your app, before they are shipped - but they do not guarantee that your app is fully secure from potential attacks.\n\n Security Tests with Webhooks\n\n \n\nEnabling the Integration:\n\nVisit the Settings  Integrations  C.I. Security Testing page.\nSlide the switch to enable the integration.\nCopy the webhook url that is generated.\n\n Submitting Tests:\n\nTo submit a report, you'll need to make a HTTP post request to the webhook URL. Webhooks are user-defined HTTP callbacks - triggered by some an, such as pushing code to a repository.\n\nCurrently, we support Wapiti test results in JSON format.  \nThe request body may contain:\n\ntype: 'wapiti', // required, reporting type\ndata: 'test result', // required, rtest result in text\ncommit_id: '171fdce', // commit Id\ncommit_username: 'sakaenakajima', // username\ncommit_organization: 'Barricade', // organization\ncommit_repository: 'webapp', // repository name\ncommit_branch: 'feature-ci-sec', // branch name\ncommitcompareurl: 'https://github.com/barricadeio/internal-admin/compare/81c1235767ee...171fdce6f3b0', // compare URL\nbuild_number: '1660', // build number\nbuild_link: 'https://circleci.com/gh/barricadeio/webapp/1660' // build URL\n\nExample Request\n\nThe following example reads a test result from wapiti.json, builds a request body and submits it to the webhook.\n\njq -r '{type:\"wapiti\", \"data\": tostring}' wapiti.json | curl -X POST -H \"Content-Type: application/json\" -d @- https://app.barricade.io/services/56294f3ef8f68d452e3ce561/csi/dee1aa08-bc80-48ba-844b-1c8c71f0ccdf\n\n{\n  \"vulnerabilities\":{\n    \"Cross Site Scripting\":[\n      {\n        \"info\":\"XSS vulnerability found via injection in the parameter name\",\n        \"http_request\":\"GET /page?name=%3Cscript%3Ealert%28%27w2e6ijy9jc%27%29%3C%2Fscript%3E HTTP/1.1\\nHost: 172.17.42.1:80\\n\",\n        \"level\":\"1\",\n        \"curl_command\":\"curl \\\"http://172.17.42.1:80/page?name=%3Cscript%3Ealert%28%27w2e6ijy9jc%27%29%3C%2Fscript%3E\\\"\",\n        \"path\":\"/page\",\n        \"parameter\":\"name\",\n        \"method\":\"GET\"\n      }\n    ],\n    \"Htaccess Bypass\":[\n    ],\n    \"Backup file\":[\n    ],\n    \"SQL Injection\":[\n    ],\n    \"Blind SQL Injection\":[\n    ],\n    \"File Handling\":[\n    ],\n    \"Potentially dangerous file\":[\n    ],\n    \"CRLF Injection\":[\n    ],\n    \"Commands execution\":[\n    ]\n  },\n  \"infos\":{\n    \"date\":\"Mon, 28 Sep 2015 14:26:00 +0000\",\n    \"scope\":\"folder\",\n    \"version\":\"Wapiti 2.3.0\",\n    \"target\":\"http://172.17.42.1:80\"\n  },\n  \"classifications\":{\n    \"Resource consumption\":{\n      \"ref\":{\n        \"CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')\":\"http://cwe.mitre.org/data/definitions/400.html\",\n        \"http://www.owasp.org/index.php/Asymmetricresourceconsumption(amplification)\":\"http://www.owasp.org/index.php/Asymmetricresourceconsumption(amplification)\"\n      },\n      \"sol\":\"The involved script is maybe using the server resources (CPU, memory, network, file access...) in a non-efficient way\",\n      \"desc\":\"Resource consumption description\"\n    },\n    \"Internal Server Error\":{\n      \"ref\":{\n        \"Wikipedia article for 5xx HTTP error codes\":\"https://en.wikipedia.org/wiki/ListofHTTPstatuscodes5xxServerError\"\n      },\n      \"sol\":\"More information about the error should be found in the server logs.\",\n      \"desc\":\"Internal server error description\"\n    },\n    \"Cross Site Scripting\":{\n      \"ref\":{\n        \"CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')\":\"http://cwe.mitre.org/data/definitions/79.html\",\n        \"http://en.wikipedia.org/wiki/Cross-sitescripting\":\"http://en.wikipedia.org/wiki/Cross-sitescripting\",\n        \"VulneraNET wiki: Cross Site Scripting Flaw article\":\"http://lab.gsi.dit.upm.es/semanticwiki/index.php/CrossSiteScripting_Flaw\",\n        \"http://www.owasp.org/index.php/CrossSiteScripting\":\"http://www.owasp.org/index.php/CrossSiteScripting\"\n      },\n      \"sol\":\"The best way to protect a web application from XSS attacks is ensure that the application performs validation of all headers, cookies, query strings, form fields, and hidden fields. Encoding user supplied output in the server side can also defeat XSS vulnerabilities by preventing inserted scripts from being transmitted to users in an executable form. Applications can gain significant protection from javascript based attacks by converting the following characters in all generated output to the appropriate HTML entity encoding: , , &, \", ', (, ), #, %, ; , +, -.\",\n      \"desc\":\"Cross-site scripting (XSS) is a type of computer security vulnerability typically found in web applications which allow code injection by malicious web users into the web pages viewed by other users. Examples of such code include HTML code and client-side scripts.\"\n    },\n    \"Htaccess Bypass\":{\n      \"ref\":{\n        \"http://blog.teusink.net/2009/07/common-apache-htaccess-misconfiguration.html\":\"http://blog.teusink.net/2009/07/common-apache-htaccess-misconfiguration.html\",\n        \"CWE-538: File and Directory Information Exposure\":\"http://cwe.mitre.org/data/definitions/538.html\"\n      },\n      \"sol\":\"Make sure every HTTP method is forbidden if the credentials are bad.\",\n      \"desc\":\"htaccess files are used to restrict access to some files or HTTP method. In some case it may be possible to bypass this restriction and access the files.\"\n    },\n    \"Backup file\":{\n      \"ref\":{\n        \"Testing for Old, Backup and Unreferenced Files (OWASP-CM-006)\":\"http://www.owasp.org/index.php/TestingforOld,BackupandUnreferencedFiles_(OWASP-CM-006)\",\n        \"CWE-530: Exposure of Backup File to an Unauthorized Control Sphere\":\"http://cwe.mitre.org/data/definitions/530.html\"\n      },\n      \"sol\":\"The webadmin must manually delete the backup files or remove it from the web root. He should also reconfigure its editor to deactivate automatic backups.\",\n      \"desc\":\"It may be possible to find backup files of scripts on the webserver that the web-admin put here to save a previous version or backup files that are automaticallygenerated by the software editor used (like for example Emacs). These copies may reveal interesting informations like source code or credentials\"\n    },\n    \"SQL Injection\":{\n      \"ref\":{\n        \"http://www.owasp.org/index.php/SQLInjection\":\"http://www.owasp.org/index.php/SQLInjection\",\n        \"http://en.wikipedia.org/wiki/SQLinjection\":\"http://en.wikipedia.org/wiki/SQLinjection\",\n        \"CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')\":\"http://cwe.mitre.org/data/definitions/89.html\"\n      },\n      \"sol\":\"To protect against SQL injection, user input must not directly be embedded in SQL statements. Instead, user input must be escaped or filtered or parameterized statements must be used.\",\n      \"desc\":\"SQL injection vulnerabilities allow an attacker to alter the queries executed on the backend database. An attacker may then be able to extract or modify informations stored in the database or even escalate his privileges on the system.\"\n    },\n    \"Blind SQL Injection\":{\n      \"ref\":{\n        \"CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')\":\"http://cwe.mitre.org/data/definitions/89.html\",\n        \"http://www.imperva.com/resources/adc/blindsqlserverinjection.html\":\"http://www.imperva.com/resources/adc/blindsqlserverinjection.html\",\n        \"http://www.owasp.org/index.php/BlindSQLInjection\":\"http://www.owasp.org/index.php/BlindSQLInjection\"\n      },\n      \"sol\":\"To protect against SQL injection, user input must not directly be embedded in SQL statements. Instead, user input must be escaped or filtered or parameterized statements must be used.\",\n      \"desc\":\"Blind SQL injection is a technique that exploits a vulnerability occurring in the database of an application. This kind of vulnerability is harder to detect than basic SQL injections because no error message will be displayed on the webpage.\"\n    },\n    \"File Handling\":{\n      \"ref\":{\n        \"http://www.owasp.org/index.php/PathTraversal\":\"http://www.owasp.org/index.php/PathTraversal\",\n        \"http://www.acunetix.com/websitesecurity/directory-traversal.htm\":\"http://www.acunetix.com/websitesecurity/directory-traversal.htm\",\n        \"CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')\":\"http://cwe.mitre.org/data/definitions/22.html\"\n      },\n      \"sol\":\"Prefer working without user input when using file system calls. Use indexes rather than actual portions of file names when templating or using language files (eg: value 5 from the user submission = Czechoslovakian, rather than expecting the user to return 'Czechoslovakian'). Ensure the user cannot supply all parts of the path - surround it with your path code. Validate the user's input by only accepting known good - do not sanitize the data. Use chrooted jails and code access policies to restrict where the files can be obtained or saved to.\",\n      \"desc\":\"This attack is also known as Path or Directory Traversal, its aim is the access to files and directories that are stored outside the web root folder. The attacker tries to explore the directories stored in the web server. The attacker uses some techniques, for instance, the manipulation of variables that reference files with 'dot-dot-slash (../)' sequences and its variations to move up to root directory to navigate through the file system.\"\n    },\n    \"Potentially dangerous file\":{\n      \"ref\":{\n        \"The Open Source Vulnerability Database\":\"http://osvdb.org/\"\n      },\n      \"sol\":\"Make sure the script is up-to-date and restrict access to it if possible\",\n      \"desc\":\"A file with potential vulnerabilities has been found on the website.\"\n    },\n    \"CRLF Injection\":{\n      \"ref\":{\n        \"CWE-93: Improper Neutralization of CRLF Sequences ('CRLF Injection')\":\"http://cwe.mitre.org/data/definitions/93.html\",\n        \"http://www.owasp.org/index.php/CRLFInjection\":\"http://www.owasp.org/index.php/CRLFInjection\",\n        \"http://www.acunetix.com/websitesecurity/crlf-injection.htm\":\"http://www.acunetix.com/websitesecurity/crlf-injection.htm\",\n        \"VulneraNET wiki: CRLF Injection article\":\"http://lab.gsi.dit.upm.es/semanticwiki/index.php/CRLF_Injection\"\n      },\n      \"sol\":\"Check the submitted parameters and do not allow CRLF to be injected by filtering CRLF\",\n      \"desc\":\"The term CRLF refers to Carriage Return (ASCII 13, \\\\r) Line Feed (ASCII 10, \\\\n). They're used to note the termination of a line, however, dealt with differently in today's popular Operating Systems. For example: in Windows both a CR and LF are required to note the end of a line, whereas in Linux/UNIX a LF is only required. This combination of CR and LR is used for example when pressing 'Enter' on the keyboard. Depending on the application being used, pressing 'Enter' generally instructs the application to start a new line, or to send a command.\"\n    },\n    \"Commands execution\":{\n      \"ref\":{\n        \"CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\":\"http://cwe.mitre.org/data/definitions/78.html\",\n        \"http://www.owasp.org/index.php/CommandInjection\":\"http://www.owasp.org/index.php/CommandInjection\"\n      },\n      \"sol\":\"Prefer working without user input when using file system calls\",\n      \"desc\":\"This attack consists in executing system commands on the server. The attacker tries to inject this commands in the request parameters\"\n    }\n  },\n  \"anomalies\":{\n    \"Resource consumption\":[\n    ],\n    \"Internal Server Error\":[\n    ]\n  }\n}\n\nTroubleshooting C.I. Test Webhooks\n\nIf you're experiencing issues submitting a test, try generating a new webhook URL on the settings page:\n\n",
+        "tags": [
+            "continuous integration",
+            "testing",
+            "sectests",
+            "wapiti"
+        ]
+    },
+    {
+        "uri": "/using-barricade#installing-more-agents",
+        "title": "Installing Agents",
+        "content": "\nDuring the account signup process, you will install your first monitoring Agent. Once that process is completed, you can repeat the original steps to install additional Agents at any time, allowing Barricade to watch over entire clusters of servers.\n\nHow to Install\n\nInside the Barricade app, you'll see a New Agent button in the top-right-hand corner:\n\nInstructions:\n\nClick the New Agent button to open the installer section\nCopy the install command\nConnect to your server and run the command (see our SSH guide)\nWhen the install command is finished, the new Agent will be detected automatically \n\nOnce detected, you can close the panel by clicking the 'X' icon in the top-right corner, or choose to Install Another.",
+        "tags": [
+            "agent",
+            "update"
+        ]
+    },
+    {
+        "uri": "/using-barricade#updating-agents",
+        "title": "Updating Agents",
+        "content": "\nAgents are designed with strict constraints for security and performance reasons; to send but not to receive. This means that Barricade can never modify an agent running on your server - and neither can anybody else.\n\nFrom time to time, we will notify you of updates and improvements, prompting you to run an Agent update to ensure you are running the latest version. You maintain full control over the Agent - we can’t push code to your server.\n\nHow to Update an Agent\n\nTo apply an update, re-run the install command:\n\nInstructions:\n\nClick the New Agent button to open the installer section\nCopy the install command\nConnect to your server and run the command (see our SSH guide)\nWhen the install command is finished, the new Agent will be detected automatically \n\n Finding Out About Updates\n\nYou can find details of Product Changes and Agent updates here.\n",
+        "tags": [
+            "agent",
+            "update"
+        ]
+    },
+    {
+        "uri": "/using-barricade#pausing-retiring-agents",
+        "title": "Agent Controls",
+        "content": "\nThe Agents section of the app interface provides a breakdown of the Agents you have running:\n\nstate of the Agent (active/inactive)\nhow much data they’re using in the monitoring process\ncost of each Agent in terms of GB\nability to pause and retire Agents\n",
+        "tags": [
+            "agent",
+            "controls"
+        ]
+    },
+    {
+        "uri": "/using-barricade#stopping-and-removing-agents",
+        "title": "Stopping & Removing Agents",
+        "content": "\nIf you wish to stop monitoring a server, you can pause or retire the Agent via the controls on this page:\n\nAgents that are paused can be restarted later - whereas you cannot 'undo' a retired Agent through the web interface - a reinstall would be required to restore the Agent.\n\nPausing Agents\n\nOlder Agent versions do not support pausing and restarting. You should update the Agent to the latest version.\n\n Retiring and Removing Agents\n\nRetiring an Agent will stop the tranmission of data from your server, but it doesn't remove the Agent files. If you want to fully remove all traces of the Agent, you will need to manually do so by running a command on your server:\n\nTo remove from an Ubuntu server: dpkg -r barricade\n\nTo remove from a CentOS server: rpm -e barricade\n\nOne-way Agents\n\nClicking 'pause' or retire' will prompt Barricade to signal a change in behavior to the Agent through the status API - it can't directly write to or alter the Agent directly (by design).\n\nWhen the Agent communicates with the Barricade API it will check for any status changes in the API and respond accordingly.",
+        "tags": [
+            "account",
+            "close",
+            "remove",
+            "uninstall",
+            "delete"
+        ]
+    },
+    {
+        "uri": "/using-barricade#tagging-filtering",
+        "title": "Tagging & Filtering",
+        "content": "\nIf you are running multiple Barricade Agents, you'll see data pooled in the dashboard from different servers. Filters help you narrow your view to see results from specific servers.\n\nWhere to find Filters\n\nYou can filter Case data in the app by accessing the Filter option at the top of the Dashboard - Overview navigation:\n\nWhen you have active Filters, the menu will look like this:\n\n Using Filters\n\nClick the Filter button in the top right of the Overview screen.\nA new panel will appear from the right, displaying a list of Agent Tags\nRemove the check marks from any Agent tags you wish to filter out. The form auto-saves your selection.\nTo close the Filter panel, click to the left outside of the panel.\n\nExample:\n\nEditing Agent Tags\n\nAn agent's tag can be edited in two ways. Either through the Dashboard - Agents page which can be found on the left-hand side menu, or through an automated configuration file described below the animation.\n\nYou can change the Tags associated with your Agents in the configuration file, located on your server at /service/barricade/barricade.cfg \n\nBy default, all Agents start out with one tag: production.\nSee Configuring Agents for more information.\n",
+        "tags": [
+            "agent",
+            "tagging",
+            "tag",
+            "filter"
+        ]
+    },
+    {
+        "uri": "/using-barricade#configuring-agents",
+        "title": "Configuring Agents",
+        "content": "\nBy default, Agents are optimized to handle heavy traffic without impacting on the performance of your server - but you can always change the configuration to suit your needs.\n\nConfiguration File\n\nConfig settings can be found and modified in this file on your server: \n\n/etc/barricade/barricade.cfg\n\nOnce updated, a restart is required for any changes to take effect:\n\nsudo restart barricade\n\n--\n\n Configuration Options:\n\ntag  \nTag is an arbitrary config value which can be used to identify and organize your Agents - particularly useful for Filtering Agents. The default value is production.\n\nYou can e.g. to denote development, staging, production environments, \"commit\" versions, for example: tag=staging,development,beta\n\nspooler_memory  \nThis is the specific amount of memory (in MB) to use for buffering packets in high traffic. By default, the Agent uses available system memory to calculate a reasonable default.\n\nExample: spooler_memory=10000\n\nAfter this, the Agent will begin dropping older packets to prioritize the newest information, and emit a warning to this effect in the logs (/var/log/barricade.log on most systems, in journalctl for systemd based systems).\n\nflush_frequency  \nDefault value is 0.01 seconds.\n\nlog_level  \nThe default value is warning.\n\nssl_check_hostname  \nAllows you to enable or disable SSL hostname verification. By default value is enabled.\n\n--\n\nBarricade.cfg Troubleshooting\n\nSome options do not appear in my barricade.cfg file.  \nYour Agent may not be up to date - ensure you have updated to the latest version.  \n\nI'm not sure how to access the file on a server.  \nYou'll need connect to the server via SSH to run the command - see our guide here.\n",
+        "tags": [
+            "agent",
+            "configuration"
+        ]
+    },
+    {
+        "uri": "/using-barricade#automating-agents",
+        "title": "Automating with Chef",
+        "content": "\nIf you automate your infrastructure with Chef, you can use our Barricade cookbook to automate the setup of Agents when you spin up servers.\n\nVisit github.com/barricadeio/chef-barricade for the cookbook.\n\nGotchas:  \nTo use the cookbook, you'll need to be familiar with Chef and comfortable with installing and using cookbooks - learn.chef.io is a good resource if you're getting started.\n\nAdding a Key:  \nTo use the cookbook, you'll need to add your barricade_key.\n\nOpen and edit the barricade_key attribute in the attributes/default.rb file, adding in the automation key from your dashboard (found here).\n",
+        "tags": [
+            "agent",
+            "chef",
+            "recipe",
+            "automating"
+        ]
+    },
+    {
+        "uri": "/using-barricade#automating-agents-ansible",
+        "title": "Automating with Ansible",
+        "content": "\nIf you automate your infrastructure with Ansible, you can use our Barricade Ansible Role to automate the setup of Agents when you spin up servers.\n\nInstallation\n\nTo install the ansible-barricade role via the ansible-galaxy command:\n\n$ ansible-galaxy install https://github.com/barricadeio/ansible-barricade\n\n Usage\n\nAgent Installation\n\nYou'll need your Barricade Automation Key. This can be retrieved by visiting your Team page.\n\nCreate an ansible playbook barricade.yml:\n\n---\nname: Install Barricade Agent\n  hosts: all\n  sudo: yes\n  roles:\n    role: ansible-barricade\n      barricadeautomationkey: Barricade Automation Key\n\nRun the above playbook and it should setup the barricade-agent:\n\n$ ansible-playbook barricade.yml\n\n Agent Removal\n\nTo remove Barricade, you can set the barricade_state attribute to absent:\n\n---\nname: Remove Barricade Agent\n  hosts: all\n  sudo: yes\n  roles:\n    role: ansible-barricade\n      barricade_state: absent\n\nAgent Configuration\n\nYou can completely instrument agent configuration via variables defined in defaults/main.yml.\n",
+        "tags": [
+            "agent",
+            "ansible",
+            "role",
+            "automating"
+        ]
+    },
+    {
+        "uri": "/using-barricade#how-to-filter-agent-traffic",
+        "title": "Filtering Agent Traffic",
+        "content": "\nSome servers see a lot of inbound and outbound traffic - be it database activity, connections to external services or the serving of large media files.\n\nBy design, the Barricade Agent observes everything - all traffic is carefully examined for unusual or malicious behaviour. However, should you want to narrow its scope to omit certain types of traffic, you can do so by activating port filters in the Agent configuration.\n\nBe Careful\n\nFiltering traffic is risky - by choosing to exclude data, you could be turning a blind eye to possible points of attack. Please tread carefully - we're happy to guide you through the process if you'd like to discuss things with us.\n\n Traffic Ports\n\nYou can see a breakdown of the data being transferred in and out of your server via the app's Traffic Report.\n\nFiltering allows you to exclude certain ports - the traffic report presents server usage by port so you can easily identify different types of connections.\n\nThe Agent Configuration file\n\nTo filter and exclude traffic from the Barricade Agent, you'll need to edit the config file on your server. You'll need to SSH into the server and navigate to the file at:\n\n/etc/barricade/barricade.cfg\n\nhr  \n\n How to Add Filters\n\nBy default, no filters are set. You can add port numbers in the barricade.cfg file like so:\n\nfilter=  \n\nExample:  \n\nfilter=port not 22 and port not 53\n\nThis would prevent the agent from capturing network traffic on SSH (22) and DNS (53) ports, limiting what the Agent has access to.\n\nOnce updated, a restart is required for any changes to take effect:\n\nsudo restart barricade\n\n--\n\nSee here for other possible Agent configuration options.\n",
+        "tags": [
+            "agent",
+            "filter",
+            "port",
+            "ports"
+        ]
+    },
+    {
+        "uri": "/using-barricade#re-register-agent",
+        "title": "Re-registering Agents",
+        "content": "\nWe recommend re-registering an Agent if any of the following issues arise during the installation process:\n\nAgent is not registered after installation\nAgent was registered, but has stopped connecting / sending data\n\nRun this command on your server to re-register the agent:\n\n$ sudo su\n$ PATH=$PATH:/opt/barricade/embedded/; /opt/barricade/embedded/bin/barricade-register\n",
+        "tags": [
+            "agent",
+            "connection",
+            "troubleshooting",
+            "registering"
+        ]
+    },
+    {
+        "uri": "/using-barricade#closing-account",
+        "title": "Closing an Account",
+        "content": "\nIf you're looking to stop using Barricade entirely, you can close your account through this page. Only admin users can close an account, for security reasons.\n\nWe're sorry to see you go - if there's any feedback you'd like to leave for us, please do submit a comment.",
+        "tags": [
+            "account",
+            "close",
+            "remove",
+            "uninstall",
+            "delete"
+        ]
+    }
+]
