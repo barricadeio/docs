@@ -1,28 +1,26 @@
-
 (function () {
 	'use strict';
 
-	var pagesIndex, lunrIndex;
+	var pagesIndex = [], lunrIndex;
 
 	function init() {
-		// First retrieve the index file
 		$.getJSON("/src/index.json")
 			.done(function (index) {
 				pagesIndex = index;
-				//console.log("index:", pagesIndex);
 				lunrIndex = lunr(function () {
 					this.field("title", {boost: 10});
 					this.field("tags", {boost: 5});
 					this.field("content");
 					this.ref("uri");
 				});
+				if (!pagesIndex) return;
 				pagesIndex.forEach(function (page) {
 					lunrIndex.add(page);
 				});
 			})
 			.fail(function (jqxhr, textStatus, error) {
 				var err = textStatus + ", " + error;
-				console.error("Error getting Hugo index file:", err);
+				console.error("Error getting index file:", err);
 			});
 	}
 
@@ -65,7 +63,7 @@
 			results.forEach(function (result) {
 				var $result = $("<div class='item'>");
 				$result.append($("<a>", {class: 'title', href: result.uri, text: result.title}));
-				$result.append($("<div class='content'>" + result.content.substring(0, 100) + "</div>"));
+				$result.append($("<div class='content'>" + result.content.substring(0, 200) + "</div>"));
 				$results.append($result);
 			});
 		});

@@ -4717,7 +4717,7 @@ $(window).scroll(function(){
 
 	function init() {
 		// First retrieve the index file
-		$.getJSON("/index.json")
+		$.getJSON("/src/index.json")
 			.done(function (index) {
 				pagesIndex = index;
 				//console.log("index:", pagesIndex);
@@ -4776,7 +4776,7 @@ $(window).scroll(function(){
 			results.forEach(function (result) {
 				var $result = $("<div class='item'>");
 				$result.append($("<a>", {class: 'title', href: result.uri, text: result.title}));
-				$result.append($("<div class='content'>" + result.content.substring(0, 100) + "</div>"));
+				$result.append($("<div class='content'>" + result.content.substring(0, 200) + "</div>"));
 				$results.append($result);
 			});
 		});
